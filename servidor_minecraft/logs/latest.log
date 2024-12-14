@@ -1,0 +1,483 @@
+[19:09:46] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.3
+[19:09:47] [main/INFO]: Loading 62 mods:
+	- architectury 6.6.92
+	- attributefix 17.2.8
+	- betterdays 1.19.2-3.1.1.1-FABRIC
+	   \-- spectrelib 0.12.8+1.19.2
+	        |-- com_electronwill_night-config_core 3.6.5
+	        \-- com_electronwill_night-config_toml 3.6.5
+	- charm 4.4.4
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- cloth-config 8.3.134
+	   \-- cloth-basic-math 0.6.1
+	- creativecore 2.9.3
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.19.2
+	- mostructures 1.4.3+1.19.2
+	   \-- omega-config 1.2.3-1.18.1
+	- nostalgic_tweaks 2.0.0-Beta-8.4
+	   \-- me_xdrop_fuzzywuzzy 1.4.0
+	- seasons 2.3+1.19
+	- sound_physics_remastered 1.19.2-1.4.5
+	- structory 1.0.1
+	- t_and_t 1.10
+	   \-- blue_endless_jankson 1.2.1
+[19:09:47] [main/WARN]: Found 1 non-fabric mod:
+	- beta_days-1.19.2-1.3.0.jar
+[19:09:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:09:47] [main/INFO]: Compatibility level set to JAVA_16
+[19:09:47] [main/INFO]: Compatibility level set to JAVA_17
+[19:09:48] [main/INFO]: [MixinConfig] Not adding no_cured_villager_discount.BypassReputationGossipMixin
+[19:09:48] [main/INFO]: [MixinConfig] Not adding respawn_anchor_in_the_end.CheckIfCanSetSpawnMixin
+[19:09:48] [main/INFO]: [MixinConfig] Not adding no_chat_verified_nag.DisableToastMixin
+[19:09:48] [main/INFO]: [MixinConfig] Not adding no_treasure_enchantment_trading.CheckIfTradeableMixin
+[19:09:48] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[19:09:48] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[19:09:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:09:55] [main/INFO]: Building unoptimized datafixer
+[19:09:57] [main/INFO]: [Nostalgic Tweaks] [INFO] Initializing server config prematurely for mixin compatibility
+[19:09:57] [main/INFO]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-server-startup_backup.json
+[19:09:57] [main/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:09:57] [main/INFO]: [Nostalgic Tweaks] [INFO] Loaded 62 server controlled tweaks
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled AerialAffinityEnchantment
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled AllowTooExpensive
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled AmethystNoteBlock
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Atlases
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled AutoRestock
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled AzaleaWood
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled BatBuckets
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled BeaconsHealMobs
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Beekeepers
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled BlockOfEnderPearls
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled BlockOfGunpowder
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled BlockOfSugar
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Bookcases
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled CaveSpidersDropCobwebs
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Chairs
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ChickensDropFeathers
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ClearItemFrames
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled CollectionEnchantment
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ColoredBundles
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ColoredNetherPortals
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled CompassOverlay
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled CoralSeaLanterns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled CoralSquids
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Core
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusic
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled EbonyWood
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled EditableSigns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled EndermitePowder
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ExtraBoats
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ExtraRecipes
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ExtraTrades
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ExtraWanderingTrades
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ExtractEnchantments
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled GentlePotionParticles
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled GoatsDropMutton
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled GrindableArmor
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled HoverSorting
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled HusksDropSand
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled HusksSpawnUnderground
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ImprovedFortressLoot
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ImprovedMansionLoot
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ImprovedMineshafts
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled InventoryTidying
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Kilns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled LavaBucketDestroysItems
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled LowerNoteblockPitch
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Lumberjacks
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled MapTooltip
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Mooblooms
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled MorePortalFrames
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled NoCropTrampling
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled NoPetDamage
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled NoPotionGlint
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled NoSpyglassScope
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled OpenBothDoors
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ParrotsStayOnShoulder
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled PathToDirt
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled PlayerPressurePlates
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled PortableCrafting
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled QuickReplant
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RaidHorns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RedstoneLanterns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RedstoneSand
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RepairElytraFromLeather
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RepairNetheriteFromScrap
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled RepairTridentsFromShards
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ShowRepairCost
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ShulkerBoxDragDrop
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltip
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled SmoothGlowstone
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled SnowAccumulation
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StackableEnchantedBooks
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StackablePotions
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StackableStews
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StraysDropBlueIce
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StraysSpawnUnderground
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled StrongerAnvils
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled TotemOfPreserving
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled TotemWorksFromInventory
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantBarrels
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantBars
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantBookshelves
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantChains
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantChests
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantLadders
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantLanterns
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VariantMobTextures
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled VillagersFollowEmeraldBlocks
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled WeatheringIron
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled WitchesDropLuck
+[19:09:57] [main/INFO]: [ModuleLoader] Enabled Woodcutters
+[19:09:57] [main/INFO]: [ModuleLoader] Running AerialAffinityEnchantment
+[19:09:57] [main/INFO]: [ModuleLoader] Running AllowTooExpensive
+[19:09:57] [main/INFO]: [ModuleLoader] Running AmethystNoteBlock
+[19:09:57] [main/INFO]: [ModuleLoader] Running Atlases
+[19:09:58] [main/INFO]: [ModuleLoader] Running AutoRestock
+[19:09:58] [main/INFO]: [ModuleLoader] Running AzaleaWood
+[19:09:58] [main/INFO]: [ModuleLoader] Running BatBuckets
+[19:09:58] [main/INFO]: [ModuleLoader] Running BeaconsHealMobs
+[19:09:58] [main/INFO]: [ModuleLoader] Running Beekeepers
+[19:09:58] [main/INFO]: [ModuleLoader] Running BlockOfEnderPearls
+[19:09:58] [main/INFO]: [ModuleLoader] Running BlockOfGunpowder
+[19:09:58] [main/INFO]: [ModuleLoader] Running BlockOfSugar
+[19:09:58] [main/INFO]: [ModuleLoader] Running Bookcases
+[19:09:58] [main/INFO]: [ModuleLoader] Running CaveSpidersDropCobwebs
+[19:09:58] [main/INFO]: [ModuleLoader] Running Chairs
+[19:09:58] [main/INFO]: [ModuleLoader] Running ChickensDropFeathers
+[19:09:58] [main/INFO]: [ModuleLoader] Running ClearItemFrames
+[19:09:58] [main/INFO]: [ModuleLoader] Running CollectionEnchantment
+[19:09:58] [main/INFO]: [ModuleLoader] Running ColoredBundles
+[19:09:58] [main/INFO]: [ModuleLoader] Running ColoredNetherPortals
+[19:09:58] [main/INFO]: [ModuleLoader] Running CompassOverlay
+[19:09:58] [main/INFO]: [ModuleLoader] Running CoralSeaLanterns
+[19:09:58] [main/INFO]: [ModuleLoader] Running CoralSquids
+[19:09:58] [main/INFO]: [ModuleLoader] Running Core
+[19:09:58] [main/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusic
+[19:09:58] [main/INFO]: [ModuleLoader] Running EbonyWood
+[19:09:58] [main/INFO]: [ModuleLoader] Running EditableSigns
+[19:09:58] [main/INFO]: [ModuleLoader] Running EndermitePowder
+[19:09:58] [main/INFO]: [ModuleLoader] Running ExtraBoats
+[19:09:58] [main/INFO]: [ModuleLoader] Running ExtraRecipes
+[19:09:58] [main/INFO]: [ModuleLoader] Running ExtraTrades
+[19:09:58] [main/INFO]: [ModuleLoader] Running ExtraWanderingTrades
+[19:09:58] [main/INFO]: [ModuleLoader] Running ExtractEnchantments
+[19:09:58] [main/INFO]: [ModuleLoader] Running GentlePotionParticles
+[19:09:58] [main/INFO]: [ModuleLoader] Running GoatsDropMutton
+[19:09:58] [main/INFO]: [ModuleLoader] Running GrindableArmor
+[19:09:58] [main/INFO]: [ModuleLoader] Running HoverSorting
+[19:09:58] [main/INFO]: [ModuleLoader] Running HusksDropSand
+[19:09:58] [main/INFO]: [ModuleLoader] Running HusksSpawnUnderground
+[19:09:58] [main/INFO]: [ModuleLoader] Running ImprovedFortressLoot
+[19:09:58] [main/INFO]: [ModuleLoader] Running ImprovedMansionLoot
+[19:09:58] [main/INFO]: [ModuleLoader] Running ImprovedMineshafts
+[19:09:58] [main/INFO]: [ModuleLoader] Running InventoryTidying
+[19:09:58] [main/INFO]: [ModuleLoader] Running Kilns
+[19:09:58] [main/INFO]: [ModuleLoader] Running LavaBucketDestroysItems
+[19:09:58] [main/INFO]: [ModuleLoader] Running LowerNoteblockPitch
+[19:09:58] [main/INFO]: [ModuleLoader] Running Lumberjacks
+[19:09:58] [main/INFO]: [ModuleLoader] Running MapTooltip
+[19:09:58] [main/INFO]: [ModuleLoader] Running Mooblooms
+[19:09:58] [main/INFO]: [ModuleLoader] Running MorePortalFrames
+[19:09:58] [main/INFO]: [ModuleLoader] Running NoCropTrampling
+[19:09:58] [main/INFO]: [ModuleLoader] Running NoPetDamage
+[19:09:58] [main/INFO]: [ModuleLoader] Running NoPotionGlint
+[19:09:58] [main/INFO]: [ModuleLoader] Running NoSpyglassScope
+[19:09:58] [main/INFO]: [ModuleLoader] Running OpenBothDoors
+[19:09:58] [main/INFO]: [ModuleLoader] Running ParrotsStayOnShoulder
+[19:09:58] [main/INFO]: [ModuleLoader] Running PathToDirt
+[19:09:58] [main/INFO]: [ModuleLoader] Running PlayerPressurePlates
+[19:09:58] [main/INFO]: [ModuleLoader] Running PortableCrafting
+[19:09:58] [main/INFO]: [ModuleLoader] Running QuickReplant
+[19:09:58] [main/INFO]: [ModuleLoader] Running RaidHorns
+[19:09:58] [main/INFO]: [ModuleLoader] Running RedstoneLanterns
+[19:09:58] [main/INFO]: [ModuleLoader] Running RedstoneSand
+[19:09:58] [main/INFO]: [ModuleLoader] Running RepairElytraFromLeather
+[19:09:58] [main/INFO]: [ModuleLoader] Running RepairNetheriteFromScrap
+[19:09:58] [main/INFO]: [ModuleLoader] Running RepairTridentsFromShards
+[19:09:58] [main/INFO]: [ModuleLoader] Running ShowRepairCost
+[19:09:58] [main/INFO]: [ModuleLoader] Running ShulkerBoxDragDrop
+[19:09:58] [main/INFO]: [ModuleLoader] Running ShulkerBoxTooltip
+[19:09:58] [main/INFO]: [ModuleLoader] Running SmoothGlowstone
+[19:09:58] [main/INFO]: [ModuleLoader] Running SnowAccumulation
+[19:09:58] [main/INFO]: [ModuleLoader] Running StackableEnchantedBooks
+[19:09:58] [main/INFO]: [ModuleLoader] Running StackablePotions
+[19:09:58] [main/INFO]: [ModuleLoader] Running StackableStews
+[19:09:58] [main/INFO]: [ModuleLoader] Running StraysDropBlueIce
+[19:09:58] [main/INFO]: [ModuleLoader] Running StraysSpawnUnderground
+[19:09:58] [main/INFO]: [ModuleLoader] Running StrongerAnvils
+[19:09:58] [main/INFO]: [ModuleLoader] Running TotemOfPreserving
+[19:09:58] [main/INFO]: [ModuleLoader] Running TotemWorksFromInventory
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantBarrels
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantBars
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantBookshelves
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantChains
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantChests
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantLadders
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantLanterns
+[19:09:58] [main/INFO]: [ModuleLoader] Running VariantMobTextures
+[19:09:58] [main/INFO]: [ModuleLoader] Running VillagersFollowEmeraldBlocks
+[19:09:58] [main/INFO]: [ModuleLoader] Running WeatheringIron
+[19:09:58] [main/INFO]: [ModuleLoader] Running WitchesDropLuck
+[19:09:58] [main/INFO]: [ModuleLoader] Running Woodcutters
+[19:09:58] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[19:09:58] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[19:09:58] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[19:09:58] [main/INFO]: Loading Towns and Towers!
+[19:09:58] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
+[19:09:58] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
+[19:09:58] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/f6d9ad53d4043869ab1dd54191baa49e
+[19:09:58] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
+[19:09:58] [main/WARN]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
+[19:09:58] [main/WARN]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
+[19:09:58] [main/INFO]: [Nostalgic Tweaks] [INFO] Loading mod in [FABRIC] server environment
+[19:09:58] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:10:00] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[19:10:01] [main/INFO]: Loaded 9 recipes
+[19:10:02] [main/INFO]: Loaded 1224 advancements
+[19:10:02] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[19:10:03] [main/INFO]: Applied 2 biome modifications to 2 of 63 new biomes in 7.170 ms
+[19:10:03] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[19:10:03] [Server thread/INFO]: Loading properties
+[19:10:03] [Server thread/INFO]: Default game type: SURVIVAL
+[19:10:03] [Server thread/INFO]: Generating keypair
+[19:10:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:10:04] [Server thread/INFO]: Using epoll channel type
+[19:10:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:10:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:10:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:10:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:10:04] [Server thread/INFO]: Preparing level "world"
+[19:10:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:10:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:34] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:34] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:40] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:40] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:41] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:41] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:43] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:43] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:46] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:46] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:55] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:55] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:57] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:57] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:00] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:00] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:01] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:01] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:03] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:03] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:08] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:08] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:14] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:14] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:11:15] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[19:11:15] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[19:11:16] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[19:11:16] [Worker-Main-6/INFO]: Preparing spawn area: 9%
+[19:11:17] [Worker-Main-6/INFO]: Preparing spawn area: 15%
+[19:11:17] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[19:11:18] [Worker-Main-6/INFO]: Preparing spawn area: 24%
+[19:11:19] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[19:11:19] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[19:11:19] [Worker-Main-6/INFO]: Preparing spawn area: 42%
+[19:11:20] [Worker-Main-6/INFO]: Preparing spawn area: 42%
+[19:11:20] [Worker-Main-6/INFO]: Preparing spawn area: 54%
+[19:11:21] [Worker-Main-6/INFO]: Preparing spawn area: 66%
+[19:11:22] [Worker-Main-6/INFO]: Preparing spawn area: 75%
+[19:11:22] [Worker-Main-6/INFO]: Preparing spawn area: 75%
+[19:11:22] [Worker-Main-6/INFO]: Preparing spawn area: 90%
+[19:11:26] [Server thread/INFO]: Time elapsed: 59402 ms
+[19:11:26] [Server thread/INFO]: Done (82.175s)! For help, type "help"
+[19:11:26] [Server thread/INFO]: Loaded values for 13 compatible attributes.
+[19:11:26] [Server thread/INFO]: Loaded 13 values from config.
+[19:11:26] [Server thread/INFO]: Saving config file. 13 entries.
+[19:11:26] [Server thread/INFO]: Applying changes for 13 attributes.
+[19:13:29] [Server thread/INFO]: felixstorm[/127.116.25.147:36437] logged in with entity id 411 at (56.5, 81.0, -452.5)
+[19:13:30] [Server thread/INFO]: felixstorm joined the game
+[19:13:35] [Server thread/WARN]: @Final field field_25883:Lnet/minecraft/class_4970$class_4973; in charm.mixins.json:more_portal_frames.AddValidPortalFrameBlocksMixin from mod charm should be final
+[19:15:22] [Server thread/INFO]: anexoh[/127.139.144.169:43017] logged in with entity id 814 at (49.5, 81.0, -456.5)
+[19:15:22] [Server thread/INFO]: anexoh joined the game
+[19:16:16] [Server thread/INFO]: anexoh lost connection: Disconnected
+[19:16:16] [Server thread/INFO]: anexoh left the game
+[19:16:35] [Server thread/INFO]: anexoh[/127.139.144.169:32877] logged in with entity id 1003 at (39.068182021914886, 71.0, -454.7666832227552)
+[19:16:35] [Server thread/INFO]: anexoh joined the game
+[19:16:42] [Server thread/INFO]: anexoh lost connection: Disconnected
+[19:16:42] [Server thread/INFO]: anexoh left the game
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableSweep) with new value (false)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSpiderDrops) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFoodStacking) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSheepDrops) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldZombieDrops) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableHunger) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableCriticalHit) with new value (false)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldZombiePigmenDrops) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableCooldown) with new value (false)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFire) with new value (true)
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:19:08] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSkeletonDrops) with new value (true)
+[19:20:17] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
+[19:20:54] [Server thread/INFO]: /127.68.73.179:45181 lost connection: Disconnected
+[19:20:59] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
+[19:21:04] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
+[19:21:07] [Server thread/INFO]: anexoh[/127.139.144.169:50837] logged in with entity id 1750 at (35.82612083851168, 72.0, -451.6039787875947)
+[19:21:07] [Server thread/INFO]: anexoh joined the game
+[19:21:10] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
+[19:21:14] [Server thread/INFO]: anexoh has made the advancement [Acquire Hardware]
+[19:21:20] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
+[19:21:46] [Server thread/INFO]: anexoh lost connection: Disconnected
+[19:21:46] [Server thread/INFO]: anexoh left the game
+[19:21:55] [Server thread/INFO]: [felixstorm: Set the time to 1000]
+[19:22:41] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
+[19:23:09] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
+[19:23:12] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
+[19:23:13] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
+[19:26:18] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
+[19:26:37] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[19:26:37] [Server thread/INFO]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableSprint) with new value (true)
+[19:26:40] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
+[19:26:48] [Server thread/INFO]: Adriachu777[/127.68.73.179:45367] logged in with entity id 2091 at (49.5, 80.0, -457.5)
+[19:26:49] [Server thread/INFO]: Adriachu777 joined the game
+[19:26:53] [Server thread/INFO]: anexoh[/127.139.144.169:36909] logged in with entity id 2118 at (41.627781912556514, 71.0, -440.8820308559346)
+[19:26:53] [Server thread/INFO]: anexoh joined the game
+[19:27:05] [Server thread/INFO]: [felixstorm: Set the weather to rain & thunder]
+[19:29:41] [Server thread/INFO]: Okarun2412[/127.101.239.253:38771] logged in with entity id 2720 at (38.5, 76.0, -443.5)
+[19:29:41] [Server thread/INFO]: Okarun2412 joined the game
