@@ -595,3 +595,7 @@
 [20:38:26] [Server thread/INFO]: felixstorm left the game
 [20:38:34] [Server thread/INFO]: felixstorm[/127.116.25.147:42671] logged in with entity id 21835 at (-914.4608816644943, -30.045267324638935, -65.29936181955392)
 [20:38:34] [Server thread/INFO]: felixstorm joined the game
+[20:39:19] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
+[20:46:18] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
+[20:46:29] [Server thread/INFO]: felixstorm lost connection: Disconnected
+[20:46:29] [Server thread/INFO]: felixstorm left the game
