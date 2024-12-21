@@ -485,6 +485,7 @@
       "chicken": "2024-12-21 14:08:42 +0000",
       "cooked_beef": "2024-12-21 14:37:14 +0000",
       "beef": "2024-12-21 14:08:44 +0000",
+      "apple": "2024-12-21 15:33:52 +0000",
       "melon_slice": "2024-12-21 14:21:53 +0000"
     },
     "done": false
@@ -1521,9 +1522,21 @@
     },
     "done": true
   },
+  "watching:main/spotted_herobrine": {
+    "criteria": {
+      "requirement": "2024-12-21 15:21:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-12-21 15:24:13 +0000"
     },
     "done": true
   },
@@ -1539,6 +1552,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-21 15:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
@@ -1551,9 +1570,27 @@
     },
     "done": true
   },
+  "aether:recipes/combat/bow_repairing": {
+    "criteria": {
+      "has_bow": "2024-12-21 15:35:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-21 15:31:36 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_axe_repairing": {
+    "criteria": {
+      "has_iron_axe": "2024-12-21 15:24:33 +0000"
     },
     "done": true
   },
@@ -1569,6 +1606,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-21 15:35:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
@@ -1578,6 +1621,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-21 15:31:36 +0000"
     },
     "done": true
   },
@@ -1593,9 +1642,21 @@
     },
     "done": true
   },
+  "supplementaries:adventure/globe": {
+    "criteria": {
+      "unlock": "2024-12-21 15:14:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-21 15:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-12-21 15:24:13 +0000"
     },
     "done": true
   },

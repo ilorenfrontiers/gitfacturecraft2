@@ -3784,3 +3784,205 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Dec2024 15:08:04.932] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
 [21Dec2024 15:08:04.937] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
 [21Dec2024 15:08:25.550] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/38892, l='ServerLevel[sexo]', x=152.54, y=-256.00, z=208.22] died, message: 'Villager fell out of the world'
+[21Dec2024 15:09:19.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 15:09:34.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 15:09:42.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 15:10:00.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 15:10:15.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to Okarun2412]
+[21Dec2024 15:10:35.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to Okarun2412]
+[21Dec2024 15:11:36.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to LeoView]
+[21Dec2024 15:11:55.683] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:11:55.688] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:11:55.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Saved the game]
+[21Dec2024 15:12:24.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 15:13:04.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:13:04.902] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:13:52.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 15:14:09.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [You Spin Me Right Round Baby]
+[21Dec2024 15:14:23.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to LeoView]
+[21Dec2024 15:15:55.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
+[21Dec2024 15:16:06.066] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
+[21Dec2024 15:16:06.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
+[21Dec2024 15:17:23.912] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 28 messages to dispatch.
+[21Dec2024 15:17:23.919] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[21Dec2024 15:17:23.966] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[21Dec2024 15:17:24.017] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[21Dec2024 15:17:24.065] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[21Dec2024 15:17:24.104] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[21Dec2024 15:17:24.104] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[21Dec2024 15:17:24.104] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, sereneseasons, mixinextras, repurposed_structures, moonlight, ambientsounds, worldedit, cumulus_menus, architectury, creativecore, watching, aether, jei, nitrogen_internals, forge, t_and_t, curios, tlskincape, supplementaries, sound_physics_remastered, structory, nostalgic_tweaks, cristellib]
+[21Dec2024 15:17:24.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[21Dec2024 15:17:24.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[21Dec2024 15:17:24.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'architectury:network' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'aether:main' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'supplementaries:network' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'creativecore:main' : Version test of '1.0' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'nitrogen_internals:main' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'sereneseasons:main_channel' : Version test of '0' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'nostalgic_tweaks:nt_forge_verification' : Version test of '1.3' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[21Dec2024 15:17:24.106] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[21Dec2024 15:17:24.107] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'moonlight:channel' : Version test of '1' from client : ACCEPTED
+[21Dec2024 15:17:24.107] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[21Dec2024 15:17:24.107] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[21Dec2024 15:17:24.125] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry aether:moa_type' to 'fml:handshake' sequence 4
+[21Dec2024 15:17:24.125] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[21Dec2024 15:17:24.126] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.126] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.164] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 5
+[21Dec2024 15:17:24.192] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[21Dec2024 15:17:24.192] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.192] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.215] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 6
+[21Dec2024 15:17:24.264] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 7
+[21Dec2024 15:17:24.302] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[21Dec2024 15:17:24.302] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.302] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.316] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 8
+[21Dec2024 15:17:24.365] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 9
+[21Dec2024 15:17:24.414] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 10
+[21Dec2024 15:17:24.464] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 11
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.511] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.515] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 12
+[21Dec2024 15:17:24.563] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 13
+[21Dec2024 15:17:24.614] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 14
+[21Dec2024 15:17:24.667] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 15
+[21Dec2024 15:17:24.714] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 16
+[21Dec2024 15:17:24.727] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[21Dec2024 15:17:24.727] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.727] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.764] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 17
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.764] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[21Dec2024 15:17:24.765] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.765] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.765] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[21Dec2024 15:17:24.765] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.765] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.814] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 18
+[21Dec2024 15:17:24.850] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[21Dec2024 15:17:24.850] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.850] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.864] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 19
+[21Dec2024 15:17:24.927] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+[21Dec2024 15:17:24.942] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[21Dec2024 15:17:24.942] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.942] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:24.963] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+[21Dec2024 15:17:24.963] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[21Dec2024 15:17:24.963] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:24.963] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.013] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry aether:advancement_sound_override' to 'fml:handshake' sequence 22
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.022] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.064] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 23
+[21Dec2024 15:17:25.113] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[21Dec2024 15:17:25.113] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.113] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.114] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config sereneseasons-server.toml' to 'fml:handshake' sequence 24
+[21Dec2024 15:17:25.163] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config aether-server.toml' to 'fml:handshake' sequence 25
+[21Dec2024 15:17:25.213] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config jei-server.toml' to 'fml:handshake' sequence 26
+[21Dec2024 15:17:25.270] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 27
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 22
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 23
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.584] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.625] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 24
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 25
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 26
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 27
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[21Dec2024 15:17:25.626] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[21Dec2024 15:17:25.668] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[21Dec2024 15:17:25.739] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.46.189.110:52027] logged in with entity id 41408 at (-193.51308341598775, -59.0, 58.32653212603333)
+[21Dec2024 15:17:25.740] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@739cc18c into net.minecraft.network.Connection@10c68454
+[21Dec2024 15:17:25.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[21Dec2024 15:18:04.898] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:18:04.902] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:20:24.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> You know perfectly well that you won't live to tell the tale.
+[21Dec2024 15:20:52.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:21:14.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:21:16.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:21:16.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:21:29.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [I Should Call Kevin!]
+[21Dec2024 15:22:04.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:04.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:05.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:05.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:06.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:06.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:07.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:07.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:22:08.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:23:04.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:23:04.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:26:26.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> i dont need help, shit
+[21Dec2024 15:27:04.900] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45005, l='ServerLevel[sexo]', x=153.52, y=-256.00, z=208.12] died, message: 'Villager fell out of the world'
+[21Dec2024 15:27:20.100] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45067, l='ServerLevel[sexo]', x=152.56, y=-256.00, z=208.15] died, message: 'Villager fell out of the world'
+[21Dec2024 15:27:35.900] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45180, l='ServerLevel[sexo]', x=153.52, y=-256.00, z=208.12] died, message: 'Villager fell out of the world'
+[21Dec2024 15:28:04.899] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:28:04.903] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:28:54.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 9.060185461787938,0.0,4.292017622106972
+[21Dec2024 15:29:55.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 15:29:55.405] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! -8.938043983160213,0.0,5.109107299786913
+[21Dec2024 15:30:58.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
+[21Dec2024 15:31:40.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
+[21Dec2024 15:32:38.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain & thunder]
+[21Dec2024 15:33:04.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:33:04.911] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:33:10.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 15:34:04.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 was shot by Skeleton
+[21Dec2024 15:34:05.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to Okarun2412]
+[21Dec2024 15:34:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to Okarun2412]
+[21Dec2024 15:35:01.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Cow]
+[21Dec2024 15:35:15.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Cow]
+[21Dec2024 15:35:31.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 was killed by Witch using magic
+[21Dec2024 15:35:45.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Stopped all sounds]
+[21Dec2024 15:36:23.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to Okarun2412]
+[21Dec2024 15:36:30.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun2412 lost connection: Disconnected
+[21Dec2024 15:36:30.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 left the game
+[21Dec2024 15:38:04.909] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sexo
+[21Dec2024 15:38:04.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sexo
+[21Dec2024 15:38:13.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to LeoView]
+[21Dec2024 15:38:35.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Stopped all sounds]
