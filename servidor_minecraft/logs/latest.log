@@ -1,619 +1,195 @@
-[19:18:20] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.3
-[19:18:21] [main/INFO]: Loading 62 mods:
-	- architectury 6.6.92
-	- attributefix 17.2.8
-	- betterdays 1.19.2-3.1.1.1-FABRIC
-	   \-- spectrelib 0.12.8+1.19.2
-	        |-- com_electronwill_night-config_core 3.6.5
-	        \-- com_electronwill_night-config_toml 3.6.5
-	- charm 4.4.4
-	   \-- com_moandjiezana_toml_toml4j 0.7.2
-	- cloth-config 8.3.134
-	   \-- cloth-basic-math 0.6.1
-	- creativecore 2.9.3
-	- fabric-api 0.77.0+1.19.2
-	   |-- fabric-api-base 0.4.15+8f4e8eb390
-	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
-	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
-	   |-- fabric-block-api-v1 1.0.2+e415d50e90
-	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
-	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
-	   |-- fabric-command-api-v1 1.2.16+f71b366f90
-	   |-- fabric-command-api-v2 2.2.1+413cbbc790
-	   |-- fabric-commands-v0 0.2.33+df3654b390
-	   |-- fabric-containers-v0 0.1.42+df3654b390
-	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
-	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
-	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
-	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
-	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
-	   |-- fabric-entity-events-v1 1.5.4+9244241690
-	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
-	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
-	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
-	   |-- fabric-item-api-v1 1.6.6+b7d1888890
-	   |-- fabric-item-groups-v0 0.3.39+9244241690
-	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
-	   |-- fabric-keybindings-v0 0.2.23+df3654b390
-	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
-	   |-- fabric-loot-api-v2 1.1.13+83a8659290
-	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
-	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
-	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
-	   |-- fabric-models-v0 0.3.21+c6af733c90
-	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
-	   |-- fabric-networking-v0 0.3.29+df3654b390
-	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
-	   |-- fabric-particles-v1 1.1.0+ee641e7390
-	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
-	   |-- fabric-registry-sync-v0 0.9.33+9244241690
-	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
-	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
-	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
-	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
-	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
-	   |-- fabric-rendering-v0 1.1.28+df3654b390
-	   |-- fabric-rendering-v1 1.13.0+526f2c6790
-	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
-	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
-	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
-	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
-	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
-	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
-	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
-	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 17
-	- minecraft 1.19.2
-	- mostructures 1.4.3+1.19.2
-	   \-- omega-config 1.2.3-1.18.1
-	- nostalgic_tweaks 2.0.0-Beta-8.4
-	   \-- me_xdrop_fuzzywuzzy 1.4.0
-	- seasons 2.3+1.19
-	- sound_physics_remastered 1.19.2-1.4.5
-	- structory 1.0.1
-	- t_and_t 1.10
-	   \-- blue_endless_jankson 1.2.1
-[19:18:21] [main/WARN]: Found 1 non-fabric mod:
-	- beta_days-1.19.2-1.3.0.jar
-[19:18:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:18:22] [main/INFO]: Compatibility level set to JAVA_16
-[19:18:22] [main/INFO]: Compatibility level set to JAVA_17
-[19:18:23] [main/INFO]: [MixinConfig] Not adding no_cured_villager_discount.BypassReputationGossipMixin
-[19:18:23] [main/INFO]: [MixinConfig] Not adding respawn_anchor_in_the_end.CheckIfCanSetSpawnMixin
-[19:18:23] [main/INFO]: [MixinConfig] Not adding no_chat_verified_nag.DisableToastMixin
-[19:18:23] [main/INFO]: [MixinConfig] Not adding no_treasure_enchantment_trading.CheckIfTradeableMixin
-[19:18:24] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
-[19:18:24] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
-[19:18:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:18:35] [main/INFO]: Building unoptimized datafixer
-[19:18:39] [main/INFO]: [Nostalgic Tweaks] [INFO] Initializing server config prematurely for mixin compatibility
-[19:18:39] [main/INFO]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-server-startup_backup.json
-[19:18:39] [main/INFO]: [Nostalgic Tweaks] [INFO] Server config was reloaded
-[19:18:39] [main/INFO]: [Nostalgic Tweaks] [INFO] Loaded 62 server controlled tweaks
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled AerialAffinityEnchantment
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled AllowTooExpensive
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled AmethystNoteBlock
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Atlases
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled AutoRestock
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled AzaleaWood
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled BatBuckets
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled BeaconsHealMobs
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Beekeepers
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled BlockOfEnderPearls
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled BlockOfGunpowder
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled BlockOfSugar
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Bookcases
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled CaveSpidersDropCobwebs
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Chairs
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ChickensDropFeathers
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ClearItemFrames
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled CollectionEnchantment
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ColoredBundles
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ColoredNetherPortals
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled CompassOverlay
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled CoralSeaLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled CoralSquids
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Core
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusic
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled EbonyWood
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled EditableSigns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled EndermitePowder
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ExtraBoats
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ExtraRecipes
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ExtraTrades
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ExtraWanderingTrades
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ExtractEnchantments
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled GentlePotionParticles
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled GoatsDropMutton
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled GrindableArmor
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled HoverSorting
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled HusksDropSand
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled HusksSpawnUnderground
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ImprovedFortressLoot
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ImprovedMansionLoot
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ImprovedMineshafts
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled InventoryTidying
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Kilns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled LavaBucketDestroysItems
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled LowerNoteblockPitch
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Lumberjacks
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled MapTooltip
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Mooblooms
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled MorePortalFrames
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled NoCropTrampling
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled NoPetDamage
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled NoPotionGlint
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled NoSpyglassScope
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled OpenBothDoors
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ParrotsStayOnShoulder
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled PathToDirt
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled PlayerPressurePlates
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled PortableCrafting
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled QuickReplant
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RaidHorns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RedstoneLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RedstoneSand
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RepairElytraFromLeather
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RepairNetheriteFromScrap
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled RepairTridentsFromShards
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ShowRepairCost
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ShulkerBoxDragDrop
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltip
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled SmoothGlowstone
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled SnowAccumulation
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StackableEnchantedBooks
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StackablePotions
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StackableStews
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StraysDropBlueIce
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StraysSpawnUnderground
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled StrongerAnvils
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled TotemOfPreserving
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled TotemWorksFromInventory
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantBarrels
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantBars
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantBookshelves
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantChains
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantChests
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantLadders
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VariantMobTextures
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled VillagersFollowEmeraldBlocks
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled WeatheringIron
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled WitchesDropLuck
-[19:18:40] [main/INFO]: [ModuleLoader] Enabled Woodcutters
-[19:18:40] [main/INFO]: [ModuleLoader] Running AerialAffinityEnchantment
-[19:18:40] [main/INFO]: [ModuleLoader] Running AllowTooExpensive
-[19:18:40] [main/INFO]: [ModuleLoader] Running AmethystNoteBlock
-[19:18:40] [main/INFO]: [ModuleLoader] Running Atlases
-[19:18:40] [main/INFO]: [ModuleLoader] Running AutoRestock
-[19:18:40] [main/INFO]: [ModuleLoader] Running AzaleaWood
-[19:18:40] [main/INFO]: [ModuleLoader] Running BatBuckets
-[19:18:40] [main/INFO]: [ModuleLoader] Running BeaconsHealMobs
-[19:18:40] [main/INFO]: [ModuleLoader] Running Beekeepers
-[19:18:40] [main/INFO]: [ModuleLoader] Running BlockOfEnderPearls
-[19:18:40] [main/INFO]: [ModuleLoader] Running BlockOfGunpowder
-[19:18:40] [main/INFO]: [ModuleLoader] Running BlockOfSugar
-[19:18:40] [main/INFO]: [ModuleLoader] Running Bookcases
-[19:18:40] [main/INFO]: [ModuleLoader] Running CaveSpidersDropCobwebs
-[19:18:40] [main/INFO]: [ModuleLoader] Running Chairs
-[19:18:40] [main/INFO]: [ModuleLoader] Running ChickensDropFeathers
-[19:18:40] [main/INFO]: [ModuleLoader] Running ClearItemFrames
-[19:18:40] [main/INFO]: [ModuleLoader] Running CollectionEnchantment
-[19:18:40] [main/INFO]: [ModuleLoader] Running ColoredBundles
-[19:18:40] [main/INFO]: [ModuleLoader] Running ColoredNetherPortals
-[19:18:40] [main/INFO]: [ModuleLoader] Running CompassOverlay
-[19:18:40] [main/INFO]: [ModuleLoader] Running CoralSeaLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Running CoralSquids
-[19:18:40] [main/INFO]: [ModuleLoader] Running Core
-[19:18:40] [main/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusic
-[19:18:40] [main/INFO]: [ModuleLoader] Running EbonyWood
-[19:18:40] [main/INFO]: [ModuleLoader] Running EditableSigns
-[19:18:40] [main/INFO]: [ModuleLoader] Running EndermitePowder
-[19:18:40] [main/INFO]: [ModuleLoader] Running ExtraBoats
-[19:18:40] [main/INFO]: [ModuleLoader] Running ExtraRecipes
-[19:18:40] [main/INFO]: [ModuleLoader] Running ExtraTrades
-[19:18:40] [main/INFO]: [ModuleLoader] Running ExtraWanderingTrades
-[19:18:40] [main/INFO]: [ModuleLoader] Running ExtractEnchantments
-[19:18:40] [main/INFO]: [ModuleLoader] Running GentlePotionParticles
-[19:18:40] [main/INFO]: [ModuleLoader] Running GoatsDropMutton
-[19:18:40] [main/INFO]: [ModuleLoader] Running GrindableArmor
-[19:18:40] [main/INFO]: [ModuleLoader] Running HoverSorting
-[19:18:40] [main/INFO]: [ModuleLoader] Running HusksDropSand
-[19:18:40] [main/INFO]: [ModuleLoader] Running HusksSpawnUnderground
-[19:18:40] [main/INFO]: [ModuleLoader] Running ImprovedFortressLoot
-[19:18:40] [main/INFO]: [ModuleLoader] Running ImprovedMansionLoot
-[19:18:40] [main/INFO]: [ModuleLoader] Running ImprovedMineshafts
-[19:18:40] [main/INFO]: [ModuleLoader] Running InventoryTidying
-[19:18:40] [main/INFO]: [ModuleLoader] Running Kilns
-[19:18:40] [main/INFO]: [ModuleLoader] Running LavaBucketDestroysItems
-[19:18:40] [main/INFO]: [ModuleLoader] Running LowerNoteblockPitch
-[19:18:40] [main/INFO]: [ModuleLoader] Running Lumberjacks
-[19:18:40] [main/INFO]: [ModuleLoader] Running MapTooltip
-[19:18:40] [main/INFO]: [ModuleLoader] Running Mooblooms
-[19:18:40] [main/INFO]: [ModuleLoader] Running MorePortalFrames
-[19:18:40] [main/INFO]: [ModuleLoader] Running NoCropTrampling
-[19:18:40] [main/INFO]: [ModuleLoader] Running NoPetDamage
-[19:18:40] [main/INFO]: [ModuleLoader] Running NoPotionGlint
-[19:18:40] [main/INFO]: [ModuleLoader] Running NoSpyglassScope
-[19:18:40] [main/INFO]: [ModuleLoader] Running OpenBothDoors
-[19:18:40] [main/INFO]: [ModuleLoader] Running ParrotsStayOnShoulder
-[19:18:40] [main/INFO]: [ModuleLoader] Running PathToDirt
-[19:18:40] [main/INFO]: [ModuleLoader] Running PlayerPressurePlates
-[19:18:40] [main/INFO]: [ModuleLoader] Running PortableCrafting
-[19:18:40] [main/INFO]: [ModuleLoader] Running QuickReplant
-[19:18:40] [main/INFO]: [ModuleLoader] Running RaidHorns
-[19:18:40] [main/INFO]: [ModuleLoader] Running RedstoneLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Running RedstoneSand
-[19:18:40] [main/INFO]: [ModuleLoader] Running RepairElytraFromLeather
-[19:18:40] [main/INFO]: [ModuleLoader] Running RepairNetheriteFromScrap
-[19:18:40] [main/INFO]: [ModuleLoader] Running RepairTridentsFromShards
-[19:18:40] [main/INFO]: [ModuleLoader] Running ShowRepairCost
-[19:18:40] [main/INFO]: [ModuleLoader] Running ShulkerBoxDragDrop
-[19:18:40] [main/INFO]: [ModuleLoader] Running ShulkerBoxTooltip
-[19:18:40] [main/INFO]: [ModuleLoader] Running SmoothGlowstone
-[19:18:40] [main/INFO]: [ModuleLoader] Running SnowAccumulation
-[19:18:40] [main/INFO]: [ModuleLoader] Running StackableEnchantedBooks
-[19:18:40] [main/INFO]: [ModuleLoader] Running StackablePotions
-[19:18:40] [main/INFO]: [ModuleLoader] Running StackableStews
-[19:18:40] [main/INFO]: [ModuleLoader] Running StraysDropBlueIce
-[19:18:40] [main/INFO]: [ModuleLoader] Running StraysSpawnUnderground
-[19:18:40] [main/INFO]: [ModuleLoader] Running StrongerAnvils
-[19:18:40] [main/INFO]: [ModuleLoader] Running TotemOfPreserving
-[19:18:40] [main/INFO]: [ModuleLoader] Running TotemWorksFromInventory
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantBarrels
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantBars
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantBookshelves
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantChains
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantChests
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantLadders
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantLanterns
-[19:18:40] [main/INFO]: [ModuleLoader] Running VariantMobTextures
-[19:18:40] [main/INFO]: [ModuleLoader] Running VillagersFollowEmeraldBlocks
-[19:18:40] [main/INFO]: [ModuleLoader] Running WeatheringIron
-[19:18:40] [main/INFO]: [ModuleLoader] Running WitchesDropLuck
-[19:18:40] [main/INFO]: [ModuleLoader] Running Woodcutters
-[19:18:40] [main/INFO]: [Fabric Seasons] Trying to read config file...
-[19:18:40] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
-[19:18:40] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
-[19:18:40] [main/INFO]: Loading Towns and Towers!
-[19:18:41] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
-[19:18:41] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
-[19:18:41] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/f6d9ad53d4043869ab1dd54191baa49e
-[19:18:41] [main/INFO]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
-[19:18:41] [main/WARN]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
-[19:18:41] [main/WARN]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
-[19:18:41] [main/INFO]: [Nostalgic Tweaks] [INFO] Loading mod in [FABRIC] server environment
-[19:18:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:18:44] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[19:18:47] [main/INFO]: Loaded 9 recipes
-[19:18:47] [main/INFO]: Loaded 1224 advancements
-[19:18:47] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
-[19:18:51] [main/INFO]: Applied 2 biome modifications to 2 of 63 new biomes in 21.66 ms
-[19:18:51] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[19:18:51] [Server thread/INFO]: Loading properties
-[19:18:51] [Server thread/INFO]: Default game type: SURVIVAL
-[19:18:51] [Server thread/INFO]: Generating keypair
-[19:18:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:18:52] [Server thread/INFO]: Using epoll channel type
-[19:18:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:18:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:18:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:18:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:18:52] [Server thread/INFO]: Preparing level "world"
-[19:19:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 58%
-[19:19:30] [Server thread/INFO]: Time elapsed: 21923 ms
-[19:19:30] [Server thread/INFO]: Done (37.339s)! For help, type "help"
-[19:19:30] [Server thread/INFO]: Loaded values for 13 compatible attributes.
-[19:19:30] [Server thread/INFO]: Loaded 13 values from config.
-[19:19:30] [Server thread/INFO]: Saving config file. 13 entries.
-[19:19:30] [Server thread/INFO]: Applying changes for 13 attributes.
-[19:19:37] [Server thread/INFO]: Adriachu777[/127.57.177.212:60961] logged in with entity id 227 at (-476.2436895728279, 72.7531999805212, -655.5625865448858)
-[19:19:38] [Server thread/INFO]: Adriachu777 joined the game
-[19:19:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5896ms or 117 ticks behind
-[19:19:48] [Server thread/WARN]: @Final field field_25883:Lnet/minecraft/class_4970$class_4973; in charm.mixins.json:more_portal_frames.AddValidPortalFrameBlocksMixin from mod charm should be final
-[19:20:20] [Server thread/INFO]: Adriachu777 was slain by Iron Golem
-[19:20:20] [Server thread/INFO]: [TotemOfPreserving] Spawned a totem at: class_2338{x=-544, y=64, z=-640}
-[19:24:47] [Server thread/INFO]: Adriachu777 lost connection: Disconnected
-[19:24:47] [Server thread/INFO]: Adriachu777 left the game
-[19:28:25] [Server thread/INFO]: Okarun2412[/127.101.239.253:58843] logged in with entity id 3420 at (-1358.846639355536, 22.0, 11.937377693688973)
-[19:28:25] [Server thread/INFO]: Okarun2412 joined the game
-[19:28:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2669ms or 53 ticks behind
-[19:33:31] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1307, y=-58, z=78}
-[19:33:31] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1291, y=-58, z=182}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=198}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=196}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=196}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=200}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=200}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=198}
-[19:33:37] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=1264, y=-58, z=200}
-[19:38:09] [Server thread/INFO]: Villager class_1646['Villager'/6076, l='ServerLevel[world]', x=-1260.93, y=103.00, z=210.63] died, message: 'Villager suffocated in a wall'
-[19:38:14] [Server thread/INFO]: Villager class_1646['Nitwit'/6087, l='ServerLevel[world]', x=-1260.30, y=119.00, z=245.70] died, message: 'Nitwit suffocated in a wall'
-[19:43:09] [Server thread/INFO]: Okarun2412 has made the advancement [Sweet Dreams]
-[19:43:54] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1248, y=58, z=586}
-[19:43:54] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=208, y=117, z=-22}
-[19:44:03] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1254, y=59, z=602}
-[19:44:03] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1254, y=59, z=603}
-[19:44:03] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1254, y=60, z=602}
-[19:44:03] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1254, y=60, z=603}
-[19:44:04] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1242, y=59, z=602}
-[19:44:04] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1242, y=59, z=603}
-[19:44:04] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1242, y=60, z=602}
-[19:44:04] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1242, y=60, z=603}
-[19:44:04] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=208, y=84, z=-1}
-[19:44:04] [Worker-Main-15/ERROR]: Hanging entity at invalid position: class_2338{x=208, y=116, z=-8}
-[19:44:09] [Worker-Main-21/WARN]: Tried to access a block entity before it was created. class_2338{x=-1246, y=60, z=612}
-[19:44:09] [Worker-Main-21/ERROR]: Hanging entity at invalid position: class_2338{x=208, y=84, z=5}
-[19:44:09] [Worker-Main-15/WARN]: Tried to access a block entity before it was created. class_2338{x=-1250, y=60, z=612}
-[19:45:06] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:09] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:24] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:35] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:53] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:45:53] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:02] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:05] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:20] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:25] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:34] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:55] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:46:56] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:11] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:13] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:29] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:33] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:47] [Server thread/INFO]: felixstorm[/127.116.25.147:49615] logged in with entity id 9916 at (58.68660945186998, -43.38747746842192, -504.08525248664074)
-[19:47:47] [Server thread/INFO]: felixstorm joined the game
-[19:47:52] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:47:54] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:08] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:12] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:17] [Server thread/INFO]: [felixstorm: Created team [sex]]
-[19:48:27] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:28] [Server thread/INFO]: [felixstorm: Added felixstorm to team [sex]]
-[19:48:34] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:43] [Server thread/INFO]: [felixstorm: Nametag visibility for team [sex] is now "Never"]
-[19:48:47] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:53] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:48:57] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[19:49:07] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:14] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:21] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[19:49:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:26] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:43] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:46] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:49:52] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:01] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:01] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:11] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:15] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:17] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[19:50:18] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[19:50:24] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[19:50:29] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:30] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[19:50:30] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:49] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:51] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:50:59] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:03] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[19:51:06] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:13] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:27] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:32] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:42] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:51:45] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:00] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:06] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:14] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:14] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:52:46] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:54:13] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:54:17] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[19:54:25] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[19:54:28] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:54:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:54:49] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:55:07] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:55:24] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:55:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:55:57] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:55:57] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:56:14] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:56:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:56:37] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:56:51] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:03] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:18] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:27] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:38] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:59] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:57:59] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:58:18] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:58:28] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:58:35] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:58:56] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:58:59] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[19:59:02] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[19:59:07] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:59:24] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:59:43] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[19:59:54] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
-[20:00:00] [Server thread/INFO]: felixstorm fell out of the world
-[20:00:00] [Server thread/INFO]: [TotemOfPreserving] Spawned a totem at: class_2338{x=-1247, y=51, z=726}
-[20:00:00] [Server thread/INFO]: [felixstorm: Killed felixstorm]
-[20:00:02] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[20:00:14] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[20:00:29] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[20:00:41] [Server thread/INFO]: felixstorm was slain by Zombie
-[20:00:41] [Server thread/WARN]: Ignoring unknown attribute 'generic.movementSpeed'
-[20:01:02] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:01:25] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:01:45] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:02:53] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
-[20:03:00] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:03:39] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:03:43] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:03:43] [Server thread/INFO]: Okarun2412 left the game
-[20:03:57] [Server thread/INFO]: Okarun2412[/127.101.239.253:39775] logged in with entity id 14885 at (-999.1030362354869, 63.0, -7.306260888424699)
-[20:03:57] [Server thread/INFO]: Okarun2412 joined the game
-[20:05:49] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:06:00] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:06:15] [Server thread/INFO]: [felixstorm: Stopped all sounds]
-[20:06:25] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:06:25] [Server thread/INFO]: Okarun2412 left the game
-[20:06:38] [Server thread/INFO]: Okarun2412[/127.101.239.253:60765] logged in with entity id 15325 at (-944.6229144154427, 64.0, 10.058662809168531)
-[20:06:38] [Server thread/INFO]: Okarun2412 joined the game
-[20:08:14] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:08:24] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:08:43] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:09:21] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:09:25] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:09:25] [Server thread/INFO]: Okarun2412 left the game
-[20:09:57] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:10:26] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:10:35] [Server thread/WARN]: felixstorm moved too quickly! -3.6840145800563278,-9.561608647829104,-3.250777429827199
-[20:10:36] [Server thread/INFO]: Okarun2412[/127.101.239.253:55115] logged in with entity id 15771 at (-936.6361360491255, 83.0, 13.572655712615848)
-[20:10:36] [Server thread/INFO]: Okarun2412 joined the game
-[20:11:08] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:12:14] [Server thread/INFO]: [felixstorm: Summoned new Lightning Bolt]
-[20:12:18] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:12:18] [Server thread/INFO]: Okarun2412 left the game
-[20:12:28] [Server thread/INFO]: Okarun2412[/127.101.239.253:42095] logged in with entity id 16238 at (-941.6158088843122, 64.0, 14.852121010301115)
-[20:12:28] [Server thread/INFO]: Okarun2412 joined the game
-[20:13:00] [Server thread/INFO]: [felixstorm: Set the weather to rain & thunder]
-[20:13:06] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:13:06] [Server thread/INFO]: Okarun2412 left the game
-[20:13:14] [Server thread/INFO]: Okarun2412[/127.101.239.253:41151] logged in with entity id 16387 at (-958.5616788741952, 65.0, 49.30000001192093)
-[20:13:14] [Server thread/INFO]: Okarun2412 joined the game
-[20:14:28] [Server thread/INFO]: [felixstorm: Stopped all sounds]
-[20:14:32] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:14:38] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:14:43] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:14:57] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:17:07] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:17:10] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:17:10] [Server thread/INFO]: Okarun2412 left the game
-[20:17:24] [Server thread/INFO]: Okarun2412[/127.101.239.253:52373] logged in with entity id 17065 at (-988.6923163299155, 65.0, -52.30000001192093)
-[20:17:24] [Server thread/INFO]: Okarun2412 joined the game
-[20:17:44] [Server thread/INFO]: [felixstorm: Set the weather to clear]
-[20:20:04] [Server thread/INFO]: [felixstorm: Played sound minecraft:block.grass.fall to 2 players]
-[20:20:07] [Server thread/INFO]: [felixstorm: Played sound minecraft:block.grass.fall to 2 players]
-[20:20:10] [Server thread/INFO]: [felixstorm: Played sound minecraft:block.grass.fall to 2 players]
-[20:20:11] [Server thread/INFO]: [felixstorm: Played sound minecraft:block.grass.fall to 2 players]
-[20:21:05] [Server thread/INFO]: [felixstorm: Played sound minecraft:item.armor.equip_generic to 2 players]
-[20:21:07] [Server thread/INFO]: [felixstorm: Played sound minecraft:item.armor.equip_generic to 2 players]
-[20:22:32] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.eat to 2 players]
-[20:22:36] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.eat to 2 players]
-[20:23:06] [Server thread/INFO]: [felixstorm: Set the weather to clear]
-[20:23:29] [Server thread/INFO]: [Not Secure] <Okarun2412> SKILL ISSUE
-[20:23:36] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.hurt to 2 players]
-[20:25:47] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.hurt to 2 players]
-[20:25:54] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.hurt to 2 players]
-[20:25:55] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.hurt to 2 players]
-[20:25:56] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.hurt to 2 players]
-[20:26:06] [Server thread/INFO]: [felixstorm: Played sound minecraft:entity.generic.eat to 2 players]
-[20:26:07] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:26:07] [Server thread/INFO]: Okarun2412 left the game
-[20:26:17] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[20:26:31] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:26:32] [Server thread/INFO]: felixstorm lost connection: Disconnected
-[20:26:32] [Server thread/INFO]: felixstorm left the game
-[20:27:13] [Server thread/INFO]: felixstorm[/127.116.25.147:34759] logged in with entity id 19376 at (-952.4551949186742, 64.06569650028096, -34.515548924150025)
-[20:27:13] [Server thread/INFO]: felixstorm joined the game
-[20:27:19] [Server thread/WARN]: felixstorm moved too quickly! 0.25671683505981946,-10.493990820569495,-4.880087298353509
-[20:27:21] [Server thread/WARN]: felixstorm moved too quickly! 7.511797015664797,3.6584217038668037,-5.834310674477798
-[20:27:26] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[20:27:40] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:28:06] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[20:29:14] [Server thread/INFO]: Okarun2412[/127.101.239.253:56913] logged in with entity id 19773 at (-962.599589011566, 63.0, -35.69999998807907)
-[20:29:14] [Server thread/INFO]: Okarun2412 joined the game
-[20:29:22] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:34:15] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:34:20] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:35:14] [Server thread/INFO]: [felixstorm: Played sound minecraft:ambient.cave to 2 players]
-[20:36:14] [Server thread/INFO]: Okarun2412 fell from a high place
-[20:36:14] [Server thread/INFO]: [TotemOfPreserving] Spawned a totem at: class_2338{x=-1077, y=29, z=-278}
-[20:37:17] [Server thread/INFO]: Okarun2412 lost connection: Disconnected
-[20:37:17] [Server thread/INFO]: Okarun2412 left the game
-[20:38:26] [Server thread/INFO]: felixstorm lost connection: Disconnected
-[20:38:26] [Server thread/INFO]: felixstorm left the game
-[20:38:34] [Server thread/INFO]: felixstorm[/127.116.25.147:42671] logged in with entity id 21835 at (-914.4608816644943, -30.045267324638935, -65.29936181955392)
-[20:38:34] [Server thread/INFO]: felixstorm joined the game
-[20:39:19] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[20:46:18] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[20:46:29] [Server thread/INFO]: felixstorm lost connection: Disconnected
-[20:46:29] [Server thread/INFO]: felixstorm left the game
-[21:00:29] [Server thread/INFO]: Okarun2412[/127.101.239.253:53355] logged in with entity id 22912 at (-952.9441206669643, 64.0, -3.769146402072909)
-[21:00:29] [Server thread/INFO]: Okarun2412 joined the game
-[21:01:21] [Server thread/INFO]: felixstorm[/127.116.25.147:53761] logged in with entity id 23162 at (-929.4517038708002, 98.0916734897238, -162.86963951371743)
-[21:01:21] [Server thread/INFO]: felixstorm joined the game
-[21:01:51] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[21:02:25] [Server thread/INFO]: felixstorm lost connection: Disconnected
-[21:02:25] [Server thread/INFO]: felixstorm left the game
-[21:03:14] [Server thread/INFO]: felixstorm[/127.116.25.147:55401] logged in with entity id 23606 at (-947.8077661651757, 68.02442408821369, 77.90151131897493)
-[21:03:14] [Server thread/INFO]: felixstorm joined the game
-[21:03:29] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
-[21:05:36] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[21:05:59] [Server thread/INFO]: Okarun2412 was slain by Spider
-[21:05:59] [Server thread/INFO]: [TotemOfPreserving] Spawned a totem at: class_2338{x=-893, y=-32, z=-59}
-[21:06:05] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[21:06:10] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
-[21:06:27] [Server thread/INFO]: [felixstorm: Set own game mode to Spectator Mode]
-[21:06:30] [Server thread/INFO]: [felixstorm: Set own game mode to Creative Mode]
-[21:06:54] [Server thread/INFO]: [felixstorm: Set own game mode to Survival Mode]
+[21Dec2024 12:25:10.118] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[21Dec2024 12:25:10.122] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[21Dec2024 12:25:10.297] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[21Dec2024 12:25:10.372] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/fml.toml is not correct. Correcting
+[21Dec2024 12:25:10.381] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[21Dec2024 12:25:10.706] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.3.3/fmlcore-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 12:25:10.708] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.3.3/javafmllanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 12:25:10.710] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.3.3/lowcodelanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 12:25:10.712] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.3.3/mclanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 12:25:10.869] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Dec2024 12:25:12.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Dec2024 12:25:22.824] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
+[21Dec2024 12:25:22.828] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.3 Initialized
+[21Dec2024 12:25:23.678] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[21Dec2024 12:25:23.680] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 12:25:23.681] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+[21Dec2024 12:25:23.682] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+[21Dec2024 12:25:23.682] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+[21Dec2024 12:25:24.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Dec2024 12:25:25.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.3 Target: 45.3.9
+[21Dec2024 12:25:26.059] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Dec2024 12:25:26.125] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%2399!/assets/.mcassetsroot' uses unexpected schema
+[21Dec2024 12:25:26.127] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%2399!/data/.mcassetsroot' uses unexpected schema
+[21Dec2024 12:25:28.896] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21Dec2024 12:25:29.571] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[21Dec2024 12:25:30.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[21Dec2024 12:25:30.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Dec2024 12:25:30.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Dec2024 12:25:30.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Dec2024 12:25:30.674] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Dec2024 12:25:30.726] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Dec2024 12:25:30.886] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Dec2024 12:25:30.886] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Dec2024 12:25:30.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Dec2024 12:25:30.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Dec2024 12:25:30.942] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[21Dec2024 12:25:30.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 12:25:30.945] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[21Dec2024 12:25:30.946] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[21Dec2024 12:25:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[21Dec2024 12:25:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[21Dec2024 12:25:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[21Dec2024 12:25:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[21Dec2024 12:25:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[21Dec2024 12:25:31.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Dec2024 12:25:48.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Dec2024 12:25:49.821] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:49.832] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:49.835] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:49.837] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:50.307] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:50.648] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:51.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:51.629] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:52.139] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:52.693] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:53.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:53.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:54.047] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:54.592] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:55.111] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:55.552] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:56.088] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:56.607] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:57.055] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:57.596] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:58.094] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:58.541] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:59.110] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:25:59.615] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:00.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:00.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:01.063] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:01.567] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:02.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:02.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:03.108] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:03.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:04.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:04.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:05.064] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:05.597] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:06.041] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:06.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:07.075] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:07.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:08.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:08.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:09.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:09.550] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:10.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:10.549] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:11.043] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:11.578] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:12.051] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:12.604] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:13.113] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:13.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:14.083] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:14.542] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:15.037] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:15.563] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:16.044] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:16.559] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:17.062] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:17.566] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:18.053] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:18.605] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:19.056] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:19.541] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:20.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:20.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:21.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:21.543] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:22.040] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:22.562] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:23.063] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:23.552] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:24.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:24.536] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:25.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:25.580] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:26.085] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:26.582] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:27.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:27.575] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:28.054] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:28.559] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:29.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:29.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:30.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:30.538] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:31.050] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:31.560] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:32.075] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:32.581] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:33.088] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:33.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:34.067] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:34.547] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:35.076] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:35.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:36.045] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:36.573] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:37.076] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:37.573] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:38.065] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:38.544] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:39.089] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:39.600] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:40.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:40.548] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:41.084] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:41.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:42.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:42.563] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:43.098] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:43.578] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:44.117] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:44.569] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:45.190] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:45.547] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:46.087] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:46.599] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:47.112] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:47.566] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:48.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:49.273] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:49.275] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 12:26:50.047] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[21Dec2024 12:26:50.051] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[21Dec2024 12:26:51.147] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[21Dec2024 12:26:51.150] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[21Dec2024 12:26:51.598] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[21Dec2024 12:26:53.403] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[21Dec2024 12:26:53.416] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[21Dec2024 12:26:53.420] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[21Dec2024 12:26:54.767] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[21Dec2024 12:26:54.770] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[21Dec2024 12:26:54.770] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[21Dec2024 12:26:56.280] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[21Dec2024 12:26:56.281] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[21Dec2024 12:26:56.281] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[21Dec2024 12:26:56.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[21Dec2024 12:26:58.400] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[21Dec2024 12:26:58.405] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[21Dec2024 12:26:58.415] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[21Dec2024 12:26:58.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[21Dec2024 12:26:59.308] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[21Dec2024 12:26:59.551] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[21Dec2024 12:27:00.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[21Dec2024 12:27:01.974] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 73938 ms
+[21Dec2024 12:27:01.977] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (91.040s)! For help, type "help"
+[21Dec2024 12:27:02.051] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Dec2024 12:28:37.561] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6419a120[id=<null>,name=felixstorm,properties={},legacy=false] (/127.46.189.110:41179) lost connection: Disconnected
