@@ -1685,6 +1685,12 @@
     },
     "done": true
   },
+  "watching:main/didnt_notice_herobrine": {
+    "criteria": {
+      "requirement": "2024-12-21 15:01:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-21 14:44:17 +0000"
