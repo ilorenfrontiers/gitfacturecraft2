@@ -718,3 +718,33 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Dec2024 13:53:54.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to 2 players]
 [21Dec2024 13:54:17.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Stopped all sounds]
 [21Dec2024 13:54:25.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to 2 players]
+[21Dec2024 13:58:04.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> si no estoy hablando
+[21Dec2024 13:58:14.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> i am not talking lol
+[21Dec2024 13:59:53.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:59:55.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:59:59.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 14:00:01.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 14:02:19.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 14:02:30.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! -7.211208294780192,0.0,-8.160750271481561
+[21Dec2024 14:03:21.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 14:05:43.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Sweet Dreams]
+[21Dec2024 14:05:47.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> DUERME
+[21Dec2024 14:05:52.218] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:41009] logged in with entity id 9198 at (154.25563528148172, 93.0, 209.30000001192093)
+[21Dec2024 14:05:52.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
+[21Dec2024 14:06:32.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Stone Age]
+[21Dec2024 14:06:46.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Getting an Upgrade]
+[21Dec2024 14:10:13.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 14:10:46.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
+[21Dec2024 14:10:47.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 14:11:02.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 14:11:33.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 14:12:16.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 14:12:52.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 14:13:10.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 14:13:11.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Surge Protector]
+[21Dec2024 14:14:22.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Saved the game]
+[21Dec2024 14:16:50.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [I'm on Singleplayer Right?]
+[21Dec2024 14:16:50.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Sweet Dreams]
+[21Dec2024 14:17:10.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> Boo
+[21Dec2024 14:17:15.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <felixstorm> AHHHHHHHHHHHHHHHHHHHHHHHH
+[21Dec2024 14:17:31.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> *se corre en su cara*
