@@ -1,195 +1,720 @@
-[21Dec2024 12:25:10.118] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[21Dec2024 12:25:10.122] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[21Dec2024 12:25:10.297] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[21Dec2024 12:25:10.372] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/fml.toml is not correct. Correcting
-[21Dec2024 12:25:10.381] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[21Dec2024 12:25:10.706] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.3.3/fmlcore-1.19.4-45.3.3.jar is missing mods.toml file
-[21Dec2024 12:25:10.708] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.3.3/javafmllanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[21Dec2024 12:25:10.710] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.3.3/lowcodelanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[21Dec2024 12:25:10.712] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.3.3/mclanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[21Dec2024 12:25:10.869] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[21Dec2024 12:25:12.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[21Dec2024 12:25:22.824] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
-[21Dec2024 12:25:22.828] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.3 Initialized
-[21Dec2024 12:25:23.678] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[21Dec2024 12:25:23.680] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Dec2024 12:25:23.681] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
-[21Dec2024 12:25:23.682] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
-[21Dec2024 12:25:23.682] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
-[21Dec2024 12:25:24.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21Dec2024 12:25:25.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.3 Target: 45.3.9
-[21Dec2024 12:25:26.059] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21Dec2024 12:25:26.125] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%2399!/assets/.mcassetsroot' uses unexpected schema
-[21Dec2024 12:25:26.127] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%2399!/data/.mcassetsroot' uses unexpected schema
-[21Dec2024 12:25:28.896] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[21Dec2024 12:25:29.571] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[21Dec2024 12:25:30.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
-[21Dec2024 12:25:30.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21Dec2024 12:25:30.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21Dec2024 12:25:30.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21Dec2024 12:25:30.674] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21Dec2024 12:25:30.726] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21Dec2024 12:25:30.886] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21Dec2024 12:25:30.886] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21Dec2024 12:25:30.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21Dec2024 12:25:30.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21Dec2024 12:25:30.942] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[21Dec2024 12:25:30.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Dec2024 12:25:30.945] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[21Dec2024 12:25:30.946] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[21Dec2024 12:25:30.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[21Dec2024 12:25:30.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[21Dec2024 12:25:30.953] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[21Dec2024 12:25:30.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[21Dec2024 12:25:30.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[21Dec2024 12:25:31.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21Dec2024 12:25:48.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21Dec2024 12:25:49.821] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:49.832] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:49.835] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:49.837] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:50.307] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:50.648] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:51.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:51.629] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:52.139] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:52.693] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:53.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:53.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:54.047] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:54.592] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:55.111] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:55.552] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:56.088] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:56.607] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:57.055] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:57.596] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:58.094] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:58.541] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:59.110] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:25:59.615] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:00.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:00.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:01.063] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:01.567] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:02.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:02.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:03.108] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:03.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:04.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:04.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:05.064] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:05.597] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:06.041] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:06.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:07.075] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:07.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:08.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:08.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:09.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:09.550] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:10.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:10.549] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:11.043] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:11.578] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:12.051] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:12.604] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:13.113] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:13.537] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:14.083] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:14.542] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:15.037] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:15.563] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:16.044] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:16.559] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:17.062] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:17.566] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:18.053] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:18.605] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:19.056] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:19.541] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:20.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:20.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:21.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:21.543] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:22.040] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:22.562] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:23.063] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:23.552] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:24.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:24.536] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:25.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:25.580] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:26.085] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:26.582] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:27.042] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:27.575] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:28.054] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:28.559] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:29.036] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:29.570] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:30.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:30.538] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:31.050] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:31.560] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:32.075] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:32.581] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:33.088] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:33.540] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:34.067] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:34.547] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:35.076] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:35.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:36.045] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:36.573] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:37.076] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:37.573] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:38.065] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:38.544] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:39.089] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:39.600] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:40.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:40.548] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:41.084] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:41.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:42.061] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:42.563] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:43.098] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:43.578] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:44.117] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:44.569] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:45.190] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:45.547] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:46.087] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:46.599] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:47.112] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:47.566] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:48.038] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:49.273] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:49.275] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Dec2024 12:26:50.047] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[21Dec2024 12:26:50.051] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[21Dec2024 12:26:51.147] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[21Dec2024 12:26:51.150] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[21Dec2024 12:26:51.598] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[21Dec2024 12:26:53.403] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[21Dec2024 12:26:53.416] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[21Dec2024 12:26:53.420] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[21Dec2024 12:26:54.767] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[21Dec2024 12:26:54.770] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[21Dec2024 12:26:54.770] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[21Dec2024 12:26:56.280] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[21Dec2024 12:26:56.281] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[21Dec2024 12:26:56.281] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[21Dec2024 12:26:56.554] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[21Dec2024 12:26:58.400] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[21Dec2024 12:26:58.405] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[21Dec2024 12:26:58.415] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[21Dec2024 12:26:58.539] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[21Dec2024 12:26:59.308] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[21Dec2024 12:26:59.551] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[21Dec2024 12:27:00.039] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[21Dec2024 12:27:01.974] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 73938 ms
-[21Dec2024 12:27:01.977] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (91.040s)! For help, type "help"
-[21Dec2024 12:27:02.051] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21Dec2024 12:28:37.561] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6419a120[id=<null>,name=felixstorm,properties={},legacy=false] (/127.46.189.110:41179) lost connection: Disconnected
+[21Dec2024 13:26:52.563] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[21Dec2024 13:26:52.577] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[21Dec2024 13:26:52.997] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[21Dec2024 13:26:53.472] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.3.3/fmlcore-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 13:26:53.476] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.3.3/javafmllanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 13:26:53.481] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.3.3/lowcodelanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 13:26:53.484] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.3.3/mclanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[21Dec2024 13:26:53.973] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[21Dec2024 13:26:57.059] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Dec2024 13:26:57.265] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[21Dec2024 13:26:57.269] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Dec2024 13:26:57.328] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 13:26:57.408] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 13:26:57.409] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 13:26:59.966] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[21Dec2024 13:26:59.966] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[21Dec2024 13:27:11.941] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[21Dec2024 13:27:12.132] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Dec2024 13:27:12.198] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
+[21Dec2024 13:27:12.199] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.3 Initialized
+[21Dec2024 13:27:12.573] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/supplementaries-common.toml is not correct. Correcting
+[21Dec2024 13:27:12.578] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.578] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.579] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.579] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.narrator_enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.581] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.range was corrected from null to its default, 64. 
+[21Dec2024 13:27:12.582] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.584] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.584] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.base_period was corrected from null to its default, 78. 
+[21Dec2024 13:27:12.585] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.power_scaling was corrected from null to its default, 2.0. 
+[21Dec2024 13:27:12.586] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.base_velocity_scaling was corrected from null to its default, 5.0. 
+[21Dec2024 13:27:12.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.velocity_changed_flag was corrected from null to its default, true. 
+[21Dec2024 13:27:12.588] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.range was corrected from null to its default, 5. 
+[21Dec2024 13:27:12.589] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.589] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.589] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.velocity was corrected from null to its default, 1.5. 
+[21Dec2024 13:27:12.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.fall_height_required was corrected from null to its default, 5. 
+[21Dec2024 13:27:12.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.ticks_to_increase_power was corrected from null to its default, 15. 
+[21Dec2024 13:27:12.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.work_from_any_side was corrected from null to its default, false. 
+[21Dec2024 13:27:12.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table.rotate_entities was corrected from null to its default, true. 
+[21Dec2024 13:27:12.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block.mineshaft_elevator was corrected from null to its default, 0.02. 
+[21Dec2024 13:27:12.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.wind_vane was corrected from null to its default, true. 
+[21Dec2024 13:27:12.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.clock_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.redstone_illuminator was corrected from null to its default, true. 
+[21Dec2024 13:27:12.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.crank was corrected from null to its default, true. 
+[21Dec2024 13:27:12.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.faucet was corrected from null to its default, true. 
+[21Dec2024 13:27:12.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.cog_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.gold_door was corrected from null to its default, true. 
+[21Dec2024 13:27:12.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.gold_trapdoor was corrected from null to its default, true. 
+[21Dec2024 13:27:12.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.lock_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.598] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.dispenser_minecart was corrected from null to its default, true. 
+[21Dec2024 13:27:12.598] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.crystal_display was corrected from null to its default, true. 
+[21Dec2024 13:27:12.598] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.relayer was corrected from null to its default, true. 
+[21Dec2024 13:27:12.611] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.612] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.612] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.615] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.block_side_attachment was corrected from null to its default, true. 
+[21Dec2024 13:27:12.616] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.slide_on_fall was corrected from null to its default, true. 
+[21Dec2024 13:27:12.621] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.rope_override was corrected from null to its default, supplementaries:rope. 
+[21Dec2024 13:27:12.622] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.623] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.capacity was corrected from null to its default, 12. 
+[21Dec2024 13:27:12.625] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.drink_from_jar was corrected from null to its default, false. 
+[21Dec2024 13:27:12.627] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.drink_from_jar_item was corrected from null to its default, false. 
+[21Dec2024 13:27:12.628] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_auto_detect was corrected from null to its default, false. 
+[21Dec2024 13:27:12.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_capture was corrected from null to its default, true. 
+[21Dec2024 13:27:12.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_cookies was corrected from null to its default, true. 
+[21Dec2024 13:27:12.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_liquids was corrected from null to its default, true. 
+[21Dec2024 13:27:12.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.allow_all_mobs was corrected from null to its default, false. 
+[21Dec2024 13:27:12.636] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.cage_allow_all_babies was corrected from null to its default, false. 
+[21Dec2024 13:27:12.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.cage_auto_detect was corrected from null to its default, false. 
+[21Dec2024 13:27:12.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.persistent_mobs was corrected from null to its default, false. 
+[21Dec2024 13:27:12.640] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.health_threshold was corrected from null to its default, 100. 
+[21Dec2024 13:27:12.640] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.641] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.642] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.prevent_breaking was corrected from null to its default, false. 
+[21Dec2024 13:27:12.644] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.simple_safes was corrected from null to its default, false. 
+[21Dec2024 13:27:12.644] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.645] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.645] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.sack_penalty was corrected from null to its default, true. 
+[21Dec2024 13:27:12.646] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.sack_increment was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.647] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.slots was corrected from null to its default, 9. 
+[21Dec2024 13:27:12.647] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.652] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.654] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.tipped_spikes was corrected from null to its default, true. 
+[21Dec2024 13:27:12.655] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.player_loot was corrected from null to its default, false. 
+[21Dec2024 13:27:12.655] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.only_allow_harmful_effects was corrected from null to its default, true. 
+[21Dec2024 13:27:12.657] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.populate_creative_tab was corrected from null to its default, true. 
+[21Dec2024 13:27:12.658] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.659] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.659] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.critter_spawn_chance was corrected from null to its default, 0.009999999776482582. 
+[21Dec2024 13:27:12.661] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.cave_urns was corrected from null to its default, true. 
+[21Dec2024 13:27:12.662] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.662] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.664] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap.clean_blacklist was corrected from null to its default, [minecraft:glazed_terracotta, botania:mystical_flower]. 
+[21Dec2024 13:27:12.672] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.673] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.674] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present.trapped_present was corrected from null to its default, true. 
+[21Dec2024 13:27:12.675] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.676] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.677] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax.wild_flax was corrected from null to its default, true. 
+[21Dec2024 13:27:12.678] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.fodder was corrected from null to its default, true. 
+[21Dec2024 13:27:12.679] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.hourglass was corrected from null to its default, true. 
+[21Dec2024 13:27:12.690] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.692] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.693] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.694] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.colored_blackboard was corrected from null to its default, false. 
+[21Dec2024 13:27:12.698] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.interaction_mode was corrected from null to its default, BOTH. 
+[21Dec2024 13:27:12.699] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.700] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.701] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.swap_on_shift was corrected from null to its default, false. 
+[21Dec2024 13:27:12.703] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.axes_strip was corrected from null to its default, true. 
+[21Dec2024 13:27:12.704] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.replace_daub was corrected from null to its default, true. 
+[21Dec2024 13:27:12.706] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.double_opening was corrected from null to its default, true. 
+[21Dec2024 13:27:12.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.door-like_gates was corrected from null to its default, false. 
+[21Dec2024 13:27:12.711] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf.climbable_shelves was corrected from null to its default, false. 
+[21Dec2024 13:27:12.714] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.715] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.716] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube.horse_speed_duration was corrected from null to its default, 10. 
+[21Dec2024 13:27:12.717] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.718] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.718] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter.broken_by_sapling was corrected from null to its default, true. 
+[21Dec2024 13:27:12.719] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.719] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.720] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board.allow_any_item was corrected from null to its default, false. 
+[21Dec2024 13:27:12.721] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.721] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.722] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal.crystal_enchanting was corrected from null to its default, 3. 
+[21Dec2024 13:27:12.722] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.723] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.724] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.ash_from_fire was corrected from null to its default, true. 
+[21Dec2024 13:27:12.725] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.rain_wash_ash was corrected from null to its default, true. 
+[21Dec2024 13:27:12.725] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.basalt_ash was corrected from null to its default, true. 
+[21Dec2024 13:27:12.726] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.727] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.727] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.stick_pole was corrected from null to its default, true. 
+[21Dec2024 13:27:12.728] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.pole_length was corrected from null to its default, 16. 
+[21Dec2024 13:27:12.729] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.730] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.730] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet.allow_drinking was corrected from null to its default, true. 
+[21Dec2024 13:27:12.731] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.731] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.732] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe.sepia_globe was corrected from null to its default, true. 
+[21Dec2024 13:27:12.732] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe.chance was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.739] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign.show_distance_text was corrected from null to its default, true. 
+[21Dec2024 13:27:12.740] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.741] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.741] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub.wattle_and_daub was corrected from null to its default, true. 
+[21Dec2024 13:27:12.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash_bricks was corrected from null to its default, true. 
+[21Dec2024 13:27:12.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.lapis_bricks was corrected from null to its default, true. 
+[21Dec2024 13:27:12.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.deepslate_lamp was corrected from null to its default, true. 
+[21Dec2024 13:27:12.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.end_stone_lamp was corrected from null to its default, true. 
+[21Dec2024 13:27:12.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackstone_lamp was corrected from null to its default, true. 
+[21Dec2024 13:27:12.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.stone_lamp was corrected from null to its default, true. 
+[21Dec2024 13:27:12.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.stone_tile was corrected from null to its default, true. 
+[21Dec2024 13:27:12.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackstone_tile was corrected from null to its default, true. 
+[21Dec2024 13:27:12.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce was corrected from null to its default, true. 
+[21Dec2024 13:27:12.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce_lever was corrected from null to its default, true. 
+[21Dec2024 13:27:12.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce_green was corrected from null to its default, false. 
+[21Dec2024 13:27:12.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pancake was corrected from null to its default, true. 
+[21Dec2024 13:27:12.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.netherite_door was corrected from null to its default, true. 
+[21Dec2024 13:27:12.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.netherite_trapdoor was corrected from null to its default, true. 
+[21Dec2024 13:27:12.755] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.silver_door was corrected from null to its default, true. 
+[21Dec2024 13:27:12.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.silver_trapdoor was corrected from null to its default, true. 
+[21Dec2024 13:27:12.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.lead_door was corrected from null to its default, true. 
+[21Dec2024 13:27:12.757] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.lead_trapdoor was corrected from null to its default, true. 
+[21Dec2024 13:27:12.757] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.hanging_sign was corrected from null to its default, true. 
+[21Dec2024 13:27:12.757] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.crimson_lantern was corrected from null to its default, true. 
+[21Dec2024 13:27:12.757] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.copper_lantern was corrected from null to its default, true. 
+[21Dec2024 13:27:12.757] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.checker_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.raked_gravel was corrected from null to its default, true. 
+[21Dec2024 13:27:12.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.feather_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.762] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.statue was corrected from null to its default, true. 
+[21Dec2024 13:27:12.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flower_box was corrected from null to its default, true. 
+[21Dec2024 13:27:12.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.doormat was corrected from null to its default, true. 
+[21Dec2024 13:27:12.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flint_block was corrected from null to its default, true. 
+[21Dec2024 13:27:12.765] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.candle_holder was corrected from null to its default, true. 
+[21Dec2024 13:27:12.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.use_without_slow was corrected from null to its default, true. 
+[21Dec2024 13:27:12.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.slots was corrected from null to its default, 6. 
+[21Dec2024 13:27:12.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.quiver_skeleton_chance was corrected from null to its default, 0.2. 
+[21Dec2024 13:27:12.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.only_works_in_curio was corrected from null to its default, false. 
+[21Dec2024 13:27:12.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.quiver_pickup was corrected from null to its default, true. 
+[21Dec2024 13:27:12.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.stasis_cost was corrected from null to its default, 5. 
+[21Dec2024 13:27:12.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.lifetime was corrected from null to its default, 1200. 
+[21Dec2024 13:27:12.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.break_when_touched was corrected from null to its default, true. 
+[21Dec2024 13:27:12.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.feather_falling_prevents_breaking was corrected from null to its default, true. 
+[21Dec2024 13:27:12.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench.bypass_when_on was corrected from null to its default, MAIN_HAND. 
+[21Dec2024 13:27:12.785] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.785] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.786] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.capacity was corrected from null to its default, 32. 
+[21Dec2024 13:27:12.787] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.exclusive_to_crossbows was corrected from null to its default, false. 
+[21Dec2024 13:27:12.789] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.789] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.793] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.unbound_radius was corrected from null to its default, 64. 
+[21Dec2024 13:27:12.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.bound_distance was corrected from null to its default, 64. 
+[21Dec2024 13:27:12.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.explosion_radius was corrected from null to its default, 2.0. 
+[21Dec2024 13:27:12.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.break_blocks was corrected from null to its default, WEAK. 
+[21Dec2024 13:27:12.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.bomb_fuse was corrected from null to its default, 0. 
+[21Dec2024 13:27:12.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb.explosion_radius was corrected from null to its default, 5.15. 
+[21Dec2024 13:27:12.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb.break_blocks was corrected from null to its default, WEAK. 
+[21Dec2024 13:27:12.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.range_multiplier was corrected from null to its default, 1.0. 
+[21Dec2024 13:27:12.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.charge_time was corrected from null to its default, 20. 
+[21Dec2024 13:27:12.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.stasis_deceleration was corrected from null to its default, 0.9625. 
+[21Dec2024 13:27:12.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.unrestricted_enderman_intercept was corrected from null to its default, true. 
+[21Dec2024 13:27:12.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.antique_ink was corrected from null to its default, true. 
+[21Dec2024 13:27:12.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.candy was corrected from null to its default, true. 
+[21Dec2024 13:27:12.824] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.stasis was corrected from null to its default, true. 
+[21Dec2024 13:27:12.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
+[21Dec2024 13:27:12.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dispensers was corrected from null to its default, true. 
+[21Dec2024 13:27:12.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.jar_tab was corrected from null to its default, false. 
+[21Dec2024 13:27:12.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
+[21Dec2024 13:27:12.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.server_protection was corrected from null to its default, false. 
+[21Dec2024 13:27:12.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.red_merchant_spawn_multiplier was corrected from null to its default, 1.0. 
+[21Dec2024 13:27:12.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.shulker_helmet was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.shulker_helmet.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dye_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dye_blocks.enabled was corrected from null to its default, false. 
+[21Dec2024 13:27:12.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.traders_open_doors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.traders_open_doors.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.870] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks.axe_strip was corrected from null to its default, true. 
+[21Dec2024 13:27:12.870] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks.shoot_ender_pearls was corrected from null to its default, true. 
+[21Dec2024 13:27:12.871] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.double_cake was corrected from null to its default, true. 
+[21Dec2024 13:27:12.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.directional_cake was corrected from null to its default, true. 
+[21Dec2024 13:27:12.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.skull_piles was corrected from null to its default, true. 
+[21Dec2024 13:27:12.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.skull_candles was corrected from null to its default, true. 
+[21Dec2024 13:27:12.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.multiple_candles was corrected from null to its default, true. 
+[21Dec2024 13:27:12.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.874] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.874] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.875] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.875] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.high_priority was corrected from null to its default, true. 
+[21Dec2024 13:27:12.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.mod_blacklist was corrected from null to its default, [extlights, betterendforge, tconstruct, enigmaticlegacy]. 
+[21Dec2024 13:27:12.878] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.fallin_lanterns was corrected from null to its default, ON. 
+[21Dec2024 13:27:12.878] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.879] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_ringing was corrected from null to its default, true. 
+[21Dec2024 13:27:12.880] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_length was corrected from null to its default, 16. 
+[21Dec2024 13:27:12.880] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.sticks was corrected from null to its default, true. 
+[21Dec2024 13:27:12.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.blaze_rods was corrected from null to its default, true. 
+[21Dec2024 13:27:12.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.speed was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.889] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.spread_age was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.890] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.890] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.891] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.891] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.enabled was corrected from null to its default, false. 
+[21Dec2024 13:27:12.892] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.cost was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.892] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.893] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.random_adventurer_maps was corrected from null to its default, true. 
+[21Dec2024 13:27:12.893] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.block_map_markers was corrected from null to its default, true. 
+[21Dec2024 13:27:12.894] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.quill_adventurer_maps was corrected from null to its default, true. 
+[21Dec2024 13:27:12.895] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.quill_vanilla_maps was corrected from null to its default, true. 
+[21Dec2024 13:27:12.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.map_trade_price_multiplier was corrected from null to its default, 2.0. 
+[21Dec2024 13:27:12.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.map_trade_max_trades was corrected from null to its default, 2. 
+[21Dec2024 13:27:12.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.898] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.898] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.899] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enabled was corrected from null to its default, true. 
+[21Dec2024 13:27:12.900] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.book_power was corrected from null to its default, 1.0. 
+[21Dec2024 13:27:12.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enchanted_book_power was corrected from null to its default, 1.334. 
+[21Dec2024 13:27:12.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.mixed_books was corrected from null to its default, false. 
+[21Dec2024 13:27:12.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:12.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.zombie_horse_conversion was corrected from null to its default, true. 
+[21Dec2024 13:27:12.904] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rotten_flesh was corrected from null to its default, 64. 
+[21Dec2024 13:27:12.904] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rideable_underwater was corrected from null to its default, true. 
+[21Dec2024 13:27:12.904] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.zombie_horse_inverse_conversion was corrected from null to its default, true. 
+[21Dec2024 13:27:13.091] [modloading-worker-0/ERROR] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [ERROR] could not created a startup backup config file (java.nio.file.NoSuchFileException: /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/nostalgic_tweaks-server.json)
+[21Dec2024 13:27:13.260] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:27:13.440] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loaded 61 server controlled tweaks
+[21Dec2024 13:27:13.453] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
+[21Dec2024 13:27:13.463] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
+[21Dec2024 13:27:13.489] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
+[21Dec2024 13:27:13.490] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
+[21Dec2024 13:27:13.490] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
+[21Dec2024 13:27:13.491] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [FORGE] server environment
+[21Dec2024 13:27:16.462] [main/INFO] [Moonlight/]: Initialized block sets in 38ms
+[21Dec2024 13:27:17.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/repurposed_structures-forge/modded_loot.toml is not correct. Correcting
+[21Dec2024 13:27:17.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key importModdedItems was corrected from null to its default, true. 
+[21Dec2024 13:27:17.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklistedRSLoottablesFromImportingModdedItems was corrected from null to its default, . 
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/sereneseasons/fertility.toml is not correct. Correcting
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.seasonal_crops was corrected from null to its default, true. 
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.crop_tooltips was corrected from null to its default, true. 
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.out_of_season_crop_behavior was corrected from null to its default, 0. 
+[21Dec2024 13:27:17.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.underground_fertility_level was corrected from null to its default, 48. 
+[21Dec2024 13:27:17.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/sereneseasons/seasons.toml is not correct. Correcting
+[21Dec2024 13:27:17.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key weather_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:17.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key weather_settings.generate_snow_ice was corrected from null to its default, true. 
+[21Dec2024 13:27:17.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key weather_settings.change_weather_frequency was corrected from null to its default, true. 
+[21Dec2024 13:27:17.267] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gitfacturecraft2/servidor_minecraft/config/aether-common.toml is not correct. Correcting
+[21Dec2024 13:27:17.268] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:17.269] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Use default Curios' menu was corrected from null to its default, false. 
+[21Dec2024 13:27:17.269] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Gives player Aether Portal Frame item was corrected from null to its default, false. 
+[21Dec2024 13:27:17.270] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Gives starting loot on entry was corrected from null to its default, true. 
+[21Dec2024 13:27:17.271] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Reposition attack message above hotbar was corrected from null to its default, false. 
+[21Dec2024 13:27:17.271] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Repeat Sun Spirit's battle dialogue was corrected from null to its default, true. 
+[21Dec2024 13:27:17.272] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Show Patreon message was corrected from null to its default, true. 
+[21Dec2024 13:27:17.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Data Pack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:17.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Data Pack.Add Temporary Freezing automatically was corrected from null to its default, false. 
+[21Dec2024 13:27:17.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Data Pack.Add Ruined Portals automatically was corrected from null to its default, false. 
+[21Dec2024 13:27:17.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Modpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Dec2024 13:27:17.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Modpack.Randomize boss names was corrected from null to its default, true. 
+[21Dec2024 13:27:17.444] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[21Dec2024 13:27:17.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[21Dec2024 13:27:17.956] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[21Dec2024 13:27:18.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.19.4-2.4.15 Target: null
+[21Dec2024 13:27:18.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.4-develop/update.json
+[21Dec2024 13:27:18.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.4-1.0.0-forge Target: null
+[21Dec2024 13:27:18.503] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.4-develop/update.json
+[21Dec2024 13:27:18.587] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2dafda64]
+[21Dec2024 13:27:18.603] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.14+6360-094b734) is loaded
+[21Dec2024 13:27:18.641] [main/INFO] [Moonlight/]: Initialized color sets in 30ms
+[21Dec2024 13:27:18.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.4-1.5.1-forge Target: null
+[21Dec2024 13:27:18.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Dec2024 13:27:18.780] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 46, 0, 1, 0, 0, 16, 3] ms
+[21Dec2024 13:27:19.009] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.3 Target: 45.3.9
+[21Dec2024 13:27:19.010] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
+[21Dec2024 13:27:19.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.19.4-2.4.16 Target: null
+[21Dec2024 13:27:19.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://maxhenkel.de/update/sound_physics_remastered.json
+[21Dec2024 13:27:19.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: UP_TO_DATE Current: 1.19.4-1.1.1 Target: null
+[21Dec2024 13:27:20.710] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Dec2024 13:27:20.806] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 45.3.9 -> 45.3.3)
+Things may not work well.
+[21Dec2024 13:27:22.426] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[21Dec2024 13:27:22.427] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[21Dec2024 13:27:22.626] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 88 ms
+[21Dec2024 13:27:25.040] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[21Dec2024 13:27:26.414] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[21Dec2024 13:27:26.417] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[21Dec2024 13:27:26.445] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[21Dec2024 13:27:26.468] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[21Dec2024 13:27:27.204] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.4-20230314.122934-srg.jar%23131!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.19.4-20230314.122934-srg.jar%23131!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21Dec2024 13:27:27.423] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1718 advancements
+[21Dec2024 13:27:27.572] [main/INFO] [Supplementaries/]: Loaded  8 flute songs
+[21Dec2024 13:27:27.674] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:shipwrech
+[21Dec2024 13:27:28.658] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_cod_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.cod
+[21Dec2024 13:27:28.659] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_salmon_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.salmon
+[21Dec2024 13:27:28.659] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_pufferfish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.pufferfish
+[21Dec2024 13:27:28.660] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tropical_fish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tropical_fish
+[21Dec2024 13:27:28.660] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_axolotl_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.axolotl
+[21Dec2024 13:27:28.660] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tadpole_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tadpole
+[21Dec2024 13:27:28.699] [main/INFO] [Supplementaries/]: Finished additional setup in 53 ms
+[21Dec2024 13:27:28.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[21Dec2024 13:27:28.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Dec2024 13:27:28.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Dec2024 13:27:28.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Dec2024 13:27:29.153] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Dec2024 13:27:29.189] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Dec2024 13:27:29.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Dec2024 13:27:29.317] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Dec2024 13:27:29.317] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Dec2024 13:27:29.318] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Dec2024 13:27:29.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sexo"
+[21Dec2024 13:27:42.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Dec2024 13:27:42.796] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 13:27:43.327] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 13:27:43.941] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 13:27:44.578] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 13:27:44.795] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 13:27:49.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.285] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21Dec2024 13:27:49.782] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[21Dec2024 13:27:50.299] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[21Dec2024 13:27:50.667] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7886 ms
+[21Dec2024 13:27:50.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (21.343s)! For help, type "help"
+[21Dec2024 13:27:50.721] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Dec2024 13:27:50.725] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
+[21Dec2024 13:28:01.604] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.46.189.110:47207] logged in with entity id 317 at (174.89925675103206, 94.0, 183.36404913662167)
+[21Dec2024 13:28:01.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[21Dec2024 13:29:16.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made felixstorm a server operator
+[21Dec2024 13:31:11.370] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.372] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableSwim) with new value (true)
+[21Dec2024 13:31:11.373] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.374] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldStyleRabbitDrops) with new value (true)
+[21Dec2024 13:31:11.374] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.378] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSpiderDrops) with new value (true)
+[21Dec2024 13:31:11.423] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.426] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSheepPunching) with new value (true)
+[21Dec2024 13:31:11.426] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.428] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFoodStacking) with new value (true)
+[21Dec2024 13:31:11.429] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.431] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableSprint) with new value (true)
+[21Dec2024 13:31:11.432] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.434] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oneWoolPunch) with new value (true)
+[21Dec2024 13:31:11.435] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.437] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldStyleStrayDrops) with new value (true)
+[21Dec2024 13:31:11.437] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.439] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (instantBow) with new value (true)
+[21Dec2024 13:31:11.440] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.442] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableAnvil) with new value (true)
+[21Dec2024 13:31:11.443] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.444] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldZombieDrops) with new value (true)
+[21Dec2024 13:31:11.445] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.447] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableHunger) with new value (true)
+[21Dec2024 13:31:11.461] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.463] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableOrbSpawn) with new value (true)
+[21Dec2024 13:31:11.464] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.465] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldStyleMooshroomDrops) with new value (true)
+[21Dec2024 13:31:11.466] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.469] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldStyleZombieVillagerDrops) with new value (true)
+[21Dec2024 13:31:11.536] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.537] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldZombiePigmenDrops) with new value (true)
+[21Dec2024 13:31:11.537] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.538] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableEnchantTable) with new value (true)
+[21Dec2024 13:31:11.539] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.540] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldStyleHuskDrops) with new value (true)
+[21Dec2024 13:31:11.541] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.542] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableAnimalPanic) with new value (false)
+[21Dec2024 13:31:11.545] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.546] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFire) with new value (true)
+[21Dec2024 13:31:11.547] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[21Dec2024 13:31:11.548] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldSkeletonDrops) with new value (true)
+[21Dec2024 13:33:53.780] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:58783] logged in with entity id 1009 at (174.5, 92.0, 169.5)
+[21Dec2024 13:33:53.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[21Dec2024 13:35:03.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[21Dec2024 13:35:35.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <felixstorm> muja dame el libro
+[21Dec2024 13:36:08.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> donde coño esta herobrine
+[21Dec2024 13:36:13.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[21Dec2024 13:36:37.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 13:36:58.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 13:37:10.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Stone Age]
+[21Dec2024 13:37:32.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Getting an Upgrade]
+[21Dec2024 13:37:51.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 13:39:22.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Monster Hunter]
+[21Dec2024 13:39:44.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:39:52.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:39:58.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> NO ME QUITES VIDA
+[21Dec2024 13:40:01.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> SUB NORMAL
+[21Dec2024 13:40:37.960] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[21Dec2024 13:40:37.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[21Dec2024 13:40:43.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Who is Cutting Onions?]
+[21Dec2024 13:40:43.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [You've Got a Friend in Me]
+[21Dec2024 13:40:43.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [With Our Powers Combined!]
+[21Dec2024 13:40:43.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [You Don't Know What You Did...]
+[21Dec2024 13:40:43.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Cold as Ice]
+[21Dec2024 13:40:43.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Why Would You do That!?]
+[21Dec2024 13:40:43.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Suit Up]
+[21Dec2024 13:40:43.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [It's Communicating...]
+[21Dec2024 13:40:43.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Free the End]
+[21Dec2024 13:40:43.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Sprawling Civilizations]
+[21Dec2024 13:40:43.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Glow and Behold!]
+[21Dec2024 13:40:43.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Bring Home the Beacon]
+[21Dec2024 13:40:43.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [I Should Call Kevin!]
+[21Dec2024 13:40:43.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Not Today, Thank You]
+[21Dec2024 13:40:43.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Literally Awesome.]
+[21Dec2024 13:40:43.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [When the Squad Hops into Town]
+[21Dec2024 13:40:43.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Isn't It Iron Pick]
+[21Dec2024 13:40:43.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [How the Turn Tables]
+[21Dec2024 13:40:43.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Lore-Ception!]
+[21Dec2024 13:40:43.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [WHAT WAS THAT?]
+[21Dec2024 13:40:43.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [I Am Not Going Down That.]
+[21Dec2024 13:40:43.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Local Brewery]
+[21Dec2024 13:40:43.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [The Next Generation]
+[21Dec2024 13:40:43.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Fishy Business]
+[21Dec2024 13:40:43.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Extinguished]
+[21Dec2024 13:40:43.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Hot Tourist Destinations]
+[21Dec2024 13:40:43.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Do You Believe in Magic?]
+[21Dec2024 13:40:43.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [This Boat Has Legs]
+[21Dec2024 13:40:43.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Great View From Up Here]
+[21Dec2024 13:40:43.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [How Did We Get Here?]
+[21Dec2024 13:40:43.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Bullseye]
+[21Dec2024 13:40:43.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [I'm on Singleplayer Right?]
+[21Dec2024 13:40:43.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Just A Bad Dream... Right?]
+[21Dec2024 13:40:43.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Let's Fly!]
+[21Dec2024 13:40:43.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Stone Age]
+[21Dec2024 13:40:43.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Fireproof]
+[21Dec2024 13:40:43.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Two Birds, One Arrow]
+[21Dec2024 13:40:43.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [We Need to Go Deeper]
+[21Dec2024 13:40:43.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Who's the Pillager Now?]
+[21Dec2024 13:40:43.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Tending The Garden]
+[21Dec2024 13:40:43.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Tributes and Sacrifices]
+[21Dec2024 13:40:43.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Leave Me Alone.]
+[21Dec2024 13:40:43.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Unanswered Prayers]
+[21Dec2024 13:40:43.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Dethroned]
+[21Dec2024 13:40:43.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Into Fire]
+[21Dec2024 13:40:43.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Plunderer's Remorse]
+[21Dec2024 13:40:43.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Take Aim]
+[21Dec2024 13:40:43.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Total Beelocation]
+[21Dec2024 13:40:43.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Arbalistic]
+[21Dec2024 13:40:43.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Acquire Hardware]
+[21Dec2024 13:40:43.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Following the Eyes]
+[21Dec2024 13:40:43.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Having a Hobbit Time!]
+[21Dec2024 13:40:43.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Not Quite "Nine" Lives]
+[21Dec2024 13:40:43.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Cover Me with Diamonds]
+[21Dec2024 13:40:43.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Bukkit Bukkit]
+[21Dec2024 13:40:43.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Wax Off]
+[21Dec2024 13:40:43.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [I Don't Remember Doing This.]
+[21Dec2024 13:40:43.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [I Have To Hide.]
+[21Dec2024 13:40:43.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Hired Help]
+[21Dec2024 13:40:43.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [A Well Earned Rest]
+[21Dec2024 13:40:43.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Baby Food]
+[21Dec2024 13:40:43.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Blazing Cities]
+[21Dec2024 13:40:43.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Sweet Dreams]
+[21Dec2024 13:40:43.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [You Need a Mint]
+[21Dec2024 13:40:43.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Toiling in the Mines]
+[21Dec2024 13:40:43.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Monsters Hunted]
+[21Dec2024 13:40:43.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Enchanter]
+[21Dec2024 13:40:43.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Voluntary Exile]
+[21Dec2024 13:40:43.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Is It a Bird?]
+[21Dec2024 13:40:43.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Postmortal]
+[21Dec2024 13:40:43.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Challenger to the Throne]
+[21Dec2024 13:40:43.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Birthday Song]
+[21Dec2024 13:40:43.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Is It a Plane?]
+[21Dec2024 13:40:43.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Star Trader]
+[21Dec2024 13:40:43.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [... Until They hatch!]
+[21Dec2024 13:40:43.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Wax On]
+[21Dec2024 13:40:43.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Sound of Music]
+[21Dec2024 13:40:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Hero of the Village]
+[21Dec2024 13:40:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Hexes and Curses]
+[21Dec2024 13:40:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Hidden in the Depths]
+[21Dec2024 13:40:43.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Beaconator]
+[21Dec2024 13:40:43.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Hello Liberty.]
+[21Dec2024 13:40:43.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Civilization from the Beyond]
+[21Dec2024 13:40:43.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Bee Our Guest]
+[21Dec2024 13:40:43.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [What a Deal!]
+[21Dec2024 13:40:43.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Is It a Balloon?]
+[21Dec2024 13:40:43.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Uneasy Alliance]
+[21Dec2024 13:40:43.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Get Off My Lawn!]
+[21Dec2024 13:40:43.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The Useless Portal]
+[21Dec2024 13:40:43.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The Healing Power of Friendship!]
+[21Dec2024 13:40:43.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [A Throwaway Joke]
+[21Dec2024 13:40:43.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Like a Bossaru!]
+[21Dec2024 13:40:43.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Sticky Situation]
+[21Dec2024 13:40:43.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Ol' Betsy]
+[21Dec2024 13:40:43.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [When the Stew is Sus]
+[21Dec2024 13:40:43.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Cover Me in Debris]
+[21Dec2024 13:40:43.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The Parrots and the Bats]
+[21Dec2024 13:40:43.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [A Complete Catalogue]
+[21Dec2024 13:40:43.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Oh Shiny]
+[21Dec2024 13:40:43.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Someone's Following Me...]
+[21Dec2024 13:40:43.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Bastions, Evil, and Bones...]
+[21Dec2024 13:40:43.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [When Phygs Fly]
+[21Dec2024 13:40:43.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Very Very Frightening]
+[21Dec2024 13:40:43.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Hot Stuff]
+[21Dec2024 13:40:43.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Whatever Floats Your Goat!]
+[21Dec2024 13:40:43.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Surge Protector]
+[21Dec2024 13:40:43.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [A Furious Cocktail]
+[21Dec2024 13:40:43.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [This Must be a Sign!]
+[21Dec2024 13:40:43.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Best Friends Forever]
+[21Dec2024 13:40:43.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Interdimensional Pirates]
+[21Dec2024 13:40:43.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [You Okay Boy?]
+[21Dec2024 13:40:43.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Behind You...]
+[21Dec2024 13:40:43.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Consume the Concoction Chalice]
+[21Dec2024 13:40:43.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [A Light In The Dark...]
+[21Dec2024 13:40:43.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [It Spreads]
+[21Dec2024 13:40:43.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Battle Hardened]
+[21Dec2024 13:40:43.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Caves & Cliffs]
+[21Dec2024 13:40:43.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Raider of the Tombs]
+[21Dec2024 13:40:43.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Sniper Duel]
+[21Dec2024 13:40:43.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Skyward Cities]
+[21Dec2024 13:40:43.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Is Someone Following Me?]
+[21Dec2024 13:40:43.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Spooky Scary Skeleton]
+[21Dec2024 13:40:43.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Two by Two]
+[21Dec2024 13:40:43.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [WHAT?!]
+[21Dec2024 13:40:43.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Getting an Upgrade]
+[21Dec2024 13:40:43.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Light as a Rabbit]
+[21Dec2024 13:40:43.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Tactical Fishing]
+[21Dec2024 13:40:43.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Hostile Paradise]
+[21Dec2024 13:40:43.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Zombie Doctor]
+[21Dec2024 13:40:43.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [I'm Gonna Take It, Screw you!]
+[21Dec2024 13:40:43.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Tide Pod Challenge]
+[21Dec2024 13:40:43.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Ice Bucket Armor]
+[21Dec2024 13:40:43.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The City at the End of the Game]
+[21Dec2024 13:40:43.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Ice Bucket Challenge]
+[21Dec2024 13:40:43.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Remote Getaway]
+[21Dec2024 13:40:43.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Territory Control]
+[21Dec2024 13:40:43.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [War Pigs]
+[21Dec2024 13:40:43.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [The End... Again...]
+[21Dec2024 13:40:43.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Pink is the New Blue]
+[21Dec2024 13:40:43.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Sky's the Limit]
+[21Dec2024 13:40:43.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Engineer Gaming]
+[21Dec2024 13:40:43.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Sneak 100]
+[21Dec2024 13:40:43.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Who Put This Here?]
+[21Dec2024 13:40:43.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Return to Sender]
+[21Dec2024 13:40:43.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Eye Spy]
+[21Dec2024 13:40:43.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Serious Dedication]
+[21Dec2024 13:40:43.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [The Power of the Gods]
+[21Dec2024 13:40:43.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Lavish Livings]
+[21Dec2024 13:40:43.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Monster Hunter]
+[21Dec2024 13:40:43.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Adventuring Time]
+[21Dec2024 13:40:43.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [A Seedy Place]
+[21Dec2024 13:40:43.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Those Were the Days]
+[21Dec2024 13:40:43.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [To Infinity and Beyond!]
+[21Dec2024 13:40:43.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The Cutest Predator]
+[21Dec2024 13:40:43.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Cool Jewelery!]
+[21Dec2024 13:40:43.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [He's Watching...]
+[21Dec2024 13:40:43.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Feels Like Home]
+[21Dec2024 13:40:43.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Lava Couldn't Cause This...]
+[21Dec2024 13:40:43.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Earning your Wings]
+[21Dec2024 13:40:43.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Withering Heights]
+[21Dec2024 13:40:43.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [A Balanced Diet]
+[21Dec2024 13:40:43.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Subspace Bubble]
+[21Dec2024 13:40:43.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Exotic Hardware]
+[21Dec2024 13:40:43.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Ultimate Ban Hammer]
+[21Dec2024 13:40:43.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Country Lode, Take Me Home]
+[21Dec2024 13:40:43.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Diamonds!]
+[21Dec2024 13:40:43.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [You Spin Me Right Round Baby]
+[21Dec2024 13:40:43.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [A Terrible Fortress]
+[21Dec2024 13:40:43.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Don't Count Your Moas...]
+[21Dec2024 13:40:43.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has completed the challenge [Get Me Out of Here!]
+[21Dec2024 13:40:43.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The More You Know!]
+[21Dec2024 13:40:43.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Remains of the Past]
+[21Dec2024 13:40:43.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [The End?]
+[21Dec2024 13:40:43.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has reached the goal [Defying Gravity]
+[21Dec2024 13:40:43.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Decaying Glory]
+[21Dec2024 13:40:43.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Granted 1718 advancements to felixstorm]
+[21Dec2024 13:40:45.956] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
+[21Dec2024 13:40:45.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
+[21Dec2024 13:40:55.142] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:42037] logged in with entity id 2716 at (67.24386353200552, 32.0, 501.2603112324176)
+[21Dec2024 13:40:55.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[21Dec2024 13:40:57.254] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.46.189.110:35811] logged in with entity id 2772 at (60.38104861288521, 36.98773614728516, 511.9024767424262)
+[21Dec2024 13:40:57.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[21Dec2024 13:43:49.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 13:44:01.114] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:40499] logged in with entity id 3545 at (168.5, 92.0, 171.5)
+[21Dec2024 13:44:01.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
+[21Dec2024 13:44:18.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: true]
+[21Dec2024 13:46:23.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Acquire Hardware]
+[21Dec2024 13:46:35.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Isn't It Iron Pick]
+[21Dec2024 13:46:41.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[21Dec2024 13:46:47.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Suit Up]
+[21Dec2024 13:46:56.701] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/4550, l='ServerLevel[sexo]', x=152.97, y=-256.00, z=208.42] died, message: 'Villager fell out of the world'
+[21Dec2024 13:47:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:05.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:06.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:06.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:06.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:07.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:07.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:07.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> HEROBRAINE
+[21Dec2024 13:47:08.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> YIPEEEEEE
+[21Dec2024 13:47:19.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Monster Hunter]
+[21Dec2024 13:49:11.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:49:17.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:49:28.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:49:36.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:49:50.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Primed TNT]
+[21Dec2024 13:51:02.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 7 command(s) from function 'fromthefog:admin/cleanup']
+[21Dec2024 13:51:03.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> VOY A COMER
+[21Dec2024 13:51:04.564] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun2412 lost connection: Disconnected
+[21Dec2024 13:51:04.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 left the game
+[21Dec2024 13:51:09.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
+[21Dec2024 13:51:13.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
+[21Dec2024 13:51:14.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
+[21Dec2024 13:51:15.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 23 command(s) from function 'watching:config/pages/2']
+[21Dec2024 13:51:19.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'watching:config/pages/3']
+[21Dec2024 13:51:21.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 24 command(s) from function 'watching:config/pages/4']
+[21Dec2024 13:51:23.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 24 command(s) from function 'watching:config/pages/4']
+[21Dec2024 13:51:23.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 25 command(s) from function 'watching:config/pages/5']
+[21Dec2024 13:51:24.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 25 command(s) from function 'watching:config/pages/5']
+[21Dec2024 13:51:25.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 11 command(s) from function 'watching:config/pages/6']
+[21Dec2024 13:52:06.809] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
+[21Dec2024 13:52:06.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
+[21Dec2024 13:52:14.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> Como consigo las cabezas?
+[21Dec2024 13:52:15.312] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.46.189.110:50063] logged in with entity id 6332 at (256.60739275611735, 24.620428638092708, 534.6560292312669)
+[21Dec2024 13:52:15.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[21Dec2024 13:52:17.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> Como consigo las cabezas?
+[21Dec2024 13:53:54.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to 2 players]
+[21Dec2024 13:54:17.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Stopped all sounds]
+[21Dec2024 13:54:25.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music_disc.13 to 2 players]
