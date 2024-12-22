@@ -270,3 +270,31 @@ java.lang.IllegalArgumentException: Container size 1 is smaller than expected 27
 [22Dec2024 17:53:53.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Sweet Dreams]
 [22Dec2024 17:54:04.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Acquire Hardware]
 [22Dec2024 17:55:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
+[22Dec2024 17:55:57.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
+[22Dec2024 17:56:20.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
+[22Dec2024 17:56:57.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
+[22Dec2024 17:57:06.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
+[22Dec2024 17:57:16.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
+[22Dec2024 17:57:22.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
+[22Dec2024 17:57:32.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
+[22Dec2024 17:58:03.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
+[22Dec2024 17:58:13.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
+[22Dec2024 17:58:39.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 17:58:46.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[22Dec2024 17:59:19.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Is this... blood?]
+[22Dec2024 17:59:20.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Monster Hunter]
+[22Dec2024 17:59:33.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [What Was That!?]
+[22Dec2024 17:59:59.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[22Dec2024 18:00:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 18:01:45.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 18:02:10.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
+[22Dec2024 18:02:41.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:54619] logged in with entity id 5979 at (-155.5, 65.0, 559.5)
+[22Dec2024 18:02:41.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
+[22Dec2024 18:02:48.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doWardenSpawning is now set to: false]
+[22Dec2024 18:03:04.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 10.42829606452463,0.0,-1.6205558724286675
+[22Dec2024 18:03:53.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Stone Age]
+[22Dec2024 18:04:00.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Getting an Upgrade]
+[22Dec2024 18:04:36.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 18:05:33.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 11.12551854143544,0.0,-0.7055150183023216
+[22Dec2024 18:05:33.082] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2541ms or 50 ticks behind
+[22Dec2024 18:05:34.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Bloodthirsty]
