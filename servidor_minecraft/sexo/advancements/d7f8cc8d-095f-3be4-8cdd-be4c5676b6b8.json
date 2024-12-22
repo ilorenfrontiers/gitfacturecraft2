@@ -1,0 +1,52 @@
+{
+  "majruszsdifficulty:game_stage_normal": {
+    "criteria": {
+      "is_triggered": "2024-12-22 17:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-22 17:40:47 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_dart": {
+    "criteria": {
+      "has_feather": "2024-12-22 17:40:47 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2024-12-22 17:40:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-22 17:40:05 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding": {
+    "criteria": {
+      "bleeding_applied": "2024-12-22 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "watching:main/root": {
+    "criteria": {
+      "requirement": "2024-12-22 17:40:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-12-22 17:40:33 +0000",
+      "minecraft:plains": "2024-12-22 17:40:05 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3337
+}
