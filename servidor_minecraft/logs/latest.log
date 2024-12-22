@@ -251,3 +251,22 @@ java.lang.IllegalArgumentException: Container size 1 is smaller than expected 27
 [22Dec2024 17:43:27.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: true]
 [22Dec2024 17:44:44.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain]
 [22Dec2024 17:45:06.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 17:46:03.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mRswoggY_> ada
+[22Dec2024 17:46:20.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 17:46:59.339] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[22Dec2024 17:46:59.341] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFoodStacking) with new value (true)
+[22Dec2024 17:46:59.345] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[22Dec2024 17:46:59.349] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableHunger) with new value (true)
+[22Dec2024 17:47:17.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Stone Age]
+[22Dec2024 17:47:28.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Stone Age]
+[22Dec2024 17:47:34.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Getting an Upgrade]
+[22Dec2024 17:51:18.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[22Dec2024 17:52:25.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Timed out
+[22Dec2024 17:52:25.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
+[22Dec2024 17:52:25.254] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[22Dec2024 17:52:44.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.238.191.213:51187] logged in with entity id 3131 at (-137.46566263212404, 109.57780734847647, 727.0080879688618)
+[22Dec2024 17:52:44.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[22Dec2024 17:53:47.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Sweet Dreams]
+[22Dec2024 17:53:53.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Sweet Dreams]
+[22Dec2024 17:54:04.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Acquire Hardware]
+[22Dec2024 17:55:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
