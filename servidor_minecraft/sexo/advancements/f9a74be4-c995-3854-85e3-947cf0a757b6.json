@@ -28,8 +28,11 @@
       "minecraft:windswept_hills": "2024-12-22 18:14:33 +0000",
       "minecraft:beach": "2024-12-22 18:07:56 +0000",
       "minecraft:river": "2024-12-22 18:02:53 +0000",
+      "minecraft:swamp": "2024-12-22 18:24:16 +0000",
+      "minecraft:cold_ocean": "2024-12-22 18:24:43 +0000",
       "minecraft:forest": "2024-12-22 18:05:37 +0000",
-      "minecraft:windswept_savanna": "2024-12-22 18:13:05 +0000"
+      "minecraft:windswept_savanna": "2024-12-22 18:13:05 +0000",
+      "minecraft:windswept_gravelly_hills": "2024-12-22 18:24:11 +0000"
     },
     "done": false
   },
@@ -744,6 +747,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2024-12-22 18:11:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-12-22 18:27:26 +0000"
     },
     "done": true
   },
