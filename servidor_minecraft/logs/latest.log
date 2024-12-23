@@ -1,71 +1,71 @@
-[22Dec2024 17:35:41.459] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[22Dec2024 17:35:41.473] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[22Dec2024 17:35:43.862] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[22Dec2024 17:35:45.026] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.3.3/fmlcore-1.19.4-45.3.3.jar is missing mods.toml file
-[22Dec2024 17:35:45.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.3.3/javafmllanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[22Dec2024 17:35:45.035] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.3.3/lowcodelanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[22Dec2024 17:35:45.040] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.3.3/mclanguage-1.19.4-45.3.3.jar is missing mods.toml file
-[22Dec2024 17:35:45.621] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[22Dec2024 17:35:51.053] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Dec2024 17:35:51.453] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[22Dec2024 17:35:51.460] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[22Dec2024 17:35:51.571] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Dec2024 17:35:51.633] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Dec2024 17:35:51.638] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Dec2024 17:35:56.979] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
-[22Dec2024 17:35:56.986] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
-[22Dec2024 17:36:22.956] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[22Dec2024 17:36:23.569] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[22Dec2024 17:36:23.680] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
-[22Dec2024 17:36:23.684] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.3 Initialized
-[22Dec2024 17:36:27.578] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
-[22Dec2024 17:36:28.214] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
-[22Dec2024 17:36:28.392] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loaded 61 server controlled tweaks
-[22Dec2024 17:36:28.396] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
-[22Dec2024 17:36:28.404] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
-[22Dec2024 17:36:28.410] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
-[22Dec2024 17:36:28.410] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
-[22Dec2024 17:36:28.411] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
-[22Dec2024 17:36:28.412] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [FORGE] server environment
-[22Dec2024 17:36:34.667] [main/INFO] [Moonlight/]: Initialized block sets in 46ms
-[22Dec2024 17:36:36.122] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[22Dec2024 17:36:36.164] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[22Dec2024 17:36:36.165] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[22Dec2024 17:36:36.170] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[22Dec2024 17:36:36.589] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[22Dec2024 17:36:36.854] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading reverb parameters
-[22Dec2024 17:36:37.677] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[22Dec2024 17:36:38.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.19.4-2.4.15 Target: null
-[22Dec2024 17:36:38.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.4-develop/update.json
-[22Dec2024 17:36:38.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.4-1.5.1-forge Target: null
-[22Dec2024 17:36:38.490] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
-[22Dec2024 17:36:38.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: AHEAD Current: 1.9.7-backport.1 Target: null
-[22Dec2024 17:36:38.498] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://maxhenkel.de/update/sound_physics_remastered.json
-[22Dec2024 17:36:38.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: UP_TO_DATE Current: 1.19.4-1.1.1 Target: null
-[22Dec2024 17:36:38.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.4-develop/update.json
-[22Dec2024 17:36:38.999] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@15890e31]
-[22Dec2024 17:36:39.032] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.14+6360-094b734) is loaded
-[22Dec2024 17:36:39.195] [main/INFO] [Moonlight/]: Initialized color sets in 130ms
-[22Dec2024 17:36:39.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.4-1.0.0-forge Target: null
-[22Dec2024 17:36:39.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Dec2024 17:36:39.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.3 Target: 45.3.9
-[22Dec2024 17:36:39.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
-[22Dec2024 17:36:39.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.19.4-2.4.16 Target: null
-[22Dec2024 17:36:39.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[22Dec2024 17:36:39.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.4-backport.1 Target: null
-[22Dec2024 17:36:39.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[22Dec2024 17:36:39.574] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 111, 0, 11, 0, 0, 40, 6] ms
-[22Dec2024 17:36:40.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: UP_TO_DATE Current: 2.12.0 Target: null
-[22Dec2024 17:36:43.522] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Dec2024 17:36:46.902] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
-[22Dec2024 17:36:46.903] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
-[22Dec2024 17:36:47.177] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 102 ms
-[22Dec2024 17:36:51.913] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[22Dec2024 17:36:53.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[22Dec2024 17:36:53.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[22Dec2024 17:36:53.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[22Dec2024 17:36:54.008] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
-[22Dec2024 17:36:54.710] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[23Dec2024 15:34:26.342] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[23Dec2024 15:34:26.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Dec2024 15:34:27.959] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[23Dec2024 15:34:29.194] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.3.3/fmlcore-1.19.4-45.3.3.jar is missing mods.toml file
+[23Dec2024 15:34:29.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.3.3/javafmllanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[23Dec2024 15:34:29.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.3.3/lowcodelanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[23Dec2024 15:34:29.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.3.3/mclanguage-1.19.4-45.3.3.jar is missing mods.toml file
+[23Dec2024 15:34:29.759] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[23Dec2024 15:34:37.836] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Dec2024 15:34:38.340] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[23Dec2024 15:34:38.346] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Dec2024 15:34:38.518] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 15:34:38.630] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 15:34:38.633] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 15:34:44.317] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[23Dec2024 15:34:44.318] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[23Dec2024 15:35:08.968] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[23Dec2024 15:35:09.378] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23Dec2024 15:35:09.514] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
+[23Dec2024 15:35:09.521] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.3 Initialized
+[23Dec2024 15:35:12.850] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[23Dec2024 15:35:13.107] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[23Dec2024 15:35:13.303] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loaded 61 server controlled tweaks
+[23Dec2024 15:35:13.317] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
+[23Dec2024 15:35:13.328] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
+[23Dec2024 15:35:13.341] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
+[23Dec2024 15:35:13.341] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
+[23Dec2024 15:35:13.342] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
+[23Dec2024 15:35:13.343] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [FORGE] server environment
+[23Dec2024 15:35:18.733] [main/INFO] [Moonlight/]: Initialized block sets in 26ms
+[23Dec2024 15:35:19.982] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[23Dec2024 15:35:20.043] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[23Dec2024 15:35:20.046] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[23Dec2024 15:35:20.056] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[23Dec2024 15:35:20.758] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[23Dec2024 15:35:21.232] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[23Dec2024 15:35:22.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[23Dec2024 15:35:22.892] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.19.4-2.4.15 Target: null
+[23Dec2024 15:35:22.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.4-develop/update.json
+[23Dec2024 15:35:23.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.4-1.5.1-forge Target: null
+[23Dec2024 15:35:23.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[23Dec2024 15:35:23.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: AHEAD Current: 1.9.7-backport.1 Target: null
+[23Dec2024 15:35:23.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://maxhenkel.de/update/sound_physics_remastered.json
+[23Dec2024 15:35:23.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: UP_TO_DATE Current: 1.19.4-1.1.1 Target: null
+[23Dec2024 15:35:23.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.4-develop/update.json
+[23Dec2024 15:35:23.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.4-1.0.0-forge Target: null
+[23Dec2024 15:35:23.892] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Dec2024 15:35:24.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.3 Target: 45.3.9
+[23Dec2024 15:35:24.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
+[23Dec2024 15:35:24.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.19.4-2.4.16 Target: null
+[23Dec2024 15:35:24.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[23Dec2024 15:35:24.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.4-backport.1 Target: null
+[23Dec2024 15:35:24.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[23Dec2024 15:35:24.316] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2fc21b4c]
+[23Dec2024 15:35:24.352] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.14+6360-094b734) is loaded
+[23Dec2024 15:35:24.426] [main/INFO] [Moonlight/]: Initialized color sets in 52ms
+[23Dec2024 15:35:24.726] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 96, 0, 7, 0, 0, 37, 1] ms
+[23Dec2024 15:35:24.875] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: UP_TO_DATE Current: 2.12.0 Target: null
+[23Dec2024 15:35:29.145] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Dec2024 15:35:33.499] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[23Dec2024 15:35:33.505] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[23Dec2024 15:35:34.143] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 238 ms
+[23Dec2024 15:35:41.076] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[23Dec2024 15:35:43.971] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[23Dec2024 15:35:43.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[23Dec2024 15:35:44.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[23Dec2024 15:35:44.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[23Dec2024 15:35:44.934] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -81,357 +81,73 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[22Dec2024 17:36:55.042] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1690 advancements
-[22Dec2024 17:36:55.182] [main/INFO] [Supplementaries/]: Loaded  8 flute songs
-[22Dec2024 17:36:55.335] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:shipwrech
-[22Dec2024 17:36:57.074] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_cod_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.cod
-[22Dec2024 17:36:57.075] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_salmon_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.salmon
-[22Dec2024 17:36:57.075] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_pufferfish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.pufferfish
-[22Dec2024 17:36:57.076] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tropical_fish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tropical_fish
-[22Dec2024 17:36:57.076] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_axolotl_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.axolotl
-[22Dec2024 17:36:57.077] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tadpole_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tadpole
-[22Dec2024 17:36:57.196] [main/INFO] [Supplementaries/]: Finished additional setup in 161 ms
-[22Dec2024 17:36:57.683] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 11 milliseconds
-[22Dec2024 17:36:57.729] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 43 milliseconds
-[22Dec2024 17:36:57.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
-[22Dec2024 17:36:57.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Dec2024 17:36:57.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[22Dec2024 17:36:57.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Dec2024 17:36:57.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[22Dec2024 17:36:57.991] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Dec2024 17:36:58.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Dec2024 17:36:58.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Dec2024 17:36:58.177] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Dec2024 17:36:58.178] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Dec2024 17:36:58.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sexo"
-[22Dec2024 17:37:01.800] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[22Dec2024 17:37:06.410] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[22Dec2024 17:37:08.622] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[22Dec2024 17:37:10.381] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[22Dec2024 17:37:15.284] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[22Dec2024 17:37:21.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Dec2024 17:37:21.956] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 17:37:22.462] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 17:37:22.922] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 17:37:23.673] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 17:37:23.919] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 17:37:24.432] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Dec2024 17:37:25.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[22Dec2024 17:37:27.463] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:27.466] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:27.467] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:27.468] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:27.469] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:27.919] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[22Dec2024 17:37:28.419] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[22Dec2024 17:37:28.589] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6671 ms
-[22Dec2024 17:37:28.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (30.396s)! For help, type "help"
-[22Dec2024 17:37:28.635] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[22Dec2024 17:37:28.637] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
-[22Dec2024 17:37:28.638] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
-[22Dec2024 17:37:34.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[22Dec2024 17:37:53.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.238.191.213:56319] logged in with entity id 224 at (-164.41653809449707, 68.36812209498294, 552.3938399628898)
-[22Dec2024 17:37:54.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
-[22Dec2024 17:40:02.302] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:46817] logged in with entity id 230 at (-156.5, 66.0, 561.5)
-[22Dec2024 17:40:02.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[22Dec2024 17:40:04.863] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mRswoggY_[/127.48.61.225:47901] logged in with entity id 250 at (-152.5, 64.0, 541.5)
-[22Dec2024 17:40:04.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ joined the game
-[22Dec2024 17:40:28.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Is this... blood?]
-[22Dec2024 17:40:29.307] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=63, z=549}
-[22Dec2024 17:40:30.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=63, z=549}
-[22Dec2024 17:40:30.697] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=549}
-[22Dec2024 17:40:30.747] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:31.047] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-163, y=63, z=548}
-[22Dec2024 17:40:31.348] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=545}
-[22Dec2024 17:40:31.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=62, z=544}
-[22Dec2024 17:40:32.099] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=545}
-[22Dec2024 17:40:32.250] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=544}
-[22Dec2024 17:40:32.348] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=543}
-[22Dec2024 17:40:32.598] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=543}
-[22Dec2024 17:40:33.100] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=544}
-[22Dec2024 17:40:33.298] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=542}
-[22Dec2024 17:40:33.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=543}
-[22Dec2024 17:40:33.550] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=542}
-[22Dec2024 17:40:33.847] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=542}
-[22Dec2024 17:40:33.948] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=542}
-[22Dec2024 17:40:34.100] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=542}
-[22Dec2024 17:40:34.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-169, y=62, z=543}
-[22Dec2024 17:40:34.248] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=542}
-[22Dec2024 17:40:34.397] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=543}
-[22Dec2024 17:40:34.503] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=544}
-[22Dec2024 17:40:34.955] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-169, y=62, z=544}
-[22Dec2024 17:40:35.005] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=543}
-[22Dec2024 17:40:35.104] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=542}
-[22Dec2024 17:40:35.408] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=543}
-[22Dec2024 17:40:35.469] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=544}
-[22Dec2024 17:40:35.562] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=543}
-[22Dec2024 17:40:35.706] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=62, z=543}
-[22Dec2024 17:40:35.756] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-168, y=62, z=545}
-[22Dec2024 17:40:35.857] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=543}
-[22Dec2024 17:40:36.147] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=543}
-[22Dec2024 17:40:36.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=543}
-[22Dec2024 17:40:36.548] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=543}
-[22Dec2024 17:40:36.697] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=543}
-[22Dec2024 17:40:36.996] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=542}
-[22Dec2024 17:40:37.046] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=542}
-[22Dec2024 17:40:37.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=62, z=544}
-[22Dec2024 17:40:37.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=541}
-[22Dec2024 17:40:37.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to clear]
-[22Dec2024 17:40:37.898] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=543}
-[22Dec2024 17:40:38.014] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=544}
-[22Dec2024 17:40:38.151] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=62, z=545}
-[22Dec2024 17:40:38.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=62, z=544}
-[22Dec2024 17:40:38.300] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-163, y=62, z=546}
-[22Dec2024 17:40:38.760] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:39.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=62, z=546}
-[22Dec2024 17:40:39.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=547}
-[22Dec2024 17:40:39.720] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=547}
-[22Dec2024 17:40:39.754] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=548}
-[22Dec2024 17:40:40.147] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:40.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=548}
-[22Dec2024 17:40:40.354] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=548}
-[22Dec2024 17:40:40.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=549}
-[22Dec2024 17:40:41.202] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=63, z=549}
-[22Dec2024 17:40:41.206] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=549}
-[22Dec2024 17:40:41.447] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=548}
-[22Dec2024 17:40:41.497] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=549}
-[22Dec2024 17:40:41.653] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-167, y=63, z=549}
-[22Dec2024 17:40:41.850] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=549}
-[22Dec2024 17:40:41.955] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=550}
-[22Dec2024 17:40:42.160] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=550}
-[22Dec2024 17:40:42.209] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=549}
-[22Dec2024 17:40:42.209] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:42.361] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=549}
-[22Dec2024 17:40:42.562] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:42.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:42.953] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=548}
-[22Dec2024 17:40:43.161] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=63, z=549}
-[22Dec2024 17:40:43.313] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=62, z=547}
-[22Dec2024 17:40:43.460] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-166, y=62, z=548}
-[22Dec2024 17:40:43.570] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:43.722] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=548}
-[22Dec2024 17:40:44.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=549}
-[22Dec2024 17:40:44.499] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=551}
-[22Dec2024 17:40:44.605] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-165, y=63, z=550}
-[22Dec2024 17:40:44.948] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-163, y=63, z=550}
-[22Dec2024 17:40:45.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-162, y=63, z=550}
-[22Dec2024 17:40:45.448] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=64, z=552}
-[22Dec2024 17:40:45.647] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-162, y=63, z=551}
-[22Dec2024 17:40:45.803] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-161, y=63, z=552}
-[22Dec2024 17:40:45.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=553}
-[22Dec2024 17:40:46.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Monster Hunter]
-[22Dec2024 17:40:47.207] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-164, y=63, z=555}
-[22Dec2024 17:41:28.983] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@1f9e510a, suppressing error
-java.lang.IllegalArgumentException: Container size 1 is smaller than expected 27
-	at net.minecraft.world.inventory.AbstractContainerMenu.m_38869_(AbstractContainerMenu.java:85) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.world.inventory.ChestMenu.<init>(ChestMenu.java:52) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.world.inventory.ChestMenu.m_39237_(ChestMenu.java:43) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.mehvahdjukaar.moonlight.api.block.ItemDisplayTile.m_6555_(ItemDisplayTile.java:192) ~[moonlight-1.19.4-2.4.15-forge.jar%23128!/:?]
-	at net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.m_7208_(RandomizableContainerBlockEntity.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:963) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:328) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1050) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:773) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:162) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:756) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:750) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:736) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:668) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23139!/:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[22Dec2024 17:42:25.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Getting an Upgrade]
-[22Dec2024 17:43:27.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: true]
-[22Dec2024 17:44:44.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain]
-[22Dec2024 17:45:06.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 17:46:03.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mRswoggY_> ada
-[22Dec2024 17:46:20.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 17:46:59.339] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
-[22Dec2024 17:46:59.341] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (oldFoodStacking) with new value (true)
-[22Dec2024 17:46:59.345] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
-[22Dec2024 17:46:59.349] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] felixstorm updated server config entry in group (GAMEPLAY) with key (disableHunger) with new value (true)
-[22Dec2024 17:47:17.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Stone Age]
-[22Dec2024 17:47:28.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Stone Age]
-[22Dec2024 17:47:34.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Getting an Upgrade]
-[22Dec2024 17:51:18.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 17:52:25.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Timed out
-[22Dec2024 17:52:25.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
-[22Dec2024 17:52:25.254] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Dec2024 17:52:44.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.238.191.213:51187] logged in with entity id 3131 at (-137.46566263212404, 109.57780734847647, 727.0080879688618)
-[22Dec2024 17:52:44.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
-[22Dec2024 17:53:47.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Sweet Dreams]
-[22Dec2024 17:53:53.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Sweet Dreams]
-[22Dec2024 17:54:04.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Acquire Hardware]
-[22Dec2024 17:55:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Executed 30 command(s) from function 'fromthefog:admin/config']
-[22Dec2024 17:55:57.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 17:56:20.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 17:56:57.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 17:57:06.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 17:57:16.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 17:57:22.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 17:57:32.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 17:58:03.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 17:58:13.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 17:58:39.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 17:58:46.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
-[22Dec2024 17:59:19.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Is this... blood?]
-[22Dec2024 17:59:20.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Monster Hunter]
-[22Dec2024 17:59:33.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [What Was That!?]
-[22Dec2024 17:59:59.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:00:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:01:45.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:02:10.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 18:02:41.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:54619] logged in with entity id 5979 at (-155.5, 65.0, 559.5)
-[22Dec2024 18:02:41.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
-[22Dec2024 18:02:48.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doWardenSpawning is now set to: false]
-[22Dec2024 18:03:04.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 10.42829606452463,0.0,-1.6205558724286675
-[22Dec2024 18:03:53.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Stone Age]
-[22Dec2024 18:04:00.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Getting an Upgrade]
-[22Dec2024 18:04:36.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:05:33.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 11.12551854143544,0.0,-0.7055150183023216
-[22Dec2024 18:05:33.082] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2541ms or 50 ticks behind
-[22Dec2024 18:05:34.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Bloodthirsty]
-[22Dec2024 18:05:50.746] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[22Dec2024 18:07:43.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Bloodthirsty]
-[22Dec2024 18:08:14.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
-[22Dec2024 18:08:47.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun2412 lost connection: Disconnected
-[22Dec2024 18:08:47.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 left the game
-[22Dec2024 18:09:22.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:09:43.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-[22Dec2024 18:10:48.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:59425] logged in with entity id 10491 at (-295.1028893481959, 80.0, 543.9337141953965)
-[22Dec2024 18:10:48.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
-[22Dec2024 18:11:06.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Bloodthirsty]
-[22Dec2024 18:11:35.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [I'm on Singleplayer Right?]
-[22Dec2024 18:12:04.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Monster Hunter]
-[22Dec2024 18:12:05.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Is this... blood?]
-[22Dec2024 18:12:38.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Successfully filled 1 blocks]
-[22Dec2024 18:13:38.364] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=264, y=65, z=1063} BlockPos{x=264, y=64, z=1064}
-[22Dec2024 18:14:33.766] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
-[22Dec2024 18:14:56.042] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[22Dec2024 18:15:07.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Acquire Hardware]
-[22Dec2024 18:15:16.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain & thunder]
-[22Dec2024 18:15:16.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5209ms or 104 ticks behind
-[22Dec2024 18:15:41.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [I'm on Singleplayer Right?]
-[22Dec2024 18:15:44.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [I'm on Singleplayer Right?]
-[22Dec2024 18:16:02.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [This Must be a Sign!]
-[22Dec2024 18:16:05.176] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
-[22Dec2024 18:16:10.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:16:18.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:16:18.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [Sweet Dreams]
-[22Dec2024 18:16:52.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
-[22Dec2024 18:18:22.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Suit Up]
-[22Dec2024 18:19:04.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2535ms or 50 ticks behind
-[22Dec2024 18:19:05.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 4 players]
-[22Dec2024 18:19:12.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 4.9113361492665035,0.0,9.390824784746883
-[22Dec2024 18:19:23.714] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4024ms or 80 ticks behind
-[22Dec2024 18:19:33.951] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 10.198136735787955,0.0,3.1146671466115095
-[22Dec2024 18:19:45.950] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7259ms or 145 ticks behind
-[22Dec2024 18:20:06.939] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5998ms or 119 ticks behind
-[22Dec2024 18:20:07.277] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/8222, l='ServerLevel[sexo]', x=161.53, y=70.00, z=1168.54] died, message: 'Villager went up in flames'
-[22Dec2024 18:20:30.988] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9097ms or 181 ticks behind
-[22Dec2024 18:20:42.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! -3.7255839277355562,-5.68987619947319,7.490379173059864
-[22Dec2024 18:20:43.815] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=146, y=69, z=1119} BlockPos{x=145, y=69, z=1119}
-[22Dec2024 18:20:49.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3217ms or 64 ticks behind
-[22Dec2024 18:21:02.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
-[22Dec2024 18:21:06.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:21:09.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5131ms or 102 ticks behind
-[22Dec2024 18:21:11.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
-[22Dec2024 18:21:20.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:21:30.074] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5834ms or 116 ticks behind
-[22Dec2024 18:21:31.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
-[22Dec2024 18:21:46.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
-[22Dec2024 18:21:49.103] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4062ms or 81 ticks behind
-[22Dec2024 18:21:54.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView moved too quickly! 0.11050710167944544,-10.468705676006422,-0.9006388147993221
-[22Dec2024 18:22:08.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3215ms or 64 ticks behind
-[22Dec2024 18:23:02.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Adventure Mode]
-[22Dec2024 18:23:04.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:23:12.822] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2182ms or 43 ticks behind
-[22Dec2024 18:23:17.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 4 players]
-[22Dec2024 18:23:31.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3745ms or 74 ticks behind
-[22Dec2024 18:23:35.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
-[22Dec2024 18:23:56.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.21650496954328,-7.105427357601002E-15,1.3195752139966999
-[22Dec2024 18:23:56.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.611765820394453,-7.105427357601002E-15,1.293110965622759
-[22Dec2024 18:23:56.056] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[22Dec2024 18:24:05.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -9.722131173531238,0.0,-3.485748021770746
-[22Dec2024 18:24:05.784] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.074599342216402,0.0,-3.6712262795001607
-[22Dec2024 18:24:05.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.425888968323193,0.0,-3.8591174366036967
-[22Dec2024 18:24:13.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2830ms or 56 ticks behind
-[22Dec2024 18:24:22.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -7.575780631259931,0.0,-7.113446797647953
-[22Dec2024 18:24:22.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -7.870870532980689,0.0,-7.383394091725904
-[22Dec2024 18:24:31.954] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3114ms or 62 ticks behind
-[22Dec2024 18:24:39.498] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -7.826019401896929,0.0,6.264730610932929
-[22Dec2024 18:24:39.499] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -8.177666881250275,0.0,6.438592224439503
-[22Dec2024 18:24:49.630] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2690ms or 53 ticks behind
-[22Dec2024 18:25:08.150] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3360ms or 67 ticks behind
-[22Dec2024 18:25:10.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
-[22Dec2024 18:25:10.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
-[22Dec2024 18:25:55.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Suit Up]
-[22Dec2024 18:25:55.712] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2321ms or 46 ticks behind
-[22Dec2024 18:26:19.388] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4348ms or 86 ticks behind
-[22Dec2024 18:26:19.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.012373433569337,0.0,-2.715375605105919
-[22Dec2024 18:26:19.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.405064955213675,0.0,-2.7843869432058455
-[22Dec2024 18:26:19.486] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -10.798472696397766,0.0,-2.8475784706149625
-[22Dec2024 18:26:19.487] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -11.192538096018552,0.0,-2.9048036547575293
-[22Dec2024 18:26:19.487] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -11.587195768196125,0.0,-2.955999525982179
-[22Dec2024 18:26:19.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Okarun2412) moved too quickly! -11.982377597118102,0.0,-3.0011785053491167
-[22Dec2024 18:27:05.511] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.238.191.213:51679] logged in with entity id 19787 at (180.04816844214756, 30.744995832064784, 1120.3230848436772)
-[22Dec2024 18:27:05.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
-[22Dec2024 18:27:59.684] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun2412 lost connection: Disconnected
-[22Dec2024 18:27:59.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 left the game
-[22Dec2024 18:28:31.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
-[22Dec2024 18:28:38.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to LeoView]
-[22Dec2024 18:29:08.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 18:31:30.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:31:36.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:31:45.419] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! -9.324594894923422,0.0,-3.934040873466529
-[22Dec2024 18:31:49.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:31:57.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:32:27.844] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/21496, l='ServerLevel[sexo]', x=-183.31, y=-256.00, z=555.97] died, message: 'Villager fell out of the world'
-[22Dec2024 18:32:36.670] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=421, y=81, z=1237} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[22Dec2024 18:32:36.671] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=421, y=81, z=1237}
-[22Dec2024 18:32:55.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 8.628670609144308,0.0,-5.980967279743481
-[22Dec2024 18:32:59.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm moved too quickly! 6.55688203660668,-3.1315157619893768,-7.955149471603363
-[22Dec2024 18:33:08.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:35:06.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:35:26.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:35:37.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:36:32.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:36:49.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
-[22Dec2024 18:37:07.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm was slain by mRswoggY_
-[22Dec2024 18:37:14.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:37:21.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Isn't It Iron Pick]
-[22Dec2024 18:38:45.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
-[22Dec2024 18:38:48.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm was slain by LeoView
-[22Dec2024 18:38:52.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:39:06.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
-[22Dec2024 18:40:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Tide Pod Challenge]
-[22Dec2024 18:40:16.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[22Dec2024 18:40:45.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:41:24.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Battle Towers?]
-[22Dec2024 18:41:25.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Battle Towers?]
-[22Dec2024 18:41:34.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Is Someone Following Me?]
-[22Dec2024 18:41:37.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [Is Someone Following Me?]
-[22Dec2024 18:42:10.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 18:42:19.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Creeperling]
-[22Dec2024 18:42:40.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mRswoggY_ has made the advancement [What Was That!?]
-[22Dec2024 18:43:50.343] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5753ms or 115 ticks behind
-[22Dec2024 18:45:07.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:11.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:14.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:17.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:18.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:19.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:19.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:26.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:entity.generic.explode to 3 players]
-[22Dec2024 18:45:39.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 18:45:59.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 18:46:07.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> wwwww
-[22Dec2024 18:46:07.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:ambient.cave to 3 players]
-[22Dec2024 18:46:09.149] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/22400, l='ServerLevel[sexo]', x=133.30, y=68.00, z=1020.18] died, message: 'Fisherman was slain by Zombie'
+[23Dec2024 15:35:45.278] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1690 advancements
+[23Dec2024 15:35:45.461] [main/INFO] [Supplementaries/]: Loaded  8 flute songs
+[23Dec2024 15:35:45.531] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:shipwrech
+[23Dec2024 15:35:47.430] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_cod_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.cod
+[23Dec2024 15:35:47.432] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_salmon_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.salmon
+[23Dec2024 15:35:47.433] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_pufferfish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.pufferfish
+[23Dec2024 15:35:47.433] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tropical_fish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tropical_fish
+[23Dec2024 15:35:47.434] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_axolotl_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.axolotl
+[23Dec2024 15:35:47.434] [main/WARN] [Supplementaries/]: Error white registering dispenser behavior for item skyroot_tadpole_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tadpole
+[23Dec2024 15:35:47.540] [main/INFO] [Supplementaries/]: Finished additional setup in 142 ms
+[23Dec2024 15:35:48.110] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 35 milliseconds
+[23Dec2024 15:35:48.112] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[23Dec2024 15:35:48.119] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[23Dec2024 15:35:48.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Dec2024 15:35:48.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Dec2024 15:35:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Dec2024 15:35:48.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Dec2024 15:35:48.440] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Dec2024 15:35:48.846] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Dec2024 15:35:48.847] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Dec2024 15:35:48.847] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Dec2024 15:35:48.847] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Dec2024 15:35:49.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sexo"
+[23Dec2024 15:35:58.379] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:35:58.382] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:36:08.366] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:36:08.374] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:36:10.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Dec2024 15:36:10.763] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 15:36:11.273] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 15:36:11.770] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[23Dec2024 15:36:12.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[23Dec2024 15:36:12.774] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[23Dec2024 15:36:14.297] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:14.317] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:14.322] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:16.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:16.747] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:16.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:16.750] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:16.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2024 15:36:17.092] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:36:17.138] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 15:36:17.312] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6560 ms
+[23Dec2024 15:36:17.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (28.434s)! For help, type "help"
+[23Dec2024 15:36:17.358] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Dec2024 15:36:17.360] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
+[23Dec2024 15:36:17.360] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[23Dec2024 15:36:39.385] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun2412[/127.101.239.253:58281] logged in with entity id 84 at (-1231.3004603854456, 71.0, 788.5627876115407)
+[23Dec2024 15:36:39.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 joined the game
+[23Dec2024 15:36:44.782] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5401ms or 108 ticks behind
+[23Dec2024 15:36:57.623] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/342, l='ServerLevel[sexo]', x=-183.26, y=-256.00, z=556.45] died, message: 'Villager fell out of the world'
+[23Dec2024 15:38:32.008] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:33493] logged in with entity id 786 at (-915.3241097879633, 66.0, 2204.5537300941123)
+[23Dec2024 15:38:32.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[23Dec2024 15:38:36.631] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4600ms or 92 ticks behind
+[23Dec2024 15:38:44.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.77.60.102:43735] logged in with entity id 1079 at (-896.2128985188617, 66.0, 2225.385367641475)
+[23Dec2024 15:38:44.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[23Dec2024 15:38:55.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[23Dec2024 15:38:57.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[23Dec2024 15:38:59.835] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2154ms or 43 ticks behind
+[23Dec2024 15:39:19.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[23Dec2024 15:39:49.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun2412 has made the advancement [I Should Call Kevin!]
+[23Dec2024 15:40:43.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[23Dec2024 15:41:08.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> me jodiste el pulmon
+[23Dec2024 15:41:35.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> its chirstmastttt
+[23Dec2024 15:41:35.618] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
+[23Dec2024 15:41:41.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Okarun2412> señor pelo reference
+[23Dec2024 15:41:49.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[23Dec2024 15:42:22.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[23Dec2024 15:44:08.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
