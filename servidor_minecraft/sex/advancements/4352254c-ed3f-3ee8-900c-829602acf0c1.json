@@ -1604,6 +1604,7 @@
       "minecraft:skeleton": "2025-01-05 20:27:56 +0000",
       "minecraft:spider": "2025-01-05 20:40:38 +0000",
       "minecraft:creeper": "2025-01-05 22:08:25 +0000",
+      "minecraft:phantom": "2025-01-05 22:27:24 +0000",
       "minecraft:cave_spider": "2025-01-05 19:45:25 +0000",
       "minecraft:zombie": "2025-01-05 20:27:18 +0000"
     },
@@ -2296,6 +2297,12 @@
   "supplementaries:recipes/stonecutting/stone_tile_wall_from_bricks": {
     "criteria": {
       "has_stone_tile": "2025-01-05 22:03:22 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/globe": {
+    "criteria": {
+      "unlock": "2025-01-05 22:29:55 +0000"
     },
     "done": true
   },
