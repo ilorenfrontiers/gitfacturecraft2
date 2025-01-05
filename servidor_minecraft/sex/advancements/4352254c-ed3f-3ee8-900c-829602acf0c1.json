@@ -1684,6 +1684,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-05 21:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs": {
     "criteria": {
       "has_polished_diorite": "2025-01-05 20:48:34 +0000"
@@ -1723,6 +1729,12 @@
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2025-01-05 20:48:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap": {
+    "criteria": {
+      "forge:ash": "2025-01-05 21:36:49 +0000"
     },
     "done": true
   },
@@ -1780,6 +1792,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/flint_block": {
+    "criteria": {
+      "has_flint": "2025-01-05 21:35:35 +0000"
+    },
+    "done": true
+  },
   "majruszsdifficulty:game_stage_expert": {
     "criteria": {
       "is_triggered": "2025-01-05 20:23:06 +0000"
@@ -1825,6 +1843,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2025-01-05 21:05:20 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/ash_brick": {
+    "criteria": {
+      "forge:ash": "2025-01-05 21:36:49 +0000"
     },
     "done": true
   },
@@ -1948,6 +1972,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-05 21:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-05 20:48:02 +0000"
@@ -2005,6 +2035,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-05 20:48:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-05 21:35:35 +0000"
     },
     "done": true
   },

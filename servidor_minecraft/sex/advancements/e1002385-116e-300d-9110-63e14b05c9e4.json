@@ -1066,6 +1066,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/bow_repairing": {
+    "criteria": {
+      "has_bow": "2025-01-05 21:28:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-01-05 21:18:52 +0000"
@@ -1222,6 +1228,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/leather_helmet_repairing": {
+    "criteria": {
+      "has_leather_helmet": "2025-01-05 21:29:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-01-05 20:58:09 +0000"
@@ -1231,6 +1243,12 @@
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2025-01-05 20:47:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-05 21:28:11 +0000"
     },
     "done": true
   },
