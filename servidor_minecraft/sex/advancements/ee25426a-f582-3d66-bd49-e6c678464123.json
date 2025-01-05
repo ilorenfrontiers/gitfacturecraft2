@@ -27,6 +27,7 @@
       "minecraft:dark_forest": "2025-01-05 19:42:46 +0000",
       "minecraft:river": "2025-01-05 19:18:16 +0000",
       "minecraft:stony_shore": "2025-01-05 19:23:15 +0000",
+      "minecraft:dripstone_caves": "2025-01-05 21:20:44 +0000",
       "minecraft:swamp": "2025-01-05 19:17:53 +0000",
       "minecraft:forest": "2025-01-05 19:06:59 +0000",
       "minecraft:lush_caves": "2025-01-05 20:04:15 +0000",
@@ -701,6 +702,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-05 19:48:29 +0000",
       "minecraft:spider": "2025-01-05 19:22:03 +0000",
+      "minecraft:creeper": "2025-01-05 21:25:51 +0000",
       "minecraft:zombie": "2025-01-05 19:34:39 +0000"
     },
     "done": false
@@ -1998,6 +2000,12 @@
   "aether:recipes/redstone/skyroot_piston": {
     "criteria": {
       "has_redstone": "2025-01-05 21:03:12 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:creeperling": {
+    "criteria": {
+      "encountered_creeperling": "2025-01-05 21:25:33 +0000"
     },
     "done": true
   },

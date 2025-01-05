@@ -157,6 +157,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-05 21:22:23 +0000",
       "cooked_mutton": "2025-01-05 21:15:23 +0000",
       "cooked_beef": "2025-01-05 19:18:33 +0000",
       "dried_kelp": "2025-01-05 20:41:35 +0000"
@@ -873,9 +874,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-01-05 21:24:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz_slab": {
     "criteria": {
       "has_smooth_quartz": "2025-01-05 20:44:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2025-01-05 21:24:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-01-05 21:18:23 +0000"
     },
     "done": true
   },
@@ -903,9 +922,21 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/skyroot_barrel": {
+    "criteria": {
+      "has_slabs": "2025-01-05 21:22:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2025-01-05 20:46:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-05 21:18:23 +0000"
     },
     "done": true
   },
@@ -927,6 +958,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-01-05 21:24:03 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/stone_pickaxe_repairing": {
     "criteria": {
       "has_stone_pickaxe": "2025-01-05 20:43:45 +0000"
@@ -936,6 +973,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-01-05 20:57:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-05 21:22:56 +0000"
     },
     "done": true
   },
@@ -957,6 +1000,18 @@
     },
     "done": true
   },
+  "supplementaries:recipes/cage": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-05 21:22:56 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/bamboo_spikes": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-05 21:22:56 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/aether_saddle": {
     "criteria": {
       "has_leather": "2025-01-05 20:57:52 +0000"
@@ -966,6 +1021,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2025-01-05 20:57:08 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sconce": {
+    "criteria": {
+      "has_torch": "2025-01-05 21:23:35 +0000"
     },
     "done": true
   },
@@ -987,9 +1048,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-01-05 21:24:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-01-05 20:46:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-05 21:18:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-05 21:18:52 +0000"
     },
     "done": true
   },
@@ -999,15 +1078,39 @@
     },
     "done": true
   },
+  "aether:recipes/combat/golden_chestplate_repairing": {
+    "criteria": {
+      "has_golden_chestplate": "2025-01-05 21:20:04 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/ash_brick": {
     "criteria": {
       "forge:ash": "2025-01-05 20:48:16 +0000"
     },
     "done": true
   },
+  "supplementaries:recipes/blackboard": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-05 21:22:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-01-05 20:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2025-01-05 21:24:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-05 21:20:40 +0000"
     },
     "done": true
   },
@@ -1020,6 +1123,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-01-05 20:43:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-01-05 21:24:16 +0000"
     },
     "done": true
   },
@@ -1047,9 +1156,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-01-05 21:24:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-01-05 20:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2025-01-05 21:24:12 +0000"
     },
     "done": true
   },
@@ -1074,6 +1195,12 @@
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2025-01-05 20:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-05 21:18:23 +0000"
     },
     "done": true
   },
@@ -1113,9 +1240,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-01-05 21:24:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2025-01-05 20:46:12 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/item_shelf": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-05 21:22:56 +0000"
     },
     "done": true
   },
@@ -1134,6 +1273,12 @@
   "supplementaries:recipes/present": {
     "criteria": {
       "has_paper": "2025-01-05 20:46:12 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/jar": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-05 21:22:56 +0000"
     },
     "done": true
   },
@@ -1161,9 +1306,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-01-05 21:24:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-01-05 20:58:03 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/daub": {
+    "criteria": {
+      "supplementaries:straw": "2025-01-05 21:18:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-01-05 21:24:16 +0000"
     },
     "done": true
   },
@@ -1182,6 +1345,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-01-05 20:46:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2025-01-05 21:24:12 +0000"
     },
     "done": true
   },

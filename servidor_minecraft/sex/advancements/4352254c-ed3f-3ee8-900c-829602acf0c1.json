@@ -1678,6 +1678,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-05 21:25:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs": {
     "criteria": {
       "has_polished_diorite": "2025-01-05 20:48:34 +0000"
@@ -1756,6 +1762,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-05 21:20:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 21:05:20 +0000"
@@ -1777,6 +1789,12 @@
   "supplementaries:recipes/cog_block": {
     "criteria": {
       "has_copper_ingot": "2025-01-05 20:59:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-05 21:20:33 +0000"
     },
     "done": true
   },
@@ -1825,6 +1843,12 @@
   "supplementaries:recipes/wrench": {
     "criteria": {
       "has_copper_ingot": "2025-01-05 20:59:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-05 21:22:09 +0000"
     },
     "done": true
   },
