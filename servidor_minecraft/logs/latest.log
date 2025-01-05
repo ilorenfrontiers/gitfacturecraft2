@@ -2088,3 +2088,56 @@
 [05Jan2025 22:38:29.993] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [05Jan2025 22:38:52.144] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [05Jan2025 22:38:52.145] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:39:05.794] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:39:06.243] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:39:55.543] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:39:55.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:05.844] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:05.893] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:15.245] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:21.695] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:25.944] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:25.945] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:37.793] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:37.793] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:47.443] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:59.593] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:59.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:59.596] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:40:59.645] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:41:03.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:41:33.244] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:41:49.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[05Jan2025 22:41:50.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
+[05Jan2025 22:42:36.144] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:43:21.651] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (felixstorm): [tweak={jsonId:gameplay.swordBlockDamageReduction, new:60, old:50}]
+[05Jan2025 22:43:22.698] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[05Jan2025 22:43:38.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:43:47.643] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:01.144] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:02.343] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:06.244] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:06.244] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:06.244] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:10.494] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:12.243] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:20.445] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:56.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Saved the game]
+[05Jan2025 22:44:57.843] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:57.843] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:59.346] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:44:59.444] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:45:09.395] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:45:20.693] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:45:20.694] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:45:21.245] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[05Jan2025 22:45:30.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <felixstorm> ahora vuelvo
+[05Jan2025 22:45:32.001] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
+[05Jan2025 22:45:32.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
+[05Jan2025 22:46:56.449] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:41067] logged in with entity id 102232 at (303.5, 71.0, -25.5)
+[05Jan2025 22:46:56.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[05Jan2025 22:47:14.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> mi cuenta con op solo
+[05Jan2025 22:47:28.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made iloren_frontiers a server operator
+[05Jan2025 22:47:32.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[05Jan2025 22:47:34.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[05Jan2025 22:48:26.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
