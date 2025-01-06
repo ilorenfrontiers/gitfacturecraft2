@@ -90,7 +90,7 @@
     "preventHungerEffect": true,
     "customFoodHealth": {
       "items": {
-        "minecraft:sweet_berries": 1,
+        "minecraft:sweet_berries": 2,
         "minecraft:rabbit_stew": 14,
         "minecraft:beetroot_soup": 8,
         "minecraft:spider_eye": 0,

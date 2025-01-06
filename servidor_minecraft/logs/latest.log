@@ -272,3 +272,55 @@ A world backup will be automatically created in your saves directory.
 [06Jan2025 17:09:33.168] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/39648, l='ServerLevel[sex]', x=173.70, y=65.00, z=359.33] died, message: 'Nitwit was slain by Zombie'
 [06Jan2025 17:10:24.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
 [06Jan2025 17:11:14.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeperling]
+[06Jan2025 17:12:35.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeper]
+[06Jan2025 17:12:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was shot by Skeleton
+[06Jan2025 17:14:27.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[06Jan2025 17:16:43.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:item.goat_horn.sound.4 to iloren_frontiers]
+[06Jan2025 17:16:49.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:item.goat_horn.sound.5 to iloren_frontiers]
+[06Jan2025 17:16:57.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:item.goat_horn.sound.5 to 5 players]
+[06Jan2025 17:17:09.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:item.goat_horn.sound.5 to 5 players]
+[06Jan2025 17:17:52.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:item.goat_horn.sound.5 to 5 players]
+[06Jan2025 17:18:26.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was shot by Skeleton
+[06Jan2025 17:18:41.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 has made the advancement [Suit Up]
+[06Jan2025 17:19:38.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Bloodthirsty]
+[06Jan2025 17:21:52.263] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodHealth, new:ItemMap<Integer>{mapSize:16, disabled:false}, old:ItemMap<Integer>{mapSize:16, disabled:false}}]
+[06Jan2025 17:21:52.264] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:16, disabled:false}}] was successfully validated with 16 entries
+[06Jan2025 17:21:53.272] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[06Jan2025 17:24:18.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[06Jan2025 17:24:27.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[06Jan2025 17:24:46.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[06Jan2025 17:25:01.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[06Jan2025 17:25:24.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[06Jan2025 17:26:27.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was shot by Stray
+[06Jan2025 17:27:06.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Stray
+[06Jan2025 17:28:59.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was slain by Cerberus
+[06Jan2025 17:29:37.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[06Jan2025 17:29:38.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Take Aim]
+[06Jan2025 17:30:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was slain by Cerberus
+[06Jan2025 17:31:04.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has reached the goal [Postmortal]
+[06Jan2025 17:32:08.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Take Aim]
+[06Jan2025 17:32:11.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was fireballed by Cerberus
+[06Jan2025 17:33:35.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was shot by Stray
+[06Jan2025 17:34:04.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Spooky Scary Army]
+[06Jan2025 17:34:04.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Spooky Scary Army]
+[06Jan2025 17:34:27.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Boneyard]
+[06Jan2025 17:34:37.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 was killed trying to hurt Skeleton
+[06Jan2025 17:35:16.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 has made the advancement [Is this... blood?]
+[06Jan2025 17:35:29.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 has made the advancement [Spooky Scary Army]
+[06Jan2025 17:35:35.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 has made the advancement [Boneyard]
+[06Jan2025 17:37:55.537] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[06Jan2025 17:37:55.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[06Jan2025 17:38:08.154] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:34063] logged in with entity id 71433 at (129.80740847209248, 82.0, 354.50919949794826)
+[06Jan2025 17:38:08.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[06Jan2025 17:38:13.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[06Jan2025 17:39:25.387] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sm0ki06 lost connection: Disconnected
+[06Jan2025 17:39:25.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sm0ki06 left the game
+[06Jan2025 17:40:09.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Monster Hunter]
+[06Jan2025 17:42:39.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Spooky Scary Army]
+[06Jan2025 17:43:15.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Boneyard]
+[06Jan2025 17:45:29.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> me voy a mear
+[06Jan2025 17:45:30.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[06Jan2025 17:45:30.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[06Jan2025 17:49:00.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:50229] logged in with entity id 78115 at (118.92126402855101, 71.0, 360.67580847733393)
+[06Jan2025 17:49:00.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[06Jan2025 17:49:39.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]

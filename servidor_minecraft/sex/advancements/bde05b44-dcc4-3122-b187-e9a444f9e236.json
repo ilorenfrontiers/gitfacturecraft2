@@ -923,11 +923,17 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-06 17:27:48 +0000",
       "cooked_mutton": "2025-01-05 19:39:20 +0000",
       "sweet_berries": "2025-01-05 19:23:52 +0000",
       "cooked_beef": "2025-01-05 19:26:59 +0000",
+      "baked_potato": "2025-01-06 17:15:26 +0000",
+      "porkchop": "2025-01-06 17:23:44 +0000",
       "apple": "2025-01-05 19:16:50 +0000",
+      "potato": "2025-01-06 17:34:36 +0000",
+      "mutton": "2025-01-06 17:23:19 +0000",
       "bread": "2025-01-05 19:44:04 +0000",
+      "golden_apple": "2025-01-06 17:13:25 +0000",
       "dried_kelp": "2025-01-05 19:38:04 +0000",
       "cooked_chicken": "2025-01-05 19:30:26 +0000",
       "carrot": "2025-01-05 19:42:35 +0000"
@@ -1409,8 +1415,10 @@
       "minecraft:spider": "2025-01-05 19:22:56 +0000",
       "minecraft:creeper": "2025-01-05 19:28:53 +0000",
       "minecraft:witch": "2025-01-05 19:44:16 +0000",
+      "minecraft:wither_skeleton": "2025-01-06 17:25:46 +0000",
       "minecraft:husk": "2025-01-06 17:05:37 +0000",
       "minecraft:cave_spider": "2025-01-05 19:22:46 +0000",
+      "minecraft:stray": "2025-01-06 17:22:50 +0000",
       "minecraft:zombie": "2025-01-05 19:27:29 +0000",
       "minecraft:zombie_villager": "2025-01-06 17:06:55 +0000"
     },
@@ -1903,9 +1911,27 @@
     },
     "done": true
   },
+  "majruszsdifficulty:undead_army_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2025-01-06 17:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-01-06 17:24:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-06 16:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-01-06 17:18:41 +0000"
     },
     "done": true
   },
@@ -1933,6 +1959,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2025-01-06 17:11:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-06 16:13:52 +0000"
@@ -1951,9 +1983,21 @@
     },
     "done": true
   },
+  "majruszsdifficulty:undead_army": {
+    "criteria": {
+      "army_defeated": "2025-01-06 17:35:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-01-06 16:59:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-01-06 17:39:03 +0000"
     },
     "done": true
   },
@@ -2071,6 +2115,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-01-06 17:24:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-06 16:54:59 +0000"
@@ -2167,6 +2217,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/iron_chestplate_repairing": {
+    "criteria": {
+      "has_iron_chestplate": "2025-01-06 17:18:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-01-06 16:59:55 +0000"
@@ -2206,6 +2262,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-06 16:54:59 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding": {
+    "criteria": {
+      "bleeding_applied": "2025-01-06 17:35:16 +0000"
     },
     "done": true
   },
@@ -2281,6 +2343,12 @@
     },
     "done": true
   },
+  "majruszsdifficulty:recipes/misc/tattered_armor": {
+    "criteria": {
+      "has_cloth": "2025-01-06 17:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2025-01-06 16:39:27 +0000"
@@ -2314,6 +2382,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-01-06 16:59:55 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:recipes/misc/string_from_cloth": {
+    "criteria": {
+      "has_cloth": "2025-01-06 17:35:35 +0000"
     },
     "done": true
   },
@@ -2359,6 +2433,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-01-06 17:11:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-06 16:54:59 +0000"
@@ -2368,6 +2448,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-01-06 16:54:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-01-06 17:24:37 +0000"
     },
     "done": true
   },
@@ -2488,6 +2574,18 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-01-06 16:30:49 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:recipes/misc/undead_army_battle_standard": {
+    "criteria": {
+      "has_cloth": "2025-01-06 17:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-01-06 17:39:03 +0000"
     },
     "done": true
   },
