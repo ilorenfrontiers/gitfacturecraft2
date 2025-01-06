@@ -324,3 +324,16 @@ A world backup will be automatically created in your saves directory.
 [06Jan2025 17:49:00.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:50229] logged in with entity id 78115 at (118.92126402855101, 71.0, 360.67580847733393)
 [06Jan2025 17:49:00.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
 [06Jan2025 17:49:39.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[06Jan2025 17:52:17.521] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[06Jan2025 17:53:32.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was killed by Witch using magic
+[06Jan2025 17:54:38.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> herobrine peruano no te atreves a venir
+[06Jan2025 17:55:20.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ivan?
+[06Jan2025 17:55:25.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> desodercete
+[06Jan2025 17:55:32.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que ha venido otra oleada XD
+[06Jan2025 17:55:33.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que ha venido otra oleada XD
+[06Jan2025 17:55:33.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que ha venido otra oleada XD
+[06Jan2025 17:55:47.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
+[06Jan2025 17:57:58.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
+[06Jan2025 17:59:18.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Zombie
+[06Jan2025 18:01:12.038] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R.B.X[/127.119.92.205:40731] logged in with entity id 87178 at (303.5, 71.0, -25.5)
+[06Jan2025 18:01:12.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X joined the game
