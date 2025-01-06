@@ -200,8 +200,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2025-01-06 18:48:52 +0000",
       "cooked_beef": "2025-01-06 16:20:38 +0000",
       "baked_potato": "2025-01-06 16:21:36 +0000",
+      "beef": "2025-01-06 18:49:51 +0000",
       "porkchop": "2025-01-05 21:58:06 +0000",
       "potato": "2025-01-06 17:26:43 +0000",
       "mutton": "2025-01-05 21:58:08 +0000",
@@ -2499,6 +2501,66 @@
   "aether:recipes/combat/stone_sword_repairing": {
     "criteria": {
       "has_stone_sword": "2025-01-06 17:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-06 18:24:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-06 18:48:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-01-06 18:48:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-06 18:48:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "forge:eggs": "2025-01-06 18:48:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_egg": "2025-01-06 18:48:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-06 18:24:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-06 18:24:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-06 18:48:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_the_recipe": "2025-01-06 18:25:23 +0000"
     },
     "done": true
   },

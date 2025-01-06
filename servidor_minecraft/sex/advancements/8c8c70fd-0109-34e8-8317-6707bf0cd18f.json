@@ -30,6 +30,7 @@
       "minecraft:beach": "2025-01-06 18:04:28 +0000",
       "minecraft:river": "2025-01-06 18:12:59 +0000",
       "minecraft:forest": "2025-01-06 18:02:28 +0000",
+      "minecraft:jungle": "2025-01-06 18:31:55 +0000",
       "minecraft:plains": "2025-01-06 18:01:13 +0000"
     },
     "done": false
@@ -539,6 +540,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-06 18:26:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-01-06 18:15:57 +0000"
@@ -572,6 +579,12 @@
   "aether:recipes/decorations/skyroot_bed": {
     "criteria": {
       "has_wool": "2025-01-06 18:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-06 18:26:47 +0000"
     },
     "done": true
   },
@@ -611,6 +624,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-06 18:36:53 +0000"
+    },
+    "done": true
+  },
   "majruszsdifficulty:bleeding_inflicted": {
     "criteria": {
       "bleeding_applied": "2025-01-06 18:13:40 +0000"
@@ -635,6 +654,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-01-06 18:33:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-01-06 18:40:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-06 18:08:06 +0000"
@@ -644,6 +675,12 @@
   "aether:recipes/transportation/skyroot_boat": {
     "criteria": {
       "in_water": "2025-01-06 18:16:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flower_box": {
+    "criteria": {
+      "has_dirt": "2025-01-06 18:39:07 +0000"
     },
     "done": true
   },
@@ -779,6 +816,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-01-06 18:33:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-01-06 18:14:20 +0000"
@@ -788,6 +831,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-01-06 18:17:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-01-06 18:27:39 +0000"
     },
     "done": true
   },
@@ -821,6 +870,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-01-06 18:22:09 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/ash_brick": {
     "criteria": {
       "forge:ash": "2025-01-06 18:14:00 +0000"
@@ -851,6 +906,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-06 18:41:08 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/fodder": {
+    "criteria": {
+      "has_hay_block": "2025-01-06 18:22:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-06 18:26:47 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/wooden_axe_repairing": {
+    "criteria": {
+      "has_wooden_axe": "2025-01-06 18:33:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-06 18:08:06 +0000"
@@ -869,6 +948,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-06 18:39:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-01-06 18:13:40 +0000"
@@ -878,6 +963,12 @@
   "majruszsdifficulty:bleeding": {
     "criteria": {
       "bleeding_applied": "2025-01-06 18:19:06 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2025-01-06 18:29:22 +0000"
     },
     "done": true
   },
@@ -899,9 +990,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-01-06 18:39:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2025-01-06 18:13:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-06 18:36:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-06 18:40:18 +0000"
     },
     "done": true
   },
@@ -989,6 +1098,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-06 18:40:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-06 18:08:06 +0000"
@@ -1016,6 +1131,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-01-06 18:15:07 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/stone_sword_repairing": {
+    "criteria": {
+      "has_stone_sword": "2025-01-06 18:24:52 +0000"
     },
     "done": true
   },
@@ -1049,6 +1170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-06 18:22:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-01-06 18:13:34 +0000"
@@ -1063,9 +1190,11 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2025-01-06 18:24:59 +0000",
       "cooked_beef": "2025-01-06 18:14:25 +0000",
       "beef": "2025-01-06 18:19:10 +0000",
       "porkchop": "2025-01-06 18:15:32 +0000",
+      "potato": "2025-01-06 18:36:36 +0000",
       "mutton": "2025-01-06 18:15:12 +0000"
     },
     "done": false
@@ -1112,9 +1241,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-06 18:26:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2025-01-06 18:13:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-06 18:39:34 +0000"
     },
     "done": true
   },
