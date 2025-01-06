@@ -33,6 +33,7 @@
       "minecraft:forest": "2025-01-06 18:02:28 +0000",
       "minecraft:lush_caves": "2025-01-06 19:01:08 +0000",
       "minecraft:jungle": "2025-01-06 18:31:55 +0000",
+      "minecraft:ocean": "2025-01-06 19:49:04 +0000",
       "minecraft:windswept_gravelly_hills": "2025-01-06 19:35:22 +0000",
       "minecraft:plains": "2025-01-06 18:01:13 +0000"
     },
@@ -664,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2025-01-06 18:36:53 +0000"
@@ -697,6 +704,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-06 18:08:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_barrel": {
+    "criteria": {
+      "has_slabs": "2025-01-06 20:04:37 +0000"
     },
     "done": true
   },
@@ -874,6 +887,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-01-06 19:12:55 +0000"
@@ -928,6 +953,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-06 20:04:37 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/aether_iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_ring": "2025-01-06 19:24:43 +0000"
@@ -949,6 +980,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-01-06 18:53:22 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_birch": {
+    "criteria": {
+      "has_the_recipe": "2025-01-06 20:03:49 +0000"
     },
     "done": true
   },
@@ -1006,6 +1043,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/bamboo_spikes": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-06 20:04:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-01-06 18:18:18 +0000"
@@ -1018,9 +1061,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2025-01-06 18:16:17 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:creeperling": {
+    "criteria": {
+      "encountered_creeperling": "2025-01-06 19:42:33 +0000"
     },
     "done": true
   },
@@ -1033,6 +1088,12 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-01-06 18:53:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-06 20:03:44 +0000"
     },
     "done": true
   },
@@ -1111,6 +1172,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-01-06 18:10:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
     },
     "done": true
   },
@@ -1210,6 +1277,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/food/skyroot_milk_bucket_cake": {
     "criteria": {
       "has_egg": "2025-01-06 18:15:57 +0000"
@@ -1261,6 +1334,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-06 19:01:16 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackboard": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-06 20:04:37 +0000"
     },
     "done": true
   },
@@ -1330,6 +1409,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/decorations/sign_post_birch": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/candle_holders/candle_holder_brown": {
     "criteria": {
       "has_iron_ingot": "2025-01-06 18:53:22 +0000"
@@ -1345,6 +1430,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
     "criteria": {
       "has_smooth_quartz": "2025-01-06 18:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
     },
     "done": true
   },
@@ -1588,6 +1679,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-01-06 20:03:44 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/key": {
     "criteria": {
       "has_gold_ingot": "2025-01-06 19:12:55 +0000"
@@ -1798,6 +1895,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2025-01-06 19:32:16 +0000"
@@ -1924,6 +2027,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/item_shelf": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-06 20:04:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_string": "2025-01-06 18:14:20 +0000"
@@ -1963,6 +2072,12 @@
   "aether:recipes/decorations/skyroot_fletching_table": {
     "criteria": {
       "has_flint": "2025-01-06 18:08:11 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/jar": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-06 20:04:37 +0000"
     },
     "done": true
   },
@@ -2017,6 +2132,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-01-06 18:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-06 20:03:49 +0000"
     },
     "done": true
   },
