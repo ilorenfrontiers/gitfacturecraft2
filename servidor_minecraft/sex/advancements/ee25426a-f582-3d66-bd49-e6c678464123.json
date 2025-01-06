@@ -3175,5 +3175,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_glazed_terracotta": {
+    "criteria": {
+      "has_lime_terracotta": "2025-01-06 21:13:48 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
