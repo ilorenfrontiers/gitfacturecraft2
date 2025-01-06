@@ -32,10 +32,12 @@
       "minecraft:dark_forest": "2025-01-06 16:33:51 +0000",
       "minecraft:river": "2025-01-06 16:16:56 +0000",
       "minecraft:stony_shore": "2025-01-06 18:35:45 +0000",
+      "minecraft:dripstone_caves": "2025-01-06 18:53:38 +0000",
       "minecraft:swamp": "2025-01-06 17:49:46 +0000",
       "minecraft:forest": "2025-01-06 16:16:21 +0000",
       "minecraft:lush_caves": "2025-01-06 16:16:25 +0000",
       "minecraft:ocean": "2025-01-06 16:16:48 +0000",
+      "minecraft:jungle": "2025-01-06 19:22:41 +0000",
       "minecraft:windswept_gravelly_hills": "2025-01-06 18:49:37 +0000",
       "minecraft:plains": "2025-01-05 22:46:57 +0000"
     },
@@ -100,6 +102,12 @@
   "supplementaries:recipes/spring_launcher": {
     "criteria": {
       "has_gunpowder": "2025-01-06 17:38:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-06 19:18:14 +0000"
     },
     "done": true
   },
@@ -172,6 +180,12 @@
   "aether:recipes/building_blocks/blue_ice_freezing": {
     "criteria": {
       "has_water_bucket": "2025-01-06 18:27:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-06 19:18:14 +0000"
     },
     "done": true
   },
@@ -292,6 +306,12 @@
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2025-01-06 17:48:21 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-06 19:18:14 +0000"
     },
     "done": true
   },
