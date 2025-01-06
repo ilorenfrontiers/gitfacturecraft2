@@ -30,6 +30,7 @@
       "minecraft:windswept_hills": "2025-01-06 19:36:12 +0000",
       "minecraft:beach": "2025-01-06 18:04:28 +0000",
       "minecraft:river": "2025-01-06 18:12:59 +0000",
+      "minecraft:swamp": "2025-01-06 20:17:47 +0000",
       "minecraft:forest": "2025-01-06 18:02:28 +0000",
       "minecraft:lush_caves": "2025-01-06 19:01:08 +0000",
       "minecraft:jungle": "2025-01-06 18:31:55 +0000",
@@ -1367,6 +1368,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-06 20:17:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-06 19:00:42 +0000"
@@ -1766,6 +1773,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2025-01-06 18:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-06 20:17:47 +0000"
     },
     "done": true
   },
