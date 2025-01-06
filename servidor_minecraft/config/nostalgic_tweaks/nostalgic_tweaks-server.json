@@ -85,7 +85,7 @@
     "disableBedBounce": true,
     "alwaysOpenChest": true,
     "disableHunger": true,
-    "instantEat": false,
+    "instantEat": true,
     "oldFoodStacking": true,
     "preventHungerEffect": true,
     "customFoodHealth": {
