@@ -54,7 +54,7 @@
     "oldStyleHuskDrops": false,
     "oldSwordBlocking": true,
     "attackWhileSwordBlocking": false,
-    "swordBlockDamageReduction": 50,
+    "swordBlockDamageReduction": 60,
     "oldDamageValues": true,
     "disableCooldown": true,
     "disableMissTimer": true,

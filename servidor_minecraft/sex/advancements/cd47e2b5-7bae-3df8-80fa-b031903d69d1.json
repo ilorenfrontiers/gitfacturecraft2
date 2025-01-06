@@ -25,7 +25,25 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2025-01-06 16:16:24 +0000",
+      "minecraft:beach": "2025-01-06 16:16:42 +0000",
+      "minecraft:river": "2025-01-06 16:16:56 +0000",
+      "minecraft:forest": "2025-01-06 16:16:21 +0000",
+      "minecraft:lush_caves": "2025-01-06 16:16:25 +0000",
+      "minecraft:ocean": "2025-01-06 16:16:48 +0000",
       "minecraft:plains": "2025-01-05 22:46:57 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_oak": "2025-01-06 16:16:57 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:witch_huts": {
+    "criteria": {
+      "in_witch_hut_birch": "2025-01-06 16:16:41 +0000"
     },
     "done": false
   },
