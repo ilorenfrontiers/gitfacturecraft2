@@ -501,6 +501,12 @@
     },
     "done": true
   },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_land_warm": "2025-01-06 19:42:10 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-01-06 18:35:55 +0000"
