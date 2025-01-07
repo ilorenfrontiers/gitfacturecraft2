@@ -3181,6 +3181,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-01-07 14:21:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-01-07 14:47:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2025-01-07 15:11:11 +0000"
@@ -3199,12 +3211,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-01-07 15:32:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-07 15:11:11 +0000"
@@ -3217,12 +3223,6 @@
     },
     "done": true
   },
-  "aether:recipes/building_blocks/skyroot_planks": {
-    "criteria": {
-      "has_logs": "2025-01-07 15:28:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-07 15:11:11 +0000"
@@ -3232,18 +3232,6 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-01-07 15:11:11 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:husbandry/wrench": {
-    "criteria": {
-      "wrench": "2025-01-07 15:21:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2025-01-07 14:47:03 +0000"
     },
     "done": true
   },
@@ -3265,15 +3253,27 @@
     },
     "done": true
   },
+  "supplementaries:husbandry/wrench": {
+    "criteria": {
+      "wrench": "2025-01-07 15:21:14 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_planks": {
+    "criteria": {
+      "has_logs": "2025-01-07 15:28:22 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/building_blocks/skyroot_wood": {
     "criteria": {
       "has_log": "2025-01-07 15:28:22 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
-      "has_bone_meal": "2025-01-07 14:21:54 +0000"
+      "has_dandelion": "2025-01-07 15:32:32 +0000"
     },
     "done": true
   },
