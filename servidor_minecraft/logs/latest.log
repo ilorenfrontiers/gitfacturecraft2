@@ -742,3 +742,48 @@
 [07Jan2025 15:23:42.389] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [07Jan2025 15:24:22.590] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [07Jan2025 15:25:06.189] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:25:24.589] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:25:43.689] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:25:49.691] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:25:59.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[07Jan2025 15:26:45.291] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:26:48.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:26:51.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X was slain by LeoView
+[07Jan2025 15:27:00.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:27:15.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:27:23.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:27:26.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:27:29.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain & thunder]
+[07Jan2025 15:27:48.942] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:29:03.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:29:04.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [You've Got a Friend in Me]
+[07Jan2025 15:29:29.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:29:40.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:29:57.041] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:29:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:09.439] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:30:11.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:12.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:13.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:13.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:14.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:14.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:14.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:48.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:30:57.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain]
+[07Jan2025 15:31:23.690] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:31:23.690] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 15:32:56.383] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=96, y=64, z=381} BlockPos{x=96, y=63, z=383}
+[07Jan2025 15:34:07.195] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=106, y=65, z=375} BlockPos{x=105, y=63, z=375}
+[07Jan2025 15:34:07.232] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=106, y=65, z=375} BlockPos{x=105, y=63, z=375}
+[07Jan2025 15:34:07.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <R.B.X> zzz
+[07Jan2025 15:34:09.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[07Jan2025 15:34:09.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[07Jan2025 15:34:11.593] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[07Jan2025 15:34:11.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[07Jan2025 15:34:16.402] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:59031] logged in with entity id 33394 at (93.78756825682551, 85.0, 338.4163723114593)
+[07Jan2025 15:34:16.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[07Jan2025 15:34:23.153] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:33457] logged in with entity id 33407 at (106.9672722919862, 64.0, 376.1358165388982)
+[07Jan2025 15:34:23.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[07Jan2025 15:34:46.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Summoned new Lightning Bolt]
+[07Jan2025 15:35:01.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]

@@ -3218,6 +3218,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/globe_sepia": {
+    "criteria": {
+      "has_antique_ink": "2025-01-07 15:26:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_birch_wood": {
     "criteria": {
       "has_log": "2025-01-07 14:19:22 +0000"
