@@ -962,6 +962,7 @@
       "chicken": "2025-01-06 18:24:59 +0000",
       "cooked_beef": "2025-01-06 18:14:25 +0000",
       "beef": "2025-01-06 18:19:10 +0000",
+      "baked_potato": "2025-01-07 15:05:01 +0000",
       "porkchop": "2025-01-06 18:15:32 +0000",
       "potato": "2025-01-06 18:36:36 +0000",
       "mutton": "2025-01-06 18:15:12 +0000",
@@ -2642,6 +2643,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2025-01-07 15:08:51 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/boat_jar": {
     "criteria": {
       "minecraft:boats": "2025-01-07 14:43:26 +0000"
@@ -2654,6 +2661,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/globe_sepia": {
+    "criteria": {
+      "has_antique_ink": "2025-01-07 15:09:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2025-01-07 14:24:55 +0000"
@@ -2663,6 +2676,12 @@
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2025-01-07 14:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-07 15:04:08 +0000"
     },
     "done": true
   },
@@ -2702,6 +2721,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-07 15:11:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-07 14:43:26 +0000"
@@ -2726,6 +2751,18 @@
     },
     "done": true
   },
+  "aether:recipes/combat/iron_helmet_repairing": {
+    "criteria": {
+      "has_iron_helmet": "2025-01-07 15:08:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-01-07 15:11:02 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/sconce_soul": {
     "criteria": {
       "has_iron_nugget": "2025-01-07 14:23:05 +0000"
@@ -2735,6 +2772,12 @@
   "aether:recipes/transportation/skyroot_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-07 14:43:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-07 15:11:02 +0000"
     },
     "done": true
   },
