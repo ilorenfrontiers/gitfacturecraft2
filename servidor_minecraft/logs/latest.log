@@ -455,3 +455,85 @@
 [07Jan2025 21:06:50.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [07Jan2025 21:06:50.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [07Jan2025 21:06:50.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:06:59.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Stray
+[07Jan2025 21:07:01.695] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/11333, l='ServerLevel[sex]', x=126.80, y=71.00, z=362.49] died: LeoView was slain by R.B.X
+[07Jan2025 21:07:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Stray
+[07Jan2025 21:07:10.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/11179, l='ServerLevel[sex]', x=99.06, y=64.00, z=364.12] died: LeoView was slain by anexoh
+[07Jan2025 21:07:15.336] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:07:18.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [Spooky Scary Army]
+[07Jan2025 21:07:18.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Spooky Scary Army]
+[07Jan2025 21:07:18.645] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Dream_Cluster'/11450, l='ServerLevel[sex]', x=90.12, y=64.00, z=353.24] died: Dream_Cluster was slain by anexoh
+[07Jan2025 21:07:35.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> estoy hasta los huevos
+[07Jan2025 21:07:47.994] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:07:55.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:07:55.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:07:57.436] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:08:00.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [Boneyard]
+[07Jan2025 21:08:13.137] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:08:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:08:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:08:13.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:08:23.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:08:23.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:08:37.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:09:15.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[07Jan2025 21:09:15.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:09:22.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Removed every effect from iloren_frontiers]
+[07Jan2025 21:09:31.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[07Jan2025 21:09:31.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[07Jan2025 21:09:41.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:34447] logged in with entity id 11842 at (87.31848579295786, 64.0, 379.871105622273)
+[07Jan2025 21:09:41.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[07Jan2025 21:09:43.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Boneyard]
+[07Jan2025 21:10:11.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Boneyard]
+[07Jan2025 21:11:43.385] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:13:53.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Serious Dedication]
+[07Jan2025 21:15:58.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[07Jan2025 21:16:24.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:16:27.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[07Jan2025 21:16:34.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Is this... blood?]
+[07Jan2025 21:16:43.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by anexoh
+[07Jan2025 21:16:45.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:45.386] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:45.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:45.637] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:45.974] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['iloren_frontiers'/13685, l='ServerLevel[sex]', x=131.16, y=71.00, z=362.91] died: iloren_frontiers was slain by LeoView
+[07Jan2025 21:16:45.992] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:46.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:46.238] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:46.238] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:47.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:16:47.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:47.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:47.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:47.487] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:16:49.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:17:10.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by iloren_frontiers
+[07Jan2025 21:19:29.635] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:00.736] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:00.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:43.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[07Jan2025 21:21:46.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Postmortal]
+[07Jan2025 21:21:55.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by anexoh
+[07Jan2025 21:21:57.740] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:57.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:57.938] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:58.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:58.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:21:58.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:21:59.893] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['iloren_frontiers'/14364, l='ServerLevel[sex]', x=82.76, y=64.00, z=365.51] died: iloren_frontiers was slain by anexoh
+[07Jan2025 21:22:02.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:22:15.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by anexoh
+[07Jan2025 21:22:38.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by anexoh
+[07Jan2025 21:22:55.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Cover Me in Debris]
+[07Jan2025 21:22:58.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[07Jan2025 21:23:01.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by iloren_frontiers
+[07Jan2025 21:23:15.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:23:24.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:23:36.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[07Jan2025 21:23:39.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 21:23:52.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was blown up by iloren_frontiers
+[07Jan2025 21:24:14.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:25:29.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:26:21.986] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:26:21.988] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 21:26:47.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was blasted to bits by iloren_frontiers

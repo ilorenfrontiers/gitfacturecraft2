@@ -3277,6 +3277,12 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2025-01-07 20:26:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2025-01-07 21:05:09 +0000"
@@ -3286,18 +3292,6 @@
   "minecraft:recipes/building_blocks/quartz_bricks": {
     "criteria": {
       "has_quartz_block": "2025-01-07 21:05:09 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_crafting_table": {
-    "criteria": {
-      "has_the_recipe": "2025-01-07 20:26:13 +0000"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:creeperling": {
-    "criteria": {
-      "encountered_creeperling": "2025-01-07 21:05:10 +0000"
     },
     "done": true
   },
@@ -3352,6 +3346,12 @@
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-01-07 21:05:09 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:creeperling": {
+    "criteria": {
+      "encountered_creeperling": "2025-01-07 21:05:10 +0000"
     },
     "done": true
   },
