@@ -31,10 +31,12 @@
       "minecraft:beach": "2025-01-06 20:38:45 +0000",
       "minecraft:dark_forest": "2025-01-07 14:30:48 +0000",
       "minecraft:river": "2025-01-06 20:55:19 +0000",
+      "minecraft:dripstone_caves": "2025-01-07 14:46:38 +0000",
       "minecraft:swamp": "2025-01-06 21:03:03 +0000",
       "minecraft:forest": "2025-01-06 20:36:29 +0000",
       "minecraft:desert": "2025-01-07 14:10:22 +0000",
       "minecraft:ocean": "2025-01-06 20:39:13 +0000",
+      "minecraft:deep_dark": "2025-01-07 14:50:34 +0000",
       "minecraft:savanna": "2025-01-06 21:10:06 +0000",
       "minecraft:plains": "2025-01-06 20:36:19 +0000"
     },
@@ -1755,9 +1757,33 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-07 14:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/aether_iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_gloves": "2025-01-07 14:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
     },
     "done": true
   },
@@ -1767,9 +1793,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/iron_gloves_repairing": {
     "criteria": {
       "has_iron_gloves": "2025-01-07 14:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-07 14:51:17 +0000"
     },
     "done": true
   },
@@ -1779,9 +1817,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-01-07 14:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/iron_axe_repairing": {
     "criteria": {
       "has_iron_axe": "2025-01-07 14:36:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-07 14:46:36 +0000"
     },
     "done": true
   },
