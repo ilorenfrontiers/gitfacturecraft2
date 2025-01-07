@@ -634,7 +634,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "beef": "2025-01-06 20:39:59 +0000",
-      "bread": "2025-01-06 20:59:21 +0000"
+      "bread": "2025-01-06 20:59:21 +0000",
+      "carrot": "2025-01-07 20:55:41 +0000"
     },
     "done": false
   },
@@ -649,6 +650,9 @@
       "minecraft:skeleton": "2025-01-06 20:40:10 +0000",
       "minecraft:spider": "2025-01-06 21:13:01 +0000",
       "minecraft:creeper": "2025-01-06 20:52:29 +0000",
+      "minecraft:wither_skeleton": "2025-01-07 21:01:58 +0000",
+      "minecraft:husk": "2025-01-07 20:56:45 +0000",
+      "minecraft:stray": "2025-01-07 20:57:03 +0000",
       "minecraft:zombie": "2025-01-06 20:40:17 +0000",
       "minecraft:zombie_villager": "2025-01-07 14:09:54 +0000"
     },
@@ -2016,6 +2020,12 @@
     },
     "done": true
   },
+  "majruszsdifficulty:bleeding_inflicted": {
+    "criteria": {
+      "bleeding_applied": "2025-01-07 20:59:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-01-07 20:51:34 +0000"
@@ -2076,6 +2086,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_birch": {
+    "criteria": {
+      "has_birch_sign": "2025-01-07 20:53:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-01-07 20:42:12 +0000"
@@ -2115,6 +2131,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2025-01-07 20:51:34 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_birch": {
+    "criteria": {
+      "has_the_recipe": "2025-01-07 20:53:45 +0000"
     },
     "done": true
   },
@@ -2169,6 +2191,12 @@
   "aether:recipes/combat/golden_gloves": {
     "criteria": {
       "has_gold": "2025-01-07 20:51:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-01-07 20:55:20 +0000"
     },
     "done": true
   },
