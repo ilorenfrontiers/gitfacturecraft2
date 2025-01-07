@@ -3277,5 +3277,11 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2025-01-07 20:26:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

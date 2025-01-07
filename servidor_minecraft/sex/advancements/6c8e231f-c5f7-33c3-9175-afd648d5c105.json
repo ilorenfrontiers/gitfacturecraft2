@@ -1949,15 +1949,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/emerald_block": {
+  "supplementaries:recipes/ash_brick": {
     "criteria": {
-      "has_emerald": "2025-01-07 20:16:09 +0000"
+      "forge:ash": "2025-01-07 20:08:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_wood": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "has_log": "2025-01-07 20:21:57 +0000"
+      "avoid_vibration": "2025-01-07 20:08:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-07 20:16:09 +0000"
     },
     "done": true
   },
@@ -1973,27 +1979,21 @@
     },
     "done": true
   },
-  "supplementaries:recipes/ash_brick": {
+  "supplementaries:recipes/daub": {
     "criteria": {
-      "forge:ash": "2025-01-07 20:08:02 +0000"
+      "supplementaries:straw": "2025-01-07 20:18:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-07 20:21:57 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-01-07 20:21:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2025-01-07 20:08:06 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/daub": {
-    "criteria": {
-      "supplementaries:straw": "2025-01-07 20:18:59 +0000"
     },
     "done": true
   },

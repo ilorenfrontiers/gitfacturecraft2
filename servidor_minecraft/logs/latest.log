@@ -258,3 +258,39 @@
 [07Jan2025 20:25:11.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
 [07Jan2025 20:25:44.795] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=107, y=73, z=338} BlockPos{x=105, y=73, z=339}
 [07Jan2025 20:26:05.836] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:26:23.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <R.B.X> el verdadero tio mi casa
+[07Jan2025 20:26:29.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:27:23.985] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:27:54.286] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:27:54.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:27:59.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[07Jan2025 20:28:29.742] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: anexoh lost connection: Disconnected
+[07Jan2025 20:28:29.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh left the game
+[07Jan2025 20:29:12.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:29:32.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:29:45.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:29:59.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:29:59.037] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:30:18.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:30:18.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:30:53.885] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:31:08.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: anexoh[/127.139.144.169:47663] logged in with entity id 3844 at (96.73505171149328, 64.0, 376.01483431127195)
+[07Jan2025 20:31:08.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh joined the game
+[07Jan2025 20:31:19.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:31:42.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [A Seedy Place]
+[07Jan2025 20:32:25.643] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Timed out
+[07Jan2025 20:32:25.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[07Jan2025 20:32:25.692] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Jan2025 20:33:04.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@51520e08[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.8.175.20:53079) lost connection: Disconnected
+[07Jan2025 20:33:30.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:33:30.237] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:03.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:03.237] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:08.736] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:08.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:08.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:18.587] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:18.588] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:34:18.588] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[07Jan2025 20:35:18.345] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:44065] logged in with entity id 4565 at (60.90403703808591, 79.1168096714442, 347.1528764875725)
+[07Jan2025 20:35:18.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
