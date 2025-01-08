@@ -1,539 +1,375 @@
-[07Jan2025 20:06:08.442] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[07Jan2025 20:06:08.447] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[07Jan2025 20:06:10.279] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[07Jan2025 20:06:10.481] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[07Jan2025 20:06:11.264] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[07Jan2025 20:06:11.267] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Jan2025 20:06:11.269] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Jan2025 20:06:11.272] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Jan2025 20:06:11.867] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[07Jan2025 20:06:11.869] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[07Jan2025 20:06:14.760] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[07Jan2025 20:06:14.915] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[07Jan2025 20:06:15.395] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Jan2025 20:06:18.168] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[07Jan2025 20:06:18.635] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[07Jan2025 20:06:18.750] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[07Jan2025 20:06:18.752] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
-[07Jan2025 20:06:18.756] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
-[07Jan2025 20:06:19.247] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07Jan2025 20:06:25.786] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[07Jan2025 20:06:25.794] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[07Jan2025 20:06:30.877] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
-[07Jan2025 20:06:32.313] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[07Jan2025 20:06:32.380] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[07Jan2025 20:06:32.390] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[07Jan2025 20:06:32.392] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[07Jan2025 20:06:32.624] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
-[07Jan2025 20:06:33.156] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[07Jan2025 20:06:33.409] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[07Jan2025 20:06:33.475] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[07Jan2025 20:06:33.478] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[07Jan2025 20:06:34.359] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
-[07Jan2025 20:06:34.361] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
-[07Jan2025 20:06:34.362] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
-[07Jan2025 20:06:34.366] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
-[07Jan2025 20:06:34.367] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
-[07Jan2025 20:06:34.370] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
-[07Jan2025 20:06:34.371] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
-[07Jan2025 20:06:34.377] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
-[07Jan2025 20:06:34.377] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
-[07Jan2025 20:06:34.378] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
-[07Jan2025 20:06:34.389] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
-[07Jan2025 20:06:34.395] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
-[07Jan2025 20:06:34.397] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
-[07Jan2025 20:06:34.398] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
-[07Jan2025 20:06:34.401] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
-[07Jan2025 20:06:34.410] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
-[07Jan2025 20:06:34.412] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
-[07Jan2025 20:06:34.418] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
-[07Jan2025 20:06:34.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
-[07Jan2025 20:06:34.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
-[07Jan2025 20:06:34.426] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
-[07Jan2025 20:06:34.427] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
-[07Jan2025 20:06:34.430] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
-[07Jan2025 20:06:34.435] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
-[07Jan2025 20:06:34.437] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
-[07Jan2025 20:06:34.438] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
-[07Jan2025 20:06:34.444] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
-[07Jan2025 20:06:34.449] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
-[07Jan2025 20:06:34.452] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
-[07Jan2025 20:06:34.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
-[07Jan2025 20:06:34.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
-[07Jan2025 20:06:34.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
-[07Jan2025 20:06:34.964] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
-[07Jan2025 20:06:35.047] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
-[07Jan2025 20:06:35.050] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
-[07Jan2025 20:06:35.050] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
-[07Jan2025 20:06:35.052] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[07Jan2025 20:06:35.071] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
-[07Jan2025 20:06:35.079] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:16, disabled:false}}] was successfully validated with 16 entries
-[07Jan2025 20:06:35.080] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:51, disabled:false}}] was successfully validated with 51 entries
-[07Jan2025 20:06:35.080] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[07Jan2025 20:06:35.081] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
-[07Jan2025 20:06:35.084] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[07Jan2025 20:06:35.085] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
-[07Jan2025 20:06:35.089] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
-[07Jan2025 20:06:35.089] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
-[07Jan2025 20:06:36.996] [main/INFO] [Moonlight/]: Initialized block sets in 21ms
-[07Jan2025 20:06:37.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[07Jan2025 20:06:37.923] [main/INFO] [Moonlight/]: Initialized color sets in 27ms
-[07Jan2025 20:06:38.030] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 3, 0, 1, 0, 0, 31, 8, 1] ms
-[07Jan2025 20:06:38.055] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
-[07Jan2025 20:06:38.055] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
-[07Jan2025 20:06:38.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
-[07Jan2025 20:06:38.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[07Jan2025 20:06:38.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
-[07Jan2025 20:06:38.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
-[07Jan2025 20:06:38.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
-[07Jan2025 20:06:38.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[07Jan2025 20:06:39.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
-[07Jan2025 20:06:39.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[07Jan2025 20:06:39.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[07Jan2025 20:06:39.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[07Jan2025 20:06:39.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[07Jan2025 20:06:39.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[07Jan2025 20:06:39.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
-[07Jan2025 20:06:39.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[07Jan2025 20:06:39.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[07Jan2025 20:06:41.327] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07Jan2025 20:06:42.894] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
-[07Jan2025 20:06:42.895] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
-[07Jan2025 20:06:43.128] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 56 ms
-[07Jan2025 20:06:46.167] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
-[07Jan2025 20:06:47.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[07Jan2025 20:06:47.657] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[07Jan2025 20:06:47.700] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[07Jan2025 20:06:47.731] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
-[07Jan2025 20:06:47.889] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[07Jan2025 20:06:47.983] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1861 advancements
-[07Jan2025 20:06:48.041] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[07Jan2025 20:06:48.047] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[07Jan2025 20:06:48.073] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[07Jan2025 20:06:48.088] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[07Jan2025 20:06:49.232] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[07Jan2025 20:06:49.395] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
-[07Jan2025 20:06:49.569] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 11 milliseconds
-[07Jan2025 20:06:49.570] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
-[07Jan2025 20:06:49.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[07Jan2025 20:06:49.572] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[07Jan2025 20:06:49.572] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[07Jan2025 20:06:49.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07Jan2025 20:06:49.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[07Jan2025 20:06:49.857] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[07Jan2025 20:06:49.972] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07Jan2025 20:06:49.972] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[07Jan2025 20:06:49.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07Jan2025 20:06:49.974] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[07Jan2025 20:06:50.217] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
-[07Jan2025 20:06:53.206] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[07Jan2025 20:06:54.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07Jan2025 20:07:00.534] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[07Jan2025 20:07:02.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.404] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.407] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.408] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.408] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.409] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.410] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.411] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.411] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.412] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.413] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.415] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.416] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.417] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:02.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:03.104] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:03.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Jan2025 20:07:04.244] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10141 ms
-[07Jan2025 20:07:04.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.228s)! For help, type "help"
-[07Jan2025 20:07:04.332] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[07Jan2025 20:07:15.320] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: anexoh[/127.139.144.169:34251] logged in with entity id 216 at (143.66802853609968, -39.0, 339.415820954894)
-[07Jan2025 20:07:15.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh joined the game
-[07Jan2025 20:07:19.080] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3745ms or 74 ticks behind
-[07Jan2025 20:07:23.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:38451] logged in with entity id 337 at (104.75786511888201, 89.5, 332.76540452443146)
-[07Jan2025 20:07:23.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[07Jan2025 20:07:23.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:23.719] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:53511] logged in with entity id 341 at (172.24886120174577, 76.05061949029357, 575.5506336617508)
-[07Jan2025 20:07:23.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[07Jan2025 20:07:25.292] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:25.293] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:26.013] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:26.425] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:26.754] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:07:28.774] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:52089] logged in with entity id 459 at (71.57924708761843, 72.0, 373.07849637697626)
-[07Jan2025 20:07:28.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[07Jan2025 20:07:36.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[07Jan2025 20:07:53.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeper]
-[07Jan2025 20:08:04.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[07Jan2025 20:08:06.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Sneak 100]
-[07Jan2025 20:10:29.136] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:33731] logged in with entity id 1246 at (303.5, 71.0, -25.5)
-[07Jan2025 20:13:09.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
-[07Jan2025 20:13:09.490] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.492] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.838] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.894] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:09.956] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:13:17.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 lost connection: Disconnected
-[07Jan2025 20:13:17.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 left the game
-[07Jan2025 20:13:29.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Giant]
-[07Jan2025 20:13:36.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[07Jan2025 20:13:58.112] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R.B.X[/127.119.92.205:54263] logged in with entity id 1438 at (115.94345543185614, 65.0, 382.6565307331498)
-[07Jan2025 20:13:58.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X joined the game
-[07Jan2025 20:14:30.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh was slain by Giant
-[07Jan2025 20:14:49.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was doomed to fall by Giant
-[07Jan2025 20:16:15.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeper]
-[07Jan2025 20:16:58.886] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:16:58.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:17:58.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[07Jan2025 20:18:06.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[07Jan2025 20:18:12.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[07Jan2025 20:18:19.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[07Jan2025 20:18:23.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[07Jan2025 20:18:30.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[07Jan2025 20:18:58.912] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:11.090] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:11.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:11.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:11.188] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:11.188] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:24.152] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:34.186] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:34.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:19:39.643] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:20:00.341] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R.B.X lost connection: Disconnected
-[07Jan2025 20:20:00.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X left the game
-[07Jan2025 20:20:21.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[07Jan2025 20:20:29.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[07Jan2025 20:20:48.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:48.395] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6a12fda9[id=<null>,name=R.B.X,properties={},legacy=false] (/127.119.92.205:47205) lost connection: Disconnected
-[07Jan2025 20:20:48.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:48.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:50.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:51.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:51.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:53.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:54.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:54.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:56.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:20:56.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:02.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:02.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:03.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:05.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:06.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:06.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 4 players]
-[07Jan2025 20:21:08.867] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R.B.X[/127.119.92.205:37333] logged in with entity id 2423 at (113.96906105774836, 71.0, 361.68441690683267)
-[07Jan2025 20:21:08.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X joined the game
-[07Jan2025 20:21:13.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:21:18.186] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:21:18.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:21:21.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.extinguish_fire to 5 players]
-[07Jan2025 20:21:31.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 5 players]
-[07Jan2025 20:21:33.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 5 players]
-[07Jan2025 20:21:43.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 5 players]
-[07Jan2025 20:22:35.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[07Jan2025 20:22:43.337] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:23:12.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <R.B.X> zzz
-[07Jan2025 20:23:14.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 5 players]
-[07Jan2025 20:23:15.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <anexoh> zzz
-[07Jan2025 20:23:33.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[07Jan2025 20:23:33.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[07Jan2025 20:23:38.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[07Jan2025 20:23:52.491] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@59d221ea[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:36523) lost connection: Disconnected
-[07Jan2025 20:23:56.066] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:48603] logged in with entity id 2846 at (106.7330081924895, 91.5, 341.26858771707174)
-[07Jan2025 20:23:56.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[07Jan2025 20:23:56.387] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:24:15.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
-[07Jan2025 20:24:18.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[07Jan2025 20:24:41.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:24:58.536] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:25:11.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:25:44.795] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=107, y=73, z=338} BlockPos{x=105, y=73, z=339}
-[07Jan2025 20:26:05.836] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:26:23.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <R.B.X> el verdadero tio mi casa
-[07Jan2025 20:26:29.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:27:23.985] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:27:54.286] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:27:54.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:27:59.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:28:29.742] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: anexoh lost connection: Disconnected
-[07Jan2025 20:28:29.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh left the game
-[07Jan2025 20:29:12.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:29:32.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:29:45.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:29:59.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:29:59.037] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:30:18.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:30:18.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:30:53.885] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:31:08.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: anexoh[/127.139.144.169:47663] logged in with entity id 3844 at (96.73505171149328, 64.0, 376.01483431127195)
-[07Jan2025 20:31:08.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh joined the game
-[07Jan2025 20:31:19.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:31:42.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [A Seedy Place]
-[07Jan2025 20:32:25.643] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Timed out
-[07Jan2025 20:32:25.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[07Jan2025 20:32:25.692] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07Jan2025 20:33:04.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@51520e08[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.8.175.20:53079) lost connection: Disconnected
-[07Jan2025 20:33:30.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:33:30.237] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:03.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:03.237] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:08.736] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:08.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:08.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:18.587] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:18.588] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:34:18.588] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:35:18.345] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:44065] logged in with entity id 4565 at (60.90403703808591, 79.1168096714442, 347.1528764875725)
-[07Jan2025 20:35:18.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[07Jan2025 20:36:59.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:37:04.540] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[07Jan2025 20:37:04.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[07Jan2025 20:37:20.445] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@18c8c1be[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:60707) lost connection: Disconnected
-[07Jan2025 20:37:45.091] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@41de44c9[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:43335) lost connection: Disconnected
-[07Jan2025 20:37:50.741] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4da7712c[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:55081) lost connection: Disconnected
-[07Jan2025 20:37:56.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:37:59.342] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@71b586eb[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:59549) lost connection: Disconnected
-[07Jan2025 20:38:18.886] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:38:30.591] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b4666b4[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:49085) lost connection: Disconnected
-[07Jan2025 20:38:44.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:45233] logged in with entity id 4941 at (110.45035825033219, 74.0, 357.6937038658762)
-[07Jan2025 20:38:44.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[07Jan2025 20:39:20.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:39:47.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:39:49.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:39:51.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:39:56.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:40:42.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:40:45.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <anexoh> herobrine do u want some food?
-[07Jan2025 20:42:28.892] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[07Jan2025 20:42:28.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[07Jan2025 20:43:15.091] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@34cb824a[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:50141) lost connection: Disconnected
-[07Jan2025 20:43:17.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:43:34.791] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@da476e0[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:39857) lost connection: Disconnected
-[07Jan2025 20:43:43.642] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ef0cf7b[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:41181) lost connection: Disconnected
-[07Jan2025 20:44:14.591] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1b3fbfb3[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:56307) lost connection: Disconnected
-[07Jan2025 20:44:22.652] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:51799] logged in with entity id 5677 at (102.47400521291708, 74.0, 341.77415288609075)
-[07Jan2025 20:44:22.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[07Jan2025 20:45:29.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:46:12.986] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:46:17.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:46:37.275] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.disableAnvil, new:false, old:true}]
-[07Jan2025 20:46:38.286] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[07Jan2025 20:46:48.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> THANK YOU
-[07Jan2025 20:48:03.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:48:46.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:48:59.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
-[07Jan2025 20:50:09.687] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:50:09.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:50:27.547] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:50:39.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:51:55.836] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:51:56.535] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:27.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:33.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:36.536] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:36.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:37.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied effect Invisibility to iloren_frontiers]
-[07Jan2025 20:52:38.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:39.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:52:40.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:40.639] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:40.639] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:52:59.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:53:21.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:23.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:23.088] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:23.088] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:23.386] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:24.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:26.388] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:26.436] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:53:43.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
-[07Jan2025 20:54:25.088] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:54:25.687] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:54:31.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:54:41.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:55:00.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:55:00.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:55:00.438] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:55:26.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Skeleton
-[07Jan2025 20:56:04.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:56:46.540] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:56:46.541] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:56:46.542] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:57:07.788] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:57:09.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:57:09.688] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:57:27.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
-[07Jan2025 20:57:36.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:57:53.238] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:04.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:07.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 20:58:08.138] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:08.343] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:16.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:17.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:17.637] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:18.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:58:39.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 20:59:00.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:11.337] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:11.337] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:15.886] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:32.986] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:33.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Bloodthirsty]
-[07Jan2025 20:59:34.836] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:34.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:48.835] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:48.886] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 20:59:48.886] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:10.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:10.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:10.837] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:55.037] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:55.038] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:00:59.037] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:01:55.587] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:06.585] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:06.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:06.787] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:11.737] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:11.738] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:11.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:11.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:02:43.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Wither Skeleton
-[07Jan2025 21:03:01.635] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:09.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:13.839] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:40.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:40.992] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:41.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:43.435] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:43.436] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:44.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:44.536] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:54.887] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:03:57.287] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:04:28.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:05:00.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeper]
-[07Jan2025 21:05:03.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[07Jan2025 21:05:09.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh was blown up by Creeper
-[07Jan2025 21:05:09.862] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=105, y=75, z=338} BlockPos{x=105, y=74, z=338}
-[07Jan2025 21:05:10.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [What Was That!?]
-[07Jan2025 21:05:12.385] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:05:16.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Cerberus
-[07Jan2025 21:05:22.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Stray
-[07Jan2025 21:05:23.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:05:37.244] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[07Jan2025 21:05:37.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[07Jan2025 21:05:39.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Cerberus
-[07Jan2025 21:05:39.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh was slain by Tank
-[07Jan2025 21:05:48.104] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:59613] logged in with entity id 11054 at (89.01110963603497, 58.0, 405.0096067992629)
-[07Jan2025 21:05:48.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[07Jan2025 21:05:50.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:05:54.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh withered away whilst fighting Tank
-[07Jan2025 21:05:55.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Suit Up]
-[07Jan2025 21:05:59.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Wither Skeleton
-[07Jan2025 21:06:07.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView withered away whilst fighting Wither Skeleton
-[07Jan2025 21:06:07.337] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:12.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:30.639] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:30.640] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:30.640] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:35.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Wither Skeleton
-[07Jan2025 21:06:36.237] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:43.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView bled to death
-[07Jan2025 21:06:50.436] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:50.437] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:50.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:50.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:06:59.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Stray
-[07Jan2025 21:07:01.695] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/11333, l='ServerLevel[sex]', x=126.80, y=71.00, z=362.49] died: LeoView was slain by R.B.X
-[07Jan2025 21:07:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Stray
-[07Jan2025 21:07:10.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/11179, l='ServerLevel[sex]', x=99.06, y=64.00, z=364.12] died: LeoView was slain by anexoh
-[07Jan2025 21:07:15.336] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:07:18.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [Spooky Scary Army]
-[07Jan2025 21:07:18.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Spooky Scary Army]
-[07Jan2025 21:07:18.645] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Dream_Cluster'/11450, l='ServerLevel[sex]', x=90.12, y=64.00, z=353.24] died: Dream_Cluster was slain by anexoh
-[07Jan2025 21:07:35.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> estoy hasta los huevos
-[07Jan2025 21:07:47.994] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:07:55.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:07:55.586] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:07:57.436] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:08:00.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R.B.X has made the advancement [Boneyard]
-[07Jan2025 21:08:13.137] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:08:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:08:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:08:13.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:08:23.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:08:23.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:08:37.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:09:15.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
-[07Jan2025 21:09:15.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:09:22.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Removed every effect from iloren_frontiers]
-[07Jan2025 21:09:31.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[07Jan2025 21:09:31.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[07Jan2025 21:09:41.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:34447] logged in with entity id 11842 at (87.31848579295786, 64.0, 379.871105622273)
-[07Jan2025 21:09:41.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[07Jan2025 21:09:43.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Boneyard]
-[07Jan2025 21:10:11.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: anexoh has made the advancement [Boneyard]
-[07Jan2025 21:11:43.385] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:13:53.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Serious Dedication]
-[07Jan2025 21:15:58.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
-[07Jan2025 21:16:24.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:16:27.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[07Jan2025 21:16:34.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Is this... blood?]
-[07Jan2025 21:16:43.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by anexoh
-[07Jan2025 21:16:45.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:45.386] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:45.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:45.637] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:45.974] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['iloren_frontiers'/13685, l='ServerLevel[sex]', x=131.16, y=71.00, z=362.91] died: iloren_frontiers was slain by LeoView
-[07Jan2025 21:16:45.992] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:46.086] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:46.238] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:46.238] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:47.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:16:47.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:47.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:47.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:47.487] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:16:49.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:17:10.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by iloren_frontiers
-[07Jan2025 21:19:29.635] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:00.736] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:00.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:43.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[07Jan2025 21:21:46.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Postmortal]
-[07Jan2025 21:21:55.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by anexoh
-[07Jan2025 21:21:57.740] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:57.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:57.938] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:58.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:58.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:21:58.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:21:59.893] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['iloren_frontiers'/14364, l='ServerLevel[sex]', x=82.76, y=64.00, z=365.51] died: iloren_frontiers was slain by anexoh
-[07Jan2025 21:22:02.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:22:15.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by anexoh
-[07Jan2025 21:22:38.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by anexoh
-[07Jan2025 21:22:55.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Cover Me in Debris]
-[07Jan2025 21:22:58.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[07Jan2025 21:23:01.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by iloren_frontiers
-[07Jan2025 21:23:15.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:23:24.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:23:36.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[07Jan2025 21:23:39.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[07Jan2025 21:23:52.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was blown up by iloren_frontiers
-[07Jan2025 21:24:14.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:25:29.937] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:26:21.986] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:26:21.988] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
-[07Jan2025 21:26:47.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was blasted to bits by iloren_frontiers
+[08Jan2025 20:58:48.405] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[08Jan2025 20:58:48.417] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[08Jan2025 20:58:51.544] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Jan2025 20:58:51.702] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Jan2025 20:58:52.624] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jan2025 20:58:52.629] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jan2025 20:58:52.630] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jan2025 20:58:52.639] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Jan2025 20:58:53.392] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[08Jan2025 20:58:53.395] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[08Jan2025 20:58:58.087] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Jan2025 20:58:58.384] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[08Jan2025 20:58:59.011] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Jan2025 20:59:03.409] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[08Jan2025 20:59:04.195] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[08Jan2025 20:59:04.338] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[08Jan2025 20:59:04.342] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[08Jan2025 20:59:04.342] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
+[08Jan2025 20:59:05.488] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[08Jan2025 20:59:17.353] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[08Jan2025 20:59:17.355] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[08Jan2025 20:59:25.302] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
+[08Jan2025 20:59:26.856] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[08Jan2025 20:59:27.115] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[08Jan2025 20:59:27.117] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[08Jan2025 20:59:27.120] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[08Jan2025 20:59:27.740] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
+[08Jan2025 20:59:28.439] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[08Jan2025 20:59:28.978] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Jan2025 20:59:29.182] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[08Jan2025 20:59:29.186] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[08Jan2025 20:59:31.640] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
+[08Jan2025 20:59:31.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
+[08Jan2025 20:59:31.660] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
+[08Jan2025 20:59:31.660] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
+[08Jan2025 20:59:31.661] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
+[08Jan2025 20:59:31.662] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
+[08Jan2025 20:59:31.663] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
+[08Jan2025 20:59:31.664] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
+[08Jan2025 20:59:31.679] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
+[08Jan2025 20:59:31.681] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
+[08Jan2025 20:59:31.687] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
+[08Jan2025 20:59:31.688] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
+[08Jan2025 20:59:31.688] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
+[08Jan2025 20:59:31.691] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
+[08Jan2025 20:59:31.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
+[08Jan2025 20:59:31.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
+[08Jan2025 20:59:31.708] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
+[08Jan2025 20:59:31.710] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
+[08Jan2025 20:59:31.714] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
+[08Jan2025 20:59:31.722] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
+[08Jan2025 20:59:31.728] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
+[08Jan2025 20:59:31.729] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
+[08Jan2025 20:59:31.735] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
+[08Jan2025 20:59:31.736] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
+[08Jan2025 20:59:31.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
+[08Jan2025 20:59:31.743] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
+[08Jan2025 20:59:31.762] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
+[08Jan2025 20:59:31.766] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
+[08Jan2025 20:59:31.768] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
+[08Jan2025 20:59:31.769] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
+[08Jan2025 20:59:31.781] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
+[08Jan2025 20:59:31.783] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
+[08Jan2025 20:59:32.615] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[08Jan2025 20:59:32.765] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
+[08Jan2025 20:59:32.772] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
+[08Jan2025 20:59:32.772] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
+[08Jan2025 20:59:32.775] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[08Jan2025 20:59:32.812] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
+[08Jan2025 20:59:32.814] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:16, disabled:false}}] was successfully validated with 16 entries
+[08Jan2025 20:59:32.818] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:51, disabled:false}}] was successfully validated with 51 entries
+[08Jan2025 20:59:32.818] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[08Jan2025 20:59:32.818] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
+[08Jan2025 20:59:32.829] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[08Jan2025 20:59:32.830] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
+[08Jan2025 20:59:32.838] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
+[08Jan2025 20:59:32.844] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
+[08Jan2025 20:59:35.850] [main/INFO] [Moonlight/]: Initialized block sets in 15ms
+[08Jan2025 20:59:37.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[08Jan2025 20:59:37.392] [main/INFO] [Moonlight/]: Initialized color sets in 62ms
+[08Jan2025 20:59:37.562] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 4, 0, 6, 0, 0, 44, 6, 5] ms
+[08Jan2025 20:59:37.594] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
+[08Jan2025 20:59:37.594] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
+[08Jan2025 20:59:37.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
+[08Jan2025 20:59:37.710] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[08Jan2025 20:59:38.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
+[08Jan2025 20:59:38.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[08Jan2025 20:59:38.212] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[08Jan2025 20:59:38.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[08Jan2025 20:59:39.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
+[08Jan2025 20:59:39.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[08Jan2025 20:59:39.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[08Jan2025 20:59:39.549] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Jan2025 20:59:39.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[08Jan2025 20:59:39.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[08Jan2025 20:59:39.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
+[08Jan2025 20:59:39.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[08Jan2025 20:59:39.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[08Jan2025 20:59:41.926] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Jan2025 20:59:44.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[08Jan2025 20:59:44.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[08Jan2025 20:59:44.836] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 111 ms
+[08Jan2025 20:59:48.996] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
+[08Jan2025 20:59:51.357] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[08Jan2025 20:59:51.367] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[08Jan2025 20:59:51.438] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[08Jan2025 20:59:51.497] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[08Jan2025 20:59:51.685] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[08Jan2025 20:59:51.775] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1861 advancements
+[08Jan2025 20:59:51.861] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[08Jan2025 20:59:51.871] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[08Jan2025 20:59:51.906] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[08Jan2025 20:59:51.950] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[08Jan2025 20:59:53.039] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[08Jan2025 20:59:53.165] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[08Jan2025 20:59:53.534] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 20 milliseconds
+[08Jan2025 20:59:53.538] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 2 milliseconds
+[08Jan2025 20:59:53.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Jan2025 20:59:53.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Jan2025 20:59:53.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Jan2025 20:59:53.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Jan2025 20:59:53.818] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Jan2025 20:59:53.994] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Jan2025 20:59:54.328] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Jan2025 20:59:54.329] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Jan2025 20:59:54.330] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Jan2025 20:59:54.331] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Jan2025 20:59:55.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
+[08Jan2025 21:00:00.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Jan2025 21:00:05.995] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[08Jan2025 21:00:08.953] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[08Jan2025 21:00:09.896] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[08Jan2025 21:00:13.335] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[08Jan2025 21:00:16.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.206] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.214] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.221] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.223] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.226] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.231] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.283] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.287] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.289] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.303] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.307] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.317] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.323] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.329] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:16.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:17.296] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:17.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:18.377] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jan2025 21:00:18.841] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 18553 ms
+[08Jan2025 21:00:18.844] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.317s)! For help, type "help"
+[08Jan2025 21:00:18.915] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Jan2025 21:00:28.176] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:58397] logged in with entity id 216 at (98.5149144965579, 64.0, 373.0985253277738)
+[08Jan2025 21:00:28.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[08Jan2025 21:00:32.680] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4469ms or 89 ticks behind
+[08Jan2025 21:00:37.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[08Jan2025 21:00:48.410] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:51929] logged in with entity id 320 at (91.09540665266681, 64.0, 379.57543662084873)
+[08Jan2025 21:00:48.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[08Jan2025 21:01:00.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Kicked Dream_Cluster: Kicked by an operator]
+[08Jan2025 21:01:00.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Kicked by an operator
+[08Jan2025 21:01:00.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[08Jan2025 21:01:03.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Who is Cutting Onions?]
+[08Jan2025 21:01:03.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [You've Got a Friend in Me]
+[08Jan2025 21:01:03.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [With Our Powers Combined!]
+[08Jan2025 21:01:03.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Cold as Ice]
+[08Jan2025 21:01:03.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Why Would You do That!?]
+[08Jan2025 21:01:03.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Suit Up]
+[08Jan2025 21:01:03.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Smithing with Style]
+[08Jan2025 21:01:03.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Free the End]
+[08Jan2025 21:01:03.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Sprawling Civilizations]
+[08Jan2025 21:01:03.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Glow and Behold!]
+[08Jan2025 21:01:03.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Bring Home the Beacon]
+[08Jan2025 21:01:03.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Not Today, Thank You]
+[08Jan2025 21:01:03.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Ocean Looter]
+[08Jan2025 21:01:03.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [When the Squad Hops into Town]
+[08Jan2025 21:01:03.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Isn't It Iron Pick]
+[08Jan2025 21:01:03.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [How the Turn Tables]
+[08Jan2025 21:01:03.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Lore-Ception!]
+[08Jan2025 21:01:03.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Local Brewery]
+[08Jan2025 21:01:03.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [The Next Generation]
+[08Jan2025 21:01:03.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Fishy Business]
+[08Jan2025 21:01:03.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Extinguished]
+[08Jan2025 21:01:03.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Hot Tourist Destinations]
+[08Jan2025 21:01:03.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Do You Believe in Magic?]
+[08Jan2025 21:01:03.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The End of the End?]
+[08Jan2025 21:01:03.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [This Boat Has Legs]
+[08Jan2025 21:01:03.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Great View From Up Here]
+[08Jan2025 21:01:03.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [How Did We Get Here?]
+[08Jan2025 21:01:03.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Bullseye]
+[08Jan2025 21:01:03.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Let's Fly!]
+[08Jan2025 21:01:03.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Fireproof]
+[08Jan2025 21:01:03.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Two Birds, One Arrow]
+[08Jan2025 21:01:03.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [We Need to Go Deeper]
+[08Jan2025 21:01:03.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Who's the Pillager Now?]
+[08Jan2025 21:01:03.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Tending The Garden]
+[08Jan2025 21:01:03.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Tributes and Sacrifices]
+[08Jan2025 21:01:03.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Unanswered Prayers]
+[08Jan2025 21:01:03.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Dethroned]
+[08Jan2025 21:01:03.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Plunderer's Remorse]
+[08Jan2025 21:01:03.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Total Beelocation]
+[08Jan2025 21:01:03.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Strange Shards]
+[08Jan2025 21:01:03.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Arbalistic]
+[08Jan2025 21:01:03.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Acquire Hardware]
+[08Jan2025 21:01:03.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Following the Eyes]
+[08Jan2025 21:01:03.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Having a Hobbit Time!]
+[08Jan2025 21:01:03.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Not Quite "Nine" Lives]
+[08Jan2025 21:01:03.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Cover Me with Diamonds]
+[08Jan2025 21:01:03.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Bukkit Bukkit]
+[08Jan2025 21:01:03.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Wax Off]
+[08Jan2025 21:01:03.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Hired Help]
+[08Jan2025 21:01:03.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [A Well Earned Rest]
+[08Jan2025 21:01:03.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Baby Food]
+[08Jan2025 21:01:03.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Blazing Cities]
+[08Jan2025 21:01:03.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [For a Friend In Need]
+[08Jan2025 21:01:03.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Sweet Dreams]
+[08Jan2025 21:01:03.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [What Was That!?]
+[08Jan2025 21:01:03.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [You Need a Mint]
+[08Jan2025 21:01:03.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Toiling in the Mines]
+[08Jan2025 21:01:03.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Monsters Hunted]
+[08Jan2025 21:01:03.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Enchanter]
+[08Jan2025 21:01:03.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Voluntary Exile]
+[08Jan2025 21:01:03.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Mysterious Ingot]
+[08Jan2025 21:01:03.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement ['Tis But a Scratch!]
+[08Jan2025 21:01:03.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Is It a Bird?]
+[08Jan2025 21:01:03.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Challenger to the Throne]
+[08Jan2025 21:01:03.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Birthday Song]
+[08Jan2025 21:01:03.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Is It a Plane?]
+[08Jan2025 21:01:03.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Star Trader]
+[08Jan2025 21:01:03.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [... Until They hatch!]
+[08Jan2025 21:01:03.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Wax On]
+[08Jan2025 21:01:03.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Sound of Music]
+[08Jan2025 21:01:03.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Hero of the Village]
+[08Jan2025 21:01:03.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Hexes and Curses]
+[08Jan2025 21:01:03.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Hidden in the Depths]
+[08Jan2025 21:01:03.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Beaconator]
+[08Jan2025 21:01:03.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [this is not what I expected]
+[08Jan2025 21:01:03.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Civilization from the Beyond]
+[08Jan2025 21:01:03.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Bee Our Guest]
+[08Jan2025 21:01:03.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [What a Deal!]
+[08Jan2025 21:01:03.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Is It a Balloon?]
+[08Jan2025 21:01:03.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Crafting a New Look]
+[08Jan2025 21:01:03.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Uneasy Alliance]
+[08Jan2025 21:01:03.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Get Off My Lawn!]
+[08Jan2025 21:01:03.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Useless Portal]
+[08Jan2025 21:01:03.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Healing Power of Friendship!]
+[08Jan2025 21:01:03.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [A Throwaway Joke]
+[08Jan2025 21:01:03.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Like a Bossaru!]
+[08Jan2025 21:01:03.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Sticky Situation]
+[08Jan2025 21:01:03.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [When the Stew is Sus]
+[08Jan2025 21:01:03.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [I Am Confusion]
+[08Jan2025 21:01:03.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Parrots and the Bats]
+[08Jan2025 21:01:03.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [A Complete Catalogue]
+[08Jan2025 21:01:03.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Oh Shiny]
+[08Jan2025 21:01:03.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Bastions, Evil, and Bones...]
+[08Jan2025 21:01:03.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [When Phygs Fly]
+[08Jan2025 21:01:03.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Very Very Frightening]
+[08Jan2025 21:01:03.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Hot Stuff]
+[08Jan2025 21:01:03.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Whatever Floats Your Goat!]
+[08Jan2025 21:01:03.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [I am a god... right?]
+[08Jan2025 21:01:03.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Surge Protector]
+[08Jan2025 21:01:03.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [A Furious Cocktail]
+[08Jan2025 21:01:03.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [This Must be a Sign!]
+[08Jan2025 21:01:03.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Best Friends Forever]
+[08Jan2025 21:01:03.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Interdimensional Pirates]
+[08Jan2025 21:01:04.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Careful Restoration]
+[08Jan2025 21:01:04.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Consume the Concoction Chalice]
+[08Jan2025 21:01:04.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [It Spreads]
+[08Jan2025 21:01:04.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Battle Hardened]
+[08Jan2025 21:01:04.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Caves & Cliffs]
+[08Jan2025 21:01:04.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Raider of the Tombs]
+[08Jan2025 21:01:04.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Sniper Duel]
+[08Jan2025 21:01:04.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Skyward Cities]
+[08Jan2025 21:01:04.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Two by Two]
+[08Jan2025 21:01:04.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Getting an Upgrade]
+[08Jan2025 21:01:04.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Light as a Rabbit]
+[08Jan2025 21:01:04.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Tactical Fishing]
+[08Jan2025 21:01:04.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Respecting the Remnants]
+[08Jan2025 21:01:04.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Hostile Paradise]
+[08Jan2025 21:01:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Zombie Doctor]
+[08Jan2025 21:01:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Tide Pod Challenge]
+[08Jan2025 21:01:04.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Little Sniffs]
+[08Jan2025 21:01:04.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Ice Bucket Armor]
+[08Jan2025 21:01:04.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The City at the End of the Game]
+[08Jan2025 21:01:04.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Ice Bucket Challenge]
+[08Jan2025 21:01:04.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Remote Getaway]
+[08Jan2025 21:01:04.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Territory Control]
+[08Jan2025 21:01:04.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [War Pigs]
+[08Jan2025 21:01:04.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Master of Silence]
+[08Jan2025 21:01:04.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [The End... Again...]
+[08Jan2025 21:01:04.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Pink is the New Blue]
+[08Jan2025 21:01:04.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Engineer Gaming]
+[08Jan2025 21:01:04.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Sneak 100]
+[08Jan2025 21:01:04.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Return to Sender]
+[08Jan2025 21:01:04.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Smells Interesting]
+[08Jan2025 21:01:04.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Eye Spy]
+[08Jan2025 21:01:04.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Ouch!]
+[08Jan2025 21:01:04.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [The Power of the Gods]
+[08Jan2025 21:01:04.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Lavish Livings]
+[08Jan2025 21:01:04.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Planting the Past]
+[08Jan2025 21:01:04.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Adventuring Time]
+[08Jan2025 21:01:04.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [A Seedy Place]
+[08Jan2025 21:01:04.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Those Were the Days]
+[08Jan2025 21:01:04.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [To Infinity and Beyond!]
+[08Jan2025 21:01:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Cutest Predator]
+[08Jan2025 21:01:04.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Cool Jewelery!]
+[08Jan2025 21:01:04.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Feels Like Home]
+[08Jan2025 21:01:04.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Guardian]
+[08Jan2025 21:01:04.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Earning your Wings]
+[08Jan2025 21:01:04.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Withering Heights]
+[08Jan2025 21:01:04.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [A Balanced Diet]
+[08Jan2025 21:01:04.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Subspace Bubble]
+[08Jan2025 21:01:04.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Exotic Hardware]
+[08Jan2025 21:01:04.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The Power of Books]
+[08Jan2025 21:01:04.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has completed the challenge [Ultimate Ban Hammer]
+[08Jan2025 21:01:04.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Country Lode, Take Me Home]
+[08Jan2025 21:01:04.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Diamonds!]
+[08Jan2025 21:01:04.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [A Terrible Fortress]
+[08Jan2025 21:01:04.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Don't Count Your Moas...]
+[08Jan2025 21:01:04.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The More You Know!]
+[08Jan2025 21:01:04.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [WHAT THE...]
+[08Jan2025 21:01:04.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Remains of the Past]
+[08Jan2025 21:01:04.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement ['Kill Yourself' Has Acquired a New Meaning]
+[08Jan2025 21:01:04.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [The End?]
+[08Jan2025 21:01:04.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has reached the goal [Defying Gravity]
+[08Jan2025 21:01:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Fishing Fanatic]
+[08Jan2025 21:01:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers has made the advancement [Decaying Glory]
+[08Jan2025 21:01:04.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Granted 1861 advancements to iloren_frontiers]
+[08Jan2025 21:01:06.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[08Jan2025 21:01:06.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[08Jan2025 21:01:11.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:41767] logged in with entity id 336 at (87.33377506279861, 64.0, 393.99474536516084)
+[08Jan2025 21:01:11.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[08Jan2025 21:01:13.456] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:55997] logged in with entity id 411 at (77.95222854727331, 77.42442472563293, 364.7854031686946)
+[08Jan2025 21:01:13.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[08Jan2025 21:01:17.722] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ErChristianMB[/127.227.243.61:36543] logged in with entity id 430 at (303.5, 71.0, -25.5)
+[08Jan2025 21:01:17.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB joined the game
+[08Jan2025 21:01:18.168] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:01:18.522] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:01:18.567] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:01:22.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> voy a mear vuelvo ahora
+[08Jan2025 21:01:28.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> va
+[08Jan2025 21:01:30.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> ME ENCANTA EL SEMEN
+[08Jan2025 21:01:35.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> x2
+[08Jan2025 21:01:53.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[08Jan2025 21:02:24.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[08Jan2025 21:02:28.762] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:02:28.762] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:03:06.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> ./xray on
+[08Jan2025 21:03:09.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> mierda
+[08Jan2025 21:03:41.463] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:04:56.812] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:07:13.511] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:07:24.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [WHAT THE...]
+[08Jan2025 21:07:32.711] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:08:13.861] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
