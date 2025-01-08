@@ -2088,9 +2088,33 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/skyroot_barrel": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "has_slabs": "2025-01-07 15:37:30 +0000"
+      "has_gunpowder": "2025-01-07 15:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-07 15:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-07 15:19:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-07 15:19:54 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:husbandry/wrench": {
+    "criteria": {
+      "wrench": "2025-01-07 15:21:06 +0000"
     },
     "done": true
   },
@@ -2100,21 +2124,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_wood_slab": "2025-01-07 15:37:30 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/bamboo_spikes": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2025-01-07 15:37:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2025-01-07 15:19:54 +0000"
+      "has_bone_meal": "2025-01-07 15:25:41 +0000"
     },
     "done": true
   },
@@ -2130,21 +2142,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
+  "aether:recipes/decorations/skyroot_barrel": {
     "criteria": {
-      "has_stripped_logs": "2025-01-07 15:19:54 +0000"
+      "has_slabs": "2025-01-07 15:37:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-07 15:37:30 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/bamboo_spikes": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-01-07 15:37:30 +0000"
     },
     "done": true
   },
   "supplementaries:recipes/blackboard": {
     "criteria": {
       "minecraft:wooden_slabs": "2025-01-07 15:37:30 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:husbandry/wrench": {
-    "criteria": {
-      "wrench": "2025-01-07 15:21:06 +0000"
     },
     "done": true
   },
@@ -2160,21 +2178,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
+  "aether:recipes/tools/stone_pickaxe_repairing": {
     "criteria": {
-      "has_gunpowder": "2025-01-07 15:18:05 +0000"
+      "has_stone_pickaxe": "2025-01-08 21:21:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tnt": {
+  "aether:recipes/misc/aether_iron_nugget_from_smelting": {
     "criteria": {
-      "has_gunpowder": "2025-01-07 15:18:05 +0000"
+      "has_iron_gloves": "2025-01-08 21:42:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/tools/spyglass": {
     "criteria": {
-      "has_bone_meal": "2025-01-07 15:25:41 +0000"
+      "has_amethyst_shard": "2025-01-08 21:25:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_gloves": "2025-01-08 21:42:14 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves_repairing": {
+    "criteria": {
+      "has_iron_gloves": "2025-01-08 21:42:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-01-08 21:21:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-08 21:25:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-08 21:25:12 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/crystal_display": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-08 21:25:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-01-08 21:21:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-08 21:25:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-01-08 21:16:32 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/stone_sword_repairing": {
+    "criteria": {
+      "has_stone_sword": "2025-01-08 21:20:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-08 21:16:32 +0000"
     },
     "done": true
   },
