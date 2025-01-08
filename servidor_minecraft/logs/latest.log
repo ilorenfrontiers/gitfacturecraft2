@@ -542,3 +542,30 @@
 [08Jan2025 21:47:55.962] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [08Jan2025 21:47:55.962] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [08Jan2025 21:47:57.366] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:49:32.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[08Jan2025 21:49:32.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[08Jan2025 21:49:36.278] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:57467] logged in with entity id 14465 at (101.48750001192093, 74.0, 342.4892656608808)
+[08Jan2025 21:49:36.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[08Jan2025 21:51:56.411] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:51:56.461] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:52:15.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [You Spin Me Right Round Baby]
+[08Jan2025 21:52:28.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set the weather to rain & thunder]
+[08Jan2025 21:52:38.815] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:38.611] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:38.611] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:52.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Saved the game]
+[08Jan2025 21:53:52.664] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:52.664] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:52.665] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:53:59.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Stopped all sounds]
+[08Jan2025 21:54:39.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Played sound minecraft:music.game to 3 players]
+[08Jan2025 21:56:02.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:56:08.260] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:56:26.662] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:57:15.961] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:57:20.814] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:57:52.911] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:58:06.333] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:58:06.334] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[08Jan2025 21:58:39.417] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[08Jan2025 21:58:39.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
