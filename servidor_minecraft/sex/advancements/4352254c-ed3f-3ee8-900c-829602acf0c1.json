@@ -3435,33 +3435,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
-    "criteria": {
-      "cod": "2025-01-09 18:11:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2025-01-09 18:13:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-01-09 17:57:53 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2025-01-09 18:12:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
     "criteria": {
       "has_vex_armor_trim_smithing_template": "2025-01-09 17:57:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-01-09 18:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-09 18:12:17 +0000"
     },
     "done": true
   },
@@ -3477,9 +3471,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-09 18:13:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-01-09 18:13:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_boots_repairing": {
+    "criteria": {
+      "has_leather_boots": "2025-01-09 18:14:35 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:angler_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2025-01-09 18:20:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-09 18:21:27 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_ring": "2025-01-09 18:30:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-01-09 18:31:10 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_ring_from_freezing": {
+    "criteria": {
+      "has_ring": "2025-01-09 18:30:43 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_ring": "2025-01-09 18:30:43 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_altimeter": "2025-01-09 18:31:12 +0000"
     },
     "done": true
   },

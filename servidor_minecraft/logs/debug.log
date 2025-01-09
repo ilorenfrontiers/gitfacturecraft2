@@ -3425,3 +3425,302 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [09Jan2025 18:17:48.456] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Adriachu777) moved wrongly! 0.34101459049031746
 [09Jan2025 18:17:50.599] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [09Jan2025 18:17:50.648] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:18:14.551] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:18:16.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Take Aim]
+[09Jan2025 18:18:16.900] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:18:52.698] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:12.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Stone Age]
+[09Jan2025 18:19:14.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Acquire Hardware]
+[09Jan2025 18:19:20.648] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:32.653] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 18:19:32.683] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 18:19:36.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Diamonds!]
+[09Jan2025 18:19:37.400] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:37.997] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:37.998] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:41.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Suit Up]
+[09Jan2025 18:19:46.763] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:50.098] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:50.099] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:19:50.099] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:01.047] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:03.947] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:12.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:13.098] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:16.250] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:16.250] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:24.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:24.149] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:24.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Fishing Fanatic]
+[09Jan2025 18:20:37.748] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:41.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [The Cutest Predator]
+[09Jan2025 18:20:47.298] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:56.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[09Jan2025 18:20:56.451] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:57.625] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:58.099] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:20:58.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[09Jan2025 18:21:02.064] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:21:10.548] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:21:10.548] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:21:34.747] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:21:51.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[09Jan2025 18:21:54.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[09Jan2025 18:22:19.797] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:22:23.448] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:22:29.849] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:23:03.554] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[09Jan2025 18:23:03.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[09Jan2025 18:23:24.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Monster Hunter]
+[09Jan2025 18:23:34.247] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:23:55.236] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 27 messages to dispatch.
+[09Jan2025 18:23:55.253] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[09Jan2025 18:23:55.302] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[09Jan2025 18:23:55.354] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, repurposed_structures, kuma_api, moonlight, ambientsounds, fabric_api_base, abandoned_urban, stamina, netherportalfix, mixinsquared, amendments, creativecore, him, aether, jei, majruszsdifficulty, map_atlases, insanelib, curios, easy_emerald, structory, configured, moderner_beta, mixinextras, glitchcore, sereneseasons, cumulus_menus, architectury, balm, nitrogen_internals, sodiumoptionsapi, hiddenitemexe, cloth_config, sound_physics_remastered, forge, tlskincape, supplementaries, sodiumdynamiclights, embeddium, rubidium, majruszlibrary, nostalgic_tweaks]
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'supplementaries:channel' : Version test of '0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'configured:play' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'architectury:network' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'aether:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'hiddenitemexe:hiddenitemexe' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'nitrogen_internals:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'amendments:channel' : Version test of '0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'stamina:network_channel' : Version test of '3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'majruszlibrary:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'majruszsdifficulty:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'glitchcore:config_sync' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'creativecore:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'him:him' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'insanelib:simple_channel' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'sereneseasons:main' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'map_atlases:channel' : Version test of '0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'abandoned_urban:abandoned_urban' : Version test of '1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'moonlight:channel' : Version test of '0' from client : ACCEPTED
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[09Jan2025 18:23:55.366] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[09Jan2025 18:23:55.404] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[09Jan2025 18:23:55.413] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[09Jan2025 18:23:55.413] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.413] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.452] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry aether:moa_type' to 'fml:handshake' sequence 4
+[09Jan2025 18:23:55.462] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[09Jan2025 18:23:55.462] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.463] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.507] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[09Jan2025 18:23:55.507] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.507] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.508] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 5
+[09Jan2025 18:23:55.553] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 6
+[09Jan2025 18:23:55.604] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 7
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.652] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.653] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 8
+[09Jan2025 18:23:55.694] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[09Jan2025 18:23:55.694] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.694] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.703] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 9
+[09Jan2025 18:23:55.741] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[09Jan2025 18:23:55.741] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.741] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.760] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 10
+[09Jan2025 18:23:55.786] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[09Jan2025 18:23:55.786] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.786] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.804] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 11
+[09Jan2025 18:23:55.832] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[09Jan2025 18:23:55.832] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.832] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.855] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 12
+[09Jan2025 18:23:55.878] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[09Jan2025 18:23:55.878] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.878] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.903] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 13
+[09Jan2025 18:23:55.924] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[09Jan2025 18:23:55.924] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.924] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:55.957] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 14
+[09Jan2025 18:23:55.968] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[09Jan2025 18:23:55.968] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:55.968] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.004] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 15
+[09Jan2025 18:23:56.013] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[09Jan2025 18:23:56.013] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.013] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.053] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 16
+[09Jan2025 18:23:56.056] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[09Jan2025 18:23:56.056] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.056] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.102] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[09Jan2025 18:23:56.102] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.102] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.109] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 17
+[09Jan2025 18:23:56.153] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 18
+[09Jan2025 18:23:56.155] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[09Jan2025 18:23:56.155] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.155] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.201] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[09Jan2025 18:23:56.201] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.201] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.204] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 19
+[09Jan2025 18:23:56.252] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[09Jan2025 18:23:56.252] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.253] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.255] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+[09Jan2025 18:23:56.300] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[09Jan2025 18:23:56.300] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.300] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.303] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+[09Jan2025 18:23:56.355] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry aether:advancement_sound_override' to 'fml:handshake' sequence 22
+[09Jan2025 18:23:56.392] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[09Jan2025 18:23:56.392] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:56.392] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:56.404] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 23
+[09Jan2025 18:23:56.454] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config aether-server.toml' to 'fml:handshake' sequence 24
+[09Jan2025 18:23:56.503] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config jei-server.toml' to 'fml:handshake' sequence 25
+[09Jan2025 18:23:56.555] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 26
+[09Jan2025 18:23:57.041] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 22
+[09Jan2025 18:23:57.041] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:57.041] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 23
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 24
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 25
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 26
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[09Jan2025 18:23:57.081] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Jan2025 18:23:57.105] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[09Jan2025 18:23:57.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:52145] logged in with entity id 16538 at (171.96692420596204, 70.0, 396.7427390347598)
+[09Jan2025 18:23:57.170] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@76aa4696 into net.minecraft.network.Connection@297643d9
+[09Jan2025 18:23:57.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[09Jan2025 18:23:57.365] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:24:32.591] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 18:24:32.598] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 18:25:18.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[09Jan2025 18:25:20.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[09Jan2025 18:25:26.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[09Jan2025 18:25:44.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[09Jan2025 18:25:57.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doFireTick is now set to: false]
+[09Jan2025 18:27:11.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Isn't It Iron Pick]
+[09Jan2025 18:27:11.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doFireTick is now set to: true]
+[09Jan2025 18:27:27.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[09Jan2025 18:27:36.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
+[09Jan2025 18:27:41.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:27:57.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Creative Mode]
+[09Jan2025 18:27:58.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
+[09Jan2025 18:28:01.500] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:17.797] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:35.302] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:39.997] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:41.951] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:42.000] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:42.198] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:47.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:53.499] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:53.501] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:58.950] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:59.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:28:59.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:10.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:10.949] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:10.997] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:14.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:16.898] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:16.898] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:29.848] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:32.248] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:32.606] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 18:29:32.613] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 18:29:37.101] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:37.101] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:37.150] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:46.348] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:50.850] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:29:52.197] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:30:10.449] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:30:13.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:30:13.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:30:21.297] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:30:26.548] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:04.047] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:04.147] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:06.648] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:08.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:18.647] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:50.597] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:50.597] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:50.597] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:31:54.250] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:13.998] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:23.997] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:23.998] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:33.949] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:35.797] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:35.950] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:51.198] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:32:54.348] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:11.500] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:11.500] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:11.500] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:15.498] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:19.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:25.248] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:25.999] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:32.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:35.098] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:35.099] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:35.857] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:37.400] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:59.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:33:59.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:34:04.750] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:34:32.621] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 18:34:32.632] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 18:34:38.848] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:34:38.848] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:34:39.747] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:34:39.799] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:35:13.697] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:35:30.299] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:35:34.750] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:35:34.750] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:35:45.249] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:05.899] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:09.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:11.947] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:14.049] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:20.199] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:34.397] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:34.650] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:34.650] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:57.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:57.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:36:59.647] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:01.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:01.399] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:12.500] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:54.297] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:57.998] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:37:58.098] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:38:13.647] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:38:13.647] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 18:38:23.448] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
