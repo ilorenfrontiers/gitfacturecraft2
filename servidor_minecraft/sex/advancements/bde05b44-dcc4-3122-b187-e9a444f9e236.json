@@ -1421,11 +1421,13 @@
       "minecraft:vindicator": "2025-01-05 19:39:51 +0000",
       "minecraft:spider": "2025-01-05 19:22:56 +0000",
       "minecraft:creeper": "2025-01-05 19:28:53 +0000",
+      "minecraft:phantom": "2025-01-09 19:25:19 +0000",
       "minecraft:witch": "2025-01-05 19:44:16 +0000",
       "minecraft:wither_skeleton": "2025-01-06 17:25:46 +0000",
       "minecraft:husk": "2025-01-06 17:05:37 +0000",
       "minecraft:cave_spider": "2025-01-05 19:22:46 +0000",
       "minecraft:stray": "2025-01-06 17:22:50 +0000",
+      "minecraft:enderman": "2025-01-09 19:14:35 +0000",
       "minecraft:zombie": "2025-01-05 19:27:29 +0000",
       "minecraft:zombie_villager": "2025-01-06 17:06:55 +0000"
     },
@@ -3016,6 +3018,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-09 19:19:08 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/ash_brick": {
     "criteria": {
       "forge:ash": "2025-01-09 18:10:50 +0000"
@@ -3127,6 +3135,12 @@
   "aether:recipes/combat/golden_dart_shooter": {
     "criteria": {
       "has_skyroot_planks": "2025-01-09 18:39:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-09 19:19:08 +0000"
     },
     "done": true
   },
