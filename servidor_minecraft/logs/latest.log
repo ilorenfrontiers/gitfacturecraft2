@@ -1070,3 +1070,31 @@ Reason: POR M
 [09Jan2025 19:28:19.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Ice Bucket Challenge]
 [09Jan2025 19:28:29.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: Disconnected
 [09Jan2025 19:28:29.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
+[09Jan2025 19:29:29.747] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.797] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:43.355] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:44.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:29:47.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 moved too quickly! -0.3213839810033079,-2.0,9.976353777978375
+[09Jan2025 19:29:47.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4327ms or 86 ticks behind
+[09Jan2025 19:29:48.926] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:53.050] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:57.271] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:57.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:29:58.163] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:58.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:34:14.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has completed the challenge [Return to Sender]
+[09Jan2025 19:35:17.200] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:17.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was doomed to fall
+[09Jan2025 19:36:19.341] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.578] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.739] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.740] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.898] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.899] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:20.798] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:55.105] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:55.106] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:55.269] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:57.150] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already

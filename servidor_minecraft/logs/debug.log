@@ -5110,3 +5110,47 @@ Reason: POR M
 [09Jan2025 19:28:19.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Ice Bucket Challenge]
 [09Jan2025 19:28:29.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: Disconnected
 [09Jan2025 19:28:29.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
+[09Jan2025 19:29:29.747] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.797] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:29.847] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:32.578] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 19:29:32.588] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 19:29:43.355] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:44.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:29:44.676] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:29:44.681] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:29:47.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 moved too quickly! -0.3213839810033079,-2.0,9.976353777978375
+[09Jan2025 19:29:47.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4327ms or 86 ticks behind
+[09Jan2025 19:29:48.926] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:53.050] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:29:57.271] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:57.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:29:57.310] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:29:57.320] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:29:58.163] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[09Jan2025 19:29:58.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [We Need to Go Deeper]
+[09Jan2025 19:29:58.220] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:29:58.237] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:the_nether] to BlockPos{x=85, y=58, z=413} in ResourceKey[minecraft:dimension / minecraft:overworld]
+[09Jan2025 19:34:14.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has completed the challenge [Return to Sender]
+[09Jan2025 19:34:36.883] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 19:34:36.890] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 19:35:17.200] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:17.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was doomed to fall
+[09Jan2025 19:36:19.341] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.578] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.739] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.740] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.898] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:19.899] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:36:20.798] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:54.750] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Return portal found, redirecting! :)
+[09Jan2025 19:37:54.754] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:overworld] to BlockPos{x=11, y=63, z=51} in ResourceKey[minecraft:dimension / minecraft:the_nether]
+[09Jan2025 19:37:54.757] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:overworld] to BlockPos{x=11, y=63, z=51} in ResourceKey[minecraft:dimension / minecraft:the_nether]
+[09Jan2025 19:37:55.105] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:55.106] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:55.269] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:37:57.150] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
+[09Jan2025 19:38:58.866] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Return portal found, redirecting! :)
+[09Jan2025 19:38:58.890] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:overworld] to BlockPos{x=11, y=63, z=51} in ResourceKey[minecraft:dimension / minecraft:the_nether]
+[09Jan2025 19:38:58.902] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Storing return portal from ResourceKey[minecraft:dimension / minecraft:overworld] to BlockPos{x=11, y=63, z=51} in ResourceKey[minecraft:dimension / minecraft:the_nether]
