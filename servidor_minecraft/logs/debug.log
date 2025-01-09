@@ -8229,3 +8229,9 @@ Reason: POR M
 [09Jan2025 19:57:07.198] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity him:instance but it was marked as removed already
 [09Jan2025 19:57:08.001] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 lost connection: Disconnected
 [09Jan2025 19:57:08.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 left the game
+[09Jan2025 19:59:36.854] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 19:59:36.860] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 20:04:36.854] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 20:04:36.862] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[09Jan2025 20:09:36.853] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[09Jan2025 20:09:36.861] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
