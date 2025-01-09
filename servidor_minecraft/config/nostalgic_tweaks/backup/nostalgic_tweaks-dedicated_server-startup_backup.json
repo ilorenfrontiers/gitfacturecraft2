@@ -64,7 +64,7 @@
     "instantBow": true,
     "invincibleBow": false,
     "disableOrbSpawn": true,
-    "disableAnvil": false,
+    "disableAnvil": true,
     "disableEnchantTable": true,
     "oldNightmares": true,
     "disableSprint": false,

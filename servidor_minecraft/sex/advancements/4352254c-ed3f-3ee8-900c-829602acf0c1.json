@@ -1624,7 +1624,8 @@
       "minecraft:husk": "2025-01-06 17:20:24 +0000",
       "minecraft:cave_spider": "2025-01-05 19:45:25 +0000",
       "minecraft:stray": "2025-01-06 17:21:00 +0000",
-      "minecraft:zombie": "2025-01-05 20:27:18 +0000"
+      "minecraft:zombie": "2025-01-05 20:27:18 +0000",
+      "minecraft:zombie_villager": "2025-01-09 17:42:45 +0000"
     },
     "done": false
   },
@@ -3374,27 +3375,9 @@
     },
     "done": true
   },
-  "supplementaries:recipes/statue": {
-    "criteria": {
-      "has_clay": "2025-01-08 22:03:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2025-01-08 21:48:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2025-01-08 22:00:44 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/flint_block_uncrafting": {
-    "criteria": {
-      "has_flint_block": "2025-01-08 22:02:25 +0000"
     },
     "done": true
   },
@@ -3416,9 +3399,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/terracotta": {
+  "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
-      "has_clay_block": "2025-01-08 22:03:05 +0000"
+      "has_amethyst_shard": "2025-01-08 21:48:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-01-08 22:00:44 +0000"
     },
     "done": true
   },
@@ -3428,9 +3417,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/amethyst_block": {
+  "supplementaries:recipes/flint_block_uncrafting": {
     "criteria": {
-      "has_amethyst_shard": "2025-01-08 21:48:14 +0000"
+      "has_flint_block": "2025-01-08 22:02:25 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/statue": {
+    "criteria": {
+      "has_clay": "2025-01-08 22:03:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-01-08 22:03:05 +0000"
     },
     "done": true
   },
