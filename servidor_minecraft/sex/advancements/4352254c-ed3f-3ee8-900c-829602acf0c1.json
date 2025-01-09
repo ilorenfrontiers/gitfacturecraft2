@@ -3537,9 +3537,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_scute": "2025-01-09 19:05:51 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/aether_iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_ring": "2025-01-09 18:30:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-01-09 19:13:17 +0000"
     },
     "done": true
   },

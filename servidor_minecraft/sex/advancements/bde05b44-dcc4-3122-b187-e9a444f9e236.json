@@ -2938,6 +2938,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_leggings": "2025-01-09 17:50:04 +0000"
@@ -2962,6 +2968,12 @@
     },
     "done": true
   },
+  "aether:recipes/tools/diamond_hoe_repairing": {
+    "criteria": {
+      "has_diamond_hoe": "2025-01-09 19:12:19 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/skyroot_stick": {
     "criteria": {
       "has_planks": "2025-01-09 18:39:23 +0000"
@@ -2971,6 +2983,12 @@
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_leggings": "2025-01-09 17:50:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:55 +0000"
     },
     "done": true
   },
@@ -3046,6 +3064,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:55 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_button": {
     "criteria": {
       "has_skyroot_planks": "2025-01-09 18:39:23 +0000"
@@ -3076,6 +3100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:55 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_trapdoor": {
     "criteria": {
       "has_skyroot_planks": "2025-01-09 18:39:23 +0000"
@@ -3085,6 +3115,12 @@
   "aether:recipes/redstone/skyroot_door": {
     "criteria": {
       "has_skyroot_planks": "2025-01-09 18:39:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:30 +0000"
     },
     "done": true
   },
@@ -3103,6 +3139,12 @@
   "aether:recipes/building_blocks/skyroot_wood": {
     "criteria": {
       "has_log": "2025-01-09 18:39:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:30 +0000"
     },
     "done": true
   },

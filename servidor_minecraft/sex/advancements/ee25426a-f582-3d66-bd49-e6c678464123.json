@@ -150,6 +150,7 @@
       "mutton": "2025-01-06 17:17:43 +0000",
       "bread": "2025-01-05 20:22:36 +0000",
       "golden_apple": "2025-01-06 17:08:18 +0000",
+      "salmon": "2025-01-09 19:11:44 +0000",
       "melon_slice": "2025-01-06 16:17:35 +0000",
       "enchanted_golden_apple": "2025-01-07 21:30:51 +0000",
       "cooked_salmon": "2025-01-06 16:24:41 +0000",
@@ -3471,6 +3472,42 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-01-09 18:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-09 19:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-01-09 19:08:30 +0000"
     },
     "done": true
   },
