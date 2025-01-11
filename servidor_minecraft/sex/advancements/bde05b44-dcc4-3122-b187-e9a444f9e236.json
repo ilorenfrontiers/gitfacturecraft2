@@ -3631,6 +3631,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/orange_dye_from_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-01-11 19:33:58 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
     "criteria": {
       "has_planks": "2025-01-11 18:39:11 +0000"
@@ -3652,6 +3658,12 @@
   "refurbished_furniture:recipes/misc/constructing/oak_crate": {
     "criteria": {
       "has_oak_planks": "2025-01-11 18:39:11 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/frying/glow_berry_jam": {
+    "criteria": {
+      "has_ingredient": "2025-01-11 19:33:58 +0000"
     },
     "done": true
   },

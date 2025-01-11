@@ -4033,6 +4033,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-11 18:31:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-01-11 18:31:13 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/light_electricity_generator": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -4051,18 +4063,6 @@
     },
     "done": true
   },
-  "aether:recipes/tools/zanite_pickaxe": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/purple_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/magenta_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -4075,39 +4075,9 @@
     },
     "done": true
   },
-  "aether:icestone": {
-    "criteria": {
-      "icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/blue_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/oak_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_boots": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_crate": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4117,57 +4087,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/brown_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/wood_zanite_vanilla_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/mangrove_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/green_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/flower_to_white_dye": {
-    "criteria": {
-      "has_white_flower": "2025-01-11 18:59:01 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/oak_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/orange_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4180,18 +4102,6 @@
   "refurbished_furniture:recipes/misc/constructing/jungle_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/spruce_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
     },
     "done": true
   },
@@ -4213,33 +4123,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/black_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/red_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_cutting_board": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4249,39 +4135,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stairs": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/orange_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/television_remote": {
-    "criteria": {
-      "has_iron_nugget": "2025-01-11 18:31:19 +0000"
-    },
-    "done": true
-  },
-  "aether:craft_altar": {
-    "criteria": {
-      "craft_altar": "2025-01-11 19:03:04 +0000"
     },
     "done": true
   },
@@ -4297,21 +4153,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_gloves": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
     },
     "done": true
   },
@@ -4324,24 +4168,6 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_basin": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/icestone_wall_from_icestone_stonecutting": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
-    "criteria": {
-      "has_bone": "2025-01-11 18:39:09 +0000"
     },
     "done": true
   },
@@ -4381,63 +4207,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/magenta_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_oak_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_sword": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/blue_aercloud_freezing": {
-    "criteria": {
-      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/redstone/swet_sticky_piston": {
-    "criteria": {
-      "has_swet_balls": "2025-01-11 18:48:26 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_chair": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4447,63 +4219,15 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/brown_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/skyroot_pickaxe_repairing": {
-    "criteria": {
-      "has_skyroot_pickaxe": "2025-01-11 18:47:28 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/red_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/orange_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:obtain_petal": {
-    "criteria": {
-      "aechor_petal": "2025-01-11 18:52:13 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_gray_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4516,18 +4240,6 @@
   "refurbished_furniture:recipes/misc/constructing/gray_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/red_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
     },
     "done": true
   },
@@ -4561,18 +4273,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/dark_oak_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_leggings": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/crimson_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -4588,18 +4288,6 @@
   "refurbished_furniture:recipes/misc/constructing/lime_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/swet_lead": {
-    "criteria": {
-      "has_swet_balls": "2025-01-11 18:48:26 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/icestone_slab": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
     },
     "done": true
   },
@@ -4624,12 +4312,6 @@
   "refurbished_furniture:recipes/misc/constructing/dark_oak_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
     },
     "done": true
   },
@@ -4663,63 +4345,15 @@
     },
     "done": true
   },
-  "aether:recipes/building_blocks/carved_slab": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/black_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/magenta_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_sword_repairing": {
-    "criteria": {
-      "has_zanite_sword": "2025-01-11 19:15:48 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_chestplate": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_stove": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-01-11 18:31:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/green_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4735,51 +4369,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/brown_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/spruce_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/cold_parachute": {
-    "criteria": {
-      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/icestone_wall": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/zanite_block": {
-    "criteria": {
-      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4795,57 +4387,15 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_pendant": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_lightswitch": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/brown_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/icestone_stairs_from_icestone_stonecutting": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/nature_staff": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/mangrove_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/purple_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4861,69 +4411,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/cyan_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/icestone_slab_from_icestone_stonecutting": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_gray_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/iron_chestplate_repairing": {
-    "criteria": {
-      "has_iron_chestplate": "2025-01-11 18:35:58 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_hoe": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/red_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/golden_aercloud_enchanting": {
-    "criteria": {
-      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
-    "criteria": {
-      "has_feather": "2025-01-11 18:51:56 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/blue_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_ring": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
     },
     "done": true
   },
@@ -4933,45 +4423,15 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/blue_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/carved_wall": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/spruce_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/red_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/wrench": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -4999,24 +4459,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/magenta_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_axe": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/icestone_stairs": {
-    "criteria": {
-      "has_icestone": "2025-01-11 19:16:44 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/purple_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -5026,24 +4468,6 @@
   "refurbished_furniture:recipes/misc/constructing/television": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/iron_sword_repairing": {
-    "criteria": {
-      "has_iron_sword": "2025-01-11 18:36:12 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
     },
     "done": true
   },
@@ -5065,45 +4489,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_drawer": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_table": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/black_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_gray_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
     },
     "done": true
   },
@@ -5113,69 +4501,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/purple_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/jungle_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/redstone/swet_slime_block": {
-    "criteria": {
-      "has_swet_balls": "2025-01-11 18:48:26 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_shovel": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-01-11 18:31:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_gray_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -5185,21 +4513,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/white_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/jungle_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -5209,57 +4525,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/blue_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/food/enchanted_berry_enchanting": {
-    "criteria": {
-      "has_blue_berry": "2025-01-11 19:08:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/black_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_helmet": {
-    "criteria": {
-      "has_zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_storage_jar": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -5281,24 +4549,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_mail_box": {
-    "criteria": {
-      "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/oak_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -5311,99 +4561,9 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/green_lamp": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/poison_dart_shooter": {
-    "criteria": {
-      "has_aechor_petal": "2025-01-11 18:52:13 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2025-01-11 19:15:56 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/magenta_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/white_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2025-01-11 19:18:07 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cyan_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cyan_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_sink": {
-    "criteria": {
-      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
     },
     "done": true
   },
@@ -5419,12 +4579,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/black_stool": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/jungle_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
@@ -5437,39 +4591,9 @@
     },
     "done": true
   },
-  "aether:zanite": {
-    "criteria": {
-      "zanite": "2025-01-11 19:01:37 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/green_sofa": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/blue_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence": {
-    "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_oak_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:31:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/orange_cooler": {
-    "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -5497,9 +4621,519 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
+  "refurbished_furniture:recipes/misc/constructing/recycle_bin": {
     "criteria": {
-      "has_stick": "2025-01-11 18:36:05 +0000"
+      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_grill": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_cabinet": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_ceiling_light": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_toilet": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/television_remote": {
+    "criteria": {
+      "has_iron_nugget": "2025-01-11 18:31:19 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 18:35:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_crate": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_cutting_board": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_chair": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_drawer": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_table": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_storage_jar": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_mail_box": {
+    "criteria": {
+      "has_birch_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_sofa": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_cooler": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
     },
     "done": true
   },
@@ -5512,12 +5146,6 @@
   "refurbished_furniture:recipes/misc/constructing/birch_desk": {
     "criteria": {
       "has_birch_planks": "2025-01-11 18:35:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/recycle_bin": {
-    "criteria": {
-      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
     },
     "done": true
   },
@@ -5539,27 +5167,129 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/purple_lamp": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_stool": {
+    "criteria": {
+      "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_chestplate_repairing": {
+    "criteria": {
+      "has_iron_chestplate": "2025-01-11 18:35:58 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/iron_boots_repairing": {
     "criteria": {
       "has_iron_boots": "2025-01-11 18:35:59 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/magenta_grill": {
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence": {
     "criteria": {
-      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+      "has_stick": "2025-01-11 18:36:05 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_cabinet": {
+  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence": {
     "criteria": {
-      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+      "has_stick": "2025-01-11 18:36:05 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/purple_lamp": {
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence_gate": {
     "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-01-11 18:36:05 +0000"
     },
     "done": true
   },
@@ -5569,21 +5299,345 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/light_ceiling_light": {
+  "aether:recipes/combat/iron_sword_repairing": {
     "criteria": {
-      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+      "has_iron_sword": "2025-01-11 18:36:12 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/warped_toilet": {
+  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
     "criteria": {
-      "has_iron_ingot": "2025-01-11 18:31:14 +0000"
+      "has_bone": "2025-01-11 18:39:09 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/pink_stool": {
+  "aether:recipes/tools/skyroot_pickaxe_repairing": {
     "criteria": {
-      "has_planks": "2025-01-11 18:35:35 +0000"
+      "has_skyroot_pickaxe": "2025-01-11 18:47:28 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2025-01-11 18:48:26 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2025-01-11 18:48:26 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2025-01-11 18:48:26 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/cold_parachute": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/golden_aercloud_enchanting": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
+    "criteria": {
+      "has_feather": "2025-01-11 18:51:56 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2025-01-11 18:52:13 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2025-01-11 18:52:13 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/flower_to_white_dye": {
+    "criteria": {
+      "has_white_flower": "2025-01-11 18:59:01 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_boots": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/wood_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_gloves": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_chestplate": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/zanite_block": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/nature_staff": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_hoe": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_axe": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_shovel": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_helmet": {
+    "criteria": {
+      "has_zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:zanite": {
+    "criteria": {
+      "zanite": "2025-01-11 19:01:37 +0000"
+    },
+    "done": true
+  },
+  "aether:craft_altar": {
+    "criteria": {
+      "craft_altar": "2025-01-11 19:03:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/enchanted_berry_enchanting": {
+    "criteria": {
+      "has_blue_berry": "2025-01-11 19:08:14 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword_repairing": {
+    "criteria": {
+      "has_zanite_sword": "2025-01-11 19:15:48 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "aether:icestone": {
+    "criteria": {
+      "icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/icestone_wall_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_slab": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/icestone_wall": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_stairs_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_slab_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_stairs": {
+    "criteria": {
+      "has_icestone": "2025-01-11 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2025-01-11 19:18:07 +0000"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2025-01-11 19:31:27 +0000"
+    },
+    "done": true
+  },
+  "aether:hammer_loot": {
+    "criteria": {
+      "hammer_loot": "2025-01-11 19:31:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart": {
+    "criteria": {
+      "has_golden_dart": "2025-01-11 19:32:55 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/enchanted_dart_enchanting": {
+    "criteria": {
+      "has_golden_dart": "2025-01-11 19:32:55 +0000"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2025-01-11 19:34:11 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-01-11 19:38:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-01-11 19:38:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/white_moa_incubation": {
+    "criteria": {
+      "has_white_moa_egg": "2025-01-11 19:38:02 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2025-01-11 19:38:02 +0000"
     },
     "done": true
   },

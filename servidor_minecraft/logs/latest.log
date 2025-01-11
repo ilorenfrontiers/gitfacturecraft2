@@ -575,3 +575,26 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 19:31:27.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has reached the goal [Like a Bossaru!]
 [11Jan2025 19:31:50.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has reached the goal [The Power of the Gods]
 [11Jan2025 19:32:44.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 19.0 damage to Dream_Cluster]
+[11Jan2025 19:34:11.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [To Infinity and Beyond!]
+[11Jan2025 19:35:42.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 19:35:45.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:35:47.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 19:36:28.081] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers was kicked for floating too long!
+[11Jan2025 19:36:28.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[11Jan2025 19:36:28.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[11Jan2025 19:36:28.197] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jan2025 19:36:38.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:39809] logged in with entity id 18287 at (141.83679606019174, 172.79200176125522, 21.618054243442717)
+[11Jan2025 19:36:38.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[11Jan2025 19:36:42.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:36:50.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 19:37:03.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:37:09.409] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=120, y=77, z=377} BlockPos{x=121, y=76, z=377}
+[11Jan2025 19:37:23.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 19:38:02.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Don't Count Your Moas...]
+[11Jan2025 19:38:36.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
+[11Jan2025 19:38:36.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
+[11Jan2025 19:38:36.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[11Jan2025 19:38:48.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:40733] logged in with entity id 19241 at (54.43354161711512, 166.59016863897656, -5.520220050820643)
+[11Jan2025 19:38:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[11Jan2025 19:39:31.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> 67 366
+[11Jan2025 19:42:00.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> my house or leo´s house?

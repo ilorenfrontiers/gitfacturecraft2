@@ -13400,12 +13400,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_hedge": {
-    "criteria": {
-      "has_birch_leaves": "2025-01-11 18:54:51 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
     "criteria": {
       "has_planks": "2025-01-11 18:25:14 +0000"
@@ -13739,6 +13733,12 @@
   "refurbished_furniture:recipes/misc/constructing/pink_stool": {
     "criteria": {
       "has_planks": "2025-01-11 18:25:14 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_hedge": {
+    "criteria": {
+      "has_birch_leaves": "2025-01-11 18:54:51 +0000"
     },
     "done": true
   },

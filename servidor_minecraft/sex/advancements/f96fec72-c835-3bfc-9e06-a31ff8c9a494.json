@@ -2568,6 +2568,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-01-11 19:29:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-01-11 18:55:43 +0000"
@@ -2838,6 +2844,12 @@
     },
     "done": true
   },
+  "aether:craft_altar": {
+    "criteria": {
+      "craft_altar": "2025-01-11 19:30:43 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/white_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3063,6 +3075,12 @@
   "refurbished_furniture:recipes/misc/constructing/brown_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_pickaxe_repairing": {
+    "criteria": {
+      "has_skyroot_pickaxe": "2025-01-11 19:38:35 +0000"
     },
     "done": true
   },
@@ -3447,6 +3465,12 @@
   "refurbished_furniture:recipes/misc/constructing/spruce_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/ash_brick": {
+    "criteria": {
+      "forge:ash": "2025-01-11 19:37:14 +0000"
     },
     "done": true
   },
