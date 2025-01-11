@@ -3168,6 +3168,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-01-11 21:35:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-11 19:24:08 +0000"
@@ -3423,6 +3429,12 @@
   "refurbished_furniture:recipes/decorations/white_kitchen_cabinetry_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-01-11 21:35:02 +0000"
     },
     "done": true
   },
@@ -4525,6 +4537,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-01-11 21:35:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2025-01-11 19:22:44 +0000"
@@ -4594,6 +4612,12 @@
   "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_storage_cabinet": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/blue_cape_light_blue_wool": {
+    "criteria": {
+      "has_light_blue_wool": "2025-01-11 21:35:02 +0000"
     },
     "done": true
   },
