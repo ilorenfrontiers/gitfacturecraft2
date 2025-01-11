@@ -2658,6 +2658,12 @@
     },
     "done": true
   },
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-01-11 20:23:46 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/gray_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2850,9 +2856,21 @@
     },
     "done": true
   },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2025-01-11 20:17:28 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
     },
     "done": true
   },
@@ -3426,6 +3444,12 @@
     },
     "done": true
   },
+  "aether:recipes/building_blocks/carved_slab": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/black_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3477,6 +3501,12 @@
   "aether:recipes/combat/holystone_sword_repairing": {
     "criteria": {
       "has_holystone_sword": "2025-01-11 18:40:25 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
     },
     "done": true
   },
@@ -3775,6 +3805,12 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/carved_wall": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/spruce_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3925,6 +3961,12 @@
     },
     "done": true
   },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-01-11 20:23:46 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/gray_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -4012,6 +4054,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
     },
     "done": true
   },
@@ -4255,6 +4303,12 @@
     },
     "done": true
   },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2025-01-11 20:23:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2025-01-11 20:08:54 +0000"
@@ -4315,6 +4369,12 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/cherry_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -4336,6 +4396,12 @@
   "aether:recipes/combat/poison_dart_shooter": {
     "criteria": {
       "has_aechor_petal": "2025-01-11 18:51:21 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2025-01-11 20:24:07 +0000"
     },
     "done": true
   },
@@ -4444,6 +4510,12 @@
   "aether:blue_aercloud": {
     "criteria": {
       "blue_aercloud": "2025-01-11 19:02:26 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2025-01-11 20:24:08 +0000"
     },
     "done": true
   },
@@ -4660,6 +4732,12 @@
   "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence_gate": {
     "criteria": {
       "has_stick": "2025-01-11 20:07:18 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2025-01-11 20:23:46 +0000"
     },
     "done": true
   },

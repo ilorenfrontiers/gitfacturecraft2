@@ -637,3 +637,125 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 20:11:00.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> Illo
 [11Jan2025 20:11:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> me tienes muteado=
 [11Jan2025 20:11:03.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ?
+[11Jan2025 20:14:45.373] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[11Jan2025 20:14:45.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[11Jan2025 20:15:54.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Skeleton
+[11Jan2025 20:16:36.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [... Until They hatch!]
+[11Jan2025 20:17:07.473] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_leggings is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_hammer is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_axe is
+[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_treeaxe is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_excavator is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
+[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
+[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_leggings is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
+[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_axe is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_treeaxe is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
+[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_excavator is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_hammer is
+[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
+[11Jan2025 20:17:07.480] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
+[11Jan2025 20:17:07.480] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
+[11Jan2025 20:17:07.481] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
+[11Jan2025 20:17:07.481] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
+[11Jan2025 20:17:07.492] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
+[11Jan2025 20:17:07.492] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
+[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
+[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_excavator removed now.
+[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
+[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_treeaxe removed now.
+[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
+[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_excavator removed now.
+[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
+[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
+[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
+[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
+[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
+[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_sword removed now.
+[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
+[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
+[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
+[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
+[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
+[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_treeaxe removed now.
+[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
+[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
+[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
+[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
+[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_excavator removed now.
+[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_treeaxe removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_excavator removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
+[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
+[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
+[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
+[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_sword removed now.
+[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
+[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
+[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
+[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
+[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
+[11Jan2025 20:17:07.502] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_treeaxe removed now.
+[11Jan2025 20:17:07.502] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
+[11Jan2025 20:17:07.503] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.8.175.20:33003] logged in with entity id 29484 at (377.17500001192093, 63.0, -10.854645161246802)
+[11Jan2025 20:17:07.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
+[11Jan2025 20:17:54.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <felixstorm> zzz
+[11Jan2025 20:18:10.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Suit Up]
+[11Jan2025 20:18:53.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Hot Stuff]
+[11Jan2025 20:20:33.782] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[11Jan2025 20:20:33.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[11Jan2025 20:23:13.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has completed the challenge [Ultimate Ban Hammer]
+[11Jan2025 20:23:42.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: false]
+[11Jan2025 20:23:44.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: true]
+[11Jan2025 20:23:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Don't Count Your Moas...]
+[11Jan2025 20:32:49.187] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:46461] logged in with entity id 36775 at (213.50361515875124, 65.0, 935.858730483845)
+[11Jan2025 20:32:49.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
