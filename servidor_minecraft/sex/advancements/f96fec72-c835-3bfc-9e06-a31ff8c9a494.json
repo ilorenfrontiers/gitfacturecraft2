@@ -2730,6 +2730,12 @@
     },
     "done": true
   },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-11 20:39:35 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/jungle_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3708,6 +3714,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/zanite_ring_repairing": {
+    "criteria": {
+      "has_zanite_ring": "2025-01-11 20:42:07 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_drawer": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -4018,6 +4030,12 @@
   "refurbished_furniture:recipes/misc/constructing/pink_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/white_moa_incubation": {
+    "criteria": {
+      "has_white_moa_egg": "2025-01-11 20:40:49 +0000"
     },
     "done": true
   },
@@ -4438,6 +4456,12 @@
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2025-01-11 19:16:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-11 20:39:35 +0000"
     },
     "done": true
   },

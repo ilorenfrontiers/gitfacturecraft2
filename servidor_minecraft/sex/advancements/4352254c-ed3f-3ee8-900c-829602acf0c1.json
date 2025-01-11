@@ -5671,15 +5671,39 @@
     },
     "done": true
   },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-11 20:35:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe_repairing": {
+    "criteria": {
+      "has_zanite_pickaxe": "2025-01-11 20:39:36 +0000"
+    },
+    "done": true
+  },
   "aether:incubate_moa": {
     "criteria": {
       "incubate_moa": "2025-01-11 20:16:36 +0000"
     },
     "done": true
   },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2025-01-11 20:43:42 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/ambrosium_shard_from_ambrosium_block": {
     "criteria": {
       "has_ambrosium_block": "2025-01-11 20:15:08 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-11 20:35:04 +0000"
     },
     "done": true
   },

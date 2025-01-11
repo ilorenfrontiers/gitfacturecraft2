@@ -759,3 +759,12 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 20:23:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Don't Count Your Moas...]
 [11Jan2025 20:32:49.187] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:46461] logged in with entity id 36775 at (213.50361515875124, 65.0, 935.858730483845)
 [11Jan2025 20:32:49.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[11Jan2025 20:35:01.308] [Worker-Main-100/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-506, y=55, z=135}
+[11Jan2025 20:35:01.349] [Worker-Main-100/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-505, y=55, z=104}
+[11Jan2025 20:35:54.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie
+[11Jan2025 20:36:07.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [What a Deal!]
+[11Jan2025 20:43:49.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was killed by Witch using magic
+[11Jan2025 20:43:50.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
+[11Jan2025 20:44:22.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie
+[11Jan2025 20:44:29.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[11Jan2025 20:44:29.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
