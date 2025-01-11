@@ -3474,6 +3474,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/zanite_sword_repairing": {
+    "criteria": {
+      "has_zanite_sword": "2025-01-11 21:01:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-01-11 18:47:28 +0000"
@@ -3597,6 +3603,12 @@
   "aether:recipes/decorations/icestone_wall": {
     "criteria": {
       "has_icestone": "2025-01-11 18:46:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/shield_repairing": {
+    "criteria": {
+      "has_shield": "2025-01-11 21:00:58 +0000"
     },
     "done": true
   },
@@ -3760,6 +3772,12 @@
   "refurbished_furniture:recipes/misc/constructing/red_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart": {
+    "criteria": {
+      "has_golden_dart": "2025-01-11 21:00:57 +0000"
     },
     "done": true
   },
@@ -4318,6 +4336,12 @@
   "refurbished_furniture:recipes/misc/constructing/mangrove_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/enchanted_dart_enchanting": {
+    "criteria": {
+      "has_golden_dart": "2025-01-11 21:00:57 +0000"
     },
     "done": true
   },
