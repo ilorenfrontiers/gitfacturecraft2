@@ -598,3 +598,42 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 19:38:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
 [11Jan2025 19:39:31.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> 67 366
 [11Jan2025 19:42:00.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> my house or leo´s house?
+[11Jan2025 19:44:38.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:44:41.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 19:45:51.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> YOU LIKE THAT ALTAR?
+[11Jan2025 19:46:39.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: Disconnected
+[11Jan2025 19:46:39.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
+[11Jan2025 19:46:43.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> Its important to you?
+[11Jan2025 19:47:20.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was killed
+[11Jan2025 19:47:20.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Killed Dream_Cluster]
+[11Jan2025 19:47:45.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:47:48.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 19:47:56.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[11Jan2025 19:48:33.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> one litle thing whats its the others cords of yesterday?
+[11Jan2025 19:50:36.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 8.0 damage to LeoView]
+[11Jan2025 19:50:51.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> where its java_krodd98?
+[11Jan2025 19:51:56.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Getting an Upgrade]
+[11Jan2025 19:52:56.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 19:52:57.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 19:53:42.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> where is hes body?
+[11Jan2025 19:53:56.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has completed the challenge [this doesn't calm me down]
+[11Jan2025 19:56:02.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> you´r name its herobrine
+[11Jan2025 19:57:41.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> you kill more people?
+[11Jan2025 19:59:28.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> what do you want?
+[11Jan2025 20:00:46.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 6.0 damage to Roblex43]
+[11Jan2025 20:01:28.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeperling]
+[11Jan2025 20:01:33.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [The More You Know!]
+[11Jan2025 20:02:36.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 20:03:11.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 20:03:39.570] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[11Jan2025 20:03:39.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[11Jan2025 20:07:10.277] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodHealth, new:ItemMap<Integer>{mapSize:26, disabled:false}, old:ItemMap<Integer>{mapSize:17, disabled:false}}]
+[11Jan2025 20:07:10.277] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:26, disabled:false}}] was successfully validated with 26 entries
+[11Jan2025 20:07:10.278] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodStacking, new:ItemMap<Integer>{mapSize:61, disabled:false}, old:ItemMap<Integer>{mapSize:52, disabled:false}}]
+[11Jan2025 20:07:10.278] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:61, disabled:false}}] was successfully validated with 61 entries
+[11Jan2025 20:07:11.314] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[11Jan2025 20:10:38.287] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:57235] logged in with entity id 28393 at (116.69999998807907, 65.0, 384.10265980650144)
+[11Jan2025 20:10:38.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[11Jan2025 20:11:00.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> Illo
+[11Jan2025 20:11:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> me tienes muteado=
+[11Jan2025 20:11:03.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ?

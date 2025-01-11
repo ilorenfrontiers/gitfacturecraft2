@@ -147,6 +147,7 @@
       "baked_potato": "2025-01-07 21:05:04 +0000",
       "porkchop": "2025-01-05 19:22:22 +0000",
       "apple": "2025-01-06 17:09:25 +0000",
+      "cooked_cod": "2025-01-11 20:08:31 +0000",
       "mutton": "2025-01-06 17:17:43 +0000",
       "bread": "2025-01-05 20:22:36 +0000",
       "golden_apple": "2025-01-06 17:08:18 +0000",
@@ -4300,6 +4301,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/granite_stepping_stones": {
+    "criteria": {
+      "has_granite": "2025-01-11 20:08:38 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/birch_chair": {
     "criteria": {
       "has_birch_planks": "2025-01-11 18:43:59 +0000"
@@ -4711,6 +4718,12 @@
   "refurbished_furniture:recipes/misc/constructing/green_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:50:20 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/andesite_stepping_stones": {
+    "criteria": {
+      "has_andesite": "2025-01-11 20:11:14 +0000"
     },
     "done": true
   },

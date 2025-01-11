@@ -5641,5 +5641,35 @@
     },
     "done": true
   },
+  "aether:recipes/tools/stone_pickaxe_repairing": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-01-11 19:51:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-01-11 19:51:56 +0000"
+    },
+    "done": true
+  },
+  "hiddenitemexe:thisdoesntcalmmedown": {
+    "criteria": {
+      "thisdoesntcalmmedown_0": "2025-01-11 19:53:56 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/string_from_cobweb": {
+    "criteria": {
+      "has_cobweb": "2025-01-11 19:53:57 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2025-01-11 20:01:33 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
