@@ -993,7 +993,9 @@
       "cooked_beef": "2025-01-11 18:43:41 +0000",
       "beef": "2025-01-11 18:55:49 +0000",
       "porkchop": "2025-01-11 18:51:21 +0000",
+      "mutton": "2025-01-11 19:02:49 +0000",
       "bread": "2025-01-09 18:25:34 +0000",
+      "glow_berries": "2025-01-11 19:18:06 +0000",
       "cooked_chicken": "2025-01-09 19:38:26 +0000",
       "carrot": "2025-01-09 19:13:46 +0000"
     },
@@ -2578,6 +2580,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-11 19:12:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/lime_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2602,9 +2616,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -2668,6 +2694,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/yellow_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -2689,6 +2721,12 @@
   "refurbished_furniture:recipes/misc/constructing/oak_kitchen_drawer": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -2728,6 +2766,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/black_cooler": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -2764,6 +2808,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2773,6 +2823,12 @@
   "refurbished_furniture:recipes/misc/constructing/orange_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/television_remote": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 19:26:00 +0000"
     },
     "done": true
   },
@@ -2800,9 +2856,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/pink_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-01-11 19:17:30 +0000"
     },
     "done": true
   },
@@ -2818,9 +2892,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_sink": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -2839,6 +2931,24 @@
   "refurbished_furniture:recipes/misc/constructing/dark_oak_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2025-01-11 19:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -2914,6 +3024,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/pink_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -2923,6 +3039,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/granite_stepping_stones": {
+    "criteria": {
+      "has_granite": "2025-01-11 19:14:32 +0000"
     },
     "done": true
   },
@@ -2956,9 +3078,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2025-01-11 18:47:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -2968,15 +3102,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/orange_dye_from_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-01-11 19:13:01 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/jungle_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "aether:obtain_petal": {
     "criteria": {
       "aechor_petal": "2025-01-11 18:51:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/frying/glow_berry_jam": {
+    "criteria": {
+      "has_ingredient": "2025-01-11 19:13:01 +0000"
     },
     "done": true
   },
@@ -3001,6 +3165,12 @@
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -3037,6 +3207,12 @@
   "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
     "criteria": {
       "forge:dyes/white": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3148,6 +3324,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/spruce_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/crimson_basin": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3196,6 +3378,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "forge:eggs": "2025-01-11 19:12:01 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3232,6 +3420,12 @@
     },
     "done": true
   },
+  "aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_egg": "2025-01-11 19:12:01 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/decorations/ambrosium_torch": {
     "criteria": {
       "has_holystone_pickaxe": "2025-01-11 18:40:17 +0000"
@@ -3256,6 +3450,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/light_blue_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -3271,6 +3471,18 @@
   "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3301,6 +3513,18 @@
   "refurbished_furniture:recipes/misc/constructing/light_blue_stool": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-11 19:16:37 +0000"
     },
     "done": true
   },
@@ -3383,6 +3607,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/red_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -3407,9 +3637,21 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/food/dough": {
+    "criteria": {
+      "has_water": "2025-01-11 19:21:36 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/warped_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -3443,6 +3685,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2025-01-11 19:15:14 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_sink": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3470,6 +3718,12 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3527,6 +3781,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_tripwire_hook": {
     "criteria": {
       "has_string": "2025-01-11 18:47:28 +0000"
@@ -3554,6 +3814,12 @@
   "aether:recipes/combat/iron_sword_repairing": {
     "criteria": {
       "has_iron_sword": "2025-01-11 18:41:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3629,6 +3895,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/freezing/ice": {
+    "criteria": {
+      "has_ingredient": "2025-01-11 19:21:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/frying_pan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3650,6 +3928,12 @@
   "minecraft:recipes/building_blocks/dye_white_carpet": {
     "criteria": {
       "has_needed_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -3704,6 +3988,12 @@
   "refurbished_furniture:recipes/misc/constructing/white_stool": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3785,9 +4075,27 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/birch_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_storage_cabinet": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3815,9 +4123,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/white_kitchen_drawer_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -3887,6 +4207,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/crimson_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3896,6 +4222,12 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_drawer": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-01-11 19:16:37 +0000"
     },
     "done": true
   },
@@ -3923,9 +4255,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/white_sofa": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_storage_jar": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
     },
     "done": true
   },
@@ -3938,6 +4288,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2025-01-11 19:02:26 +0000"
     },
     "done": true
   },
@@ -3995,6 +4351,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/baking/sea_salt": {
+    "criteria": {
+      "has_ingredient": "2025-01-11 19:21:36 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/black_stool": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -4028,6 +4390,12 @@
   "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_storage_cabinet": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
     },
     "done": true
   },
@@ -4091,6 +4459,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-11 19:22:44 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/yellow_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -4139,6 +4513,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-11 19:16:37 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/gray_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
@@ -4181,6 +4561,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hourglass": {
+    "criteria": {
+      "has_glass": "2025-01-11 19:24:08 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/light_ceiling_light": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -4196,6 +4582,12 @@
   "refurbished_furniture:recipes/misc/constructing/pink_stool": {
     "criteria": {
       "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-01-11 19:17:30 +0000"
     },
     "done": true
   },
