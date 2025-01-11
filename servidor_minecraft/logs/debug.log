@@ -4020,3 +4020,14 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 18:52:41.953] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / minecraft:overworld] to ResourceKey[minecraft:dimension / aether:the_aether]
 [11Jan2025 18:52:51.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> zzz
 [11Jan2025 18:53:01.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> zzz
+[11Jan2025 18:54:08.403] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[11Jan2025 18:54:12.323] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[11Jan2025 18:54:12.333] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[11Jan2025 18:54:13.747] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / minecraft:overworld] to ResourceKey[minecraft:dimension / aether:the_aether]
+[11Jan2025 18:54:41.364] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[11Jan2025 18:54:43.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 18:59:12.288] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[11Jan2025 18:59:12.296] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[11Jan2025 19:01:37.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Exotic Hardware]
+[11Jan2025 19:02:26.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [To Infinity and Beyond!]
+[11Jan2025 19:03:04.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Do You Believe in Magic?]

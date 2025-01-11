@@ -991,6 +991,8 @@
       "cooked_porkchop": "2025-01-09 19:34:06 +0000",
       "cooked_mutton": "2025-01-09 19:13:48 +0000",
       "cooked_beef": "2025-01-11 18:43:41 +0000",
+      "beef": "2025-01-11 18:55:49 +0000",
+      "porkchop": "2025-01-11 18:51:21 +0000",
       "bread": "2025-01-09 18:25:34 +0000",
       "cooked_chicken": "2025-01-09 19:38:26 +0000",
       "carrot": "2025-01-09 19:13:46 +0000"
@@ -2558,6 +2560,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/purple_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/magenta_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2576,15 +2590,33 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/blue_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/oak_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/gray_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -2600,6 +2632,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/green_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/flower_to_white_dye": {
     "criteria": {
       "has_white_flower": "2025-01-11 18:43:18 +0000"
@@ -2612,6 +2650,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/orange_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/light_fridge": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2621,6 +2665,12 @@
   "refurbished_furniture:recipes/misc/constructing/jungle_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -2690,6 +2740,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/lime_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/dark_electricity_generator": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2705,6 +2767,12 @@
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_cabinet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -2846,6 +2914,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/pink_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/oak_bath": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2858,6 +2938,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/brown_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/red_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -2867,6 +2959,24 @@
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2025-01-11 18:47:28 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2025-01-11 18:51:21 +0000"
     },
     "done": true
   },
@@ -2939,6 +3049,12 @@
   "refurbished_furniture:recipes/misc/constructing/brown_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/aether_saddle": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
     },
     "done": true
   },
@@ -3050,6 +3166,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/magenta_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3116,15 +3238,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/spruce_light_ceiling_fan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/decorations/icestone_wall": {
     "criteria": {
       "has_icestone": "2025-01-11 18:46:06 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3149,6 +3295,12 @@
   "refurbished_furniture:recipes/misc/constructing/brown_cooler": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3231,6 +3383,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/red_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/iron_leggings_repairing": {
     "criteria": {
       "has_iron_leggings": "2025-01-11 18:40:47 +0000"
@@ -3255,6 +3413,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/blue_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3270,6 +3434,12 @@
   "refurbished_furniture:recipes/misc/constructing/spruce_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3300,6 +3470,12 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3345,6 +3521,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/magenta_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_tripwire_hook": {
     "criteria": {
       "has_string": "2025-01-11 18:47:28 +0000"
@@ -3372,6 +3554,12 @@
   "aether:recipes/combat/iron_sword_repairing": {
     "criteria": {
       "has_iron_sword": "2025-01-11 18:41:10 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3405,6 +3593,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/pink_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
@@ -3417,6 +3611,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/black_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3426,6 +3632,12 @@
   "refurbished_furniture:recipes/misc/constructing/frying_pan": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3462,6 +3674,18 @@
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3531,9 +3755,27 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/yellow_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/enchanted_berry_enchanting": {
+    "criteria": {
+      "has_blue_berry": "2025-01-11 18:51:57 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/white_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3579,6 +3821,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/pink_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/lime_cooler": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3609,6 +3857,24 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/gray_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2025-01-11 18:51:21 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/warped_kitchen_storage_cabinet": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3633,6 +3899,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/magenta_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/white_kitchen_sink_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-11 18:48:58 +0000"
@@ -3645,6 +3917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-01-11 18:57:45 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/white_sofa": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3654,6 +3932,18 @@
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3681,6 +3971,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/cyan_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_sink": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3696,6 +3992,12 @@
   "refurbished_furniture:recipes/misc/constructing/yellow_grill": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },
@@ -3732,6 +4034,18 @@
   "refurbished_furniture:recipes/decorations/white_trampoline_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves": {
+    "criteria": {
+      "has_leather": "2025-01-11 18:55:43 +0000"
     },
     "done": true
   },
@@ -3807,9 +4121,33 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/cyan_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/warped_kitchen_cabinetry": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_sofa": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-11 18:57:45 +0000"
     },
     "done": true
   },
@@ -3831,6 +4169,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/purple_lamp": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/white_bath": {
     "criteria": {
       "has_white_dye": "2025-01-11 18:48:58 +0000"
@@ -3846,6 +4190,12 @@
   "refurbished_furniture:recipes/misc/constructing/warped_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 18:39:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_stool": {
+    "criteria": {
+      "has_white_wool": "2025-01-11 18:50:23 +0000"
     },
     "done": true
   },

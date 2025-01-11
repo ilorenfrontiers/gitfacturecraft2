@@ -4129,6 +4129,12 @@
     },
     "done": true
   },
+  "aether:recipes/misc/flower_to_white_dye": {
+    "criteria": {
+      "has_white_flower": "2025-01-11 18:59:01 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/oak_kitchen_sink": {
     "criteria": {
       "has_copper_ingot": "2025-01-11 18:35:01 +0000"
@@ -4363,6 +4369,12 @@
     },
     "done": true
   },
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/swet_sticky_piston": {
     "criteria": {
       "has_swet_balls": "2025-01-11 18:48:26 +0000"
@@ -4420,6 +4432,12 @@
   "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
     "criteria": {
       "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2025-01-11 18:52:13 +0000"
     },
     "done": true
   },
@@ -4639,6 +4657,12 @@
     },
     "done": true
   },
+  "aether:recipes/tools/cold_parachute": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/light_blue_lamp": {
     "criteria": {
       "has_planks": "2025-01-11 18:35:35 +0000"
@@ -4738,6 +4762,18 @@
   "refurbished_furniture:recipes/misc/constructing/red_sofa": {
     "criteria": {
       "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/golden_aercloud_enchanting": {
+    "criteria": {
+      "has_cold_aercloud": "2025-01-11 18:49:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
+    "criteria": {
+      "has_feather": "2025-01-11 18:51:56 +0000"
     },
     "done": true
   },
@@ -5104,6 +5140,12 @@
   "refurbished_furniture:recipes/misc/constructing/green_lamp": {
     "criteria": {
       "has_planks": "2025-01-11 18:35:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2025-01-11 18:52:13 +0000"
     },
     "done": true
   },
