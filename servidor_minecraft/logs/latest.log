@@ -806,3 +806,79 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 21:03:26.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [11Jan2025 21:03:37.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [11Jan2025 21:04:50.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
+[11Jan2025 21:05:29.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:05:34.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 21:05:38.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:05:41.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[11Jan2025 21:05:43.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
+[11Jan2025 21:05:45.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 21:05:59.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
+[11Jan2025 21:05:59.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
+[11Jan2025 21:05:59.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[11Jan2025 21:05:59.798] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jan2025 21:06:19.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by Valkyrie Queen
+[11Jan2025 21:06:22.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:06:42.719] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7c3aac8b[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:36323) lost connection: Disconnected
+[11Jan2025 21:06:52.283] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:46553] logged in with entity id 56217 at (9.927106139752144, 169.6993588007677, 667.925069268352)
+[11Jan2025 21:06:52.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[11Jan2025 21:06:56.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[11Jan2025 21:07:04.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:08:37.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 21:09:35.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was struck by lightning whilst fighting Valkyrie Queen
+[11Jan2025 21:09:40.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:09:57.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:10:33.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:10:48.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:11:03.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:11:31.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied effect Strength to iloren_frontiers]
+[11Jan2025 21:11:33.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:12:22.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:12:31.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:14:27.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cold Parachute (vehicle of Dream_Cluster) moved too quickly! -0.011144137150154165,-320.22435040631655,-0.0015406713449692688
+[11Jan2025 21:14:27.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cold Parachute (vehicle of Dream_Cluster) moved too quickly! 0.18765413597878933,-320.47435040631655,0.06486136757075656
+[11Jan2025 21:14:27.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5547ms or 110 ticks behind
+[11Jan2025 21:14:40.928] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_cherry], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_birch], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_jungle], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_bamboo]] from pos BlockPos{x=-251, y=75, z=699}
+[11Jan2025 21:14:42.311] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-251, y=75, z=699} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
+[11Jan2025 21:14:42.311] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=-251, y=75, z=699}
+[11Jan2025 21:15:25.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:15:49.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 17.0 damage to Dream_Cluster]
+[11Jan2025 21:17:09.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to Dream_Cluster]
+[11Jan2025 21:17:54.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[11Jan2025 21:18:07.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to Dream_Cluster]
+[11Jan2025 21:18:29.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[11Jan2025 21:18:48.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:18:54.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:18:58.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:04.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:09.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:10.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:10.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:10.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:11.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:11.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:12.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:12.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:19:40.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:19:44.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:19:45.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:48.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:19:51.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
+[11Jan2025 21:19:52.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:20:02.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Cool Jewelery!]
+[11Jan2025 21:20:30.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
+[11Jan2025 21:21:10.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
+[11Jan2025 21:21:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
+[11Jan2025 21:21:17.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:21:24.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
+[11Jan2025 21:21:28.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
+[11Jan2025 21:21:41.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
+[11Jan2025 21:21:46.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
+[11Jan2025 21:21:48.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
+[11Jan2025 21:23:34.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:24:02.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[11Jan2025 21:24:32.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by iloren_frontiers
+[11Jan2025 21:24:43.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[11Jan2025 21:24:45.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
+[11Jan2025 21:25:06.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[11Jan2025 21:25:31.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
