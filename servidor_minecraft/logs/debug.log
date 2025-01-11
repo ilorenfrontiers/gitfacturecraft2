@@ -6106,3 +6106,18 @@ A world backup will be automatically created in your saves directory.
 [11Jan2025 21:24:45.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
 [11Jan2025 21:25:06.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [11Jan2025 21:25:31.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
+[11Jan2025 21:25:42.231] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / minecraft:overworld] to ResourceKey[minecraft:dimension / aether:the_aether]
+[11Jan2025 21:25:45.812] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[11Jan2025 21:25:49.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
+[11Jan2025 21:25:57.737] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / minecraft:overworld] to ResourceKey[minecraft:dimension / aether:the_aether]
+[11Jan2025 21:29:19.769] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[11Jan2025 21:29:19.777] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[11Jan2025 21:29:24.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> polla de abuelo
+[11Jan2025 21:29:48.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
+[11Jan2025 21:31:02.307] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[11Jan2025 21:31:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[11Jan2025 21:32:36.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied enchantment Power V to iloren_frontiers's item]
+[11Jan2025 21:34:19.769] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[11Jan2025 21:34:19.776] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[11Jan2025 21:34:39.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster moved wrongly!
+[11Jan2025 21:35:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> are you here?

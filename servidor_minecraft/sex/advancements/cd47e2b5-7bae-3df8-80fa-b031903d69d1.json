@@ -13742,5 +13742,11 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
+    "criteria": {
+      "has_feather": "2025-01-11 21:33:55 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
