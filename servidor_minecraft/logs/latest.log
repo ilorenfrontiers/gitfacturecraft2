@@ -1,899 +1,175 @@
-[11Jan2025 18:23:10.942] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[11Jan2025 18:23:10.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[11Jan2025 18:23:11.873] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11Jan2025 18:23:11.953] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[11Jan2025 18:23:12.367] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 18:23:12.370] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 18:23:12.372] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 18:23:12.375] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 18:23:12.757] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[11Jan2025 18:23:12.758] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[11Jan2025 18:23:16.361] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jan2025 18:23:16.601] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[11Jan2025 18:23:17.260] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 18:23:20.495] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[11Jan2025 18:23:21.149] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[11Jan2025 18:23:21.240] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[11Jan2025 18:23:21.242] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
-[11Jan2025 18:23:21.243] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
-[11Jan2025 18:23:21.798] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11Jan2025 18:23:28.258] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[11Jan2025 18:23:28.259] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[11Jan2025 18:23:31.457] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhh000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[11Jan2025 18:23:33.612] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
-[11Jan2025 18:23:35.044] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[11Jan2025 18:23:35.114] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[11Jan2025 18:23:35.117] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[11Jan2025 18:23:35.121] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[11Jan2025 18:23:35.216] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
-[11Jan2025 18:23:35.573] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[11Jan2025 18:23:35.829] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[11Jan2025 18:23:36.005] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[11Jan2025 18:23:36.006] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[11Jan2025 18:23:37.200] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
-[11Jan2025 18:23:37.203] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
-[11Jan2025 18:23:37.205] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
-[11Jan2025 18:23:37.212] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
-[11Jan2025 18:23:37.213] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
-[11Jan2025 18:23:37.214] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
-[11Jan2025 18:23:37.216] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
-[11Jan2025 18:23:37.222] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
-[11Jan2025 18:23:37.224] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
-[11Jan2025 18:23:37.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
-[11Jan2025 18:23:37.226] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
-[11Jan2025 18:23:37.237] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
-[11Jan2025 18:23:37.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
-[11Jan2025 18:23:37.244] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
-[11Jan2025 18:23:37.246] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
-[11Jan2025 18:23:37.251] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
-[11Jan2025 18:23:37.252] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
-[11Jan2025 18:23:37.258] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
-[11Jan2025 18:23:37.259] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
-[11Jan2025 18:23:37.262] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
-[11Jan2025 18:23:37.265] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
-[11Jan2025 18:23:37.268] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
-[11Jan2025 18:23:37.271] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
-[11Jan2025 18:23:37.272] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
-[11Jan2025 18:23:37.275] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
-[11Jan2025 18:23:37.280] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
-[11Jan2025 18:23:37.300] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
-[11Jan2025 18:23:37.301] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
-[11Jan2025 18:23:37.303] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
-[11Jan2025 18:23:37.304] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
-[11Jan2025 18:23:37.307] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
-[11Jan2025 18:23:37.308] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
-[11Jan2025 18:23:37.735] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
-[11Jan2025 18:23:37.866] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
-[11Jan2025 18:23:37.869] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
-[11Jan2025 18:23:37.872] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
-[11Jan2025 18:23:37.872] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[11Jan2025 18:23:37.894] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
-[11Jan2025 18:23:37.895] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:16, disabled:false}}] was successfully validated with 16 entries
-[11Jan2025 18:23:37.895] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:51, disabled:false}}] was successfully validated with 51 entries
-[11Jan2025 18:23:37.895] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[11Jan2025 18:23:37.896] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
-[11Jan2025 18:23:37.899] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[11Jan2025 18:23:37.899] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
-[11Jan2025 18:23:37.909] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
-[11Jan2025 18:23:37.909] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
-[11Jan2025 18:23:40.745] [main/INFO] [Moonlight/]: Initialized block sets in 34ms
-[11Jan2025 18:23:42.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[11Jan2025 18:23:42.498] [main/INFO] [Moonlight/]: Initialized color sets in 59ms
-[11Jan2025 18:23:42.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
-[11Jan2025 18:23:42.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[11Jan2025 18:23:42.762] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[11Jan2025 18:23:42.841] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 0, 1, 0, 0, 32, 10, 4] ms
-[11Jan2025 18:23:42.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
-[11Jan2025 18:23:42.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
-[11Jan2025 18:23:42.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
-[11Jan2025 18:23:42.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[11Jan2025 18:23:43.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
-[11Jan2025 18:23:43.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[11Jan2025 18:23:43.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[11Jan2025 18:23:43.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[11Jan2025 18:23:44.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
-[11Jan2025 18:23:44.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[11Jan2025 18:23:45.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[11Jan2025 18:23:45.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jan2025 18:23:45.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[11Jan2025 18:23:45.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[11Jan2025 18:23:45.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
-[11Jan2025 18:23:45.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[11Jan2025 18:23:45.433] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[11Jan2025 18:23:46.670] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11Jan2025 18:23:46.806] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-ambientsounds (version 6.1.4 -> MISSING)
-embeddium (version 0.3.31+mc1.20.1 -> MISSING)
-fabric_api_base (version 0.4.31+ef105b4977 -> MISSING)
-forge (version 47.3.0 -> 47.3.7)
-rubidium (version 0.7.1 -> MISSING)
-sodiumdynamiclights (version 1.0.9 -> MISSING)
-sodiumoptionsapi (version 1.0.9 -> MISSING)
-sound_physics_remastered (version 1.20.1-1.4.8 -> MISSING)
-tlskincape (version 1.32 -> MISSING)
-Things may not work well.
-[11Jan2025 18:23:46.874] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing/unknown registrie(s).
-
-There are 1 missing registries in this save.
-If you continue the missing registries will get removed.
-This may cause issues, it is advised that you create a world backup before continuing.
-
-
-[11Jan2025 18:23:46.875] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing Registries:
-cumulus_menus:menu
-
-[11Jan2025 18:23:46.946] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
-	nostalgic_tweaks:blank: 1675
-	nostalgic_tweaks:entity.player.hurt: 1676
-	nostalgic_tweaks:music.creative.beta: 1680
-	nostalgic_tweaks:music.creative.blended: 1681
-	nostalgic_tweaks:music.gameplay.alpha: 1677
-	nostalgic_tweaks:music.menu.beta: 1678
-	nostalgic_tweaks:music.menu.blended: 1679
-
-[11Jan2025 18:23:46.949] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 7 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[11Jan2025 18:23:46.950] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
-    nostalgic_tweaks:blank
-    nostalgic_tweaks:entity.player.hurt
-    nostalgic_tweaks:music.creative.beta
-    nostalgic_tweaks:music.creative.blended
-    nostalgic_tweaks:music.gameplay.alpha
-    nostalgic_tweaks:music.menu.beta
-    nostalgic_tweaks:music.menu.blended
-
-
-[11Jan2025 18:23:46.951] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[11Jan2025 18:23:48.946] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[11Jan2025 18:23:48.947] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[11Jan2025 18:23:49.037] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:ambientsounds
-[11Jan2025 18:23:49.037] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:fabric_api_base
-[11Jan2025 18:23:49.038] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:sodiumoptionsapi
-[11Jan2025 18:23:49.039] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:sound_physics_remastered
-[11Jan2025 18:23:49.039] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:tlskincape
-[11Jan2025 18:23:49.039] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:sodiumdynamiclights
-[11Jan2025 18:23:49.040] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:embeddium
-[11Jan2025 18:23:49.144] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 65 ms
-[11Jan2025 18:23:52.873] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
-[11Jan2025 18:23:54.580] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[11Jan2025 18:23:54.596] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[11Jan2025 18:23:54.725] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[11Jan2025 18:23:54.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
-[11Jan2025 18:23:54.847] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[11Jan2025 18:23:54.926] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2564 advancements
-[11Jan2025 18:23:54.960] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[11Jan2025 18:23:54.966] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[11Jan2025 18:23:54.993] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[11Jan2025 18:23:55.039] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[11Jan2025 18:23:56.212] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[11Jan2025 18:23:56.305] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
-[11Jan2025 18:23:56.491] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 16 milliseconds
-[11Jan2025 18:23:56.493] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
-[11Jan2025 18:23:56.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[11Jan2025 18:23:56.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jan2025 18:23:56.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jan2025 18:23:56.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jan2025 18:23:56.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jan2025 18:23:56.784] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jan2025 18:23:56.911] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11Jan2025 18:23:56.911] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[11Jan2025 18:23:56.912] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11Jan2025 18:23:56.912] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[11Jan2025 18:23:57.177] [Server thread/INFO] [Framework/]: Loading server configs...
-[11Jan2025 18:23:57.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
-[11Jan2025 18:24:00.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jan2025 18:24:09.799] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.800] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.802] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.802] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.803] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.803] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.805] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.808] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.808] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.809] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.811] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.812] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.820] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:09.892] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:10.392] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:10.892] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 18:24:11.503] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[11Jan2025 18:24:12.005] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11613 ms
-[11Jan2025 18:24:12.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.978s)! For help, type "help"
-[11Jan2025 18:24:12.061] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jan2025 18:25:13.022] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:25:13.026] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:amethyst_juju is
-[11Jan2025 18:25:13.027] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:25:13.027] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:25:13.028] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:25:13.031] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:amethyst_juju is
-[11Jan2025 18:25:13.033] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:25:13.034] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:25:13.035] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:25:13.036] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/cd47e2b5-7bae-3df8-80fa-b031903d69d1.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:25:13.203] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:54775] logged in with entity id 156 at (377.0965266137441, 63.0, -13.044925934376458)
-[11Jan2025 18:25:13.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[11Jan2025 18:25:53.884] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@376ba20c[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:50729) lost connection: Disconnected
-[11Jan2025 18:26:53.119] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6acc9067[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:59741) lost connection: Disconnected
-[11Jan2025 18:27:09.820] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5755ea35[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:35731) lost connection: Disconnected
-[11Jan2025 18:27:52.768] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6dbc6e12[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:51683) lost connection: Disconnected
-[11Jan2025 18:28:28.173] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1f295a4e[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:58851) lost connection: Disconnected
-[11Jan2025 18:29:09.769] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@56a12bf4[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:36415) lost connection: Disconnected
-[11Jan2025 18:29:11.220] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:29:11.221] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:29:11.221] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:29:11.221] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:29:11.222] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:29:11.222] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:29:11.223] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:29:11.223] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:29:11.223] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:29:11.224] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 18:29:11.224] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:29:11.224] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:29:11.225] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:29:11.225] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:29:11.226] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:29:11.226] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:29:11.226] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:29:11.227] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:29:11.228] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:29:11.228] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:29:11.228] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:29:11.229] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 18:29:11.229] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:29:11.230] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:29:11.230] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:29:11.230] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_leggings is
-[11Jan2025 18:29:11.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:29:11.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:29:11.232] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:29:11.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:29:11.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:29:11.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:29:11.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:29:11.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:29:11.235] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:29:11.235] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 18:29:11.235] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:29:11.236] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:29:11.236] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_leggings is
-[11Jan2025 18:29:11.247] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:29:11.247] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:29:11.248] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:29:11.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:29:11.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:29:11.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:29:11.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:29:11.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 18:29:11.251] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:29:11.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:29:11.254] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:29:11.255] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:29:11.255] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:29:11.256] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:29:11.257] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/4352254c-ed3f-3ee8-900c-829602acf0c1.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:29:11.308] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:29:11.322] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_excavator removed now.
-[11Jan2025 18:29:11.323] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:29:11.323] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 18:29:11.323] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 18:29:11.323] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
-[11Jan2025 18:29:11.324] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_treeaxe removed now.
-[11Jan2025 18:29:11.324] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:29:11.324] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 18:29:11.324] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:29:11.324] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 18:29:11.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:29:11.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_excavator removed now.
-[11Jan2025 18:29:11.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:29:11.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 18:29:11.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 18:29:11.326] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
-[11Jan2025 18:29:11.326] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_treeaxe removed now.
-[11Jan2025 18:29:11.326] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:29:11.338] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 18:29:11.339] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:29:11.339] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 18:29:11.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:59369] logged in with entity id 491 at (274.88400801099664, 79.0, 14.160942721077609)
-[11Jan2025 18:29:11.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[11Jan2025 18:29:32.378] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7eaaa42f[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:39061) lost connection: Disconnected
-[11Jan2025 18:30:27.073] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@349bb50e[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:60579) lost connection: Disconnected
-[11Jan2025 18:30:36.322] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3b8ca8ce[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:41705) lost connection: Disconnected
-[11Jan2025 18:31:39.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
-[11Jan2025 18:32:03.321] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@68ed08e5[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:38159) lost connection: Disconnected
-[11Jan2025 18:32:25.472] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@65c1f523[id=<null>,name=Roblex43,properties={},legacy=false] (/127.119.92.205:50445) lost connection: Disconnected
-[11Jan2025 18:33:01.573] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@67366b78[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:57951) lost connection: Disconnected
-[11Jan2025 18:33:32.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 18:33:40.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 18:35:03.369] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7b272090[id=<null>,name=Roblex43,properties={},legacy=false] (/127.119.92.205:52877) lost connection: Disconnected
-[11Jan2025 18:36:15.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 18:36:46.208] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [him:him] rejected their client side version number
-[11Jan2025 18:36:46.209] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[11Jan2025 18:36:46.219] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2541b93[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:54909) lost connection: Connection closed - mismatched mod channel list
-[11Jan2025 18:36:59.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeperling]
-[11Jan2025 18:37:23.720] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_body is
-[11Jan2025 18:37:23.721] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_leggings is
-[11Jan2025 18:37:23.721] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_boots is
-[11Jan2025 18:37:23.721] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_head is
-[11Jan2025 18:37:23.722] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_hammer is
-[11Jan2025 18:37:23.722] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:37:23.722] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:37:23.723] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:37:23.723] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:37:23.723] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:37:23.724] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:37:23.725] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:37:23.725] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:37:23.725] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:37:23.725] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:37:23.726] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:37:23.726] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_hammer is
-[11Jan2025 18:37:23.726] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:amethyst_hammer is
-[11Jan2025 18:37:23.726] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_head is
-[11Jan2025 18:37:23.726] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_boots is
-[11Jan2025 18:37:23.727] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:37:23.727] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:37:23.727] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/f96fec72-c835-3bfc-9e06-a31ff8c9a494.json: Don't know what easy_emerald:emerald_leggings is
-[11Jan2025 18:37:23.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
-[11Jan2025 18:37:23.755] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
-[11Jan2025 18:37:23.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
-[11Jan2025 18:37:23.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
-[11Jan2025 18:37:23.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
-[11Jan2025 18:37:23.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
-[11Jan2025 18:37:23.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
-[11Jan2025 18:37:23.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
-[11Jan2025 18:37:23.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
-[11Jan2025 18:37:23.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
-[11Jan2025 18:37:23.765] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:33629] logged in with entity id 2431 at (47.42424777660557, 52.0, 339.01637208476336)
-[11Jan2025 18:37:23.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
-[11Jan2025 18:37:25.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-[11Jan2025 18:37:48.574] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@439fc4f7[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:54055) lost connection: Disconnected
-[11Jan2025 18:38:44.230] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:38:44.230] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:38:44.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:38:44.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:38:44.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:38:44.231] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:diamond_hammer is
-[11Jan2025 18:38:44.232] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:38:44.232] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:38:44.232] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:38:44.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:38:44.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:38:44.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:amethyst_juju is
-[11Jan2025 18:38:44.233] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_hammer is
-[11Jan2025 18:38:44.234] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:38:44.235] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:ruby_juju is
-[11Jan2025 18:38:44.246] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_juju is
-[11Jan2025 18:38:44.246] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_head is
-[11Jan2025 18:38:44.246] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:38:44.246] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:38:44.247] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:amethyst_juju is
-[11Jan2025 18:38:44.247] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_body is
-[11Jan2025 18:38:44.248] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_juju is
-[11Jan2025 18:38:44.248] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_head is
-[11Jan2025 18:38:44.248] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:38:44.248] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:38:44.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:38:44.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:38:44.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:38:44.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:38:44.249] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:38:44.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:emerald_hammer is
-[11Jan2025 18:38:44.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:38:44.250] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:38:44.251] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:ruby_juju is
-[11Jan2025 18:38:44.251] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:38:44.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_treeaxe is
-[11Jan2025 18:38:44.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:diamond_hammer is
-[11Jan2025 18:38:44.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:38:44.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:38:44.252] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:38:44.253] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:38:44.254] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:38:44.254] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/ee25426a-f582-3d66-bd49-e6c678464123.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 18:38:44.273] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:38:44.273] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:38:44.274] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 18:38:44.274] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:diamond_hammer removed now.
-[11Jan2025 18:38:44.275] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
-[11Jan2025 18:38:44.275] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_treeaxe removed now.
-[11Jan2025 18:38:44.275] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:38:44.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 18:38:44.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:38:44.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:38:44.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:38:44.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 18:38:44.277] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:diamond_hammer removed now.
-[11Jan2025 18:38:44.277] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
-[11Jan2025 18:38:44.278] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_treeaxe removed now.
-[11Jan2025 18:38:44.278] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:38:44.278] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 18:38:44.278] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:38:44.279] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:35657] logged in with entity id 2968 at (107.84562916628337, 69.5, 364.35827862247004)
-[11Jan2025 18:38:44.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[11Jan2025 18:39:11.072] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:39:11.073] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_sword is
-[11Jan2025 18:39:11.073] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_hammer is
-[11Jan2025 18:39:11.073] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_head is
-[11Jan2025 18:39:11.076] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_body is
-[11Jan2025 18:39:11.076] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:39:11.077] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 18:39:11.077] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_pickaxe is
-[11Jan2025 18:39:11.077] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:39:11.078] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:39:11.078] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:39:11.080] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_head is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_boots is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_shovel is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_hammer is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:39:11.081] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_leggings is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_sword is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_paxel is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:39:11.082] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:39:11.083] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:emerald_sword is
-[11Jan2025 18:39:11.083] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 18:39:11.083] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:39:11.083] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_excavator is
-[11Jan2025 18:39:11.085] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 18:39:11.085] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_hammer is
-[11Jan2025 18:39:11.085] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 18:39:11.085] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_body is
-[11Jan2025 18:39:11.086] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:39:11.086] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_pickaxe is
-[11Jan2025 18:39:11.086] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 18:39:11.086] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_head is
-[11Jan2025 18:39:11.086] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_boots is
-[11Jan2025 18:39:11.087] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_leggings is
-[11Jan2025 18:39:11.087] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:39:11.087] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_sword is
-[11Jan2025 18:39:11.088] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 18:39:11.088] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 18:39:11.088] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_hammer is
-[11Jan2025 18:39:11.088] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_body is
-[11Jan2025 18:39:11.088] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_pickaxe is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_head is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_boots is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_leggings is
-[11Jan2025 18:39:11.089] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 18:39:11.090] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:obsidian_sword is
-[11Jan2025 18:39:11.090] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/bde05b44-dcc4-3122-b187-e9a444f9e236.json: Don't know what easy_emerald:copper_paxel is
-[11Jan2025 18:39:11.106] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:39:11.107] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:39:11.107] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:emerald_sword removed now.
-[11Jan2025 18:39:11.107] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_head removed now.
-[11Jan2025 18:39:11.107] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_sword removed now.
-[11Jan2025 18:39:11.108] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_body removed now.
-[11Jan2025 18:39:11.108] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_leggings removed now.
-[11Jan2025 18:39:11.108] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_boots removed now.
-[11Jan2025 18:39:11.108] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
-[11Jan2025 18:39:11.109] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 18:39:11.112] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_hammer removed now.
-[11Jan2025 18:39:11.112] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:39:11.112] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:39:11.113] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 18:39:11.113] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_paxel removed now.
-[11Jan2025 18:39:11.113] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_shovel removed now.
-[11Jan2025 18:39:11.113] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_pickaxe removed now.
-[11Jan2025 18:39:11.115] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 18:39:11.115] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 18:39:11.115] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:emerald_sword removed now.
-[11Jan2025 18:39:11.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_head removed now.
-[11Jan2025 18:39:11.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_sword removed now.
-[11Jan2025 18:39:11.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_body removed now.
-[11Jan2025 18:39:11.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_leggings removed now.
-[11Jan2025 18:39:11.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_boots removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_hammer removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 18:39:11.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_paxel removed now.
-[11Jan2025 18:39:11.118] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_shovel removed now.
-[11Jan2025 18:39:11.118] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:obsidian_pickaxe removed now.
-[11Jan2025 18:39:11.118] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Adriachu777[/127.235.100.141:40075] logged in with entity id 3019 at (163.103746725229, 76.0, 324.72093084059134)
-[11Jan2025 18:39:11.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 joined the game
-[11Jan2025 18:41:33.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> tu que no hay nada, NADA
-[11Jan2025 18:46:06.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Cold as Ice]
-[11Jan2025 18:47:15.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 18:48:57.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 18:50:45.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> zz
-[11Jan2025 18:51:21.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Baby Food]
-[11Jan2025 18:52:13.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Baby Food]
-[11Jan2025 18:52:51.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> zzz
-[11Jan2025 18:53:01.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> zzz
-[11Jan2025 18:54:43.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:01:37.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Exotic Hardware]
-[11Jan2025 19:02:26.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [To Infinity and Beyond!]
-[11Jan2025 19:03:04.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Do You Believe in Magic?]
-[11Jan2025 19:04:42.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Golden Parachute (vehicle of Roblex43) moved too quickly! 0.04335933326508723,-320.43798887934327,0.3183691760186207
-[11Jan2025 19:04:45.681] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodHealth, new:ItemMap<Integer>{mapSize:17, disabled:false}, old:ItemMap<Integer>{mapSize:16, disabled:false}}]
-[11Jan2025 19:04:45.682] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:17, disabled:false}}] was successfully validated with 17 entries
-[11Jan2025 19:04:45.687] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodStacking, new:ItemMap<Integer>{mapSize:52, disabled:false}, old:ItemMap<Integer>{mapSize:51, disabled:false}}]
-[11Jan2025 19:04:45.687] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:52, disabled:false}}] was successfully validated with 52 entries
-[11Jan2025 19:04:46.714] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[11Jan2025 19:05:05.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:06:52.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 19.0 damage to Dream_Cluster]
-[11Jan2025 19:08:12.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set season to Early Autumn]
-[11Jan2025 19:08:19.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 19:09:11.579] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.instantEat, new:false, old:true}]
-[11Jan2025 19:09:12.614] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[11Jan2025 19:14:33.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 has made the advancement [The Cutest Predator]
-[11Jan2025 19:14:43.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
-[11Jan2025 19:14:57.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
-[11Jan2025 19:16:44.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Cold as Ice]
-[11Jan2025 19:19:18.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was crushed by Slider
-[11Jan2025 19:19:37.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
-[11Jan2025 19:21:01.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:21:11.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:21:48.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:23:03.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:23:19.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:23:27.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:23:38.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:23:42.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:23:50.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 19:23:58.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 19:24:00.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:24:07.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 19:24:48.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
-[11Jan2025 19:26:35.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:26:41.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:27:01.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was crushed by Slider
-[11Jan2025 19:29:50.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [You've Got a Friend in Me]
-[11Jan2025 19:30:43.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Do You Believe in Magic?]
-[11Jan2025 19:31:27.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has reached the goal [Like a Bossaru!]
-[11Jan2025 19:31:50.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has reached the goal [The Power of the Gods]
-[11Jan2025 19:32:44.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 19.0 damage to Dream_Cluster]
-[11Jan2025 19:34:11.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [To Infinity and Beyond!]
-[11Jan2025 19:35:42.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 19:35:45.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:35:47.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 19:36:28.081] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers was kicked for floating too long!
-[11Jan2025 19:36:28.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
-[11Jan2025 19:36:28.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[11Jan2025 19:36:28.197] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[11Jan2025 19:36:38.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:39809] logged in with entity id 18287 at (141.83679606019174, 172.79200176125522, 21.618054243442717)
-[11Jan2025 19:36:38.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[11Jan2025 19:36:42.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:36:50.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:37:03.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:37:09.409] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=120, y=77, z=377} BlockPos{x=121, y=76, z=377}
-[11Jan2025 19:37:23.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:38:02.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Don't Count Your Moas...]
-[11Jan2025 19:38:36.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
-[11Jan2025 19:38:36.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
-[11Jan2025 19:38:36.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[11Jan2025 19:38:48.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:40733] logged in with entity id 19241 at (54.43354161711512, 166.59016863897656, -5.520220050820643)
-[11Jan2025 19:38:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[11Jan2025 19:39:31.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> 67 366
-[11Jan2025 19:42:00.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> my house or leo´s house?
-[11Jan2025 19:44:38.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:44:41.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:45:51.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> YOU LIKE THAT ALTAR?
-[11Jan2025 19:46:39.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: Disconnected
-[11Jan2025 19:46:39.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
-[11Jan2025 19:46:43.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> Its important to you?
-[11Jan2025 19:47:20.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was killed
-[11Jan2025 19:47:20.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Killed Dream_Cluster]
-[11Jan2025 19:47:45.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:47:48.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:47:56.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 19:48:33.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> one litle thing whats its the others cords of yesterday?
-[11Jan2025 19:50:36.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 8.0 damage to LeoView]
-[11Jan2025 19:50:51.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> where its java_krodd98?
-[11Jan2025 19:51:56.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Getting an Upgrade]
-[11Jan2025 19:52:56.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 19:52:57.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 19:53:42.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> where is hes body?
-[11Jan2025 19:53:56.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has completed the challenge [this doesn't calm me down]
-[11Jan2025 19:56:02.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> you´r name its herobrine
-[11Jan2025 19:57:41.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> you kill more people?
-[11Jan2025 19:59:28.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> what do you want?
-[11Jan2025 20:00:46.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 6.0 damage to Roblex43]
-[11Jan2025 20:01:28.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Creeperling]
-[11Jan2025 20:01:33.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [The More You Know!]
-[11Jan2025 20:02:36.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 20:03:11.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 20:03:39.570] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[11Jan2025 20:03:39.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[11Jan2025 20:07:10.277] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodHealth, new:ItemMap<Integer>{mapSize:26, disabled:false}, old:ItemMap<Integer>{mapSize:17, disabled:false}}]
-[11Jan2025 20:07:10.277] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:26, disabled:false}}] was successfully validated with 26 entries
-[11Jan2025 20:07:10.278] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Received tweak update request from (iloren_frontiers): [tweak={jsonId:gameplay.customFoodStacking, new:ItemMap<Integer>{mapSize:61, disabled:false}, old:ItemMap<Integer>{mapSize:52, disabled:false}}]
-[11Jan2025 20:07:10.278] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:61, disabled:false}}] was successfully validated with 61 entries
-[11Jan2025 20:07:11.314] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[11Jan2025 20:10:38.287] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:57235] logged in with entity id 28393 at (116.69999998807907, 65.0, 384.10265980650144)
-[11Jan2025 20:10:38.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[11Jan2025 20:11:00.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> Illo
-[11Jan2025 20:11:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> me tienes muteado=
-[11Jan2025 20:11:03.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ?
-[11Jan2025 20:14:45.373] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
-[11Jan2025 20:14:45.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[11Jan2025 20:15:54.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Skeleton
-[11Jan2025 20:16:36.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [... Until They hatch!]
-[11Jan2025 20:17:07.473] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_leggings is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 20:17:07.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_treeaxe is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_excavator is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 20:17:07.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
-[11Jan2025 20:17:07.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_leggings is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
-[11Jan2025 20:17:07.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_head is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_head is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_hammer is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_body is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_axe is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_treeaxe is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_body is
-[11Jan2025 20:17:07.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_treeaxe is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_leggings is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_treeaxe is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_pickaxe is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_excavator is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_boots is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_sword is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:iron_hammer is
-[11Jan2025 20:17:07.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_hammer is
-[11Jan2025 20:17:07.480] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_boots is
-[11Jan2025 20:17:07.480] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:wooden_excavator is
-[11Jan2025 20:17:07.481] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:copper_hammer is
-[11Jan2025 20:17:07.481] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/801184cf-c433-332e-abab-15af61ccafa4.json: Don't know what easy_emerald:amethyst_sword is
-[11Jan2025 20:17:07.492] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 20:17:07.492] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
-[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_excavator removed now.
-[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
-[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_treeaxe removed now.
-[11Jan2025 20:17:07.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_excavator removed now.
-[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
-[11Jan2025 20:17:07.494] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
-[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_sword removed now.
-[11Jan2025 20:17:07.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
-[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
-[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
-[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 20:17:07.496] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_treeaxe removed now.
-[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
-[11Jan2025 20:17:07.497] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
-[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
-[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_body removed now.
-[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_excavator removed now.
-[11Jan2025 20:17:07.498] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_boots removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_treeaxe removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_hammer removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_excavator removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_head removed now.
-[11Jan2025 20:17:07.499] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
-[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_leggings removed now.
-[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
-[11Jan2025 20:17:07.500] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_sword removed now.
-[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_pickaxe removed now.
-[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_treeaxe removed now.
-[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_hammer removed now.
-[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
-[11Jan2025 20:17:07.501] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:wooden_hammer removed now.
-[11Jan2025 20:17:07.502] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:iron_treeaxe removed now.
-[11Jan2025 20:17:07.502] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:amethyst_hammer removed now.
-[11Jan2025 20:17:07.503] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.8.175.20:33003] logged in with entity id 29484 at (377.17500001192093, 63.0, -10.854645161246802)
-[11Jan2025 20:17:07.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
-[11Jan2025 20:17:54.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <felixstorm> zzz
-[11Jan2025 20:18:10.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm has made the advancement [Suit Up]
-[11Jan2025 20:18:53.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Hot Stuff]
-[11Jan2025 20:20:33.782] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[11Jan2025 20:20:33.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[11Jan2025 20:23:13.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has completed the challenge [Ultimate Ban Hammer]
-[11Jan2025 20:23:42.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: false]
-[11Jan2025 20:23:44.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Gamerule doDaylightCycle is now set to: true]
-[11Jan2025 20:23:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Don't Count Your Moas...]
-[11Jan2025 20:32:49.187] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:46461] logged in with entity id 36775 at (213.50361515875124, 65.0, 935.858730483845)
-[11Jan2025 20:32:49.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[11Jan2025 20:35:01.308] [Worker-Main-100/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-506, y=55, z=135}
-[11Jan2025 20:35:01.349] [Worker-Main-100/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-505, y=55, z=104}
-[11Jan2025 20:35:54.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie
-[11Jan2025 20:36:07.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [What a Deal!]
-[11Jan2025 20:43:49.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was killed by Witch using magic
-[11Jan2025 20:43:50.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:44:22.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie
-[11Jan2025 20:44:29.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[11Jan2025 20:44:29.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[11Jan2025 20:44:58.592] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@38d60344[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:49211) lost connection: Disconnected
-[11Jan2025 20:45:01.742] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3cc85b85[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:45933) lost connection: Disconnected
-[11Jan2025 20:45:07.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:51897] logged in with entity id 43688 at (122.70766358258201, 72.0, 365.5057177310462)
-[11Jan2025 20:45:07.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[11Jan2025 20:46:41.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie
-[11Jan2025 20:48:16.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was blown up by Creeper
-[11Jan2025 20:50:56.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie Queen
-[11Jan2025 20:52:42.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie Queen
-[11Jan2025 20:54:06.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:54:14.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:54:29.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:54:59.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie Queen
-[11Jan2025 20:55:33.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:55:38.068] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
-[11Jan2025 20:55:38.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
-[11Jan2025 20:56:13.508] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[11Jan2025 20:56:18.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Valkyrie Queen
-[11Jan2025 20:57:08.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:57:16.776] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3454b917[id=<null>,name=felixstorm,properties={},legacy=false] (/127.8.175.20:54703) lost connection: Disconnected
-[11Jan2025 20:57:22.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 20:57:46.627] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@75b87573[id=<null>,name=felixstorm,properties={},legacy=false] (/127.8.175.20:56487) lost connection: Disconnected
-[11Jan2025 20:58:04.977] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@24bea7df[id=<null>,name=felixstorm,properties={},legacy=false] (/127.8.175.20:59303) lost connection: Disconnected
-[11Jan2025 20:58:30.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was zapped by Valkyrie Queen's Thunder Crystal
-[11Jan2025 20:58:42.377] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@511755ea[id=<null>,name=felixstorm,properties={},legacy=false] (/127.8.175.20:43407) lost connection: Disconnected
-[11Jan2025 21:00:00.097] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: felixstorm[/127.8.175.20:38113] logged in with entity id 53791 at (375.8565522799588, 37.0, 31.84903223054065)
-[11Jan2025 21:00:00.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm joined the game
-[11Jan2025 21:00:47.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Spectator Mode]
-[11Jan2025 21:00:51.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [felixstorm: Set own game mode to Survival Mode]
-[11Jan2025 21:01:08.685] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: felixstorm lost connection: Disconnected
-[11Jan2025 21:01:08.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: felixstorm left the game
-[11Jan2025 21:01:48.127] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
-[11Jan2025 21:01:48.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
-[11Jan2025 21:01:59.511] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:56805] logged in with entity id 54498 at (110.7309912023591, 93.30440304594175, 351.3439032307799)
-[11Jan2025 21:01:59.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[11Jan2025 21:02:11.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:03:26.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:03:37.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:04:50.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 21:05:29.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:05:34.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 21:05:38.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:05:41.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
-[11Jan2025 21:05:43.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie
-[11Jan2025 21:05:45.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 21:05:59.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
-[11Jan2025 21:05:59.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
-[11Jan2025 21:05:59.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[11Jan2025 21:05:59.798] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[11Jan2025 21:06:19.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by Valkyrie Queen
-[11Jan2025 21:06:22.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:06:42.719] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7c3aac8b[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:36323) lost connection: Disconnected
-[11Jan2025 21:06:52.283] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:46553] logged in with entity id 56217 at (9.927106139752144, 169.6993588007677, 667.925069268352)
-[11Jan2025 21:06:52.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[11Jan2025 21:06:56.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
-[11Jan2025 21:07:04.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:08:37.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 21:09:35.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was struck by lightning whilst fighting Valkyrie Queen
-[11Jan2025 21:09:40.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:09:57.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:10:33.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:10:48.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:11:03.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:11:31.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied effect Strength to iloren_frontiers]
-[11Jan2025 21:11:33.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:12:22.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:12:31.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:14:27.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cold Parachute (vehicle of Dream_Cluster) moved too quickly! -0.011144137150154165,-320.22435040631655,-0.0015406713449692688
-[11Jan2025 21:14:27.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cold Parachute (vehicle of Dream_Cluster) moved too quickly! 0.18765413597878933,-320.47435040631655,0.06486136757075656
-[11Jan2025 21:14:27.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5547ms or 110 ticks behind
-[11Jan2025 21:14:40.928] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_cherry], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_birch], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_jungle], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_bamboo]] from pos BlockPos{x=-251, y=75, z=699}
-[11Jan2025 21:14:42.311] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-251, y=75, z=699} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[11Jan2025 21:14:42.311] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=-251, y=75, z=699}
-[11Jan2025 21:15:25.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:15:49.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 17.0 damage to Dream_Cluster]
-[11Jan2025 21:17:09.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to Dream_Cluster]
-[11Jan2025 21:17:54.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[11Jan2025 21:18:07.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to Dream_Cluster]
-[11Jan2025 21:18:29.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
-[11Jan2025 21:18:48.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:18:54.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:18:58.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:04.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:09.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:10.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:10.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:10.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:11.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:11.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:12.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:12.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:19:40.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:19:44.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:19:45.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:48.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:19:51.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:cave to 3 players]
-[11Jan2025 21:19:52.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:20:02.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster has made the advancement [Cool Jewelery!]
-[11Jan2025 21:20:30.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to Dream_Cluster]
-[11Jan2025 21:21:10.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
-[11Jan2025 21:21:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
-[11Jan2025 21:21:17.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:21:24.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
-[11Jan2025 21:21:28.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
-[11Jan2025 21:21:41.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
-[11Jan2025 21:21:46.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
-[11Jan2025 21:21:48.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Primed TNT]
-[11Jan2025 21:23:34.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:24:02.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 21:24:32.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by iloren_frontiers
-[11Jan2025 21:24:43.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
-[11Jan2025 21:24:45.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
-[11Jan2025 21:25:06.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:25:31.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
-[11Jan2025 21:25:49.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to Dream_Cluster]
-[11Jan2025 21:29:24.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> polla de abuelo
-[11Jan2025 21:29:48.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Valkyrie Queen
-[11Jan2025 21:31:10.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[11Jan2025 21:32:36.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied enchantment Power V to iloren_frontiers's item]
-[11Jan2025 21:34:39.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster moved wrongly!
-[11Jan2025 21:35:51.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> are you here?
-[11Jan2025 21:37:11.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[11Jan2025 21:37:16.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[11Jan2025 21:37:40.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> are you there?
-[11Jan2025 21:44:51.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set season to Early Summer]
-[11Jan2025 21:44:57.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[11Jan2025 21:45:21.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 21:45:28.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[11Jan2025 21:45:34.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> where is the paint?
+[12Jan2025 00:54:25.083] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Jan2025 00:54:25.097] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[12Jan2025 00:54:26.829] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jan2025 00:54:27.409] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Jan2025 00:54:28.102] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2025 00:54:28.105] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2025 00:54:28.110] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2025 00:54:28.112] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2025 00:54:29.012] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Jan2025 00:54:29.014] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[12Jan2025 00:54:34.682] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Jan2025 00:54:34.962] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Jan2025 00:54:35.587] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Jan2025 00:54:40.078] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[12Jan2025 00:54:40.799] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[12Jan2025 00:54:40.930] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[12Jan2025 00:54:40.931] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[12Jan2025 00:54:40.932] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
+[12Jan2025 00:54:41.865] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Jan2025 00:54:52.797] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[12Jan2025 00:54:52.797] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[12Jan2025 00:54:57.246] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhh000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12Jan2025 00:55:01.524] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
+[12Jan2025 00:55:03.444] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[12Jan2025 00:55:03.582] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[12Jan2025 00:55:03.592] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[12Jan2025 00:55:03.601] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[12Jan2025 00:55:03.771] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
+[12Jan2025 00:55:04.350] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[12Jan2025 00:55:04.746] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[12Jan2025 00:55:05.003] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Jan2025 00:55:05.006] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Jan2025 00:55:07.130] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
+[12Jan2025 00:55:07.131] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
+[12Jan2025 00:55:07.135] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
+[12Jan2025 00:55:07.142] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
+[12Jan2025 00:55:07.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
+[12Jan2025 00:55:07.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
+[12Jan2025 00:55:07.148] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
+[12Jan2025 00:55:07.151] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
+[12Jan2025 00:55:07.152] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
+[12Jan2025 00:55:07.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
+[12Jan2025 00:55:07.179] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
+[12Jan2025 00:55:07.184] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
+[12Jan2025 00:55:07.185] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
+[12Jan2025 00:55:07.191] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
+[12Jan2025 00:55:07.193] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
+[12Jan2025 00:55:07.194] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
+[12Jan2025 00:55:07.195] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
+[12Jan2025 00:55:07.198] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
+[12Jan2025 00:55:07.205] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
+[12Jan2025 00:55:07.206] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
+[12Jan2025 00:55:07.207] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
+[12Jan2025 00:55:07.208] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
+[12Jan2025 00:55:07.209] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
+[12Jan2025 00:55:07.215] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
+[12Jan2025 00:55:07.216] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
+[12Jan2025 00:55:07.217] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
+[12Jan2025 00:55:07.236] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
+[12Jan2025 00:55:07.237] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
+[12Jan2025 00:55:07.238] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
+[12Jan2025 00:55:07.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
+[12Jan2025 00:55:07.258] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
+[12Jan2025 00:55:07.259] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
+[12Jan2025 00:55:07.844] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[12Jan2025 00:55:07.982] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
+[12Jan2025 00:55:07.990] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
+[12Jan2025 00:55:07.990] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
+[12Jan2025 00:55:07.991] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[12Jan2025 00:55:08.029] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
+[12Jan2025 00:55:08.030] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:26, disabled:false}}] was successfully validated with 26 entries
+[12Jan2025 00:55:08.030] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:61, disabled:false}}] was successfully validated with 61 entries
+[12Jan2025 00:55:08.030] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[12Jan2025 00:55:08.031] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
+[12Jan2025 00:55:08.038] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[12Jan2025 00:55:08.038] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
+[12Jan2025 00:55:08.042] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
+[12Jan2025 00:55:08.042] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
+[12Jan2025 00:55:11.516] [main/INFO] [Moonlight/]: Initialized block sets in 36ms
+[12Jan2025 00:55:12.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[12Jan2025 00:55:13.171] [main/INFO] [Moonlight/]: Initialized color sets in 142ms
+[12Jan2025 00:55:13.350] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
+[12Jan2025 00:55:13.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[12Jan2025 00:55:13.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
+[12Jan2025 00:55:13.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[12Jan2025 00:55:13.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[12Jan2025 00:55:13.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[12Jan2025 00:55:13.668] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[12Jan2025 00:55:13.814] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 11, 0, 2, 0, 2, 51, 13, 4] ms
+[12Jan2025 00:55:14.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
+[12Jan2025 00:55:14.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[12Jan2025 00:55:14.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[12Jan2025 00:55:14.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[12Jan2025 00:55:15.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
+[12Jan2025 00:55:15.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[12Jan2025 00:55:16.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[12Jan2025 00:55:16.065] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jan2025 00:55:16.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[12Jan2025 00:55:16.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[12Jan2025 00:55:16.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
+[12Jan2025 00:55:16.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[12Jan2025 00:55:16.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[12Jan2025 00:55:21.124] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jan2025 00:55:24.093] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[12Jan2025 00:55:24.094] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[12Jan2025 00:55:24.381] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 93 ms
+[12Jan2025 00:55:28.966] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
+[12Jan2025 00:55:31.515] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[12Jan2025 00:55:31.524] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[12Jan2025 00:55:31.589] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[12Jan2025 00:55:31.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
+[12Jan2025 00:55:31.846] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[12Jan2025 00:55:31.981] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2564 advancements
+[12Jan2025 00:55:32.046] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[12Jan2025 00:55:32.057] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[12Jan2025 00:55:32.085] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[12Jan2025 00:55:32.108] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[12Jan2025 00:55:34.201] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[12Jan2025 00:55:34.344] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[12Jan2025 00:55:35.579] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 24 milliseconds
+[12Jan2025 00:55:35.582] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
+[12Jan2025 00:55:35.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Jan2025 00:55:35.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jan2025 00:55:35.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jan2025 00:55:35.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jan2025 00:55:35.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jan2025 00:55:36.145] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jan2025 00:55:36.324] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jan2025 00:55:36.324] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jan2025 00:55:36.324] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jan2025 00:55:36.325] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Jan2025 00:55:36.513] [Server thread/INFO] [Framework/]: Loading server configs...
+[12Jan2025 00:55:36.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
+[12Jan2025 00:55:41.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jan2025 00:55:55.723] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.742] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.742] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.752] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.758] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.761] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.762] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.763] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.763] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.773] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.773] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.775] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.776] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.782] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.783] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.795] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.796] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.799] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:55.819] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:56.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:56.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:57.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:57.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2025 00:55:58.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[12Jan2025 00:55:58.794] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 17611 ms
+[12Jan2025 00:55:58.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.453s)! For help, type "help"
+[12Jan2025 00:55:58.887] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Jan2025 00:57:19.243] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.8.175.20:35901] logged in with entity id 159 at (41.45586060910484, 104.2217196133461, 369.6142323763869)
+[12Jan2025 00:57:19.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[12Jan2025 00:57:23.626] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4446ms or 88 ticks behind
