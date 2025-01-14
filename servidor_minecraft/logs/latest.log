@@ -243,3 +243,6 @@
 [14Jan2025 18:55:54.550] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:41009] logged in with entity id 8275 at (-5.369977043342321, 166.59016863897656, 294.3088211512624)
 [14Jan2025 18:55:54.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
 [14Jan2025 18:56:03.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[14Jan2025 19:03:17.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Voluntary Exile]
+[14Jan2025 19:07:16.137] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@193b30f[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.7.209.82:49757) lost connection: Disconnected
+[14Jan2025 19:07:32.937] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@41b98f30[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.7.209.82:44247) lost connection: Disconnected

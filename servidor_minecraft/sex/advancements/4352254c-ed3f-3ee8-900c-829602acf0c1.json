@@ -6125,5 +6125,41 @@
     },
     "done": true
   },
+  "aether:recipes/building_blocks/holystone_brick_slab": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_brick_wall": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_stairs": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_slab_from_holystone_bricks_stonecutting": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_brick_wall_from_holystone_bricks_stonecutting": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_stairs_from_holystone_bricks_stonecutting": {
+    "criteria": {
+      "has_holystone_bricks": "2025-01-14 19:02:42 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
