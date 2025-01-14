@@ -197,3 +197,31 @@
 [14Jan2025 18:26:14.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
 [14Jan2025 18:26:25.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> pq tas mut
 [14Jan2025 18:26:34.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> pq tas mut
+[14Jan2025 18:26:47.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Adriachu777> pq tas mut
+[14Jan2025 18:29:50.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Voluntary Exile]
+[14Jan2025 18:35:17.114] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.7.209.82:46685] logged in with entity id 3411 at (119.18121888703564, 76.59762927145175, 376.60379153422576)
+[14Jan2025 18:35:17.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[14Jan2025 18:36:32.335] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[14Jan2025 18:36:32.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[14Jan2025 18:37:30.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[14Jan2025 18:37:48.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 lost connection: behind you
+[14Jan2025 18:37:48.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 left the game
+[14Jan2025 18:37:48.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kicked Roblex43: behind you
+[14Jan2025 18:37:48.636] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[14Jan2025 18:38:07.484] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1b8beefd[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:45601) lost connection: Disconnected
+[14Jan2025 18:38:22.804] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:57737] logged in with entity id 3737 at (59.47771252374599, 74.0, 403.6319414909222)
+[14Jan2025 18:38:22.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[14Jan2025 18:38:39.487] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@440e5471[id=<null>,name=Roblex43,properties={},legacy=false] (/127.119.92.205:44455) lost connection: Disconnected
+[14Jan2025 18:38:44.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kicked Adriachu777: you can't do anything against me
+[14Jan2025 18:38:44.192] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: you can't do anything against me
+[14Jan2025 18:38:44.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
+[14Jan2025 18:38:53.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> Hi
+[14Jan2025 18:39:08.935] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@d920ff0[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.235.100.141:54347) lost connection: Disconnected
+[14Jan2025 18:39:13.034] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3ba703a0[id=<null>,name=Roblex43,properties={},legacy=false] (/127.119.92.205:37171) lost connection: Disconnected
+[14Jan2025 18:39:14.397] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Adriachu777[/127.235.100.141:42177] logged in with entity id 3861 at (115.70409590460673, 71.0, 353.51297447109994)
+[14Jan2025 18:39:14.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 joined the game
+[14Jan2025 18:39:19.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> I know you are here
+[14Jan2025 18:39:24.088] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6e7a6338[id=<null>,name=Roblex43,properties={},legacy=false] (/127.119.92.205:41183) lost connection: Disconnected
+[14Jan2025 18:41:39.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:53253] logged in with entity id 4249 at (127.50030318499348, 71.0, 360.92500001192093)
+[14Jan2025 18:41:39.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
+[14Jan2025 18:46:38.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 moved wrongly!

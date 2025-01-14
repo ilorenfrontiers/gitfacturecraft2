@@ -903,6 +903,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-14 18:29:50 +0000",
       "minecraft:skeleton": "2025-01-09 18:28:25 +0000",
       "minecraft:ghast": "2025-01-09 19:34:14 +0000",
       "minecraft:spider": "2025-01-09 18:43:29 +0000",
@@ -5735,6 +5736,12 @@
   "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
     "criteria": {
       "has_bread": "2025-01-14 18:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-01-14 18:29:50 +0000"
     },
     "done": true
   },
