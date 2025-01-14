@@ -5259,11 +5259,17 @@
     },
     "done": true
   },
-  "repurposed_structures:villages": {
+  "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
-      "in_village_oak": "2025-01-11 23:46:17 +0000"
+      "has_poppy": "2025-01-11 23:42:18 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-11 23:42:18 +0000"
+    },
+    "done": true
   },
   "supplementaries:recipes/boat_jar": {
     "criteria": {
@@ -5286,12 +5292,6 @@
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-11 23:45:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-01-11 23:42:18 +0000"
     },
     "done": true
   },
@@ -5331,17 +5331,17 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-01-11 23:42:18 +0000"
-    },
-    "done": true
-  },
   "aether:recipes/transportation/skyroot_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-11 23:45:25 +0000"
     },
     "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_oak": "2025-01-11 23:46:17 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
