@@ -5052,5 +5052,11 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/andesite_stepping_stones": {
+    "criteria": {
+      "has_andesite": "2025-01-14 18:49:33 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

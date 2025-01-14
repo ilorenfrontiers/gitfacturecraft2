@@ -225,3 +225,21 @@
 [14Jan2025 18:41:39.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:53253] logged in with entity id 4249 at (127.50030318499348, 71.0, 360.92500001192093)
 [14Jan2025 18:41:39.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
 [14Jan2025 18:46:38.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 moved wrongly!
+[14Jan2025 18:51:07.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
+[14Jan2025 18:51:07.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
+[14Jan2025 18:51:07.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[14Jan2025 18:51:07.811] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[14Jan2025 18:51:51.085] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@53d83944[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:55273) lost connection: Disconnected
+[14Jan2025 18:52:51.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:36835] logged in with entity id 7081 at (-5.695809350920004, 169.6993588007677, 294.046038740858)
+[14Jan2025 18:52:51.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[14Jan2025 18:52:57.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[14Jan2025 18:53:38.951] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1657713c[id=<null>,name=LeoView,properties={},legacy=false] (/127.251.34.34:37779) lost connection: Disconnected
+[14Jan2025 18:54:20.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
+[14Jan2025 18:54:20.738] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
+[14Jan2025 18:54:20.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[14Jan2025 18:54:25.108] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:39103] logged in with entity id 8024 at (108.57671627986143, 75.0, 359.1140741137535)
+[14Jan2025 18:54:25.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[14Jan2025 18:54:53.537] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1af33194[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:58141) lost connection: Disconnected
+[14Jan2025 18:55:54.550] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:41009] logged in with entity id 8275 at (-5.369977043342321, 166.59016863897656, 294.3088211512624)
+[14Jan2025 18:55:54.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[14Jan2025 18:56:03.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
