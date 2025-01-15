@@ -244,3 +244,12 @@
 [15Jan2025 19:20:16.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
 [15Jan2025 19:21:24.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:35441] logged in with entity id 8641 at (87.48402275355734, 63.9375, 365.51283338900214)
 [15Jan2025 19:21:24.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[15Jan2025 19:22:35.156] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[15Jan2025 19:22:35.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[15Jan2025 19:26:16.502] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/5, l='ServerLevel[sex]', x=309.88, y=84.00, z=-67.39] died: LeoView was slain by ErChristianMB
+[15Jan2025 19:29:34.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ErChristianMB lost connection: Disconnected
+[15Jan2025 19:29:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB left the game
+[15Jan2025 19:31:00.976] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.58.138.182:50183] logged in with entity id 10402 at (378.74064223628994, 81.1218816346502, -4.5570585386651254)
+[15Jan2025 19:31:01.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[15Jan2025 19:32:12.117] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:35773] logged in with entity id 10437 at (97.08080670437903, 50.0, 368.0708069645823)
+[15Jan2025 19:32:12.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
