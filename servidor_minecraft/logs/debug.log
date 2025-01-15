@@ -3297,3 +3297,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [15Jan2025 19:38:29.225] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
 [15Jan2025 19:38:29.241] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
 [15Jan2025 19:41:22.081] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / minecraft:overworld] to ResourceKey[minecraft:dimension / aether:the_aether]
+[15Jan2025 19:43:18.951] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[15Jan2025 19:43:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[15Jan2025 19:43:26.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Removed every effect from iloren_frontiers]
+[15Jan2025 19:43:29.212] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[15Jan2025 19:43:29.220] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[15Jan2025 19:46:53.584] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[15Jan2025 19:46:53.584] [Server thread/DEBUG] [net.blay09.mods.netherportalfix.NetherPortalFix/]: Not storing return portal because it's from ResourceKey[minecraft:dimension / aether:the_aether] to ResourceKey[minecraft:dimension / minecraft:overworld]
+[15Jan2025 19:48:29.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[15Jan2025 19:48:29.251] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[15Jan2025 19:51:16.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was blown up by iloren_frontiers
+[15Jan2025 19:51:33.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]

@@ -256,3 +256,7 @@
 [15Jan2025 19:35:11.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> GOD NOT LISENT
 [15Jan2025 19:37:39.917] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:44785] logged in with entity id 11626 at (103.701096001876, 107.0, 339.3487485412725)
 [15Jan2025 19:37:39.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[15Jan2025 19:43:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[15Jan2025 19:43:26.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Removed every effect from iloren_frontiers]
+[15Jan2025 19:51:16.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was blown up by iloren_frontiers
+[15Jan2025 19:51:33.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
