@@ -6161,5 +6161,17 @@
     },
     "done": true
   },
+  "aether:recipes/misc/enchanted_dart_shooter_enchanting": {
+    "criteria": {
+      "has_golden_dart_shooter": "2025-01-14 19:47:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/remedy_bucket_enchanting": {
+    "criteria": {
+      "has_skyroot_poison_bucket": "2025-01-14 20:02:28 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
