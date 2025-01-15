@@ -182,3 +182,65 @@
 [15Jan2025 18:56:09.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [15Jan2025 18:57:21.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gave 1 [Command block?] to iloren_frontiers]
 [15Jan2025 19:00:54.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gave 1 [IMPORTANT] to iloren_frontiers]
+[15Jan2025 19:03:16.454] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_leggings is
+[15Jan2025 19:03:16.455] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_boots is
+[15Jan2025 19:03:16.455] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_axe is
+[15Jan2025 19:03:16.456] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_sword is
+[15Jan2025 19:03:16.456] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_head is
+[15Jan2025 19:03:16.456] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_body is
+[15Jan2025 19:03:16.457] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_leggings is
+[15Jan2025 19:03:16.457] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_boots is
+[15Jan2025 19:03:16.458] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_sword is
+[15Jan2025 19:03:16.458] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_head is
+[15Jan2025 19:03:16.458] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_body is
+[15Jan2025 19:03:16.459] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_leggings is
+[15Jan2025 19:03:16.459] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_sword is
+[15Jan2025 19:03:16.460] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_boots is
+[15Jan2025 19:03:16.463] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_head is
+[15Jan2025 19:03:16.463] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_body is
+[15Jan2025 19:03:16.464] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_sword is
+[15Jan2025 19:03:16.464] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_axe is
+[15Jan2025 19:03:16.464] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./sex/stats/013452dc-b11c-35c7-aa3f-b418645fcacb.json: Don't know what easy_emerald:copper_head is
+[15Jan2025 19:03:16.483] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
+[15Jan2025 19:03:16.484] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
+[15Jan2025 19:03:16.485] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
+[15Jan2025 19:03:16.485] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
+[15Jan2025 19:03:16.486] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
+[15Jan2025 19:03:16.486] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
+[15Jan2025 19:03:16.487] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_body removed now.
+[15Jan2025 19:03:16.487] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_sword removed now.
+[15Jan2025 19:03:16.488] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_head removed now.
+[15Jan2025 19:03:16.488] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_axe removed now.
+[15Jan2025 19:03:16.489] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_boots removed now.
+[15Jan2025 19:03:16.490] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: easy_emerald:copper_leggings removed now.
+[15Jan2025 19:03:16.491] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ErChristianMB[/127.227.243.61:47479] logged in with entity id 1693 at (371.98054059593653, 59.0, -14.370586470488423)
+[15Jan2025 19:03:16.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB joined the game
+[15Jan2025 19:03:24.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> MARICONN
+[15Jan2025 19:04:40.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported iloren_frontiers to -919.500000, 92.000000, 892.500000]
+[15Jan2025 19:04:42.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[15Jan2025 19:05:20.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[15Jan2025 19:06:05.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[15Jan2025 19:06:53.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [Diamonds!]
+[15Jan2025 19:07:04.836] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:45207] logged in with entity id 2890 at (110.07606658887211, 65.0, 386.19470397766463)
+[15Jan2025 19:07:04.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[15Jan2025 19:07:24.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[15Jan2025 19:07:48.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported iloren_frontiers to -919.500000, 92.000000, 892.500000]
+[15Jan2025 19:07:51.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [Suit Up]
+[15Jan2025 19:08:33.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[15Jan2025 19:10:54.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[15Jan2025 19:12:14.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[15Jan2025 19:12:33.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[15Jan2025 19:12:58.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied effect Invisibility to iloren_frontiers]
+[15Jan2025 19:12:59.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[15Jan2025 19:13:48.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[15Jan2025 19:14:17.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> stop, i just wanna buitght my house
+[15Jan2025 19:14:21.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> build
+[15Jan2025 19:15:57.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [Sweet Dreams]
+[15Jan2025 19:17:30.759] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[15Jan2025 19:17:30.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[15Jan2025 19:19:10.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [What Was That!?]
+[15Jan2025 19:20:05.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [Bloodthirsty]
+[15Jan2025 19:20:16.410] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[15Jan2025 19:20:16.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[15Jan2025 19:21:24.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:35441] logged in with entity id 8641 at (87.48402275355734, 63.9375, 365.51283338900214)
+[15Jan2025 19:21:24.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game

@@ -6090,5 +6090,11 @@
     },
     "done": true
   },
+  "aether:recipes/tools/stone_axe_repairing": {
+    "criteria": {
+      "has_stone_axe": "2025-01-15 19:18:15 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
