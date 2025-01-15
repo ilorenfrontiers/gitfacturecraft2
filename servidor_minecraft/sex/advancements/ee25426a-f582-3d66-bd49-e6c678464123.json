@@ -6102,6 +6102,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-01-15 19:59:03 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/incubation/blue_moa_incubation": {
     "criteria": {
       "has_blue_moa_egg": "2025-01-15 19:48:55 +0000"
