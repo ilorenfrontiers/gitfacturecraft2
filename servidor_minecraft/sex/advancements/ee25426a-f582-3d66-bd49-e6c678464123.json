@@ -186,6 +186,7 @@
       "mutton": "2025-01-06 17:17:43 +0000",
       "bread": "2025-01-05 20:22:36 +0000",
       "golden_apple": "2025-01-06 17:08:18 +0000",
+      "rotten_flesh": "2025-01-15 20:13:55 +0000",
       "glow_berries": "2025-01-14 17:10:25 +0000",
       "salmon": "2025-01-09 19:11:44 +0000",
       "melon_slice": "2025-01-06 16:17:35 +0000",
@@ -761,6 +762,7 @@
       "minecraft:cave_spider": "2025-01-06 19:29:04 +0000",
       "minecraft:piglin": "2025-01-09 19:30:35 +0000",
       "minecraft:stray": "2025-01-06 17:16:05 +0000",
+      "minecraft:enderman": "2025-01-15 20:15:33 +0000",
       "minecraft:zombie": "2025-01-05 19:34:39 +0000",
       "minecraft:zombie_villager": "2025-01-07 15:12:09 +0000"
     },
@@ -6102,15 +6104,117 @@
     },
     "done": true
   },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2025-01-15 19:48:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2025-01-15 19:59:03 +0000"
     },
     "done": true
   },
-  "aether:recipes/incubation/blue_moa_incubation": {
+  "minecraft:recipes/misc/black_dye": {
     "criteria": {
-      "has_blue_moa_egg": "2025-01-15 19:48:55 +0000"
+      "has_ink_sac": "2025-01-15 20:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-01-15 20:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-01-15 20:36:46 +0000"
+    },
+    "done": true
+  },
+  "hiddenitemexe:god": {
+    "criteria": {
+      "god_0": "2025-01-15 20:37:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-01-15 20:38:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-01-15 20:38:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-15 20:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-15 21:09:35 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flint_block": {
+    "criteria": {
+      "has_flint": "2025-01-15 21:09:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-15 21:09:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-15 21:09:35 +0000"
     },
     "done": true
   },
