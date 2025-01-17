@@ -2449,6 +2449,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-17 22:44:06 +0000",
       "minecraft:spider": "2025-01-17 22:51:20 +0000",
+      "minecraft:creeper": "2025-01-17 23:05:19 +0000",
       "minecraft:zombie": "2025-01-17 22:49:17 +0000"
     },
     "done": false
