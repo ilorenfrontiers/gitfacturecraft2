@@ -300,3 +300,37 @@
 [17Jan2025 21:59:06.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [17Jan2025 22:00:03.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Isn't It Iron Pick]
 [17Jan2025 22:00:08.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Isn't It Iron Pick]
+[17Jan2025 22:03:26.094] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Arcalf78 lost connection: Disconnected
+[17Jan2025 22:03:26.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 left the game
+[17Jan2025 22:04:32.807] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/22743, l='ServerLevel[sex]', x=423.30, y=71.00, z=-606.18] died, message: 'Leatherworker bled to death'
+[17Jan2025 22:05:06.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Acquire Hardware]
+[17Jan2025 22:05:19.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Suit Up]
+[17Jan2025 22:05:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> encuentro mas diamante que hierro
+[17Jan2025 22:05:22.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> jertyh i0erty uo'¡
+[17Jan2025 22:05:33.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> xray?!?!?!??!
+[17Jan2025 22:05:43.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> si tuviese xray tuviese ya un stack de hierro
+[17Jan2025 22:05:47.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> pero tengo 8
+[17Jan2025 22:05:48.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> 9
+[17Jan2025 22:05:49.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> JAJAJJAJA
+[17Jan2025 22:05:59.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> illo, tu novia se ha ido ya, os meteis?
+[17Jan2025 22:06:05.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> no
+[17Jan2025 22:06:08.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> pero si el hierro es facil
+[17Jan2025 22:06:12.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ya tengo como 30
+[17Jan2025 22:06:13.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> ahora manuel es mi pareja sentimental
+[17Jan2025 22:06:19.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> yo tengo como 20 diamantes
+[17Jan2025 22:06:29.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> :(
+[17Jan2025 22:06:36.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> na, me los he gastado todos
+[17Jan2025 22:07:51.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 22:08:03.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[17Jan2025 22:08:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 22:09:09.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
+[17Jan2025 22:11:14.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
+[17Jan2025 22:11:18.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
+[17Jan2025 22:11:23.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
+[17Jan2025 22:12:08.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 4 players]
+[17Jan2025 22:12:11.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 4 players]
+[17Jan2025 22:12:11.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:39761] logged in with entity id 45766 at (51.608441114089764, 75.0, 391.02027384753757)
+[17Jan2025 22:12:11.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[17Jan2025 22:12:12.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 5 players]
+[17Jan2025 22:13:21.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 22:13:35.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
