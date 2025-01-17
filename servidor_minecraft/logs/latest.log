@@ -187,3 +187,88 @@
 [17Jan2025 20:51:31.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
 [17Jan2025 20:51:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
 [17Jan2025 20:51:55.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[17Jan2025 20:53:16.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[17Jan2025 20:53:36.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[17Jan2025 20:53:58.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 20:54:34.905] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Arcalf78[/127.131.54.16:38099] logged in with entity id 2491 at (303.5, 71.0, -25.5)
+[17Jan2025 20:54:34.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 joined the game
+[17Jan2025 20:57:25.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Bloodthirsty]
+[17Jan2025 20:57:40.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doDaylightCycle is now set to: false]
+[17Jan2025 20:59:01.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to Arcalf78]
+[17Jan2025 20:59:11.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to Arcalf78]
+[17Jan2025 20:59:51.524] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:36573] logged in with entity id 5304 at (109.26251346701984, 65.0, 383.7578963519869)
+[17Jan2025 20:59:51.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
+[17Jan2025 21:00:09.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to LeoView]
+[17Jan2025 21:01:08.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[17Jan2025 21:01:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[17Jan2025 21:01:31.004] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/5774, l='ServerLevel[sex]', x=524.04, y=70.00, z=-390.51] died, message: 'Nitwit was burnt to a crisp whilst fighting Zombie'
+[17Jan2025 21:02:01.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Stone Age]
+[17Jan2025 21:02:25.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Getting an Upgrade]
+[17Jan2025 21:03:27.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain]
+[17Jan2025 21:03:57.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[17Jan2025 21:04:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Is this... blood?]
+[17Jan2025 21:05:27.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Sweet Dreams]
+[17Jan2025 21:05:28.400] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/6591, l='ServerLevel[sex]', x=559.58, y=72.92, z=-392.40] died, message: 'Cleric bled to death'
+[17Jan2025 21:05:37.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Timed out
+[17Jan2025 21:05:37.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[17Jan2025 21:05:37.062] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[17Jan2025 21:06:38.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5825, l='ServerLevel[sex]', x=529.46, y=67.00, z=-430.59] died, message: 'Villager was slain by Zombie'
+[17Jan2025 21:06:57.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [WHAT THE...]
+[17Jan2025 21:07:11.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [What Was That!?]
+[17Jan2025 21:07:15.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Husk
+[17Jan2025 21:08:13.005] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/8903, l='ServerLevel[sex]', x=527.92, y=64.00, z=-532.44] died, message: 'Toolsmith was slain by Zombie'
+[17Jan2025 21:08:21.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
+[17Jan2025 21:08:29.627] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:43385] logged in with entity id 10197 at (303.5, 71.0, -25.5)
+[17Jan2025 21:08:29.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
+[17Jan2025 21:08:40.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> BUENAS
+[17Jan2025 21:09:04.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Husk
+[17Jan2025 21:09:14.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Arcalf78> manu ayuda pls
+[17Jan2025 21:09:24.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> no puedo xd
+[17Jan2025 21:09:30.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ayudame
+[17Jan2025 21:09:46.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Zombie
+[17Jan2025 21:09:46.465] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Arcalf78'/10796, l='ServerLevel[sex]', x=632.84, y=64.00, z=-430.31] died: Arcalf78 was blown up by Creeper
+[17Jan2025 21:10:01.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> cabron cuantos mobs hay
+[17Jan2025 21:10:09.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Arcalf78> din de estas que voy
+[17Jan2025 21:10:15.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ni puta idea
+[17Jan2025 21:10:18.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
+[17Jan2025 21:10:25.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> mrd
+[17Jan2025 21:10:36.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> bueno me voy a matar
+[17Jan2025 21:10:38.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Is this... blood?]
+[17Jan2025 21:10:41.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 bled to death
+[17Jan2025 21:10:54.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
+[17Jan2025 21:11:20.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:45395] logged in with entity id 12574 at (553.7789298947673, 67.47504679945496, -407.82053504873335)
+[17Jan2025 21:11:20.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[17Jan2025 21:11:22.381] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
+[17Jan2025 21:11:38.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 bled to death
+[17Jan2025 21:11:42.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Spider
+[17Jan2025 21:11:45.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[17Jan2025 21:11:55.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 was slain by Spider
+[17Jan2025 21:12:21.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 21:12:23.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 21:12:28.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was doomed to fall by Skeleton
+[17Jan2025 21:12:29.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[17Jan2025 21:12:35.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 21:12:46.258] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/13449, l='ServerLevel[sex]', x=299.49, y=72.00, z=-41.54] died: Arcalf78 was shot by iloren_frontiers
+[17Jan2025 21:13:32.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Stone Age]
+[17Jan2025 21:13:54.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Getting an Upgrade]
+[17Jan2025 21:15:09.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Monster Hunter]
+[17Jan2025 21:15:09.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Manuel1546'/13023, l='ServerLevel[sex]', x=327.86, y=72.00, z=-1.86] died: Manuel1546 was slain by Arcalf78
+[17Jan2025 21:15:25.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement ['Kill Yourself' Has Acquired a New Meaning]
+[17Jan2025 21:15:25.377] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/12889, l='ServerLevel[sex]', x=326.31, y=73.00, z=-5.17] died: Arcalf78 was slain by Arcalf78
+[17Jan2025 21:16:47.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 21:23:51.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Bloodthirsty]
+[17Jan2025 21:24:50.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Monster Hunter]
+[17Jan2025 21:24:50.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['felixstorm'/19260, l='ServerLevel[sex]', x=550.49, y=70.00, z=-230.56] died: felixstorm was slain by Manuel1546
+[17Jan2025 21:25:51.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> xdddddddddddddd
+[17Jan2025 21:26:36.981] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/20572, l='ServerLevel[sex]', x=533.16, y=65.00, z=-433.75] died: Arcalf78 was slain by Arcalf78
+[17Jan2025 21:28:20.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doDaylightCycle is now set to: true]
+[17Jan2025 21:28:31.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 21:28:45.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 21:29:06.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 21:29:08.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 21:31:50.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
+[17Jan2025 21:31:53.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
+[17Jan2025 21:32:14.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 21:32:35.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Cover Me with Diamonds]
+[17Jan2025 21:32:37.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 21:32:43.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> xd
