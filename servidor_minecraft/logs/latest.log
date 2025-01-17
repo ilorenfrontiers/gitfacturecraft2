@@ -334,3 +334,23 @@
 [17Jan2025 22:12:12.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 5 players]
 [17Jan2025 22:13:21.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [17Jan2025 22:13:35.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
+[17Jan2025 22:13:53.745] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2853ms or 57 ticks behind
+[17Jan2025 22:14:19.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 22:14:31.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 22:14:32.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 22:14:45.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel1546 lost connection: Disconnected
+[17Jan2025 22:14:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 left the game
+[17Jan2025 22:15:07.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
+[17Jan2025 22:15:11.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
+[17Jan2025 22:17:53.566] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:48223] logged in with entity id 48920 at (386.51249998807907, 86.0, -672.6999999880791)
+[17Jan2025 22:17:53.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
+[17Jan2025 22:18:05.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> matate
+[17Jan2025 22:18:30.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
+[17Jan2025 22:19:10.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[17Jan2025 22:19:12.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 22:19:19.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> podeis dormir o sois subnormales?
+[17Jan2025 22:19:29.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> shut up monkey
+[17Jan2025 22:19:40.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> pipipi
+[17Jan2025 22:20:31.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> dormir coño
+[17Jan2025 22:20:34.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> 1+1?
+[17Jan2025 22:20:47.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> calla peruano

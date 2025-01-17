@@ -6256,6 +6256,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-01-17 22:14:54 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/golden_ring": {
     "criteria": {
       "has_gold_ingot": "2025-01-17 22:12:53 +0000"
@@ -6292,6 +6298,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-01-17 22:14:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2025-01-17 21:12:18 +0000"
@@ -6325,6 +6337,12 @@
   "aether:recipes/combat/golden_pendant": {
     "criteria": {
       "has_gold_ingot": "2025-01-17 22:12:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-01-17 22:14:54 +0000"
     },
     "done": true
   },
