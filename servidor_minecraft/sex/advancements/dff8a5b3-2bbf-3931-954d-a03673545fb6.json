@@ -3355,39 +3355,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
     "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
+      "has_sweet_berries": "2025-01-17 22:18:31 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_leggings": {
+  "refurbished_furniture:recipes/frying/sweet_berry_jam": {
     "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
+      "has_ingredient": "2025-01-17 22:18:31 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap": {
+    "criteria": {
+      "has_porkchop": "2025-01-17 22:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-01-17 22:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-01-17 22:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-01-17 22:38:03 +0000"
     },
     "done": true
   },
   "refurbished_furniture:recipes/misc/constructing/birch_crate": {
     "criteria": {
       "has_birch_planks": "2025-01-17 22:45:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2025-01-17 22:56:24 +0000"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:recipes/misc/bandage": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_loom": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
     },
     "done": true
   },
@@ -3403,33 +3409,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
-    "criteria": {
-      "has_sweet_berries": "2025-01-17 22:18:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-01-17 22:56:24 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_sink": {
     "criteria": {
       "has_birch_planks": "2025-01-17 22:45:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/soap": {
-    "criteria": {
-      "has_porkchop": "2025-01-17 22:38:03 +0000"
     },
     "done": true
   },
@@ -3445,12 +3427,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_chair": {
     "criteria": {
       "has_birch_planks": "2025-01-17 22:45:43 +0000"
@@ -3460,12 +3436,6 @@
   "supplementaries:recipes/sign_post_birch": {
     "criteria": {
       "has_the_recipe": "2025-01-17 22:45:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
     },
     "done": true
   },
@@ -3481,51 +3451,15 @@
     },
     "done": true
   },
-  "aether:recipes/tools/aether_saddle": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-01-17 22:38:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-17 22:45:43 +0000"
     },
     "done": true
   },
-  "supplementaries:recipes/bellows": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-01-17 22:45:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
     },
     "done": true
   },
@@ -3541,18 +3475,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-01-17 22:38:03 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/redstone/skyroot_tripwire_hook": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_drawer": {
     "criteria": {
       "has_birch_planks": "2025-01-17 22:45:43 +0000"
@@ -3565,21 +3487,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-01-17 22:56:24 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
     "criteria": {
       "has_birch_planks": "2025-01-17 22:45:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
     },
     "done": true
   },
@@ -3607,39 +3517,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2025-01-17 22:54:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-01-17 22:38:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-17 22:45:43 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/frying/sweet_berry_jam": {
+  "refurbished_furniture:recipes/misc/constructing/birch_desk": {
     "criteria": {
-      "has_ingredient": "2025-01-17 22:18:31 +0000"
+      "has_birch_planks": "2025-01-17 22:45:43 +0000"
     },
     "done": true
   },
-  "aether:recipes/combat/leather_gloves": {
+  "majruszsdifficulty:recipes/misc/bandage": {
     "criteria": {
-      "has_leather": "2025-01-17 22:58:35 +0000"
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_loom": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-01-17 22:54:43 +0000"
     },
     "done": true
   },
@@ -3655,9 +3589,75 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/birch_desk": {
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
-      "has_birch_planks": "2025-01-17 22:45:43 +0000"
+      "has_chicken": "2025-01-17 22:56:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-17 22:56:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-17 22:56:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/aether_saddle": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/bellows": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves": {
+    "criteria": {
+      "has_leather": "2025-01-17 22:58:35 +0000"
     },
     "done": true
   },

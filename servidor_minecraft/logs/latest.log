@@ -451,3 +451,11 @@
 [17Jan2025 23:34:49.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> me podeis contar el lore
 [17Jan2025 23:34:57.359] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/83983, l='ServerLevel[sex]', x=667.38, y=66.00, z=-376.18] died, message: 'Cleric bled to death from injuries caused by Arcalf78'
 [17Jan2025 23:35:17.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[17Jan2025 23:35:21.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[17Jan2025 23:35:36.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ESTABA CONTANDOSELO, ME TIRASTE LA ESPADA Y SE ME PERDIO TODO EL TEXTO
+[17Jan2025 23:37:43.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[17Jan2025 23:38:13.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[17Jan2025 23:42:20.096] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/83984, l='ServerLevel[sex]', x=625.47, y=64.00, z=-389.12] died: Arcalf78 was shot by Skeleton
+[17Jan2025 23:43:10.325] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:57261] logged in with entity id 87994 at (199.69999998807907, 66.0, -131.90565415929302)
+[17Jan2025 23:43:10.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
+[17Jan2025 23:45:00.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> HI

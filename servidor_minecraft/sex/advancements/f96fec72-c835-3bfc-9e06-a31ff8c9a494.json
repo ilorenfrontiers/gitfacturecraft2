@@ -6485,6 +6485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-01-17 23:36:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2025-01-17 22:45:28 +0000"
@@ -6542,6 +6548,18 @@
   "supplementaries:recipes/sconce_soul": {
     "criteria": {
       "has_iron_nugget": "2025-01-17 22:54:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-01-17 23:36:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-01-17 23:36:36 +0000"
     },
     "done": true
   },
