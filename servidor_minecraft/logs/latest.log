@@ -215,3 +215,29 @@
 [18Jan2025 22:44:55.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [18Jan2025 22:47:33.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=299, y=42, z=-51} BlockPos{x=306, y=37, z=-25}
 [18Jan2025 22:47:49.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 22:50:37.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doFireTick is now set to: true]
+[18Jan2025 22:51:16.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ui.button.click to 3 players]
+[18Jan2025 22:51:41.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.wolf.howl to 3 players]
+[18Jan2025 22:52:23.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.player.levelup to 3 players]
+[18Jan2025 22:52:39.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.player.swim to 3 players]
+[18Jan2025 22:52:47.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
+[18Jan2025 22:52:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
+[18Jan2025 22:53:24.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 3 players]
+[18Jan2025 22:53:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 3 players]
+[18Jan2025 22:53:28.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.eat to 3 players]
+[18Jan2025 22:53:42.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [The Cutest Predator]
+[18Jan2025 22:55:14.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 3 players]
+[18Jan2025 22:55:36.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:58721] logged in with entity id 10369 at (101.39626162641039, 50.0, 367.7640389816513)
+[18Jan2025 22:55:36.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 22:57:26.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB was blown up by Creeperling
+[18Jan2025 22:57:41.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported ErChristianMB to iloren_frontiers]
+[18Jan2025 22:58:48.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-32} BlockPos{x=298, y=37, z=-30}
+[18Jan2025 22:58:56.098] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-32} BlockPos{x=298, y=37, z=-30}
+[18Jan2025 22:59:00.792] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-32} BlockPos{x=298, y=37, z=-31}
+[18Jan2025 22:59:02.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=299, y=37, z=-33} BlockPos{x=298, y=37, z=-31}
+[18Jan2025 22:59:06.627] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=299, y=37, z=-33} BlockPos{x=298, y=37, z=-30}
+[18Jan2025 22:59:10.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:59:14.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-30} BlockPos{x=298, y=36, z=-30}
+[18Jan2025 22:59:23.444] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-31} BlockPos{x=298, y=36, z=-30}
+[18Jan2025 22:59:23.545] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-31} BlockPos{x=299, y=36, z=-30}
+[18Jan2025 22:59:30.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]

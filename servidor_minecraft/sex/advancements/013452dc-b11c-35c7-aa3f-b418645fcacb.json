@@ -1298,6 +1298,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-15 19:13:20 +0000",
       "minecraft:spider": "2025-01-15 19:17:21 +0000",
+      "minecraft:creeper": "2025-01-18 22:49:37 +0000",
       "minecraft:zombie": "2025-01-08 21:23:34 +0000"
     },
     "done": false
@@ -3444,6 +3445,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-18 22:46:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-18 22:38:15 +0000"
@@ -3492,6 +3499,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-18 22:51:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
@@ -3504,9 +3517,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-18 22:52:16 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/misc/skyroot_stick": {
     "criteria": {
       "has_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/globe_sepia": {
+    "criteria": {
+      "has_antique_ink": "2025-01-18 22:52:17 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/granite_stepping_stones": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
@@ -3516,9 +3553,39 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/orange_dye_from_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-01-18 22:46:20 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/decorations/aether/sign_post_skyroot": {
     "criteria": {
       "has_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-18 22:53:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-18 22:52:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/frying/glow_berry_jam": {
+    "criteria": {
+      "has_ingredient": "2025-01-18 22:46:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
@@ -3534,6 +3601,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
@@ -3546,6 +3619,18 @@
     },
     "done": true
   },
+  "supplementaries:recipes/ash_brick": {
+    "criteria": {
+      "forge:ash": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/skyroot_sword": {
     "criteria": {
       "has_planks": "2025-01-18 22:19:37 +0000"
@@ -3555,6 +3640,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-18 22:51:30 +0000"
     },
     "done": true
   },
@@ -3582,9 +3673,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_button": {
     "criteria": {
       "has_skyroot_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-01-18 22:51:30 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/key": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-18 22:52:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
@@ -3612,9 +3727,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/redstone_illuminator": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
@@ -3627,6 +3754,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
@@ -3660,6 +3793,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2025-01-18 22:53:42 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/building_blocks/skyroot_slab": {
     "criteria": {
       "has_skyroot_planks": "2025-01-18 22:19:37 +0000"
@@ -3687,6 +3826,12 @@
   "supplementaries:recipes/lapis_bricks": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-18 22:38:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-18 22:52:41 +0000"
     },
     "done": true
   },
