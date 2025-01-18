@@ -214,3 +214,47 @@
 [18Jan2025 13:17:55.237] [Server thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
 [18Jan2025 13:18:11.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [18Jan2025 13:18:51.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Successfully filled 1 block(s)]
+[18Jan2025 13:19:38.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 13:21:11.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 13:21:17.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 13:23:20.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[18Jan2025 13:23:21.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers fell from a high place
+[18Jan2025 13:23:23.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 13:23:26.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 13:24:27.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 13:24:32.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 13:25:01.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 13:32:56.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Vex
+[18Jan2025 13:33:41.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Vex
+[18Jan2025 13:35:29.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Take Aim]
+[18Jan2025 13:39:13.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:54063] logged in with entity id 12633 at (140.1853240621467, 64.0, 1145.758653828056)
+[18Jan2025 13:39:13.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 13:39:15.787] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2101ms or 42 ticks behind
+[18Jan2025 13:40:04.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Vindicator
+[18Jan2025 13:40:44.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Vindicator
+[18Jan2025 13:41:43.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 bled to death
+[18Jan2025 13:42:02.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 13:42:02.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 13:42:40.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Vindicator
+[18Jan2025 13:43:59.965] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2f1f7146[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:52005) lost connection: Disconnected
+[18Jan2025 13:44:09.766] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:56913] logged in with entity id 17086 at (404.44999998807907, 79.0, 795.4499999880791)
+[18Jan2025 13:44:09.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 13:44:53.310] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/16457, l='ServerLevel[sex]', x=-747.78, y=70.00, z=339.77] died: Roblex43 was slain by Roblex43
+[18Jan2025 13:45:00.712] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/15725, l='ServerLevel[sex]', x=-747.09, y=70.00, z=336.14] died: Roblex43 was slain by Roblex43
+[18Jan2025 13:49:01.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was doomed to fall by Skeleton
+[18Jan2025 13:50:06.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.4103918588624868
+[18Jan2025 13:50:06.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.9541285591201437
+[18Jan2025 13:50:06.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.3649274979437038
+[18Jan2025 13:50:06.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.31841662270389887
+[18Jan2025 13:50:06.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.6631003692618744
+[18Jan2025 13:50:06.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.29855809058331345
+[18Jan2025 13:50:06.964] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.2986468540353131
+[18Jan2025 13:50:06.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.3002500889341547
+[18Jan2025 13:50:07.061] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.30312824943233285
+[18Jan2025 13:50:07.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.306470498564377
+[18Jan2025 13:50:07.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.30945534998850216
+[18Jan2025 13:50:07.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.6326977233036006
+[18Jan2025 13:50:07.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.3123659078441551
+[18Jan2025 13:50:07.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.6353424950012984
+[18Jan2025 13:55:46.556] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 13:55:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
