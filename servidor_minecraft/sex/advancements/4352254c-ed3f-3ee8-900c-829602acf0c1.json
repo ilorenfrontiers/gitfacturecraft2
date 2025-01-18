@@ -24,6 +24,7 @@
       "minecraft:birch_forest": "2025-01-05 19:18:17 +0000",
       "minecraft:windswept_hills": "2025-01-06 19:06:17 +0000",
       "minecraft:beach": "2025-01-05 19:30:55 +0000",
+      "minecraft:dark_forest": "2025-01-18 13:12:22 +0000",
       "minecraft:river": "2025-01-05 19:18:12 +0000",
       "minecraft:stony_shore": "2025-01-06 19:06:01 +0000",
       "minecraft:dripstone_caves": "2025-01-06 18:55:30 +0000",
@@ -6489,6 +6490,30 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2025-01-18 00:27:34 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/doormat_2": {
+    "criteria": {
+      "forge:crops/flax": "2025-01-18 13:07:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flax_block": {
+    "criteria": {
+      "has_flax": "2025-01-18 13:07:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/strings": {
+    "criteria": {
+      "has_flax": "2025-01-18 13:07:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/rope": {
+    "criteria": {
+      "forge:crops/flax": "2025-01-18 13:07:59 +0000"
     },
     "done": true
   },
