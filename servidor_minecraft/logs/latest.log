@@ -252,3 +252,30 @@
 [18Jan2025 23:09:24.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [18Jan2025 23:09:32.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gave 1 [Command block?] to iloren_frontiers]
 [18Jan2025 23:09:35.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:10:18.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[18Jan2025 23:13:21.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:13:34.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has completed the challenge [I am a god... right?]
+[18Jan2025 23:14:25.506] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[18Jan2025 23:14:25.506] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[18Jan2025 23:14:25.507] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[18Jan2025 23:14:25.507] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.attackDamage'
+[18Jan2025 23:14:29.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:14:38.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was burnt to a crisp whilst fighting agent 121
+[18Jan2025 23:15:04.729] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['agent 121'/17635, l='ServerLevel[sex]', x=98.50, y=64.00, z=368.71] died: agent 121 was slain by LeoView using [ESPADA BETA 1.20 TESTER]
+[18Jan2025 23:15:13.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView bled to death
+[18Jan2025 23:15:29.229] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/18064, l='ServerLevel[sex]', x=95.60, y=64.00, z=361.58] died: LeoView was slain by LeoView
+[18Jan2025 23:16:43.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:17:13.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:17:22.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:17:43.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:18:09.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:18:46.092] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[18Jan2025 23:18:46.093] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[18Jan2025 23:18:46.093] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[18Jan2025 23:18:46.093] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.attackDamage'
+[18Jan2025 23:19:15.182] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[18Jan2025 23:19:15.183] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[18Jan2025 23:19:15.183] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[18Jan2025 23:19:15.183] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.attackDamage'
+[18Jan2025 23:19:17.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:19:42.642] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['agent 101'/20108, l='ServerLevel[sex]', x=66.58, y=75.00, z=377.47] died: agent 101 was slain by Dream_Cluster

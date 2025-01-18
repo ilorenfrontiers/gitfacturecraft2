@@ -3446,9 +3446,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-18 23:10:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-01-18 22:46:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-01-18 23:10:51 +0000"
     },
     "done": true
   },
@@ -3461,6 +3473,12 @@
   "aether:recipes/tools/skyroot_hoe": {
     "criteria": {
       "has_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/boat_jar": {
+    "criteria": {
+      "minecraft:boats": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
@@ -3497,6 +3515,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-18 22:38:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-18 23:10:51 +0000"
     },
     "done": true
   },
@@ -3584,6 +3608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/globe_sepia": {
     "criteria": {
       "has_antique_ink": "2025-01-18 22:52:17 +0000"
@@ -3626,9 +3656,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/frying/glow_berry_jam": {
     "criteria": {
       "has_ingredient": "2025-01-18 22:46:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
@@ -3650,9 +3692,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_pressure_plate": {
     "criteria": {
       "has_skyroot_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "forge:eggs": "2025-01-18 23:10:47 +0000"
     },
     "done": true
   },
@@ -3662,9 +3716,27 @@
     },
     "done": true
   },
+  "aether:recipes/combat/bow_repairing": {
+    "criteria": {
+      "has_bow": "2025-01-18 23:07:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-18 22:44:41 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_egg": "2025-01-18 23:10:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
@@ -3683,6 +3755,18 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2025-01-18 22:52:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
@@ -3740,6 +3824,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
+    },
+    "done": true
+  },
+  "hiddenitemexe:god": {
+    "criteria": {
+      "god_0": "2025-01-18 23:13:34 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/slicing/string_from_cobweb": {
     "criteria": {
       "has_cobweb": "2025-01-18 22:42:05 +0000"
@@ -3755,6 +3851,12 @@
   "aether:recipes/redstone/skyroot_button": {
     "criteria": {
       "has_skyroot_planks": "2025-01-18 22:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
@@ -3818,6 +3920,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-18 23:10:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-01-18 22:52:41 +0000"
@@ -3857,6 +3965,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2025-01-18 23:02:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-18 23:07:19 +0000"
     },
     "done": true
   },
@@ -3941,6 +4055,12 @@
   "supplementaries:recipes/lapis_bricks": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-18 22:38:15 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/transportation/skyroot_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-18 23:11:49 +0000"
     },
     "done": true
   },
