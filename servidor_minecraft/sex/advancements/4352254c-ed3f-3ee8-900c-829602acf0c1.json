@@ -6525,5 +6525,23 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-01-18 14:15:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/dark_fridge": {
+    "criteria": {
+      "has_fridge": "2025-01-18 14:21:02 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_fridge": {
+    "criteria": {
+      "has_light_fridge": "2025-01-18 14:21:02 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

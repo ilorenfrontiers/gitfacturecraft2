@@ -258,3 +258,49 @@
 [18Jan2025 13:50:07.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.6353424950012984
 [18Jan2025 13:55:46.556] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
 [18Jan2025 13:55:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 14:02:54.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView was kicked for floating too long!
+[18Jan2025 14:02:54.051] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Flying is not enabled on this server
+[18Jan2025 14:02:54.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 14:02:54.130] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[18Jan2025 14:02:59.909] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:48503] logged in with entity id 30386 at (99.56779475757882, 125.40029309130338, 336.47995193388925)
+[18Jan2025 14:02:59.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 14:03:18.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView was kicked for floating too long!
+[18Jan2025 14:03:18.175] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Flying is not enabled on this server
+[18Jan2025 14:03:18.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 14:03:23.221] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:50029] logged in with entity id 30773 at (99.26506345578576, 124.17268733209826, 336.78759655054836)
+[18Jan2025 14:03:23.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 14:03:24.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[18Jan2025 14:05:37.171] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:54299] logged in with entity id 32095 at (-186.5, 67.0, 254.5)
+[18Jan2025 14:05:37.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 14:05:42.457] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 14:05:42.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 14:08:53.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 14:09:08.351] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[18Jan2025 14:09:08.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 14:09:12.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 14:09:17.960] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:52409] logged in with entity id 33880 at (103.46164080961836, 107.0, 342.7881790234311)
+[18Jan2025 14:09:17.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 14:09:18.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 14:10:23.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 14:10:53.501] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[18Jan2025 14:10:53.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[18Jan2025 14:11:30.255] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[18Jan2025 14:11:30.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 14:13:07.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:58455] logged in with entity id 35405 at (-186.5, 67.0, 254.5)
+[18Jan2025 14:13:07.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 14:16:13.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Skeleton
+[18Jan2025 14:16:15.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 moved too quickly! 8.516659686833236,1.0,6.153996803810969
+[18Jan2025 14:16:33.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Skeleton
+[18Jan2025 14:16:54.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Skeleton
+[18Jan2025 14:17:05.502] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/37839, l='ServerLevel[sex]', x=-1318.40, y=63.00, z=1265.53] died: Roblex43 was slain by Roblex43
+[18Jan2025 14:17:06.510] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/37457, l='ServerLevel[sex]', x=-1318.69, y=63.00, z=1266.26] died: Roblex43 was slain by Roblex43
+[18Jan2025 14:24:22.303] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@41082ccd[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.110.201.164:50691) lost connection: Disconnected
+[18Jan2025 14:27:11.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[18Jan2025 14:27:27.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 14:27:27.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 14:28:14.742] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:51473] logged in with entity id 42859 at (-1006.8307827759901, 79.9166660179211, 778.0917834678189)
+[18Jan2025 14:28:14.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[18Jan2025 14:28:46.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[18Jan2025 14:29:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 14:29:22.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 14:29:51.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
