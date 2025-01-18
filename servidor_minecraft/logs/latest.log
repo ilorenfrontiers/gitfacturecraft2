@@ -314,3 +314,57 @@
 [18Jan2025 14:54:24.865] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:44191] logged in with entity id 54048 at (115.33457775536488, 72.0, 371.2836703275897)
 [18Jan2025 14:54:24.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
 [18Jan2025 15:01:11.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
+[18Jan2025 15:01:57.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 1.0 damage to LeoView]
+[18Jan2025 15:02:09.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 2.0 damage to LeoView]
+[18Jan2025 15:02:17.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 2.0 damage to LeoView]
+[18Jan2025 15:02:36.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 2.0 damage to LeoView]
+[18Jan2025 15:02:50.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Applied 4.0 damage to LeoView]
+[18Jan2025 15:02:57.127] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1135, y=79, z=-142} BlockPos{x=-1135, y=80, z=-140}
+[18Jan2025 15:02:57.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1135, y=79, z=-142} BlockPos{x=-1135, y=80, z=-140}
+[18Jan2025 15:03:06.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:05:05.880] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:36515] logged in with entity id 59673 at (70.4042572988877, 78.0, 351.75318662898826)
+[18Jan2025 15:05:05.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 15:05:26.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 15:05:26.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 15:12:09.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:13:00.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:13:05.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[18Jan2025 15:13:17.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:14:33.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:14:35.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[18Jan2025 15:14:45.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers was slain by LeoView
+[18Jan2025 15:14:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:14:48.153] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[18Jan2025 15:14:48.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 15:14:49.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:14:53.957] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:37901] logged in with entity id 64752 at (86.30000001192093, 106.0, 339.7320768487048)
+[18Jan2025 15:14:53.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 15:14:59.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:15:05.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:15:07.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:15:24.628] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/64345, l='ServerLevel[sex]', x=-462.71, y=63.00, z=-197.57, removed=DISCARDED]
+[18Jan2025 15:15:25.028] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/64345, l='ServerLevel[sex]', x=-462.71, y=63.00, z=-197.57, removed=DISCARDED]
+[18Jan2025 15:15:28.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:15:48.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 15:16:37.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 15:16:44.168] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:37137] logged in with entity id 65360 at (71.01545175977228, 77.0, 352.56746941678)
+[18Jan2025 15:16:44.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 15:16:58.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:18:37.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was doomed to fall by iloren_frontiers
+[18Jan2025 15:18:47.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
+[18Jan2025 15:18:57.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported Dream_Cluster to iloren_frontiers]
+[18Jan2025 15:19:42.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[18Jan2025 15:19:45.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers fell from a high place
+[18Jan2025 15:19:48.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 15:19:50.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 15:20:54.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was doomed to fall by iloren_frontiers
+[18Jan2025 15:20:54.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:00.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:04.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:09.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:10.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:10.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:11.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:11.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
+[18Jan2025 15:21:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[18Jan2025 15:21:35.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Teleported LeoView to iloren_frontiers]
