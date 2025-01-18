@@ -189,3 +189,29 @@
 [18Jan2025 22:20:38.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [18Jan2025 22:21:15.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
 [18Jan2025 22:21:44.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:29:31.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> a si
+[18Jan2025 22:29:37.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> no hay nadie
+[18Jan2025 22:29:40.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> es verdad
+[18Jan2025 22:29:42.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> que illo
+[18Jan2025 22:29:49.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> que hay forniture
+[18Jan2025 22:29:51.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> tipo
+[18Jan2025 22:29:55.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> puedes hacer luces
+[18Jan2025 22:31:29.858] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:52601] logged in with entity id 2593 at (124.45800406188432, 73.0, 369.96929091689316)
+[18Jan2025 22:31:29.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 22:33:20.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 22:33:42.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:34:51.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 22:35:04.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:35:21.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 22:35:24.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:35:47.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB has made the advancement [To Infinity and Beyond!]
+[18Jan2025 22:36:16.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 22:38:27.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[18Jan2025 22:43:55.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 22:44:06.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 22:44:17.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 22:44:25.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=105, y=79, z=346} BlockPos{x=106, y=80, z=345}
+[18Jan2025 22:44:37.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doFireTick is now set to: false]
+[18Jan2025 22:44:55.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 22:47:33.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=299, y=42, z=-51} BlockPos{x=306, y=37, z=-25}
+[18Jan2025 22:47:49.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
