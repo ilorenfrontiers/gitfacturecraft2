@@ -1,461 +1,171 @@
-[17Jan2025 20:42:08.803] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[17Jan2025 20:42:08.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[17Jan2025 20:42:09.676] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[17Jan2025 20:42:09.753] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17Jan2025 20:42:10.123] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[17Jan2025 20:42:10.128] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Jan2025 20:42:10.133] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Jan2025 20:42:10.136] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Jan2025 20:42:10.492] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[17Jan2025 20:42:10.494] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[17Jan2025 20:42:13.613] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Jan2025 20:42:13.800] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17Jan2025 20:42:14.177] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 20:42:17.126] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[17Jan2025 20:42:17.615] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[17Jan2025 20:42:17.700] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[17Jan2025 20:42:17.701] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
-[17Jan2025 20:42:17.702] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
-[17Jan2025 20:42:18.366] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17Jan2025 20:42:25.285] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[17Jan2025 20:42:25.286] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
-[17Jan2025 20:42:28.237] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhh000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17Jan2025 20:42:30.369] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
-[17Jan2025 20:42:31.581] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[17Jan2025 20:42:31.657] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[17Jan2025 20:42:31.661] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[17Jan2025 20:42:31.668] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[17Jan2025 20:42:31.777] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
-[17Jan2025 20:42:32.239] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[17Jan2025 20:42:32.532] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[17Jan2025 20:42:32.664] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[17Jan2025 20:42:32.665] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[17Jan2025 20:42:33.835] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
-[17Jan2025 20:42:33.844] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
-[17Jan2025 20:42:33.850] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
-[17Jan2025 20:42:33.852] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
-[17Jan2025 20:42:33.853] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
-[17Jan2025 20:42:33.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
-[17Jan2025 20:42:33.865] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
-[17Jan2025 20:42:33.867] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
-[17Jan2025 20:42:33.871] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
-[17Jan2025 20:42:33.872] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
-[17Jan2025 20:42:33.876] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
-[17Jan2025 20:42:33.881] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
-[17Jan2025 20:42:33.882] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
-[17Jan2025 20:42:33.894] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
-[17Jan2025 20:42:33.903] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
-[17Jan2025 20:42:33.904] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
-[17Jan2025 20:42:33.905] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
-[17Jan2025 20:42:33.909] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
-[17Jan2025 20:42:33.921] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
-[17Jan2025 20:42:33.922] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
-[17Jan2025 20:42:33.923] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
-[17Jan2025 20:42:33.924] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
-[17Jan2025 20:42:33.925] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
-[17Jan2025 20:42:33.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
-[17Jan2025 20:42:33.942] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
-[17Jan2025 20:42:33.943] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
-[17Jan2025 20:42:33.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
-[17Jan2025 20:42:33.961] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
-[17Jan2025 20:42:33.963] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
-[17Jan2025 20:42:33.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
-[17Jan2025 20:42:33.971] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
-[17Jan2025 20:42:33.976] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
-[17Jan2025 20:42:34.356] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
-[17Jan2025 20:42:34.469] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
-[17Jan2025 20:42:34.472] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
-[17Jan2025 20:42:34.473] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
-[17Jan2025 20:42:34.473] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[17Jan2025 20:42:34.487] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
-[17Jan2025 20:42:34.492] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:26, disabled:false}}] was successfully validated with 26 entries
-[17Jan2025 20:42:34.492] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:61, disabled:false}}] was successfully validated with 61 entries
-[17Jan2025 20:42:34.493] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
-[17Jan2025 20:42:34.493] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
-[17Jan2025 20:42:34.499] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
-[17Jan2025 20:42:34.500] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
-[17Jan2025 20:42:34.502] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
-[17Jan2025 20:42:34.505] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
-[17Jan2025 20:42:36.597] [main/INFO] [Moonlight/]: Initialized block sets in 20ms
-[17Jan2025 20:42:38.126] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[17Jan2025 20:42:38.253] [main/INFO] [Moonlight/]: Initialized color sets in 82ms
-[17Jan2025 20:42:38.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
-[17Jan2025 20:42:38.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[17Jan2025 20:42:38.584] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[17Jan2025 20:42:38.633] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 1, 0, 0, 18, 5, 1] ms
-[17Jan2025 20:42:38.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
-[17Jan2025 20:42:38.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
-[17Jan2025 20:42:38.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
-[17Jan2025 20:42:38.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[17Jan2025 20:42:39.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
-[17Jan2025 20:42:39.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[17Jan2025 20:42:39.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[17Jan2025 20:42:39.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[17Jan2025 20:42:40.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
-[17Jan2025 20:42:40.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[17Jan2025 20:42:41.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[17Jan2025 20:42:41.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Jan2025 20:42:41.229] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[17Jan2025 20:42:41.229] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[17Jan2025 20:42:41.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
-[17Jan2025 20:42:41.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[17Jan2025 20:42:41.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[17Jan2025 20:42:41.516] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17Jan2025 20:42:43.560] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[17Jan2025 20:42:43.561] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[17Jan2025 20:42:43.727] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 53 ms
-[17Jan2025 20:42:46.720] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
-[17Jan2025 20:42:48.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[17Jan2025 20:42:48.414] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[17Jan2025 20:42:48.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[17Jan2025 20:42:48.556] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
-[17Jan2025 20:42:48.751] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[17Jan2025 20:42:48.820] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2564 advancements
-[17Jan2025 20:42:48.859] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[17Jan2025 20:42:48.867] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[17Jan2025 20:42:48.964] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[17Jan2025 20:42:49.002] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[17Jan2025 20:42:50.081] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[17Jan2025 20:42:50.179] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
-[17Jan2025 20:42:50.359] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 15 milliseconds
-[17Jan2025 20:42:50.361] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
-[17Jan2025 20:42:50.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[17Jan2025 20:42:50.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Jan2025 20:42:50.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Jan2025 20:42:50.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Jan2025 20:42:50.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Jan2025 20:42:50.575] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Jan2025 20:42:50.682] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Jan2025 20:42:50.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Jan2025 20:42:50.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Jan2025 20:42:50.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Jan2025 20:42:50.889] [Server thread/INFO] [Framework/]: Loading server configs...
-[17Jan2025 20:42:50.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
-[17Jan2025 20:42:54.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Jan2025 20:43:02.529] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.538] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.545] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.546] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.548] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.549] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.549] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.550] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.550] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:02.798] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:03.146] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:03.645] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:04.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 20:43:05.039] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10894 ms
-[17Jan2025 20:43:05.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.340s)! For help, type "help"
-[17Jan2025 20:43:05.097] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Jan2025 20:43:31.884] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:51523] logged in with entity id 125 at (110.5, 50.025, 364.5)
-[17Jan2025 20:43:32.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[17Jan2025 20:43:33.750] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[17Jan2025 20:44:08.586] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:53583] logged in with entity id 320 at (135.65920088460223, 86.24833575645448, 308.39184126094557)
-[17Jan2025 20:44:08.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[17Jan2025 20:44:08.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
-[17Jan2025 20:44:08.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[17Jan2025 20:44:16.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[17Jan2025 20:44:16.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[17Jan2025 20:44:21.537] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:36659] logged in with entity id 334 at (135.65920088460223, 86.24833575645448, 308.39184126094557)
-[17Jan2025 20:44:21.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[17Jan2025 20:44:21.836] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
-[17Jan2025 20:44:21.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[17Jan2025 20:44:22.520] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:40285] logged in with entity id 335 at (65.78683589310475, 75.0, 374.5899825097443)
-[17Jan2025 20:44:22.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
-[17Jan2025 20:45:54.304] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3ca5c0e1[id=<null>,name=iloren_frontiers,properties={},legacy=false] (/127.110.201.164:37943) lost connection: Disconnected
-[17Jan2025 20:45:56.386] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:35839] logged in with entity id 592 at (78.24704097847588, 61.5, 408.6996842952157)
-[17Jan2025 20:45:56.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[17Jan2025 20:47:50.108] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:41797] logged in with entity id 897 at (135.65920088460223, 86.24833575645448, 308.39184126094557)
-[17Jan2025 20:47:50.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[17Jan2025 20:48:22.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[17Jan2025 20:48:22.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[17Jan2025 20:48:46.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> knuckels
-[17Jan2025 20:48:50.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> knuckets
-[17Jan2025 20:49:08.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 20:49:58.224] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:40053] logged in with entity id 1366 at (55.96471706393237, 74.0, 394.623086476608)
-[17Jan2025 20:49:58.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[17Jan2025 20:50:39.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[17Jan2025 20:51:31.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 20:51:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 20:51:55.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[17Jan2025 20:53:16.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 20:53:36.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 20:53:58.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 20:54:34.905] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Arcalf78[/127.131.54.16:38099] logged in with entity id 2491 at (303.5, 71.0, -25.5)
-[17Jan2025 20:54:34.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 joined the game
-[17Jan2025 20:57:25.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Bloodthirsty]
-[17Jan2025 20:57:40.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doDaylightCycle is now set to: false]
-[17Jan2025 20:59:01.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to Arcalf78]
-[17Jan2025 20:59:11.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to Arcalf78]
-[17Jan2025 20:59:51.524] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:36573] logged in with entity id 5304 at (109.26251346701984, 65.0, 383.7578963519869)
-[17Jan2025 20:59:51.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
-[17Jan2025 21:00:09.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to LeoView]
-[17Jan2025 21:01:08.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 21:01:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 21:01:31.004] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/5774, l='ServerLevel[sex]', x=524.04, y=70.00, z=-390.51] died, message: 'Nitwit was burnt to a crisp whilst fighting Zombie'
-[17Jan2025 21:02:01.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Stone Age]
-[17Jan2025 21:02:25.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Getting an Upgrade]
-[17Jan2025 21:03:27.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain]
-[17Jan2025 21:03:57.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[17Jan2025 21:04:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Is this... blood?]
-[17Jan2025 21:05:27.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Sweet Dreams]
-[17Jan2025 21:05:28.400] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/6591, l='ServerLevel[sex]', x=559.58, y=72.92, z=-392.40] died, message: 'Cleric bled to death'
-[17Jan2025 21:05:37.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Timed out
-[17Jan2025 21:05:37.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
-[17Jan2025 21:05:37.062] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[17Jan2025 21:06:38.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5825, l='ServerLevel[sex]', x=529.46, y=67.00, z=-430.59] died, message: 'Villager was slain by Zombie'
-[17Jan2025 21:06:57.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [WHAT THE...]
-[17Jan2025 21:07:11.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [What Was That!?]
-[17Jan2025 21:07:15.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Husk
-[17Jan2025 21:08:13.005] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/8903, l='ServerLevel[sex]', x=527.92, y=64.00, z=-532.44] died, message: 'Toolsmith was slain by Zombie'
-[17Jan2025 21:08:21.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
-[17Jan2025 21:08:29.627] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:43385] logged in with entity id 10197 at (303.5, 71.0, -25.5)
-[17Jan2025 21:08:29.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
-[17Jan2025 21:08:40.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> BUENAS
-[17Jan2025 21:09:04.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Husk
-[17Jan2025 21:09:14.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Arcalf78> manu ayuda pls
-[17Jan2025 21:09:24.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> no puedo xd
-[17Jan2025 21:09:30.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ayudame
-[17Jan2025 21:09:46.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Zombie
-[17Jan2025 21:09:46.465] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Arcalf78'/10796, l='ServerLevel[sex]', x=632.84, y=64.00, z=-430.31] died: Arcalf78 was blown up by Creeper
-[17Jan2025 21:10:01.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> cabron cuantos mobs hay
-[17Jan2025 21:10:09.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Arcalf78> din de estas que voy
-[17Jan2025 21:10:15.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ni puta idea
-[17Jan2025 21:10:18.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
-[17Jan2025 21:10:25.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> mrd
-[17Jan2025 21:10:36.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> bueno me voy a matar
-[17Jan2025 21:10:38.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Is this... blood?]
-[17Jan2025 21:10:41.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 bled to death
-[17Jan2025 21:10:54.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was shot by Skeleton
-[17Jan2025 21:11:20.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:45395] logged in with entity id 12574 at (553.7789298947673, 67.47504679945496, -407.82053504873335)
-[17Jan2025 21:11:20.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
-[17Jan2025 21:11:22.381] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
-[17Jan2025 21:11:38.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 bled to death
-[17Jan2025 21:11:42.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was slain by Spider
-[17Jan2025 21:11:45.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[17Jan2025 21:11:55.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 was slain by Spider
-[17Jan2025 21:12:21.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:12:23.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:12:28.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was doomed to fall by Skeleton
-[17Jan2025 21:12:29.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 21:12:35.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:12:46.258] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/13449, l='ServerLevel[sex]', x=299.49, y=72.00, z=-41.54] died: Arcalf78 was shot by iloren_frontiers
-[17Jan2025 21:13:32.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Stone Age]
-[17Jan2025 21:13:54.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Getting an Upgrade]
-[17Jan2025 21:15:09.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Monster Hunter]
-[17Jan2025 21:15:09.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Manuel1546'/13023, l='ServerLevel[sex]', x=327.86, y=72.00, z=-1.86] died: Manuel1546 was slain by Arcalf78
-[17Jan2025 21:15:25.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement ['Kill Yourself' Has Acquired a New Meaning]
-[17Jan2025 21:15:25.377] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/12889, l='ServerLevel[sex]', x=326.31, y=73.00, z=-5.17] died: Arcalf78 was slain by Arcalf78
-[17Jan2025 21:16:47.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:23:51.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Bloodthirsty]
-[17Jan2025 21:24:50.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Monster Hunter]
-[17Jan2025 21:24:50.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['felixstorm'/19260, l='ServerLevel[sex]', x=550.49, y=70.00, z=-230.56] died: felixstorm was slain by Manuel1546
-[17Jan2025 21:25:51.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> xdddddddddddddd
-[17Jan2025 21:26:36.981] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/20572, l='ServerLevel[sex]', x=533.16, y=65.00, z=-433.75] died: Arcalf78 was slain by Arcalf78
-[17Jan2025 21:28:20.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gamerule doDaylightCycle is now set to: true]
-[17Jan2025 21:28:31.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:28:45.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:29:06.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:29:08.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:31:50.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:31:53.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:32:14.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:32:35.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [Cover Me with Diamonds]
-[17Jan2025 21:32:37.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:32:43.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> xd
-[17Jan2025 21:33:40.247] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[17Jan2025 21:33:42.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[17Jan2025 21:35:40.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:35:44.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:36:06.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 21:36:16.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 21:37:05.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [WHAT THE...]
-[17Jan2025 21:37:17.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [What Was That!?]
-[17Jan2025 21:37:20.405] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/22505, l='ServerLevel[sex]', x=396.33, y=61.00, z=-650.55] died, message: 'Villager bled to death'
-[17Jan2025 21:37:35.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Sweet Dreams]
-[17Jan2025 21:38:05.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:38:14.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 6 players]
-[17Jan2025 21:39:29.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[17Jan2025 21:39:29.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was slain by Spider
-[17Jan2025 21:40:01.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:42:56.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 was blasted to bits by iloren_frontiers
-[17Jan2025 21:44:07.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Acquire Hardware]
-[17Jan2025 21:44:09.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
-[17Jan2025 21:44:09.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
-[17Jan2025 21:44:58.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:46:04.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 21:46:19.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:48:48.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:48:55.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 21:59:02.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 21:59:06.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:00:03.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 has made the advancement [Isn't It Iron Pick]
-[17Jan2025 22:00:08.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Isn't It Iron Pick]
-[17Jan2025 22:03:26.094] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Arcalf78 lost connection: Disconnected
-[17Jan2025 22:03:26.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Arcalf78 left the game
-[17Jan2025 22:04:32.807] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/22743, l='ServerLevel[sex]', x=423.30, y=71.00, z=-606.18] died, message: 'Leatherworker bled to death'
-[17Jan2025 22:05:06.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Acquire Hardware]
-[17Jan2025 22:05:19.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Suit Up]
-[17Jan2025 22:05:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> encuentro mas diamante que hierro
-[17Jan2025 22:05:22.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> jertyh i0erty uo'¡
-[17Jan2025 22:05:33.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> xray?!?!?!??!
-[17Jan2025 22:05:43.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> si tuviese xray tuviese ya un stack de hierro
-[17Jan2025 22:05:47.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> pero tengo 8
-[17Jan2025 22:05:48.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> 9
-[17Jan2025 22:05:49.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> JAJAJJAJA
-[17Jan2025 22:05:59.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> illo, tu novia se ha ido ya, os meteis?
-[17Jan2025 22:06:05.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> no
-[17Jan2025 22:06:08.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> pero si el hierro es facil
-[17Jan2025 22:06:12.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ya tengo como 30
-[17Jan2025 22:06:13.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> ahora manuel es mi pareja sentimental
-[17Jan2025 22:06:19.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> yo tengo como 20 diamantes
-[17Jan2025 22:06:29.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> :(
-[17Jan2025 22:06:36.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> na, me los he gastado todos
-[17Jan2025 22:07:51.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 22:08:03.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 22:08:23.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:09:09.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[17Jan2025 22:11:14.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[17Jan2025 22:11:18.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[17Jan2025 22:11:23.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.explode to 4 players]
-[17Jan2025 22:12:08.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 4 players]
-[17Jan2025 22:12:11.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 4 players]
-[17Jan2025 22:12:11.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:39761] logged in with entity id 45766 at (51.608441114089764, 75.0, 391.02027384753757)
-[17Jan2025 22:12:11.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
-[17Jan2025 22:12:12.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:entity.generic.hurt to 5 players]
-[17Jan2025 22:13:21.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 22:13:35.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[17Jan2025 22:13:53.745] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2853ms or 57 ticks behind
-[17Jan2025 22:14:19.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:14:31.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 22:14:32.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:14:45.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel1546 lost connection: Disconnected
-[17Jan2025 22:14:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 left the game
-[17Jan2025 22:15:07.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
-[17Jan2025 22:15:11.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
-[17Jan2025 22:17:53.566] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:48223] logged in with entity id 48920 at (386.51249998807907, 86.0, -672.6999999880791)
-[17Jan2025 22:17:53.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
-[17Jan2025 22:18:05.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> matate
-[17Jan2025 22:18:30.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 5 players]
-[17Jan2025 22:19:10.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 22:19:12.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:19:19.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> podeis dormir o sois subnormales?
-[17Jan2025 22:19:29.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> shut up monkey
-[17Jan2025 22:19:40.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Roblex43> pipipi
-[17Jan2025 22:20:31.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> dormir coño
-[17Jan2025 22:20:34.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> 1+1?
-[17Jan2025 22:20:47.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> calla peruano
-[17Jan2025 22:26:00.217] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roblex43 lost connection: Disconnected
-[17Jan2025 22:26:00.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 left the game
-[17Jan2025 22:27:39.606] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:50301] logged in with entity id 54389 at (181.69999998807907, 80.0, 109.90104229563588)
-[17Jan2025 22:27:39.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
-[17Jan2025 22:30:02.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Those Were the Days]
-[17Jan2025 22:30:18.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [War Pigs]
-[17Jan2025 22:31:38.761] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/55518, l='ServerLevel[sex]', x=-38.58, y=64.00, z=355.13] died: LeoView was slain by Dream_Cluster
-[17Jan2025 22:34:54.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Piglin Brute
-[17Jan2025 22:35:10.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> alguien me puede decir las coords del spawn?
-[17Jan2025 22:35:31.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> esto con Franco no pasaba
-[17Jan2025 22:36:01.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Skeleton
-[17Jan2025 22:39:14.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 fell from a high place
-[17Jan2025 22:40:21.615] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Estramonio_3[/127.125.75.234:60381] logged in with entity id 62582 at (303.5, 71.0, -25.5)
-[17Jan2025 22:40:21.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 joined the game
-[17Jan2025 22:42:29.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Acquire Hardware]
-[17Jan2025 22:42:33.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Stone Age]
-[17Jan2025 22:43:06.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Suit Up]
-[17Jan2025 22:43:35.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Isn't It Iron Pick]
-[17Jan2025 22:44:06.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Monster Hunter]
-[17Jan2025 22:45:01.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
-[17Jan2025 22:47:04.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 22:49:17.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [WHAT THE...]
-[17Jan2025 22:49:58.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has reached the goal [Postmortal]
-[17Jan2025 22:50:04.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Piglin Brute
-[17Jan2025 22:51:11.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Bloodthirsty]
-[17Jan2025 22:53:40.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[17Jan2025 22:53:51.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 was blown up by Creeper
-[17Jan2025 22:54:03.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Is this... blood?]
-[17Jan2025 22:54:53.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 22:56:27.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Piglin
-[17Jan2025 22:56:48.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Skeleton
-[17Jan2025 22:57:22.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Skeleton
-[17Jan2025 22:57:49.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/71617, l='ServerLevel[sex]', x=104.37, y=53.00, z=378.11] died: Roblex43 was slain by Roblex43
-[17Jan2025 22:57:49.861] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/71859, l='ServerLevel[sex]', x=103.33, y=53.00, z=378.76] died: Roblex43 was slain by Roblex43
-[17Jan2025 22:57:53.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 bled to death
-[17Jan2025 22:57:54.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 22:58:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 22:58:26.013] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Roblex43'/72190, l='ServerLevel[sex]', x=128.54, y=73.00, z=374.29] died: Roblex43 was slain by LeoView
-[17Jan2025 22:59:10.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain]
-[17Jan2025 23:00:01.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 23:00:04.709] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Estramonio_3 lost connection: Disconnected
-[17Jan2025 23:00:04.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 left the game
-[17Jan2025 23:00:31.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> ñam ñam
-[17Jan2025 23:00:33.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 23:00:37.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> i dont how
-[17Jan2025 23:00:38.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que rico *se muere
-[17Jan2025 23:00:41.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> i dont when
-[17Jan2025 23:00:45.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> esta rico eh
-[17Jan2025 23:02:07.728] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Estramonio_3[/127.125.75.234:58365] logged in with entity id 74423 at (404.4775660575458, 67.0, 1.1737419851076396)
-[17Jan2025 23:02:07.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 joined the game
-[17Jan2025 23:04:16.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> xd?
-[17Jan2025 23:04:16.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> we are three more :D
-[17Jan2025 23:04:19.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> hi dear friend :)
-[17Jan2025 23:04:25.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> qn coño a escrito
-[17Jan2025 23:04:33.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> es la entidad señores, luego lo entendereis jajaj
-[17Jan2025 23:04:40.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> nos lleva tocando los huevos todo el servidor
-[17Jan2025 23:04:56.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> eso lo se xd
-[17Jan2025 23:05:02.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ya me ha pasado
-[17Jan2025 23:05:26.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> is os quedais mucho tiempo, habra lore, este servidor es la hostia
-[17Jan2025 23:05:29.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> si
-[17Jan2025 23:05:31.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was shot by Piglin
-[17Jan2025 23:06:56.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]
-[17Jan2025 23:08:04.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
-[17Jan2025 23:08:08.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> There are more and more of us, each time we are closer to finishing you...
-[17Jan2025 23:08:15.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 23:08:47.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Estramonio_3 lost connection: Disconnected
-[17Jan2025 23:08:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 left the game
-[17Jan2025 23:08:48.504] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel1546 lost connection: Disconnected
-[17Jan2025 23:08:48.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 left the game
-[17Jan2025 23:08:51.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> se van ya?
-[17Jan2025 23:09:46.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Skeleton
-[17Jan2025 23:09:58.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Wither Skeleton
-[17Jan2025 23:10:11.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Stray
-[17Jan2025 23:10:31.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Wither Skeleton
-[17Jan2025 23:10:48.051] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['LeoView'/78524, l='ServerLevel[sex]', x=105.09, y=64.00, z=366.45] died: LeoView was slain by Dream_Cluster
-[17Jan2025 23:10:48.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster withered away
-[17Jan2025 23:11:09.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Cerberus
-[17Jan2025 23:11:20.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 was slain by Cerberus
-[17Jan2025 23:12:23.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster withered away whilst fighting Roblex43
-[17Jan2025 23:12:25.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Cerberus
-[17Jan2025 23:12:40.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [Cover Me with Diamonds]
-[17Jan2025 23:13:09.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was shot by Stray
-[17Jan2025 23:17:30.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> he perdido mi puta espada de diamante porque se la ha quedado el gilipollas del esqueleto y cuando lo he matado ha desaparecido
-[17Jan2025 23:17:31.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> IN
-[17Jan2025 23:17:33.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> JUS
-[17Jan2025 23:17:33.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> O
-[17Jan2025 23:17:34.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> TO
-[17Jan2025 23:27:12.586] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2144ms or 42 ticks behind
-[17Jan2025 23:30:15.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView has made the advancement [To Infinity and Beyond!]
-[17Jan2025 23:33:36.864] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Estramonio_3[/127.125.75.234:52229] logged in with entity id 83537 at (615.6999999880791, 70.0, -220.65486870610866)
-[17Jan2025 23:33:36.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 joined the game
-[17Jan2025 23:34:31.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> chat
-[17Jan2025 23:34:31.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> oVEJA DEL AETHER ROSA
-[17Jan2025 23:34:42.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> dime
-[17Jan2025 23:34:49.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> me podeis contar el lore
-[17Jan2025 23:34:57.359] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/83983, l='ServerLevel[sex]', x=667.38, y=66.00, z=-376.18] died, message: 'Cleric bled to death from injuries caused by Arcalf78'
-[17Jan2025 23:35:17.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
-[17Jan2025 23:35:21.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
-[17Jan2025 23:35:36.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ESTABA CONTANDOSELO, ME TIRASTE LA ESPADA Y SE ME PERDIO TODO EL TEXTO
-[17Jan2025 23:37:43.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
-[17Jan2025 23:38:13.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
-[17Jan2025 23:42:20.096] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Arcalf78'/83984, l='ServerLevel[sex]', x=625.47, y=64.00, z=-389.12] died: Arcalf78 was shot by Skeleton
-[17Jan2025 23:43:10.325] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel1546[/127.95.133.223:57261] logged in with entity id 87994 at (199.69999998807907, 66.0, -131.90565415929302)
-[17Jan2025 23:43:10.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 joined the game
-[17Jan2025 23:45:00.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> HI
+[18Jan2025 12:58:46.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Jan2025 12:58:46.502] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[18Jan2025 12:58:50.670] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Jan2025 12:58:50.741] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Jan2025 12:58:51.623] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jan2025 12:58:51.629] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jan2025 12:58:51.634] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jan2025 12:58:51.638] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jan2025 12:58:51.949] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Jan2025 12:58:51.951] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[18Jan2025 12:58:55.317] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Jan2025 12:58:55.543] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Jan2025 12:58:56.013] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jan2025 12:58:58.330] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[18Jan2025 12:58:58.917] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[18Jan2025 12:58:59.030] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[18Jan2025 12:58:59.036] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[18Jan2025 12:58:59.037] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixin.nostalgic_tweaks.json:gameplay.food_health.MinecraftMixin
+[18Jan2025 12:58:59.549] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18Jan2025 12:59:06.185] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[18Jan2025 12:59:06.185] [main/WARN] [mixin/]: Method overwrite conflict for m_58483_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[18Jan2025 12:59:09.216] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhh000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18Jan2025 12:59:11.804] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.stamina.stamina.StaminaFeature
+[18Jan2025 12:59:12.865] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[18Jan2025 12:59:12.922] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[18Jan2025 12:59:12.924] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[18Jan2025 12:59:12.926] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[18Jan2025 12:59:13.035] [modloading-worker-0/INFO] [moderner_beta/]: [Moderner Beta] Initializing Moderner Beta...
+[18Jan2025 12:59:13.380] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[18Jan2025 12:59:13.735] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18Jan2025 12:59:14.060] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[18Jan2025 12:59:14.060] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[18Jan2025 12:59:15.288] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
+[18Jan2025 12:59:15.298] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
+[18Jan2025 12:59:15.302] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
+[18Jan2025 12:59:15.303] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
+[18Jan2025 12:59:15.304] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
+[18Jan2025 12:59:15.306] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
+[18Jan2025 12:59:15.307] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
+[18Jan2025 12:59:15.311] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
+[18Jan2025 12:59:15.312] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
+[18Jan2025 12:59:15.316] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
+[18Jan2025 12:59:15.317] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
+[18Jan2025 12:59:15.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
+[18Jan2025 12:59:15.334] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
+[18Jan2025 12:59:15.335] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
+[18Jan2025 12:59:15.336] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
+[18Jan2025 12:59:15.337] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
+[18Jan2025 12:59:15.338] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
+[18Jan2025 12:59:15.343] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
+[18Jan2025 12:59:15.344] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
+[18Jan2025 12:59:15.345] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
+[18Jan2025 12:59:15.346] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
+[18Jan2025 12:59:15.352] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
+[18Jan2025 12:59:15.353] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
+[18Jan2025 12:59:15.354] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
+[18Jan2025 12:59:15.366] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
+[18Jan2025 12:59:15.368] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
+[18Jan2025 12:59:15.383] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
+[18Jan2025 12:59:15.384] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
+[18Jan2025 12:59:15.389] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
+[18Jan2025 12:59:15.391] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
+[18Jan2025 12:59:15.393] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
+[18Jan2025 12:59:15.394] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
+[18Jan2025 12:59:15.826] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/gitfacturecraft2/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[18Jan2025 12:59:15.953] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning default ServerConfig...
+[18Jan2025 12:59:15.956] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:13, disabled:false}}] was successfully validated with 13 entries
+[18Jan2025 12:59:15.956] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:38, disabled:false}}] was successfully validated with 38 entries
+[18Jan2025 12:59:15.957] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[18Jan2025 12:59:15.967] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] Scanning loaded ServerConfig...
+[18Jan2025 12:59:15.968] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodHealth, type:ItemMap<Integer>{mapSize:26, disabled:false}}] was successfully validated with 26 entries
+[18Jan2025 12:59:15.968] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customFoodStacking, type:ItemMap<Integer>{mapSize:61, disabled:false}}] was successfully validated with 61 entries
+[18Jan2025 12:59:15.968] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Validator] [tweak={jsonId:gameplay.customItemStacking, type:ItemMap<Integer>{mapSize:0, disabled:false}}] was successfully validated with 0 entries
+[18Jan2025 12:59:15.968] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
+[18Jan2025 12:59:15.971] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[18Jan2025 12:59:15.972] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
+[18Jan2025 12:59:15.975] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 88 server tweaks
+[18Jan2025 12:59:15.976] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
+[18Jan2025 12:59:18.773] [main/INFO] [Moonlight/]: Initialized block sets in 39ms
+[18Jan2025 12:59:19.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[18Jan2025 12:59:20.013] [main/INFO] [Moonlight/]: Initialized color sets in 43ms
+[18Jan2025 12:59:20.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.41 Target: null
+[18Jan2025 12:59:20.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[18Jan2025 12:59:20.265] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[18Jan2025 12:59:20.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
+[18Jan2025 12:59:20.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[18Jan2025 12:59:20.350] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 0, 1, 0, 6, 26, 6, 1] ms
+[18Jan2025 12:59:20.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[18Jan2025 12:59:20.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[18Jan2025 12:59:21.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
+[18Jan2025 12:59:21.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[18Jan2025 12:59:21.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[18Jan2025 12:59:21.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[18Jan2025 12:59:21.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
+[18Jan2025 12:59:21.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[18Jan2025 12:59:22.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[18Jan2025 12:59:22.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Jan2025 12:59:22.904] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[18Jan2025 12:59:22.904] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[18Jan2025 12:59:22.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.11 Target: null
+[18Jan2025 12:59:22.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[18Jan2025 12:59:22.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[18Jan2025 12:59:23.794] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Jan2025 12:59:25.774] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[18Jan2025 12:59:25.775] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/gitfacturecraft2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[18Jan2025 12:59:25.960] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 64 ms
+[18Jan2025 12:59:29.382] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:lunch_basket_blacklist as it is missing following references: potionbundles:potion_bundle (from supplementaries-1.20-3.1.11.jar)
+[18Jan2025 12:59:30.826] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[18Jan2025 12:59:30.833] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[18Jan2025 12:59:30.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[18Jan2025 12:59:30.907] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
+[18Jan2025 12:59:31.030] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[18Jan2025 12:59:31.135] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2564 advancements
+[18Jan2025 12:59:31.165] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[18Jan2025 12:59:31.171] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[18Jan2025 12:59:31.200] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[18Jan2025 12:59:31.219] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[18Jan2025 12:59:32.425] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[18Jan2025 12:59:32.565] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[18Jan2025 12:59:32.771] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 25 milliseconds
+[18Jan2025 12:59:32.775] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[18Jan2025 12:59:32.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Jan2025 12:59:32.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Jan2025 12:59:32.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Jan2025 12:59:32.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Jan2025 12:59:32.977] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Jan2025 12:59:33.034] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Jan2025 12:59:33.165] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Jan2025 12:59:33.166] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Jan2025 12:59:33.167] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Jan2025 12:59:33.168] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Jan2025 12:59:33.331] [Server thread/INFO] [Framework/]: Loading server configs...
+[18Jan2025 12:59:33.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "sex"
+[18Jan2025 12:59:36.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jan2025 12:59:46.157] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.166] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.167] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.168] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.170] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.174] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.181] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.196] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.204] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:46.701] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:47.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:47.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jan2025 12:59:48.416] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11716 ms
+[18Jan2025 12:59:48.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.232s)! For help, type "help"
+[18Jan2025 12:59:48.500] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Jan2025 13:02:04.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e2b5d33[id=<null>,name=java,properties={},legacy=false] (/127.110.201.164:47363) lost connection: Disconnected
+[18Jan2025 13:02:41.186] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:37373] logged in with entity id 135 at (110.5, 50.025, 364.5)
+[18Jan2025 13:02:41.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 13:02:43.809] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2724ms or 54 ticks behind
+[18Jan2025 13:05:55.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iloren_frontiers[/127.110.201.164:53653] logged in with entity id 756 at (106.23896549574572, 50.0, 369.69348185838464)
+[18Jan2025 13:05:55.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers joined the game
+[18Jan2025 13:06:08.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roblex43[/127.119.92.205:47887] logged in with entity id 781 at (78.35559137731431, 86.0, 331.3162021410594)
+[18Jan2025 13:06:08.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 joined the game
+[18Jan2025 13:07:01.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[18Jan2025 13:07:02.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 13:07:15.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]

@@ -6371,6 +6371,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/zanite_boots_repairing": {
+    "criteria": {
+      "has_zanite_boots": "2025-01-17 23:48:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-17 22:45:28 +0000"
@@ -6419,6 +6425,12 @@
     },
     "done": true
   },
+  "aether:lance_loot": {
+    "criteria": {
+      "lance_loot": "2025-01-17 23:48:10 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/blackstone_tile": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-01-17 22:28:04 +0000"
@@ -6440,6 +6452,12 @@
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-17 22:45:28 +0000"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2025-01-17 23:47:55 +0000"
     },
     "done": true
   },
