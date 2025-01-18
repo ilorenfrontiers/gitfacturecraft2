@@ -279,3 +279,73 @@
 [18Jan2025 23:19:15.183] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.attackDamage'
 [18Jan2025 23:19:17.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [18Jan2025 23:19:42.642] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['agent 101'/20108, l='ServerLevel[sex]', x=66.58, y=75.00, z=377.47] died: agent 101 was slain by Dream_Cluster
+[18Jan2025 23:21:05.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> ni un puto diamante odio mi vida
+[18Jan2025 23:21:27.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Saved the game]
+[18Jan2025 23:22:05.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:22:30.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:22:31.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster was shot by Skeleton
+[18Jan2025 23:23:07.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music.game to 4 players]
+[18Jan2025 23:23:18.677] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[18Jan2025 23:23:18.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[18Jan2025 23:23:24.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> no
+[18Jan2025 23:23:27.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ErChristianMB lost connection: Disconnected
+[18Jan2025 23:23:27.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB left the game
+[18Jan2025 23:23:29.172] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 23:23:29.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 23:23:35.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:23:38.994] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:56679] logged in with entity id 21573 at (65.96196660492059, 74.5, 394.2766315979006)
+[18Jan2025 23:23:39.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 23:23:46.522] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[18Jan2025 23:23:46.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[18Jan2025 23:23:48.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:23:58.790] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:40477] logged in with entity id 21583 at (66.37589532829345, 75.5625, 380.25819854332747)
+[18Jan2025 23:23:58.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[18Jan2025 23:24:00.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:24:03.234] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ErChristianMB[/127.227.243.61:41453] logged in with entity id 21585 at (331.69999998807907, -54.0, 32.395562750834515)
+[18Jan2025 23:24:03.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB joined the game
+[18Jan2025 23:24:12.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:24:32.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:25:00.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music_disc.5 to 3 players]
+[18Jan2025 23:25:03.845] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:42703] logged in with entity id 21946 at (63.417479201898644, 75.0, 372.55126949215406)
+[18Jan2025 23:25:03.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 23:25:04.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> QUIERO DIAMANTEEES
+[18Jan2025 23:25:39.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:25:44.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music_disc.5 to 4 players]
+[18Jan2025 23:25:56.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:25:59.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:26:00.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:26:00.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[18Jan2025 23:26:05.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music_disc.5 to 4 players]
+[18Jan2025 23:27:07.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ARE YOU HERE AGAIN?
+[18Jan2025 23:28:52.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[18Jan2025 23:29:35.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
+[18Jan2025 23:30:20.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:30:29.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:30:41.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:30:50.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:30:51.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:30:56.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:31:00.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:31:06.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:31:19.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:31:29.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:31:40.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:31:44.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:32:01.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:32:50.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:32:57.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:33:03.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> por fin
+[18Jan2025 23:33:05.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:33:56.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:blank to iloren_frontiers]
+[18Jan2025 23:33:58.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:blank to iloren_frontiers]
+[18Jan2025 23:34:08.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to iloren_frontiers]
+[18Jan2025 23:34:37.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound nostalgic_tweaks:music.gameplay.alpha to 4 players]
+[18Jan2025 23:37:42.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=102, y=69, z=381} BlockPos{x=100, y=69, z=381}
+[18Jan2025 23:37:42.633] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=101, y=69, z=382} BlockPos{x=100, y=69, z=381}
+[18Jan2025 23:37:47.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> me tengo q ir
+[18Jan2025 23:37:50.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> va
+[18Jan2025 23:37:51.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ErChristianMB> chao a todos
+[18Jan2025 23:37:53.027] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ErChristianMB lost connection: Disconnected
+[18Jan2025 23:37:53.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ErChristianMB left the game
+[18Jan2025 23:37:53.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> bye
+[18Jan2025 23:38:02.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> muja
