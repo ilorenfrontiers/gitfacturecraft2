@@ -2799,3 +2799,18 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [18Jan2025 22:59:23.444] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-31} BlockPos{x=298, y=36, z=-30}
 [18Jan2025 22:59:23.545] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=297, y=37, z=-31} BlockPos{x=299, y=36, z=-30}
 [18Jan2025 22:59:30.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:00:03.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Knife]
+[18Jan2025 23:00:18.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:00:29.778] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[18Jan2025 23:00:29.807] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[18Jan2025 23:01:54.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.29991132886188154
+[18Jan2025 23:01:54.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.6764462170870615
+[18Jan2025 23:01:54.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moa (vehicle of Dream_Cluster) moved wrongly! 0.9703038955887848
+[18Jan2025 23:05:29.692] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save sex
+[18Jan2025 23:05:29.699] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete sex
+[18Jan2025 23:06:31.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:06:35.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:06:40.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[18Jan2025 23:09:24.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[18Jan2025 23:09:32.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Gave 1 [Command block?] to iloren_frontiers]
+[18Jan2025 23:09:35.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
