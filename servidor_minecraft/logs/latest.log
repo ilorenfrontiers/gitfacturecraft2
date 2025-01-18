@@ -304,3 +304,13 @@
 [18Jan2025 14:29:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [18Jan2025 14:29:22.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [18Jan2025 14:29:51.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to rain & thunder]
+[18Jan2025 14:36:20.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Roblex43) moved wrongly! 0.48122338834946277
+[18Jan2025 14:36:20.462] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Roblex43) moved wrongly! 0.36490628570777517
+[18Jan2025 14:41:59.502] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Roblex43) moved wrongly! 0.2544838371666174
+[18Jan2025 14:41:59.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Roblex43) moved wrongly! 0.571097072023349
+[18Jan2025 14:41:59.560] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Roblex43) moved wrongly! 0.8913911909439776
+[18Jan2025 14:44:58.112] [pool-5-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_badlands], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_ocean], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_swamp], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_jungle], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos BlockPos{x=-2341, y=82, z=1019}
+[18Jan2025 14:45:40.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roblex43 has made the advancement [This Must be a Sign!]
+[18Jan2025 14:54:24.865] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:44191] logged in with entity id 54048 at (115.33457775536488, 72.0, 371.2836703275897)
+[18Jan2025 14:54:24.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
+[18Jan2025 15:01:11.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set the weather to clear]

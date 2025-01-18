@@ -38,6 +38,7 @@
       "minecraft:lush_caves": "2025-01-09 18:19:06 +0000",
       "minecraft:windswept_forest": "2025-01-14 16:45:59 +0000",
       "minecraft:ocean": "2025-01-09 18:17:21 +0000",
+      "minecraft:flower_forest": "2025-01-18 14:46:18 +0000",
       "minecraft:deep_dark": "2025-01-14 20:01:46 +0000",
       "minecraft:savanna": "2025-01-11 23:41:53 +0000",
       "minecraft:plains": "2025-01-07 20:13:10 +0000"
@@ -6811,6 +6812,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/fodder": {
+    "criteria": {
+      "has_hay_block": "2025-01-18 14:53:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-18 13:30:14 +0000"
@@ -6847,6 +6854,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-01-18 14:46:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2025-01-18 13:30:14 +0000"
@@ -6868,6 +6881,12 @@
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-18 13:18:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2025-01-18 14:45:40 +0000"
     },
     "done": true
   },
@@ -6907,6 +6926,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/white_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-01-18 14:46:21 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/diamond_chestplate_repairing": {
     "criteria": {
       "has_diamond_chestplate": "2025-01-18 13:51:36 +0000"
@@ -6940,6 +6965,18 @@
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2025-01-18 14:04:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-01-18 14:46:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-18 14:53:00 +0000"
     },
     "done": true
   },
