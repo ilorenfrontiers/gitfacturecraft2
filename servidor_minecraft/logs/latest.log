@@ -360,3 +360,52 @@
 [19Jan2025 13:19:35.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [19Jan2025 13:19:47.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
 [19Jan2025 13:20:15.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[19Jan2025 13:20:34.370] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:59283] logged in with entity id 15317 at (67.5, 94.025, 411.5)
+[19Jan2025 13:20:34.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[19Jan2025 13:21:46.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> poner iluminacion
+[19Jan2025 13:21:59.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> es esencial
+[19Jan2025 13:22:01.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Giant]
+[19Jan2025 13:22:08.637] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[19Jan2025 13:22:08.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[19Jan2025 13:22:21.955] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:35351] logged in with entity id 15710 at (76.10479027524873, 69.5, 370.80049420291533)
+[19Jan2025 13:22:21.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[19Jan2025 13:22:45.094] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[19Jan2025 13:22:45.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [We Need to Go Deeper]
+[19Jan2025 13:22:47.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2164ms or 43 ticks behind
+[19Jan2025 13:22:58.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was doomed to fall by Giant
+[19Jan2025 13:23:08.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView was slain by Giant
+[19Jan2025 13:23:16.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> q es eso
+[19Jan2025 13:25:56.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> metete disc
+[19Jan2025 13:26:06.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> es urgente
+[19Jan2025 13:26:06.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> es urgente
+[19Jan2025 13:26:07.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> es urgente
+[19Jan2025 13:26:07.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> es urgente
+[19Jan2025 13:31:31.697] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[19Jan2025 13:31:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[19Jan2025 13:32:00.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> illo, no te enfades, pero es la base de angel, sera mi casa el arbol este to grande, pero el lider es el angel
+[19Jan2025 13:32:06.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> y nos ha comunicado que no quiere mas gente
+[19Jan2025 13:32:20.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> si no estoy enfadado
+[19Jan2025 13:32:23.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ah va
+[19Jan2025 13:32:24.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> pero eso
+[19Jan2025 13:32:31.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> yaya si lo entiendo
+[19Jan2025 13:32:32.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> srry :(
+[19Jan2025 13:32:47.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> pero me lo podrias haber dicho antes
+[19Jan2025 13:33:03.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> no tenia ni ide
+[19Jan2025 13:33:04.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> idea
+[19Jan2025 13:33:51.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> ahora vuelvo
+[19Jan2025 13:34:06.240] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[19Jan2025 13:34:06.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[19Jan2025 13:36:55.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> pa q sirve la tinta
+[19Jan2025 13:37:08.388] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@734a1572[id=<null>,name=Estramonio_3,properties={},legacy=false] (/127.125.75.234:57951) lost connection: Disconnected
+[19Jan2025 13:37:26.139] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Estramonio_3[/127.125.75.234:52329] logged in with entity id 19688 at (761.4943440162323, 62.0, -440.30000001192093)
+[19Jan2025 13:37:26.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 joined the game
+[19Jan2025 13:38:04.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [What Was That!?]
+[19Jan2025 13:38:36.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ACABO DE PUTO FLIPARRRRRRRRRRRRRRRRR
+[19Jan2025 13:38:42.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ?
+[19Jan2025 13:38:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> na el puto herobrine
+[19Jan2025 13:38:47.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que susto
+[19Jan2025 13:39:00.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> y se pone justo a llover
+[19Jan2025 13:43:58.893] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[19Jan2025 13:43:58.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
+[19Jan2025 13:44:49.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Estramonio_3 has made the advancement [Getting an Upgrade]
+[19Jan2025 13:46:22.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> X:721,300000 Y:-14,000000 Z:-509,300000
