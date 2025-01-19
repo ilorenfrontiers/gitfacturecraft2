@@ -6734,5 +6734,35 @@
     },
     "done": true
   },
+  "aether:recipes/tools/stone_hoe_repairing": {
+    "criteria": {
+      "has_stone_hoe": "2025-01-19 12:38:13 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/doormat_2": {
+    "criteria": {
+      "forge:crops/flax": "2025-01-19 12:36:39 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flax_block": {
+    "criteria": {
+      "has_flax": "2025-01-19 12:36:39 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/strings": {
+    "criteria": {
+      "has_flax": "2025-01-19 12:36:39 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/rope": {
+    "criteria": {
+      "forge:crops/flax": "2025-01-19 12:36:39 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
