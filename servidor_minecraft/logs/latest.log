@@ -24,3 +24,10 @@
 [19Jan2025 00:08:54.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dream_Cluster> con los guantes
 [19Jan2025 00:10:01.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
 [19Jan2025 00:10:02.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[19Jan2025 00:10:52.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> !!!
+[19Jan2025 00:11:04.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> que quieres
+[19Jan2025 00:11:06.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> pesado
+[19Jan2025 00:13:40.072] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iloren_frontiers lost connection: Disconnected
+[19Jan2025 00:13:40.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iloren_frontiers left the game
+[19Jan2025 00:17:49.723] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeoView lost connection: Disconnected
+[19Jan2025 00:17:49.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView left the game
