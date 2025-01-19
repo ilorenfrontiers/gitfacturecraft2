@@ -193,3 +193,12 @@
 [19Jan2025 12:16:44.407] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeoView[/127.251.34.34:53281] logged in with entity id 4643 at (86.30000001192093, 91.0, 353.6634066540552)
 [19Jan2025 12:16:44.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView joined the game
 [19Jan2025 12:19:35.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Bat]
+[19Jan2025 12:19:51.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Survival Mode]
+[19Jan2025 12:19:52.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[19Jan2025 12:23:29.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> estoy ayudando a este chaval
+[19Jan2025 12:23:32.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ok
+[19Jan2025 12:23:34.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> lo se
+[19Jan2025 12:27:37.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> como le va al estra?
+[19Jan2025 12:28:57.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> ponte espectador para q podamos dormir
+[19Jan2025 12:29:00.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> vsa
+[19Jan2025 12:29:01.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
