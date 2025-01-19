@@ -5100,5 +5100,23 @@
     },
     "done": true
   },
+  "aether:recipes/tools/zanite_pickaxe_repairing": {
+    "criteria": {
+      "has_zanite_pickaxe": "2025-01-19 12:15:37 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-01-19 12:06:25 +0000"
+    },
+    "done": true
+  },
+  "hiddenitemexe:thisdoesntcalmmedown": {
+    "criteria": {
+      "thisdoesntcalmmedown_0": "2025-01-19 12:12:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
