@@ -434,3 +434,42 @@
 [19Jan2025 14:00:21.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> entonces el legal
 [19Jan2025 14:00:23.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> sip
 [19Jan2025 14:00:44.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> aunque algunas veces ese mapa te confunde
+[19Jan2025 14:01:46.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music.creative to 3 players]
+[19Jan2025 14:02:02.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[19Jan2025 14:02:04.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music.creative to 3 players]
+[19Jan2025 14:02:09.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 has made the advancement [Diamonds!]
+[19Jan2025 14:02:48.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[19Jan2025 14:03:07.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music.creative to 3 players]
+[19Jan2025 14:03:52.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> oye
+[19Jan2025 14:03:57.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> si?
+[19Jan2025 14:04:14.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Estramonio_3> es normal que la musica del minecraft se escuche cuando la tienes desactivada
+[19Jan2025 14:04:22.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> no?
+[19Jan2025 14:04:39.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> me la he desactivado y la escucho xd
+[19Jan2025 14:04:50.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Stopped all sounds]
+[19Jan2025 14:05:28.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music_disc.5 to 3 players]
+[19Jan2025 14:06:09.246] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@378d4c76[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:46469) lost connection: Disconnected
+[19Jan2025 14:06:37.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:48927] logged in with entity id 28129 at (62.67736569072622, 2.1302667423596087, 370.08059160412995)
+[19Jan2025 14:06:37.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[19Jan2025 14:06:42.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster was kicked for floating too long!
+[19Jan2025 14:06:42.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Flying is not enabled on this server
+[19Jan2025 14:06:42.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[19Jan2025 14:07:05.189] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3f674316[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:47149) lost connection: Disconnected
+[19Jan2025 14:07:27.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> iloren me has visto?
+[19Jan2025 14:07:41.841] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@775a7747[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:36859) lost connection: Disconnected
+[19Jan2025 14:07:54.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:40795] logged in with entity id 28724 at (62.67736569072622, 205.61726384411418, 370.08059160412995)
+[19Jan2025 14:07:54.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[19Jan2025 14:07:58.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dream_Cluster lost connection: Disconnected
+[19Jan2025 14:07:58.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster left the game
+[19Jan2025 14:08:11.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> no
+[19Jan2025 14:08:26.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Lightning Bolt]
+[19Jan2025 14:08:30.391] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@63dd0690[id=<null>,name=Dream_Cluster,properties={},legacy=false] (/127.101.239.253:41039) lost connection: Disconnected
+[19Jan2025 14:08:38.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iloren_frontiers> q pasa
+[19Jan2025 14:08:43.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> nada nada
+[19Jan2025 14:08:44.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dream_Cluster[/127.101.239.253:59115] logged in with entity id 29205 at (62.67736569072622, 88.34778012896082, 370.08059160412995)
+[19Jan2025 14:08:44.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster joined the game
+[19Jan2025 14:08:46.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dream_Cluster fell from a high place
+[19Jan2025 14:09:21.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:music_disc.chirp to 4 players]
+[19Jan2025 14:10:16.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
+[19Jan2025 14:10:21.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Played sound minecraft:ambient.cave to 4 players]
+[19Jan2025 14:10:37.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Made java_krodd98 no longer a server operator]
+[19Jan2025 14:10:56.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Summoned new Rope Arrow]
