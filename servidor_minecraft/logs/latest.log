@@ -231,3 +231,25 @@
 [19Jan2025 12:49:33.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
 [19Jan2025 12:49:36.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
 [19Jan2025 12:49:39.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Creative Mode]
+[19Jan2025 12:50:31.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Banned Adriachu777: SEXOOOOOOOOOOOOOOOOOOO]
+[19Jan2025 12:50:31.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Adriachu777 lost connection: You are banned from this server
+[19Jan2025 12:50:31.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adriachu777 left the game
+[19Jan2025 12:50:31.586] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19Jan2025 12:50:38.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Unbanned Adriachu777]
+[19Jan2025 12:50:38.344] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7cfc0a56[id=<null>,name=Adriachu777,properties={},legacy=false] (/127.251.202.156:39651) lost connection: Disconnected
+[19Jan2025 12:52:15.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=367} BlockPos{x=81, y=68, z=368}
+[19Jan2025 12:52:15.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=367} BlockPos{x=81, y=68, z=368}
+[19Jan2025 12:52:15.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=367} BlockPos{x=81, y=68, z=368}
+[19Jan2025 12:52:15.609] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=367} BlockPos{x=81, y=68, z=368}
+[19Jan2025 12:55:03.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 fell from a high place
+[19Jan2025 12:56:06.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 fell from a high place
+[19Jan2025 12:56:35.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iloren_frontiers: Set own game mode to Spectator Mode]
+[19Jan2025 12:57:55.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 was doomed to fall by LeoView
+[19Jan2025 12:59:01.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeoView fell from a high place
+[19Jan2025 12:59:04.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel1546> xd
+[19Jan2025 12:59:16.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 fell from a high place
+[19Jan2025 12:59:55.817] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=376} BlockPos{x=79, y=66, z=379}
+[19Jan2025 12:59:55.866] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=80, y=68, z=375} BlockPos{x=79, y=66, z=379}
+[19Jan2025 12:59:55.915] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=79, y=67, z=376} BlockPos{x=79, y=66, z=379}
+[19Jan2025 13:00:12.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel1546 fell from a high place
+[19Jan2025 13:00:22.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeoView> ?
