@@ -6558,5 +6558,17 @@
     },
     "done": true
   },
+  "aether:recipes/combat/golden_gloves_repairing": {
+    "criteria": {
+      "has_golden_gloves": "2025-01-19 00:08:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_chestplate_repairing": {
+    "criteria": {
+      "has_golden_chestplate": "2025-01-19 00:08:37 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
