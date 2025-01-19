@@ -6734,12 +6734,6 @@
     },
     "done": true
   },
-  "aether:recipes/tools/stone_hoe_repairing": {
-    "criteria": {
-      "has_stone_hoe": "2025-01-19 12:38:13 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipes/doormat_2": {
     "criteria": {
       "forge:crops/flax": "2025-01-19 12:36:39 +0000"
@@ -6761,6 +6755,24 @@
   "supplementaries:recipes/rope": {
     "criteria": {
       "forge:crops/flax": "2025-01-19 12:36:39 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/stone_hoe_repairing": {
+    "criteria": {
+      "has_stone_hoe": "2025-01-19 12:38:13 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-19 13:13:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_victory_medal": "2025-01-19 13:13:59 +0000"
     },
     "done": true
   },

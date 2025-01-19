@@ -3693,6 +3693,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-19 12:56:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-19 12:56:36 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/building_blocks/ice_from_bucket_freezing": {
     "criteria": {
       "has_water_bucket": "2025-01-19 12:46:31 +0000"
@@ -3702,6 +3714,12 @@
   "refurbished_furniture:recipes/food/dough": {
     "criteria": {
       "has_water": "2025-01-19 12:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-01-19 12:56:36 +0000"
     },
     "done": true
   },
@@ -3720,6 +3738,12 @@
   "aether:recipes/misc/aether_gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_ring": "2025-01-19 12:35:31 +0000"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2025-01-19 13:14:49 +0000"
     },
     "done": true
   },
